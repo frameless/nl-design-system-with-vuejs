@@ -1,5 +1,5 @@
 @import "./base.css";
-@import "../styles/readonly.css";
+@import "../styles/readonly.scss";
 @import "../../node_modules/@nl-rvo/design-tokens/dist/index.css";
 @import "../../node_modules/@nl-rvo/component-library-css/dist/index.css";
 
