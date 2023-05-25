@@ -21,6 +21,8 @@
     "vue-router": "4.2.0"
   },
   "devDependencies": {
+    "@nl-rvo/component-library-css": "1.0.0-alpha.314",
+    "@nl-rvo/design-tokens": "1.0.0-alpha.257",
     "@rushstack/eslint-patch": "1.2.0",
     "@tsconfig/node18": "2.0.1",
     "@types/jsdom": "21.1.1",
