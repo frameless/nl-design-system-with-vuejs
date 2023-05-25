@@ -14,8 +14,7 @@
     "lint:prettier": "prettier --check .",
     "lint-fix": "npm-run-all lint-fix:**",
     "lint-fix:eslint": "eslint --fix .",
-    "lint-fix:prettier": "prettier --write \"**/*.+(css|js|json|jsx|scss|ts|tsx)\" .",
-    "format": "prettier --write src/"
+    "lint-fix:prettier": "prettier --write \"**/*.+(css|js|json|jsx|scss|ts|tsx)\" ."
   },
   "dependencies": {
     "vue": "3.3.2",
