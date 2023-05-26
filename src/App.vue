@@ -12,7 +12,7 @@ import { RouterLink, RouterView } from "vue-router";
     </div>
   </header>
 
-  <RouterView class="rvo-theme"/>
+  <RouterView class="rvo-theme" />
 </template>
 
 <style scoped>
