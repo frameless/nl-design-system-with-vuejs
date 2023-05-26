@@ -130,10 +130,7 @@
                 </p>
               </div>
               <div class="rvo-hero-img-container">
-                <img
-                  src="../images/man-met-laptop.webp"
-                  class="rvo-hero-img"
-                />
+                <img src="../images/man-met-laptop.webp" class="rvo-hero-img" />
               </div>
             </div>
           </div>
