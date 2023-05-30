@@ -20,6 +20,24 @@ import { RouterLink, RouterView } from "vue-router";
         <RouterLink to="/subMenu">SubMenu</RouterLink>
         <RouterLink to="/subMenuGrid">SubMenuGrid</RouterLink>
         <RouterLink to="/Table">Table</RouterLink>
+        <RouterLink to="/rvoprofiel">RVO Profiel</RouterLink>
+        <RouterLink to="/rvozaakview">RVO Zaak</RouterLink>
+        <RouterLink to="/rvomijnzaken">RVO Mijn Zaken</RouterLink>
+        <RouterLink to="/rvoinloggen">RVO Inloggen</RouterLink>
+        <RouterLink to="/rvodiensten">RVO Diensten</RouterLink>
+        <RouterLink to="/jvbevestiging">JV Bevestiging</RouterLink>
+        <RouterLink to="/jvbijlagen">JV Bijlagen</RouterLink>
+        <RouterLink to="/jvcontroleergegevens"
+          >JV Controleer uw gegevens</RouterLink
+        >
+        <RouterLink to="/jvcorrespondentie">JV Correspondentie</RouterLink>
+        <RouterLink to="/jvdatum">JV Datum</RouterLink>
+        <RouterLink to="/jvkosten">JV Kosten</RouterLink>
+        <RouterLink to="/jvkostenopvoeren">JV Kosten Opvoeren</RouterLink>
+        <RouterLink to="/jvondertekening">JV Ondertekening</RouterLink>
+        <RouterLink to="/jvproject">JV Project</RouterLink>
+        <RouterLink to="/jvsamenvatting">JV Samenvatting</RouterLink>
+        <RouterLink to="/nieuwerijkshuisstijl">Nieuwe Rijkshuisstijl</RouterLink>
       </nav>
     </div>
   </header>
