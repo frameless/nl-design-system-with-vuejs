@@ -12,6 +12,7 @@ import { RouterLink, RouterView } from "vue-router";
         <RouterLink to="/breadcrumbs">BreadCrumbs</RouterLink>
         <RouterLink to="/content">Content</RouterLink>
         <RouterLink to="/filterEnergy">filterEnergy</RouterLink>
+        <RouterLink to="/filterAdvise">filterAdvise</RouterLink>
       </nav>
     </div>
   </header>
