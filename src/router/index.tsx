@@ -184,6 +184,11 @@ const router = createRouter({
 			name: "windowProfileIntro",
 			component: () => import("../views/WindowProfileIntroView.vue"),
 		},
+		{
+			path: "/windowSplash",
+			name: "windowSplash",
+			component: () => import("../views/WindowSplashView.vue"),
+		},
 	],
 });
 
