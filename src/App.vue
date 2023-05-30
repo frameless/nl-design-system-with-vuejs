@@ -23,6 +23,7 @@ import { RouterLink, RouterView } from "vue-router";
         <RouterLink to="/windowAcord">WindowAcord</RouterLink>
         <RouterLink to="/windowSafe">WindowSafe</RouterLink>
         <RouterLink to="/windowMaatregel">WindowMaatregel</RouterLink>
+        <RouterLink to="/windowMaatregelen">WindowMaatregelen</RouterLink>
         <RouterLink to="/rvoprofiel">RVO Profiel</RouterLink>
         <RouterLink to="/rvozaakview">RVO Zaak</RouterLink>
         <RouterLink to="/rvomijnzaken">RVO Mijn Zaken</RouterLink>
