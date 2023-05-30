@@ -54,6 +54,11 @@ const router = createRouter({
 			name: "logoGrid",
 			component: () => import("../views/LogoGridView.vue"),
 		},
+		{
+			path: "/searchMenu",
+			name: "searchMenu",
+			component: () => import("../views/SearchMenuView.vue"),
+		},
 	],
 });
 
