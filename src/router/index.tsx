@@ -34,6 +34,11 @@ const router = createRouter({
 			name: "filterAdvise",
 			component: () => import("../views/FilterAdviseView.vue"),
 		},
+		{
+			path: "/form",
+			name: "form",
+			component: () => import("../views/FormView.vue"),
+		},
 	],
 });
 
