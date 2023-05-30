@@ -189,6 +189,11 @@ const router = createRouter({
 			name: "windowSplash",
 			component: () => import("../views/WindowSplashView.vue"),
 		},
+		{
+			path: "/windowSearch",
+			name: "windowSearch",
+			component: () => import("../views/WindowSearchView.vue"),
+		},
 	],
 });
 
