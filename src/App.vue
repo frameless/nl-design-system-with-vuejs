@@ -21,6 +21,7 @@ import { RouterLink, RouterView } from "vue-router";
         <RouterLink to="/subMenuGrid">SubMenuGrid</RouterLink>
         <RouterLink to="/Table">Table</RouterLink>
         <RouterLink to="/windowAcord">WindowAcord</RouterLink>
+        <RouterLink to="/windowSafe">WindowSafe</RouterLink>
         <RouterLink to="/rvoprofiel">RVO Profiel</RouterLink>
         <RouterLink to="/rvozaakview">RVO Zaak</RouterLink>
         <RouterLink to="/rvomijnzaken">RVO Mijn Zaken</RouterLink>
