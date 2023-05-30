@@ -179,6 +179,11 @@ const router = createRouter({
 			name: "windowProfile",
 			component: () => import("../views/WindowProfileView.vue"),
 		},
+		{
+			path: "/windowProfileIntro",
+			name: "windowProfileIntro",
+			component: () => import("../views/WindowProfileIntroView.vue"),
+		},
 	],
 });
 
