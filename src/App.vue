@@ -14,6 +14,7 @@ import { RouterLink, RouterView } from "vue-router";
         <RouterLink to="/filterEnergy">filterEnergy</RouterLink>
         <RouterLink to="/filterAdvise">filterAdvise</RouterLink>
         <RouterLink to="/form">form</RouterLink>
+        <RouterLink to="/hero">hero</RouterLink>
       </nav>
     </div>
   </header>
