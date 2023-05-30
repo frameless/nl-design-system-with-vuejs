@@ -11,10 +11,10 @@ import { RouterLink, RouterView } from "vue-router";
         <RouterLink to="/alert">Alert</RouterLink>
         <RouterLink to="/breadcrumbs">BreadCrumbs</RouterLink>
         <RouterLink to="/content">Content</RouterLink>
-        <RouterLink to="/filterEnergy">filterEnergy</RouterLink>
-        <RouterLink to="/filterAdvise">filterAdvise</RouterLink>
-        <RouterLink to="/form">form</RouterLink>
-        <RouterLink to="/hero">hero</RouterLink>
+        <RouterLink to="/filterEnergy">FilterEnergy</RouterLink>
+        <RouterLink to="/filterAdvise">FilterAdvise</RouterLink>
+        <RouterLink to="/form">Form</RouterLink>
+        <RouterLink to="/hero">Hero</RouterLink>
       </nav>
     </div>
   </header>
