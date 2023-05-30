@@ -20,6 +20,7 @@ import { RouterLink, RouterView } from "vue-router";
         <RouterLink to="/subMenu">SubMenu</RouterLink>
         <RouterLink to="/subMenuGrid">SubMenuGrid</RouterLink>
         <RouterLink to="/Table">Table</RouterLink>
+        <RouterLink to="/windowAcord">WindowAcord</RouterLink>
         <RouterLink to="/rvoprofiel">RVO Profiel</RouterLink>
         <RouterLink to="/rvozaakview">RVO Zaak</RouterLink>
         <RouterLink to="/rvomijnzaken">RVO Mijn Zaken</RouterLink>
@@ -37,7 +38,9 @@ import { RouterLink, RouterView } from "vue-router";
         <RouterLink to="/jvondertekening">JV Ondertekening</RouterLink>
         <RouterLink to="/jvproject">JV Project</RouterLink>
         <RouterLink to="/jvsamenvatting">JV Samenvatting</RouterLink>
-        <RouterLink to="/nieuwerijkshuisstijl">Nieuwe Rijkshuisstijl</RouterLink>
+        <RouterLink to="/nieuwerijkshuisstijl"
+          >Nieuwe Rijkshuisstijl</RouterLink
+        >
       </nav>
     </div>
   </header>
