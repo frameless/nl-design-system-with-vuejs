@@ -2,18 +2,18 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 
 const router = createRouter({
-	history: createWebHistory(import.meta.env.BASE_URL),
-	routes: [
-		{
-			path: "/",
-			name: "home",
-			component: HomeView,
-		},
-		{
-			path: "/accordion",
-			name: "accordion",
-			component: () => import("../views/AccordionView.vue"),
-		},
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes: [
+    {
+      path: "/",
+      name: "home",
+      component: HomeView,
+    },
+    {
+      path: "/accordion",
+      name: "accordion",
+      component: () => import("../views/AccordionView.vue"),
+    },
     {
       path: "/rvoprofiel",
       name: "rvoprofiel",
@@ -94,67 +94,82 @@ const router = createRouter({
       name: "nieuwerijkshuisstijl",
       component: () => import("../views/NieuweRijkshuisstijlView.vue"),
     },
-		{
-			path: "/alert",
-			name: "alert",
-			component: () => import("../views/AlertView.vue"),
-		},
-		{
-			path: "/breadcrumbs",
-			name: "breadcrumbs",
-			component: () => import("../views/BreadcrumbsView.vue"),
-		},
-		{
-			path: "/content",
-			name: "content",
-			component: () => import("../views/ContentView.vue"),
-		},
-		{
-			path: "/filterEnergy",
-			name: "filterEnergy",
-			component: () => import("../views/FilterEnergyView.vue"),
-		},
-		{
-			path: "/filterAdvise",
-			name: "filterAdvise",
-			component: () => import("../views/FilterAdviseView.vue"),
-		},
-		{
-			path: "/form",
-			name: "form",
-			component: () => import("../views/FormView.vue"),
-		},
-		{
-			path: "/hero",
-			name: "hero",
-			component: () => import("../views/HeroView.vue"),
-		},
-		{
-			path: "/logoGrid",
-			name: "logoGrid",
-			component: () => import("../views/LogoGridView.vue"),
-		},
-		{
-			path: "/searchMenu",
-			name: "searchMenu",
-			component: () => import("../views/SearchMenuView.vue"),
-		},
-		{
-			path: "/subMenu",
-			name: "subhMenu",
-			component: () => import("../views/SubMenuView.vue"),
-		},
-		{
-			path: "/subMenuGrid",
-			name: "subhMenuGrid",
-			component: () => import("../views/SubMenuGridView.vue"),
-		},
-		{
-			path: "/table",
-			name: "table",
-			component: () => import("../views/TableView.vue"),
-		},
-	],
+    {
+      path: "/alert",
+      name: "alert",
+      component: () => import("../views/AlertView.vue"),
+    },
+    {
+      path: "/breadcrumbs",
+      name: "breadcrumbs",
+      component: () => import("../views/BreadcrumbsView.vue"),
+    },
+    {
+      path: "/content",
+      name: "content",
+      component: () => import("../views/ContentView.vue"),
+    },
+    {
+      path: "/filterEnergy",
+      name: "filterEnergy",
+      component: () => import("../views/FilterEnergyView.vue"),
+    },
+    {
+      path: "/filterAdvise",
+      name: "filterAdvise",
+      component: () => import("../views/FilterAdviseView.vue"),
+    },
+    {
+      path: "/form",
+      name: "form",
+      component: () => import("../views/FormView.vue"),
+    },
+    {
+      path: "/hero",
+      name: "hero",
+      component: () => import("../views/HeroView.vue"),
+    },
+    {
+      path: "/logoGrid",
+      name: "logoGrid",
+      component: () => import("../views/LogoGridView.vue"),
+    },
+    {
+      path: "/searchMenu",
+      name: "searchMenu",
+      component: () => import("../views/SearchMenuView.vue"),
+    },
+    {
+      path: "/subMenu",
+      name: "subhMenu",
+      component: () => import("../views/SubMenuView.vue"),
+    },
+    {
+      path: "/subMenuGrid",
+      name: "subhMenuGrid",
+      component: () => import("../views/SubMenuGridView.vue"),
+    },
+    {
+      path: "/table",
+      name: "table",
+      component: () => import("../views/TableView.vue"),
+    },
+    {
+      path: "/wbsoaanvrager",
+      name: "wbsoaanvrager",
+      component: () => import("../views/WBSOAanvragerView.vue"),
+    },
+    {
+      path: "/wbsoprestart",
+      name: "wbsoprestart",
+      component: () => import("../views/WBSOPreStartView.vue"),
+    },
+    {
+      path: "/wbsovormvrijeaanvraag",
+      name: "wbsovormvrijeaanvraag",
+      component: () => import("../views/WBSOAanvraagView.vue"),
+    },
+  ],
 });
 
 export default router;

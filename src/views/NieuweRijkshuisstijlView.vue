@@ -3,7 +3,7 @@
     <header class="rvo-header">
       <div class="rvo-header__logo-wrapper">
         <a href="/" class="rvo-header__logo-link--new"
-          ><img src="images/lint.svg" class="rvo-lint" /><span
+          ><img src="../images/lint.svg" class="rvo-lint" /><span
             class="rvo-logo-tekst"
             >Rijksdienst voor Ondernemend Nederland</span
           ></a
