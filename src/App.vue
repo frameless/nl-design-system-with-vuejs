@@ -8,6 +8,7 @@ import { RouterLink, RouterView } from "vue-router";
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/accordion">Accordion</RouterLink>
+        <RouterLink to="/alert">Alert</RouterLink>
       </nav>
     </div>
   </header>
