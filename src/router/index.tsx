@@ -59,6 +59,11 @@ const router = createRouter({
 			name: "searchMenu",
 			component: () => import("../views/SearchMenuView.vue"),
 		},
+		{
+			path: "/subMenu",
+			name: "subhMenu",
+			component: () => import("../views/SubMenuView.vue"),
+		},
 	],
 });
 
