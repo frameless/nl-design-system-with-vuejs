@@ -64,6 +64,11 @@ const router = createRouter({
 			name: "subhMenu",
 			component: () => import("../views/SubMenuView.vue"),
 		},
+		{
+			path: "/subMenuGrid",
+			name: "subhMenuGrid",
+			component: () => import("../views/SubMenuGridView.vue"),
+		},
 	],
 });
 
