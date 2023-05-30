@@ -174,6 +174,11 @@ const router = createRouter({
 			name: "windowMaatregelen",
 			component: () => import("../views/WindowMaatregelenView.vue"),
 		},
+		{
+			path: "/windowProfile",
+			name: "windowProfile",
+			component: () => import("../views/WindowProfileView.vue"),
+		},
 	],
 });
 
