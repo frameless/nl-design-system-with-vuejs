@@ -26,7 +26,7 @@ import { RouterLink, RouterView } from "vue-router";
 				<RouterLink to="/windowMaatregelen">WindowMaatregelen</RouterLink>
 				<RouterLink to="/windowProfile">WindowProfile</RouterLink>
 				<RouterLink to="/windowProfileIntro">WindowProfileIntro</RouterLink>
-        <RouterLink to="/windowProfileIntro">WindowProfile</RouterLink>
+				<RouterLink to="/windowSplash">WindowSplash</RouterLink>
 				<RouterLink to="/rvoprofiel">RVO Profiel</RouterLink>
 				<RouterLink to="/rvozaakview">RVO Zaak</RouterLink>
 				<RouterLink to="/rvomijnzaken">RVO Mijn Zaken</RouterLink>
