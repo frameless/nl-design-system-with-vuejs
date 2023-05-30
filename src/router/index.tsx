@@ -20,9 +20,9 @@ const router = createRouter({
 			component: () => import("../views/AlertView.vue"),
 		},
 		{
-			path: "/breadcrumbs",
-			name: "breadcrumbs",
-			component: () => import("../views/BreadcrumbsView.vue"),
+			path: "/content",
+			name: "content",
+			component: () => import("../views/ContentView.vue"),
 		},
 	],
 });

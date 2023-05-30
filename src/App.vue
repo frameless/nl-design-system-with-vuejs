@@ -10,6 +10,7 @@ import { RouterLink, RouterView } from "vue-router";
         <RouterLink to="/accordion">Accordion</RouterLink>
         <RouterLink to="/alert">Alert</RouterLink>
         <RouterLink to="/breadcrumbs">BreadCrumbs</RouterLink>
+        <RouterLink to="/content">Content</RouterLink>
       </nav>
     </div>
   </header>
