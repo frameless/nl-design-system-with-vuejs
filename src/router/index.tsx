@@ -164,6 +164,11 @@ const router = createRouter({
 			name: "windowSafe",
 			component: () => import("../views/WindowSafeView.vue"),
 		},
+		{
+			path: "/windowMaatregel",
+			name: "windowMaatregel",
+			component: () => import("../views/WindowMaatregelView.vue"),
+		},
 	],
 });
 
