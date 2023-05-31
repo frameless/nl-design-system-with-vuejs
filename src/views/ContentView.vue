@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import { Paragraph } from "@utrecht/component-library-vue";
+</script>
+
 <template>
   <div class="rvo-demo-page">
     <header class="rvo-header">
@@ -60,7 +64,7 @@
       <main class="rvo-max-width-layout rvo-max-width-layout--sm">
         <div class="rvo-content">
           <h1 class="utrecht-heading-1">Heading 1</h1>
-          <p class="rvo-paragraph rvo-paragraph--lg">
+          <Paragraph class="rvo-paragraph rvo-paragraph--lg">
             <strong>Paragraph large.</strong> De overheid zet zich in voor een
             uitstekend ondernemersklimaat. De ministeries stippelen daar beleid
             voor uit. En de taak om dit uit te voeren ligt bij RVO: de
@@ -69,9 +73,9 @@
             <a href="#" class="rvo-link">Dit is een link. </a>&nbsp;Tussen
             bedrijven, kennis- en financiële instellingen, ambassades en lokale
             overheden.
-          </p>
+          </Paragraph>
           <h2 class="utrecht-heading-2">Heading 2</h2>
-          <p class="rvo-paragraph rvo-paragraph--md">
+          <Paragraph class="rvo-paragraph rvo-paragraph--md">
             <strong>Paragraph medium.</strong> De overheid zet zich in voor een
             uitstekend ondernemersklimaat. De ministeries stippelen daar beleid
             voor uit. En de taak om dit uit te voeren ligt bij RVO: de
@@ -80,9 +84,9 @@
             <a href="#" class="rvo-link">Dit is een link. </a>&nbsp;Tussen
             bedrijven, kennis- en financiële instellingen, ambassades en lokale
             overheden.
-          </p>
+          </Paragraph>
           <h3 class="utrecht-heading-3">Heading 3</h3>
-          <p class="rvo-paragraph rvo-paragraph--sm">
+          <Paragraph class="rvo-paragraph rvo-paragraph--sm">
             <strong>Paragraph small.</strong> De overheid zet zich in voor een
             uitstekend ondernemersklimaat. De ministeries stippelen daar beleid
             voor uit. En de taak om dit uit te voeren ligt bij RVO: de
@@ -91,7 +95,7 @@
             <a href="#" class="rvo-link">Dit is een link. </a>&nbsp;Tussen
             bedrijven, kennis- en financiële instellingen, ambassades en lokale
             overheden.
-          </p>
+          </Paragraph>
           <ul class="rvo-list rvo-list--unordered">
             <li class="rvo-list-item">Unordered list</li>
             <li class="rvo-list-item">Second item</li>

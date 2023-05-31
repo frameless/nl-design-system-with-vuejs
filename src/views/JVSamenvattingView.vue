@@ -1,6 +1,10 @@
+<script setup lang="ts">
+import { Paragraph, PageHeader } from "@utrecht/component-library-vue";
+</script>
+
 <template>
   <div class="rvo-demo-page">
-    <header class="rvo-header">
+    <PageHeader class="rvo-header">
       <div class="rvo-header__logo-wrapper">
         <a href="/" class="rvo-header__logo-link"
           ><img
@@ -9,7 +13,7 @@
             class="rvo-logo-img rvo-header__logo-img"
         /></a>
       </div>
-    </header>
+    </PageHeader>
     <div class="rvo-layout-column rvo-layout-gap--2xl">
       <div class="rvo-topnav__background">
         <nav
@@ -178,7 +182,7 @@
                   aria-label="Waarschuwing"
                 ></span>
                 <div class="rvo-alert-text">
-                  <p>
+                  <Paragraph>
                     U kunt het vissersvaartuig aanschaffen na uw aanvraag voor
                     subsidie. Dat betekent dat ook betaling en levering van het
                     vissersvaartuig pas na aanvraag voor de subsidie kan. U
@@ -186,7 +190,7 @@
                     vissersvaartuig aan te schaffen. Hou er wel rekening mee dat
                     u alleen subsidie ontvangt voor deze activiteiten als uw
                     aanvraag wordt toegewezen.
-                  </p>
+                  </Paragraph>
                 </div>
               </div>
               <div class="rvo-button-group">

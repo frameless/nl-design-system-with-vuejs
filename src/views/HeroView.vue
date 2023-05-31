@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import { Paragraph } from "@utrecht/component-library-vue";
+</script>
+
 <template>
   <div class="rvo-demo-page">
     <header class="rvo-header">
@@ -69,10 +73,10 @@
         <div class="rvo-hero-content">
           <div class="rvo-hero-text">
             <h1 class="utrecht-heading-1">Hero title</h1>
-            <p class="rvo-hero-description">
+            <Paragraph class="rvo-hero-description">
               An additional paragraph that gives an introduction what this page
               is about in easy to understand language.
-            </p>
+            </Paragraph>
           </div>
           <div class="rvo-hero-img-container">
             <img src="../images/man-met-laptop.webp" class="rvo-hero-img" />

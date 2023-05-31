@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Checkbox } from "@utrecht/component-library-vue";
+import { Checkbox, Paragraph } from "@utrecht/component-library-vue";
 </script>
 <template>
   <div class="rvo-demo-page rvo-demo-page--regelmaat">
@@ -7,10 +7,10 @@ import { Checkbox } from "@utrecht/component-library-vue";
       <div class="rvo-app-container rvo-app-container--profiel">
         <div class="rvo-app-content">
           <h1 class="utrecht-heading-1">Zoeken</h1>
-          <p>
+          <Paragraph>
             Vul je profiel in om maatregelen te krijgen die voor jou van
             toepassing kunnen zijn.
-          </p>
+          </Paragraph>
           <div class="utrecht-form-fieldset rvo-form-fieldset">
             <fieldset
               class="utrecht-form-fieldset__fieldset utrecht-form-fieldset--html-fieldset"
@@ -88,7 +88,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
               </div>
             </fieldset>
           </div>
-          <p class="utrecht-button-group">
+          <Paragraph class="utrecht-button-group">
             <a
               href="iframe.html?args=&amp;id=demo-pagina-s-de-regelmaat--maatregelen&amp;viewMode=story"
               class="utrecht-button utrecht-button--rvo-tertiary-action utrecht-button--rvo-sm"
@@ -98,7 +98,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
               class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-md"
               >Zoeken</a
             >
-          </p>
+          </Paragraph>
           <ul class="rvo-app-menu">
             <li class="rvo-app-menu-item">
               <a

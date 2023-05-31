@@ -1,9 +1,13 @@
 <script setup lang="ts">
-import { Checkbox } from "@utrecht/component-library-vue";
+import {
+  Checkbox,
+  Paragraph,
+  PageHeader,
+} from "@utrecht/component-library-vue";
 </script>
 <template>
   <div class="rvo-demo-page rvo-rhs-nieuw">
-    <header class="rvo-header">
+    <PageHeader class="rvo-header">
       <div class="rvo-header__logo-wrapper">
         <a href="/" class="rvo-header__logo-link--new"
           ><img src="../images/lint.svg" class="rvo-lint" /><span
@@ -12,7 +16,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
           ></a
         >
       </div>
-    </header>
+    </PageHeader>
     <div class="rvo-layout-column rvo-layout-gap--2xl">
       <details class="rvo-responsive-menu">
         <summary>
@@ -845,7 +849,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                   </div>
                 </fieldset>
               </div>
-              <p class="utrecht-button-group">
+              <Paragraph class="utrecht-button-group">
                 <button
                   class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-md"
                   type="button"
@@ -857,7 +861,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                 >
                   Secondary action
                 </button>
-              </p>
+              </Paragraph>
             </form>
           </div>
         </main>

@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import { PageHeader } from "@utrecht/component-library-vue";
+</script>
+
 <template>
   <div class="rvo-demo-page rvo-demo-page--mijn-rvo">
     <div class="rvo-header-content">

@@ -1,9 +1,13 @@
 <script setup lang="ts">
-import { Checkbox } from "@utrecht/component-library-vue";
+import {
+  Checkbox,
+  Paragraph,
+  PageHeader,
+} from "@utrecht/component-library-vue";
 </script>
 <template>
   <div class="rvo-demo-page">
-    <header class="rvo-header">
+    <PageHeader class="rvo-header">
       <div class="rvo-header__logo-wrapper">
         <a href="/" class="rvo-header__logo-link"
           ><img
@@ -12,7 +16,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
             class="rvo-logo-img rvo-header__logo-img"
         /></a>
       </div>
-    </header>
+    </PageHeader>
     <div class="rvo-layout-column rvo-layout-gap--2xl">
       <div class="rvo-topnav__background">
         <nav

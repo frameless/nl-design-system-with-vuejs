@@ -1,12 +1,16 @@
+<script setup lang="ts">
+import { Paragraph } from "@utrecht/component-library-vue";
+</script>
+
 <template>
   <div class="rvo-demo-page rvo-demo-page--regelmaat">
     <div class="rvo-app rvo-app--maatregelen">
       <div class="rvo-app-container rvo-app-container--maatregelen">
         <div class="rvo-app-content">
           <h1 class="utrecht-heading-1">Bewaarde maatregelen</h1>
-          <p>
+          <Paragraph>
             Dit zijn de <strong>maatregelen</strong> die u zelf heeft bewaard
-          </p>
+          </Paragraph>
           <ul class="rvo-maatregelen">
             <li class="rvo-maatregel">
               <a
