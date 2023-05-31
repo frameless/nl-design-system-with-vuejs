@@ -1,3 +1,6 @@
+<script setup lang="ts">
+import { Heading } from "@utrecht/component-library-vue";
+</script>
 <template>
   <div class="rvo-demo-page">
     <header class="rvo-header">
@@ -100,7 +103,7 @@
             </ol>
           </div>
           <div class="rvo-content">
-            <h1 class="utrecht-heading-1">Breadcrumbs example</h1>
+            <Heading :level="1">Breadcrumbs example</Heading>
             <p class="rvo-paragraph rvo-paragraph--md">
               <strong>Paragraph medium.</strong> De overheid zet zich in voor
               een uitstekend ondernemersklimaat. De ministeries stippelen daar
