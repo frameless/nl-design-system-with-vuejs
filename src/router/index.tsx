@@ -155,6 +155,21 @@ const router = createRouter({
       component: () => import("../views/TableView.vue"),
     },
     {
+      path: "/wbsoaanvrager",
+      name: "wbsoaanvrager",
+      component: () => import("../views/WBSOAanvragerView.vue"),
+    },
+    {
+      path: "/wbsoprestart",
+      name: "wbsoprestart",
+      component: () => import("../views/WBSOPreStartView.vue"),
+    },
+    {
+      path: "/wbsovormvrijeaanvraag",
+      name: "wbsovormvrijeaanvraag",
+      component: () => import("../views/WBSOAanvraagView.vue"),
+    },
+    {
       path: "/windowAcord",
       name: "windowAcord",
       component: () => import("../views/WindowAcordView.vue"),
