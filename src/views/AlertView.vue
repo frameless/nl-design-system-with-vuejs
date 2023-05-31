@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import { Paragraph } from "@utrecht/component-library-vue"
+</script>
+
 <template>
   <div class="rvo-demo-page">
     <header class="rvo-header">
@@ -68,7 +72,7 @@
                   aria-label="Info"
                 ></span>
                 <div class="rvo-alert-text">
-                  <p>This is an example of an info alert.</p>
+                  <Paragraph>This is an example of an info alert.</Paragraph>
                 </div>
               </div>
               <div class="rvo-alert rvo-alert--info">
@@ -79,7 +83,7 @@
                 ></span>
                 <div class="rvo-alert-text">
                   <strong>Info with heading</strong><br />
-                  <p>This is an example of an info alert with a heading.</p>
+                  <Paragraph>This is an example of an info alert with a heading.</Paragraph>
                 </div>
               </div>
               <div class="rvo-alert rvo-alert--info">
@@ -89,7 +93,7 @@
                   aria-label="Info"
                 ></span>
                 <div class="rvo-alert-text">
-                  <p>This is an example of an info alert with a button.</p>
+                  <Paragraph>This is an example of an info alert with a button.</Paragraph>
                   <button
                     class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-sm"
                     type="button"
@@ -105,10 +109,10 @@
                   aria-label="Info"
                 ></span>
                 <div class="rvo-alert-text">
-                  <p>
+                  <Paragraph>
                     This is an example of an info alert with an optional close
                     button.
-                  </p>
+                  </Paragraph>
                 </div>
                 <button
                   class="utrecht-button utrecht-button--subtle rvo-button--close utrecht-button--rvo-md"
@@ -128,7 +132,7 @@
                   aria-label="Waarschuwing"
                 ></span>
                 <div class="rvo-alert-text">
-                  <p>This is an example of a warning alert.</p>
+                  <Paragraph>This is an example of a warning alert.</Paragraph>
                 </div>
               </div>
               <div class="rvo-alert rvo-alert--warning">
@@ -139,7 +143,7 @@
                 ></span>
                 <div class="rvo-alert-text">
                   <strong>Warning with heading</strong><br />
-                  <p>This is an example of a warning alert with a heading.</p>
+                  <Paragraph>This is an example of a warning alert with a heading.</Paragraph>
                 </div>
               </div>
               <div class="rvo-alert rvo-alert--warning">
@@ -149,7 +153,7 @@
                   aria-label="Waarschuwing"
                 ></span>
                 <div class="rvo-alert-text">
-                  <p>This is an example of a warning alert with a button.</p>
+                  <Paragraph>This is an example of a warning alert with a button.</Paragraph>
                   <button
                     class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-sm"
                     type="button"
@@ -165,10 +169,10 @@
                   aria-label="Waarschuwing"
                 ></span>
                 <div class="rvo-alert-text">
-                  <p>
+                  <Paragraph>
                     This is an example of a warning alert with an optional close
                     button.
-                  </p>
+                  </Paragraph>
                 </div>
                 <button
                   class="utrecht-button utrecht-button--subtle rvo-button--close utrecht-button--rvo-md"
@@ -188,7 +192,7 @@
                   aria-label="Foutmelding"
                 ></span>
                 <div class="rvo-alert-text">
-                  <p>This is an example of a error alert.</p>
+                  <Paragraph>This is an example of a error alert.</Paragraph>
                 </div>
               </div>
               <div class="rvo-alert rvo-alert--error">
@@ -199,7 +203,7 @@
                 ></span>
                 <div class="rvo-alert-text">
                   <strong>error with heading</strong><br />
-                  <p>This is an example of a error alert with a heading.</p>
+                  <Paragraph>This is an example of a error alert with a heading.</Paragraph>
                 </div>
               </div>
               <div class="rvo-alert rvo-alert--error">
@@ -209,7 +213,7 @@
                   aria-label="Foutmelding"
                 ></span>
                 <div class="rvo-alert-text">
-                  <p>This is an example of a error alert with a button.</p>
+                  <Paragraph>This is an example of a error alert with a button.</Paragraph>
                   <button
                     class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-sm"
                     type="button"
@@ -225,10 +229,10 @@
                   aria-label="Foutmelding"
                 ></span>
                 <div class="rvo-alert-text">
-                  <p>
+                  <Paragraph>
                     This is an example of a error alert with an optional close
                     button.
-                  </p>
+                  </Paragraph>
                 </div>
                 <button
                   class="utrecht-button utrecht-button--subtle rvo-button--close utrecht-button--rvo-md"
@@ -248,7 +252,7 @@
                   aria-label="Bevestiging"
                 ></span>
                 <div class="rvo-alert-text">
-                  <p>This is an example of a succes alert.</p>
+                  <Paragraph>This is an example of a succes alert.</Paragraph>
                 </div>
               </div>
               <div class="rvo-alert rvo-alert--succes">
@@ -259,7 +263,7 @@
                 ></span>
                 <div class="rvo-alert-text">
                   <strong>succes with heading</strong><br />
-                  <p>This is an example of a succes alert with a heading.</p>
+                  <Paragraph>This is an example of a succes alert with a heading.</Paragraph>
                 </div>
               </div>
               <div class="rvo-alert rvo-alert--succes">
@@ -269,7 +273,7 @@
                   aria-label="Bevestiging"
                 ></span>
                 <div class="rvo-alert-text">
-                  <p>This is an example of a succes alert with a button.</p>
+                  <Paragraph>This is an example of a succes alert with a button.</Paragraph>
                   <button
                     class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-sm"
                     type="button"
@@ -285,10 +289,10 @@
                   aria-label="Bevestiging"
                 ></span>
                 <div class="rvo-alert-text">
-                  <p>
+                  <Paragraph>
                     This is an example of a succes alert with an optional close
                     button.
-                  </p>
+                  </Paragraph>
                 </div>
                 <button
                   class="utrecht-button utrecht-button--subtle rvo-button--close utrecht-button--rvo-md"

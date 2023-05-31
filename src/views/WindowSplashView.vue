@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import { } from "@utrecht/component-library-vue"
+</script>
+
 <template>
   <div class="rvo-demo-page rvo-demo-page--regelmaat">
     <div class="rvo-app rvo-app--splash">
