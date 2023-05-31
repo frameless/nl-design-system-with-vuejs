@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { Paragraph } from "@utrecht/component-library-vue"
+import { Paragraph, PageHeader } from "@utrecht/component-library-vue";
 </script>
 
 <template>
   <main>
     <div class="rvo-demo-page rvo-demo-page--mijn-rvo">
       <div class="rvo-header-content">
-        <header class="rvo-header">
+        <PageHeader class="rvo-header">
           <div class="rvo-header__logo-wrapper">
             <a href="/" class="rvo-header__logo-link"
               ><img
@@ -15,7 +15,7 @@ import { Paragraph } from "@utrecht/component-library-vue"
                 class="rvo-logo-img rvo-header__logo-img"
             /></a>
           </div>
-        </header>
+        </PageHeader>
         <details class="rvo-responsive-menu">
           <summary>
             <span

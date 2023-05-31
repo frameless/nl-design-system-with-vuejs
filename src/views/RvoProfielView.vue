@@ -1,5 +1,9 @@
 <script setup lang="ts">
-import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
+import {
+  Paragraph,
+  PageHeader,
+  DataList,
+} from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -155,30 +159,46 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
               <div class="rvo-layout-column rvo-layout-gap--md">
                 <h2 class="utrecht-heading-2">Mijn gegevens</h2>
                 <div class="rvo-layout-column rvo-layout-gap--2xs">
-                  <dl class="rvo-data-list">
-                    <dt>Adres</dt>
-                    <dd>
-                      Prinses Beatrixlaan 2<br />
+                  <DataList class="rvo-data-list">
+                    <DataListItem>
+                      <DataListKey> Adres </DataListKey>
+                    </DataListItem>
+                    <DataListValue>
+                      Prinses Beatrixlaan 2 <br />
                       2595AL s-GRAVENHAGE
-                    </dd>
-                    <dt>Postbus</dt>
-                    <dd>
+                    </DataListValue>
+                    <DataListItem>
+                      <DataListKey> Postbus </DataListKey>
+                    </DataListItem>
+                    <DataListValue>
                       40217<br />
                       8004DE Zwolle
-                    </dd>
-                    <dt>KVK-nr.</dt>
-                    <dd>27378529</dd>
-                    <dt>Relatienummer</dt>
-                    <dd>203465993</dd>
-                    <dt>Telefoon</dt>
-                    <dd>033 - 9858 857</dd>
-                    <dt>Mobiel</dt>
-                    <dd>06 - 7584 7463</dd>
-                    <dt>E-mail</dt>
-                    <dd>info@rvo.nl</dd>
-                    <dt>Rekeningnummer</dt>
-                    <dd>NL41INGB0705001490</dd>
-                  </dl>
+                    </DataListValue>
+                    <DataListItem>
+                      <DataListKey> KVK-nr. </DataListKey>
+                    </DataListItem>
+                    <DataListValue> 27378529 </DataListValue>
+                    <DataListItem>
+                      <DataListKey> Relatienummer </DataListKey>
+                    </DataListItem>
+                    <DataListValue> 203465993 </DataListValue>
+                    <DataListItem>
+                      <DataListKey> Telefoon </DataListKey>
+                    </DataListItem>
+                    <DataListValue> 033 - 9858 857 </DataListValue>
+                    <DataListItem>
+                      <DataListKey> Mobiel </DataListKey>
+                    </DataListItem>
+                    <DataListValue> 06 - 7584 7463 </DataListValue>
+                    <DataListItem>
+                      <DataListKey> E-mail </DataListKey>
+                    </DataListItem>
+                    <DataListValue> info@rvo.nl </DataListValue>
+                    <DataListItem>
+                      <DataListKey> Rekeningnummer </DataListKey>
+                    </DataListItem>
+                    <DataListValue> NL41INGB0705001490 </DataListValue>
+                  </DataList>
                   <a
                     href="#"
                     class="rvo-link rvo-link--with-icon rvo-link--no-underline"

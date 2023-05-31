@@ -1,5 +1,9 @@
 <script setup lang="ts">
-import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
+import {
+  Paragraph,
+  PageHeader,
+  DataList,
+} from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -134,18 +138,30 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
                 <div class="rvo-layout-column rvo-layout-gap--md">
                   <h1 class="utrecht-heading-1">Controleer uw gegevens</h1>
                   <div class="rvo-layout-column rvo-layout-gap--sm">
-                    <dl class="rvo-data">
-                      <dt>BSN</dt>
-                      <dd>35012085</dd>
-                      <dt>Naam</dt>
-                      <dd>Albert Heijn B.V.</dd>
-                      <dt>Rekeningnummer</dt>
-                      <dd>NLSNBD093845843</dd>
-                      <dt>Adres</dt>
-                      <dd>Haarsteeweg 25, 4560 KL, Zutphen</dd>
-                      <dt>E-mailadres</dt>
-                      <dd>albert@heijn.nl</dd>
-                    </dl>
+                    <DataList class="rvo-data">
+                      <DataListItem>
+                        <DataListKey> BSN </DataListKey>
+                      </DataListItem>
+                      <DataListValue> 35012085 </DataListValue>
+                      <DataListItem>
+                        <DataListKey> Naam </DataListKey>
+                      </DataListItem>
+                      <DataListValue> Albert Heijn B.V. </DataListValue>
+                      <DataListItem>
+                        <DataListKey> Rekeningnummer </DataListKey>
+                      </DataListItem>
+                      <DataListValue> NLSNBD093845843 </DataListValue>
+                      <DataListItem>
+                        <DataListKey> Adres </DataListKey>
+                      </DataListItem>
+                      <DataListValue>
+                        Haarsteeweg 25, 4560 KL, Zutphen
+                      </DataListValue>
+                      <DataListItem>
+                        <DataListKey> E-mailadres </DataListKey>
+                      </DataListItem>
+                      <DataListValue> albert@heijn.nl </DataListValue>
+                    </DataList>
                     <a href="#" class="rvo-link rvo-link--with-icon"
                       ><span
                         class="utrecht-icon rvo-icon rvo-icon-bewerken rvo-icon--md rvo-icon--hemelblauw rvo-link__icon--before"

@@ -1,6 +1,10 @@
+<script setup lang="ts">
+import { Paragraph, PageHeader } from "@utrecht/component-library-vue";
+</script>
+
 <template>
   <div class="rvo-demo-page">
-    <header class="rvo-header">
+    <PageHeader class="rvo-header">
       <div class="rvo-header__logo-wrapper">
         <a href="/" class="rvo-header__logo-link"
           ><img
@@ -9,7 +13,7 @@
             class="rvo-logo-img rvo-header__logo-img"
         /></a>
       </div>
-    </header>
+    </PageHeader>
     <div class="rvo-layout-column rvo-layout-gap--lg">
       <div class="rvo-topnav__background">
         <nav

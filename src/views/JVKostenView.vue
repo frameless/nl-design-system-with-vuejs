@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
+import { Paragraph, PageHeader } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -326,12 +326,16 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
                 </div>
               </div>
               <h2 class="utrecht-heading-2">Berekening</h2>
-              <dl class="rvo-data">
-                <dt>Andere subsidies</dt>
-                <dd>€ 25.000,00</dd>
-                <dt>Deze subsidie</dt>
-                <dd>€ 25.000,00</dd>
-              </dl>
+              <DataList class="rvo-data">
+                <DataListItem>
+                  <DataListKey> Andere subsidies </DataListKey>
+                </DataListItem>
+                <DataListValue> € 25.000,00 </DataListValue>
+                <DataListItem>
+                  <DataListKey> Deze subsidie </DataListKey>
+                </DataListItem>
+                <DataListValue> € 25.000,00 </DataListValue>
+              </DataList>
               <div class="rvo-alert rvo-alert--warning">
                 <span
                   class="utrecht-icon rvo-icon rvo-icon-waarschuwing rvo-icon--lg rvo-icon--hemelblauw rvo-status-icon-waarschuwing"

@@ -1,5 +1,9 @@
 <script setup lang="ts">
-import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
+import {
+  Paragraph,
+  PageHeader,
+  DataList,
+} from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -141,14 +145,20 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
                 </Paragraph>
                 <h2 class="utrecht-heading-2">Uw gegevens</h2>
                 <div class="rvo-layout-column rvo-layout-gap--md">
-                  <dl class="rvo-data">
-                    <dt>Naam</dt>
-                    <dd>Albert Heijn B.V.</dd>
-                    <dt>KVK Nummer</dt>
-                    <dd>342346534634</dd>
-                    <dt>Relatienummer</dt>
-                    <dd>35012085</dd>
-                  </dl>
+                  <DataList class="rvo-data">
+                    <DataListItem>
+                      <DataListKey> Naam </DataListKey>
+                    </DataListItem>
+                    <DataListValue> Albert Heijn B.V. </DataListValue>
+                    <DataListItem>
+                      <DataListKey> KVK Nummer </DataListKey>
+                    </DataListItem>
+                    <DataListValue> 342346534634 </DataListValue>
+                    <DataListItem>
+                      <DataListKey> Relatienummer </DataListKey>
+                    </DataListItem>
+                    <DataListValue> 35012085 </DataListValue>
+                  </DataList>
                   <Paragraph>
                     U kunt deze ontvangstbevestiging inzien in Mijn dossier. U
                     kunt het document dan ook afdrukken of opslaan op uw

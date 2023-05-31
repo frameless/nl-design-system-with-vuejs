@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { PageHeader } from "@utrecht/component-library-vue"
+import { PageHeader, DataList } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -130,28 +130,42 @@ import { PageHeader } from "@utrecht/component-library-vue"
               >
               <h1 class="utrecht-heading-1">Aanvrager</h1>
               <h2 class="utrecht-heading-2">Bedrijfsgegevens (NHR)</h2>
-              <dl class="rvo-data">
-                <dt>KVK-nummer</dt>
-                <dd>35012085</dd>
-                <dt>Naam</dt>
-                <dd>Albert Heijn B.V.</dd>
-                <dt>Rechtsvorm</dt>
-                <dd>bv</dd>
-                <dt>RSIN</dt>
-                <dd>002230884</dd>
-              </dl>
+              <DataList class="rvo-data">
+                <DataListItem>
+                  <DataListKey> KVK-nummer </DataListKey>
+                </DataListItem>
+                <DataListValue> 35012085 </DataListValue>
+                <DataListItem>
+                  <DataListKey> Naam </DataListKey>
+                </DataListItem>
+                <DataListValue> Albert Heijn B.V. </DataListValue>
+                <DataListItem>
+                  <DataListKey> Rechtsvorm </DataListKey>
+                </DataListItem>
+                <DataListValue> bv </DataListValue>
+                <DataListItem>
+                  <DataListKey> RSIN </DataListKey>
+                </DataListItem>
+                <DataListValue> 002230884 </DataListValue>
+              </DataList>
               <h2 class="utrecht-heading-2">Bedrijfsgegevens</h2>
-              <dl class="rvo-data">
-                <dt>Website</dt>
-                <dd class="rvo-url">https://www.streetplanet.nl</dd>
-                <dt>
-                  Maakt u deel uit van een fiscale eenheid voor de
-                  vennootschapbelasting?
-                </dt>
-                <dd>Ja</dd>
-                <dt>RSIN-Nummer fiscale moeder</dt>
-                <dd>200000007</dd>
-              </dl>
+              <DataList class="rvo-data">
+                <DataListItem>
+                  <DataListKey> Website </DataListKey>
+                </DataListItem>
+                <DataListValue> https://www.streetplanet.nl </DataListValue>
+                <DataListItem>
+                  <DataListKey>
+                    Maakt u deel uit van een fiscale eenheid voor de
+                    vennootschapbelasting?
+                  </DataListKey>
+                </DataListItem>
+                <DataListValue> Ja </DataListValue>
+                <DataListItem>
+                  <DataListKey> RSIN-Nummer fiscale moeder </DataListKey>
+                </DataListItem>
+                <DataListValue> 200000007 </DataListValue>
+              </DataList>
             </div>
             <form>
               <div class="rvo-layout-column rvo-layout-gap--md">
