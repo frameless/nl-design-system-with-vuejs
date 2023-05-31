@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { Paragraph } from "@utrecht/component-library-vue"
+</script>
 
 <template>
   <main>
@@ -123,11 +125,11 @@
                 <h1 class="utrecht-heading-1">
                   Rijksdienst voor Ondernemend Nederland
                 </h1>
-                <p class="rvo-hero-description">
+                <Paragraph class="rvo-hero-description">
                   Onze mensen maken wereldwijd verbinding. Tussen bedrijven,
                   kennis- en financiële instellingen, ambassades en lokale
                   overheden.
-                </p>
+                </Paragraph>
               </div>
               <div class="rvo-hero-img-container">
                 <img src="../images/man-met-laptop.webp" class="rvo-hero-img" />
