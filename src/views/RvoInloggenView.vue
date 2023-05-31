@@ -1,7 +1,11 @@
+<script setup lang="ts">
+import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
+</script>
+
 <template>
   <div class="rvo-demo-page rvo-demo-page--mijn-rvo">
     <div class="rvo-header-content">
-      <header class="rvo-header">
+      <PageHeader class="rvo-header">
         <div class="rvo-header__logo-wrapper">
           <a href="/" class="rvo-header__logo-link"
             ><img
@@ -10,7 +14,7 @@
               class="rvo-logo-img rvo-header__logo-img"
           /></a>
         </div>
-      </header>
+      </PageHeader>
       <div class="rvo-topnav__background">
         <nav
           class="rvo-topnav rvo-topnav--lg rvo-max-width-layout rvo-max-width-layout--sm"
@@ -68,18 +72,18 @@
                   </h3>
                 </summary>
                 <div class="rvo-accordion__content">
-                  <p>
+                  <Paragraph>
                     U bent <strong>ondernemer</strong> en ingeschreven bij KVK.
                     Of u logt in namens een <strong>gemeente</strong>.
-                  </p>
-                  <p>
+                  </Paragraph>
+                  <Paragraph>
                     Meer informatie leest u op onze pagina
                     <a href="#" class="rvo-link">Zaken regelen bij RVO</a> .
                     Lukt het inloggen niet? Ga naar
                     <a href="#" class="rvo-link">Hulp bij inloggen</a>.
-                  </p>
-                  <p>Kies het niveau van het middel waarmee u wilt inloggen.</p>
-                  <p>
+                  </Paragraph>
+                  <Paragraph>Kies het niveau van het middel waarmee u wilt inloggen.</Paragraph>
+                  <Paragraph>
                     <a
                       class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
                       href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
@@ -89,7 +93,7 @@
                       href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
                       >Inloggen met e-Herkenning 3</a
                     >
-                  </p>
+                  </Paragraph>
                 </div>
               </details>
               <details
@@ -112,12 +116,12 @@
                   </h3>
                 </summary>
                 <div class="rvo-accordion__content">
-                  <p>
+                  <Paragraph>
                     U bent <strong>particulier</strong> en heeft een
                     Burgerservicenummer (BSN). Log in met DigiD. Meer informatie
                     leest u op de website van
                     <a href="#" class="rvo-link">DigiD</a>
-                  </p>
+                  </Paragraph>
                   <a
                     class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
                     href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
@@ -145,10 +149,10 @@
                   </h3>
                 </summary>
                 <div class="rvo-accordion__content">
-                  <p>
+                  <Paragraph>
                     Log in with a digital identity from another European
                     country.
-                  </p>
+                  </Paragraph>
                   <a
                     class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
                     href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
@@ -173,7 +177,7 @@
                   </h3>
                 </summary>
                 <div class="rvo-accordion__content">
-                  <p>U heeft geen eHerkenning of DigiD.</p>
+                  <Paragraph>U heeft geen eHerkenning of DigiD.</Paragraph>
                   <a
                     class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
                     href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"

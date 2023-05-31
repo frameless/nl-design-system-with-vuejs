@@ -1,7 +1,11 @@
+<script setup lang="ts">
+import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
+</script>
+
 <template>
   <div class="rvo-demo-page rvo-demo-page--mijn-rvo rvo-demo-page--diensten">
     <div class="rvo-header-content">
-      <header class="rvo-header">
+      <PageHeader class="rvo-header">
         <div class="rvo-header__logo-wrapper">
           <a href="/" class="rvo-header__logo-link"
             ><img
@@ -10,7 +14,7 @@
               class="rvo-logo-img rvo-header__logo-img"
           /></a>
         </div>
-      </header>
+      </PageHeader>
       <details class="rvo-responsive-menu">
         <summary>
           <span
@@ -133,10 +137,10 @@
           <div class="rvo-hero-content">
             <div class="rvo-hero-text">
               <h1 class="utrecht-heading-1">Diensten</h1>
-              <p class="rvo-hero-description">
+              <Paragraph class="rvo-hero-description">
                 Geef aan wie u bent en wat u zoekt, en u krijgt een overzicht
                 met diensten op maat.
-              </p>
+              </Paragraph>
             </div>
             <div class="rvo-hero-img-container">
               <img
