@@ -48,6 +48,11 @@ import { RouterLink, RouterView } from "vue-router";
         <RouterLink to="/nieuwerijkshuisstijl"
           >Nieuwe Rijkshuisstijl</RouterLink
         >
+        <RouterLink to="/wbsoaanvrager">WBSO Aanvrager</RouterLink>
+        <RouterLink to="/wbsoprestart">WBSO Voordat u start</RouterLink>
+        <RouterLink to="/wbsovormvrijeaanvraag"
+          >WBSO Vormvrije aanvraag</RouterLink
+        >
       </nav>
     </div>
   </header>
