@@ -169,6 +169,46 @@ const router = createRouter({
       name: "wbsovormvrijeaanvraag",
       component: () => import("../views/WBSOAanvraagView.vue"),
     },
+      {   
+      path: "/windowAcord",
+      name: "windowAcord",
+      component: () => import("../views/WindowAcordView.vue"),
+    },
+    {
+      path: "/windowSafe",
+      name: "windowSafe",
+      component: () => import("../views/WindowSafeView.vue"),
+    },
+    {
+      path: "/windowMaatregel",
+      name: "windowMaatregel",
+      component: () => import("../views/WindowMaatregelView.vue"),
+    },
+    {
+      path: "/windowMaatregelen",
+      name: "windowMaatregelen",
+      component: () => import("../views/WindowMaatregelenView.vue"),
+    },
+    {
+      path: "/windowProfile",
+      name: "windowProfile",
+      component: () => import("../views/WindowProfileView.vue"),
+    },
+    {
+      path: "/windowProfileIntro",
+      name: "windowProfileIntro",
+      component: () => import("../views/WindowProfileIntroView.vue"),
+    },
+    {
+      path: "/windowSplash",
+      name: "windowSplash",
+      component: () => import("../views/WindowSplashView.vue"),
+    },
+    {
+      path: "/windowSearch",
+      name: "windowSearch",
+      component: () => import("../views/WindowSearchView.vue"),
+    },
   ],
 });
 

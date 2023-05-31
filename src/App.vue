@@ -20,6 +20,14 @@ import { RouterLink, RouterView } from "vue-router";
         <RouterLink to="/subMenu">SubMenu</RouterLink>
         <RouterLink to="/subMenuGrid">SubMenuGrid</RouterLink>
         <RouterLink to="/Table">Table</RouterLink>
+        <RouterLink to="/windowAcord">WindowAcord</RouterLink>
+        <RouterLink to="/windowSafe">WindowSafe</RouterLink>
+        <RouterLink to="/windowMaatregel">WindowMaatregel</RouterLink>
+        <RouterLink to="/windowMaatregelen">WindowMaatregelen</RouterLink>
+        <RouterLink to="/windowProfile">WindowProfile</RouterLink>
+        <RouterLink to="/windowProfileIntro">WindowProfileIntro</RouterLink>
+        <RouterLink to="/windowSplash">WindowSplash</RouterLink>
+        <RouterLink to="/windowSearch">WindowSearch</RouterLink>
         <RouterLink to="/rvoprofiel">RVO Profiel</RouterLink>
         <RouterLink to="/rvozaakview">RVO Zaak</RouterLink>
         <RouterLink to="/rvomijnzaken">RVO Mijn Zaken</RouterLink>
