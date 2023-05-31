@@ -128,7 +128,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
 					<div class="rvo-form">
 						<div class="rvo-layout-column rvo-layout-gap--xl">
 							<div class="intro">
-								<h1 class="utrecht-heading-1">Bijlagen</h1>
+								<Heading :level="1">Bijlagen</Heading>
 								<ul>
 									<li>
 										U kunt alleen bijlagen versturen in PDF-formaat. Als u een
