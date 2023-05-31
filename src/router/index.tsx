@@ -169,7 +169,7 @@ const router = createRouter({
       name: "wbsovormvrijeaanvraag",
       component: () => import("../views/WBSOAanvraagView.vue"),
     },
-      {   
+    {
       path: "/windowAcord",
       name: "windowAcord",
       component: () => import("../views/WindowAcordView.vue"),
