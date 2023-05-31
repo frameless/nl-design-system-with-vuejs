@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { Heading } from "@utrecht/component-library-vue";
+</script>
 
 <template>
   <main>
@@ -120,9 +122,9 @@
           <div class="rvo-max-width-layout rvo-max-width-layout--md">
             <div class="rvo-hero-content">
               <div class="rvo-hero-text">
-                <h1 class="utrecht-heading-1">
+                <Heading :level="1">
                   Rijksdienst voor Ondernemend Nederland
-                </h1>
+                </Heading>
                 <p class="rvo-hero-description">
                   Onze mensen maken wereldwijd verbinding. Tussen bedrijven,
                   kennis- en financiële instellingen, ambassades en lokale

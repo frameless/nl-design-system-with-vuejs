@@ -1,3 +1,6 @@
+<script setup lang="ts">
+import { Heading } from "@utrecht/component-library-vue";
+</script>
 <template>
   <div class="rvo-demo-page rvo-demo-page--mijn-rvo">
     <div class="rvo-header-content">
@@ -62,21 +65,21 @@
       <div class="rvo-max-width-layout rvo-max-width-layout--sm">
         <main class="rvo-main">
           <div class="rvo-layout-column rvo-layout-gap--sm">
-            <h1 class="utrecht-heading-1">Telefonisch contact</h1>
+            <Heading :level="1">Telefonisch contact</Heading>
             <p>
               Heeft u vragen? Neem gerust telefonisch contact met ons op. U
               bereikt ons op werkdagen van 08:30 tot 17:00 uur. Tussen 8:30 en
               12:00 uur en tussen 14:00 en 17:00 uur zijn de wachttijden het
               kortst.
             </p>
-            <h2 class="utrecht-heading-2">Keuzemenu's</h2>
+            <Heading :level="2">Keuzemenu's</Heading>
             <div class="rvo-layout-column rvo-layout-gap--xl">
               <div
                 class="rvo-accordion rvo-accordion--colored rvo-accordion--border-indicator"
               >
                 <details class="rvo-accordion__item">
                   <summary class="rvo-accordion__item-summary">
-                    <h3 class="rvo-link">
+                    <Heading :level="3" class="rvo-link">
                       <span class="rvo-accordion__item-title"
                         ><span
                           class="utrecht-icon rvo-icon rvo-icon-delta-omlaag rvo-icon--md rvo-icon--hemelblauw"
@@ -86,7 +89,7 @@
                         ></span
                         >Keuzemenu 088 042 42 42</span
                       >
-                    </h3>
+                    </Heading>
                     <span class="rvo-accordion-teaser"
                       >Voor bedrijven, instellingen en overheden</span
                     >
@@ -97,12 +100,12 @@
                       overheidsorganisatie? Via het keuzemenu krijgt u de juiste
                       medewerker aan de lijn om u verder te helpen.
                     </p>
-                    <h4 class="utrecht-heading-4">For English, press 8</h4>
+                    <Heading :level="4">For English, press 8</Heading>
                     <br />
-                    <h4 class="utrecht-heading-4">
+                    <Heading :level="4">
                       Keuze 0: voor BGT-check, sancties Rusland, de
                       simulatietool van het nieuwe GLB en de SVV
-                    </h4>
+                    </Heading>
                     <p>
                       0 - 1: vragen over BGT check<br />0 - 2: vragen over
                       sancties Rusland <br />0 - 3: vragen over de simulatietool
@@ -110,10 +113,10 @@
                       <br />0 - 4: vragen over de Subsidie Saneren van
                       Vissersvaartuigen (SVV)
                     </p>
-                    <h4 class="utrecht-heading-4">
+                    <Heading :level="4">
                       Keuze 1: dieren, spuitlicenties, landbouw, natuur en
                       visserij
-                    </h4>
+                    </Heading>
                     <p>
                       1 - 1: openbaarmaking van fosfaatrechten, vervoer en
                       uitrijden van mest, productierechten, gebruiksnormen en
@@ -132,7 +135,7 @@
                   class="rvo-accordion__item rvo-login-option login-option--digid"
                 >
                   <summary class="rvo-accordion__item-summary">
-                    <h3 class="rvo-link">
+                    <Heading :level="3" class="rvo-link">
                       <span class="rvo-accordion__item-title"
                         ><span
                           class="utrecht-icon rvo-icon rvo-icon-delta-omlaag rvo-icon--md rvo-icon--hemelblauw"
@@ -142,7 +145,7 @@
                         ></span
                         >Keuzemenu 088 042 47 47</span
                       >
-                    </h3>
+                    </Heading>
                     <span class="rvo-accordion-teaser"
                       >Voor particulieren, woningeigenaren</span
                     >
@@ -152,10 +155,10 @@
                       Bent u particulier? Via het keuzemenu krijgt u de juiste
                       medewerker aan de telefoon om u verder te helpen.
                     </p>
-                    <h4 class="utrecht-heading-4">
+                    <Heading :level="4">
                       Keuze 1: subsidies en andere regelgeving op het gebied van
                       duurzaamheid, energie, of wonen
-                    </h4>
+                    </Heading>
                     <p>
                       1 - 1: Energielabel voor woningeigenaren <br />1 - 2:
                       ISDE, Isolatie, Warmtepompen, Zonneboilers en aansluiting
@@ -168,7 +171,7 @@
                   class="rvo-accordion__item rvo-login-option login-option--digid"
                 >
                   <summary class="rvo-accordion__item-summary">
-                    <h3 class="rvo-link">
+                    <Heading :level="3" class="rvo-link">
                       <span class="rvo-accordion__item-title"
                         ><span
                           class="utrecht-icon rvo-icon rvo-icon-delta-omlaag rvo-icon--md rvo-icon--hemelblauw"
@@ -178,7 +181,7 @@
                         ></span
                         >Keuzemenu 088 042 25 00</span
                       >
-                    </h3>
+                    </Heading>
                     <span class="rvo-accordion-teaser">COVID-19</span>
                   </summary>
                   <div class="rvo-accordion__content">
@@ -187,29 +190,29 @@
                       het keuzemenu krijgt u de juiste medewerker aan de
                       telefoon om u verder te helpen.
                     </p>
-                    <h4 class="utrecht-heading-4">
+                    <Heading :level="4">
                       Keuze 1: Tegemoetkoming Vaste Lasten (TVL)
-                    </h4>
+                    </Heading>
                     <br />
-                    <h4 class="utrecht-heading-4">
+                    <Heading :level="4">
                       Keuze 2: Subsidieregeling Evenementen (ATE)
-                    </h4>
+                    </Heading>
                     <br />
-                    <h4 class="utrecht-heading-4">
+                    <Heading :level="4">
                       Keuze 3: Ongedekte Vaste Kosten (OVK)
-                    </h4>
+                    </Heading>
                     <br />
-                    <h4 class="utrecht-heading-4">
+                    <Heading :level="4">
                       Keuze 4: Tijdelijke Subsidieregeling Vuurwerkverbod
                       COVID-19 (TSVC-19)
-                    </h4>
+                    </Heading>
                   </div>
                 </details>
                 <details
                   class="rvo-accordion__item rvo-login-option login-option--digid"
                 >
                   <summary class="rvo-accordion__item-summary">
-                    <h3 class="rvo-link">
+                    <Heading :level="3" class="rvo-link">
                       <span class="rvo-accordion__item-title"
                         ><span
                           class="utrecht-icon rvo-icon rvo-icon-delta-omlaag rvo-icon--md rvo-icon--hemelblauw"
@@ -219,7 +222,7 @@
                         ></span
                         >Keuzemenu 088 042 4070</span
                       >
-                    </h3>
+                    </Heading>
                     <span class="rvo-accordion-teaser">Waterschade (WTS)</span>
                   </summary>
                   <div class="rvo-accordion__content">
@@ -227,19 +230,19 @@
                       Belt u over de WTS? Via het keuzemenu krijgt u de juiste
                       medewerker aan de telefoon om u verder te helpen.
                     </p>
-                    <h4 class="utrecht-heading-4">
+                    <Heading :level="4">
                       Keuze 1: WTS juli 2021 en tegemoetkoming omzetschade
                       Limburg en Noord-Brabant
-                    </h4>
+                    </Heading>
                     <br />
-                    <h4 class="utrecht-heading-4">
+                    <Heading :level="4">
                       Keuze 2: Tegemoetkoming teeltplanschade Uiterwaarden juli
                       2021
-                    </h4>
+                    </Heading>
                   </div>
                 </details>
               </div>
-              <h2 class="utrecht-heading-2">Met u meekijken</h2>
+              <Heading :level="2">Met u meekijken</Heading>
             </div>
             <p>
               Met u meekijken Als het nodig is, kan onze medewerker met u
