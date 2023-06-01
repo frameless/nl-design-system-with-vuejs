@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Paragraph, PageHeader } from "@utrecht/component-library-vue";
+import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
 </script>
 
 <template>
@@ -82,10 +82,7 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue";
                     Lukt het inloggen niet? Ga naar
                     <a href="#" class="rvo-link">Hulp bij inloggen</a>.
                   </Paragraph>
-                  <Paragraph
-                    >Kies het niveau van het middel waarmee u wilt
-                    inloggen.</Paragraph
-                  >
+                  <Paragraph>Kies het niveau van het middel waarmee u wilt inloggen.</Paragraph>
                   <Paragraph>
                     <a
                       class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"

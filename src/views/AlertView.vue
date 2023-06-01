@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Paragraph } from "@utrecht/component-library-vue";
+import { Paragraph } from "@utrecht/component-library-vue"
 </script>
 
 <template>
@@ -83,10 +83,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                 ></span>
                 <div class="rvo-alert-text">
                   <strong>Info with heading</strong><br />
-                  <Paragraph
-                    >This is an example of an info alert with a
-                    heading.</Paragraph
-                  >
+                  <Paragraph>This is an example of an info alert with a heading.</Paragraph>
                 </div>
               </div>
               <div class="rvo-alert rvo-alert--info">
@@ -96,10 +93,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                   aria-label="Info"
                 ></span>
                 <div class="rvo-alert-text">
-                  <Paragraph
-                    >This is an example of an info alert with a
-                    button.</Paragraph
-                  >
+                  <Paragraph>This is an example of an info alert with a button.</Paragraph>
                   <button
                     class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-sm"
                     type="button"
@@ -149,10 +143,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                 ></span>
                 <div class="rvo-alert-text">
                   <strong>Warning with heading</strong><br />
-                  <Paragraph
-                    >This is an example of a warning alert with a
-                    heading.</Paragraph
-                  >
+                  <Paragraph>This is an example of a warning alert with a heading.</Paragraph>
                 </div>
               </div>
               <div class="rvo-alert rvo-alert--warning">
@@ -162,10 +153,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                   aria-label="Waarschuwing"
                 ></span>
                 <div class="rvo-alert-text">
-                  <Paragraph
-                    >This is an example of a warning alert with a
-                    button.</Paragraph
-                  >
+                  <Paragraph>This is an example of a warning alert with a button.</Paragraph>
                   <button
                     class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-sm"
                     type="button"
@@ -215,10 +203,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                 ></span>
                 <div class="rvo-alert-text">
                   <strong>error with heading</strong><br />
-                  <Paragraph
-                    >This is an example of a error alert with a
-                    heading.</Paragraph
-                  >
+                  <Paragraph>This is an example of a error alert with a heading.</Paragraph>
                 </div>
               </div>
               <div class="rvo-alert rvo-alert--error">
@@ -228,10 +213,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                   aria-label="Foutmelding"
                 ></span>
                 <div class="rvo-alert-text">
-                  <Paragraph
-                    >This is an example of a error alert with a
-                    button.</Paragraph
-                  >
+                  <Paragraph>This is an example of a error alert with a button.</Paragraph>
                   <button
                     class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-sm"
                     type="button"
@@ -281,10 +263,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                 ></span>
                 <div class="rvo-alert-text">
                   <strong>succes with heading</strong><br />
-                  <Paragraph
-                    >This is an example of a succes alert with a
-                    heading.</Paragraph
-                  >
+                  <Paragraph>This is an example of a succes alert with a heading.</Paragraph>
                 </div>
               </div>
               <div class="rvo-alert rvo-alert--succes">
@@ -294,10 +273,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                   aria-label="Bevestiging"
                 ></span>
                 <div class="rvo-alert-text">
-                  <Paragraph
-                    >This is an example of a succes alert with a
-                    button.</Paragraph
-                  >
+                  <Paragraph>This is an example of a succes alert with a button.</Paragraph>
                   <button
                     class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-sm"
                     type="button"
