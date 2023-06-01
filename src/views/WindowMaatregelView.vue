@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import { } from "@utrecht/component-library-vue"
-</script>
-
 <template>
   <div id="storybook-root">
     <div class="rvo-demo-page rvo-demo-page--regelmaat">
@@ -10,27 +6,27 @@ import { } from "@utrecht/component-library-vue"
           <div class="rvo-app-content">
             <h1 class="utrecht-heading-1">Onderzaai vanggewas</h1>
             <h3 class="utrecht-heading-3">Wat is het?</h3>
-            <Paragraph>
+            <p>
               Grasland met kruiden zorgt voor een diepere doorworteling en een
               betere bodemstructuur. En voor diversiteit in ruwvoer.
-            </Paragraph>
+            </p>
             <h3 class="utrecht-heading-3">Wat levert het op?</h3>
-            <Paragraph>
+            <p>
               Staan er op het perceel minimaal 25% kruiden en vlinderbloemige
               gewassen (ingezaaid of spontane opkomst); en minimaal 25% gras.
-            </Paragraph>
+            </p>
             <h3 class="utrecht-heading-3">In welke situatie geschikt?</h3>
-            <Paragraph>
+            <p>
               Uw perceel is zichtbaar bedekt en u verdeelt het gras, de kruiden
               en vlinderbloemige gewassen gelijkmatig over het perceel.
-            </Paragraph>
+            </p>
             <h3 class="utrecht-heading-3">Wat moet ik er voor doen?</h3>
-            <Paragraph>
+            <p>
               In het document Gewascodes en gewassen eco-activiteiten leest u
               welke gewassen meetellen voor deze eco-activiteit. En welke
               grassen, kruiden en vlinderbloemige gewassen uit de lijst
               Stikstofbindend gewas.
-            </Paragraph>
+            </p>
             <div class="rvo-maatregel-actions">
               <details class="rvo-bewaar-knop">
                 <summary class="rvo-maatregel-bewaar-link">

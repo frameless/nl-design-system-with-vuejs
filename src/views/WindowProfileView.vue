@@ -1,17 +1,13 @@
-<script setup lang="ts">
-import { } from "@utrecht/component-library-vue"
-</script>
-
 <template>
   <div class="rvo-demo-page rvo-demo-page--regelmaat">
     <div class="rvo-app rvo-app--profiel">
       <div class="rvo-app-container rvo-app-container--profiel">
         <div class="rvo-app-content">
           <h1 class="utrecht-heading-1">Profiel</h1>
-          <Paragraph>
+          <p>
             Vul je profiel in om maatregelen te krijgen die voor jou van
             toepassing kunnen zijn.
-          </Paragraph>
+          </p>
           <div class="utrecht-form-fieldset rvo-form-fieldset">
             <fieldset
               class="utrecht-form-fieldset__fieldset utrecht-form-fieldset--html-fieldset"
@@ -309,7 +305,7 @@ import { } from "@utrecht/component-library-vue"
               </div>
             </div>
           </div>
-          <Paragraph class="utrecht-button-group">
+          <p class="utrecht-button-group">
             <a
               href="iframe.html?args=&amp;id=demo-pagina-s-de-regelmaat--maatregelen&amp;viewMode=story"
               class="utrecht-button utrecht-button--rvo-tertiary-action utrecht-button--rvo-sm"
@@ -319,7 +315,7 @@ import { } from "@utrecht/component-library-vue"
               class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-md"
               >Opslaan</a
             >
-          </Paragraph>
+          </p>
           <ul class="rvo-app-menu">
             <li class="rvo-app-menu-item">
               <a

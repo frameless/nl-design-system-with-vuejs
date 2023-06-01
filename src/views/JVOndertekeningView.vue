@@ -1,10 +1,6 @@
-<script setup lang="ts">
-import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
-</script>
-
 <template>
   <div class="rvo-demo-page">
-    <PageHeader class="rvo-header">
+    <header class="rvo-header">
       <div class="rvo-header__logo-wrapper">
         <a href="/" class="rvo-header__logo-link"
           ><img
@@ -13,7 +9,7 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
             class="rvo-logo-img rvo-header__logo-img"
         /></a>
       </div>
-    </PageHeader>
+    </header>
     <div class="rvo-layout-column rvo-layout-gap--2xl">
       <div class="rvo-topnav__background">
         <nav
@@ -240,15 +236,15 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
                     </fieldset>
                   </div>
                   <h2 class="utrecht-heading-2">Verklaring</h2>
-                  <Paragraph>
+                  <p>
                     Ik verklaar dat ik voldoe aan de voorwaarden en dat dit
                     formulier en de bijlagen naar waarheid zijn ingevuld.
-                  </Paragraph>
+                  </p>
                   <h2 class="utrecht-heading-2">Ondertekening</h2>
-                  <Paragraph>
+                  <p>
                     Ondertekening m.b.v. TAN is alleen noodzakelijker voor
                     klanten.
-                  </Paragraph>
+                  </p>
                   <div class="rvo-button-group">
                     <a
                       class="utrecht-button utrecht-button--secondary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"

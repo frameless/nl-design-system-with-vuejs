@@ -1,10 +1,6 @@
-<script setup lang="ts">
-import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
-</script>
-
 <template>
   <div class="rvo-demo-page">
-    <PageHeader class="rvo-header">
+    <header class="rvo-header">
       <div class="rvo-header__logo-wrapper">
         <a href="/" class="rvo-header__logo-link"
           ><img
@@ -13,7 +9,7 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
             class="rvo-logo-img rvo-header__logo-img"
         /></a>
       </div>
-    </PageHeader>
+    </header>
     <div class="rvo-layout-column rvo-layout-gap--2xl">
       <div class="rvo-topnav__background">
         <nav
@@ -179,13 +175,13 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
                           aria-label="Waarschuwing"
                         ></span>
                         <div class="rvo-alert-text">
-                          <Paragraph>
+                          <p>
                             U heeft aangegeven dat u de correspondentie digitaal
                             wil ontvangen. Hiermee geeft u akkoord dat RVO
                             berichten plaatst over uw aanvraag in Mijn Dossier
                             en u een e-mail stuurt over statuswijzigingen van uw
                             aanvraag.
-                          </Paragraph>
+                          </p>
                         </div>
                       </div>
                     </fieldset>
