@@ -1,10 +1,6 @@
-<script setup lang="ts">
-import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
-</script>
-
 <template>
   <div class="rvo-demo-page">
-    <PageHeader class="rvo-header">
+    <header class="rvo-header">
       <div class="rvo-header__logo-wrapper">
         <a href="/" class="rvo-header__logo-link"
           ><img
@@ -13,7 +9,7 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
             class="rvo-logo-img rvo-header__logo-img"
         /></a>
       </div>
-    </PageHeader>
+    </header>
     <div class="rvo-layout-column rvo-layout-gap--2xl">
       <div class="rvo-topnav__background">
         <nav
@@ -339,11 +335,11 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
                   aria-label="Waarschuwing"
                 ></span>
                 <div class="rvo-alert-text">
-                  <Paragraph>
+                  <p>
                     De subsidie van uw investering kan maximaal € 25.000,00
                     bedragen. Dit is berekend aan de hand van de subsidiabele
                     kosten van uw investering en uw andere subsidies.
-                  </Paragraph>
+                  </p>
                 </div>
               </div>
               <div class="rvo-button-group">

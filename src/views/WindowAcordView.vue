@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import { } from "@utrecht/component-library-vue"
-</script>
-
 <template>
   <div id="storybook-root">
     <div class="rvo-demo-page rvo-demo-page--regelmaat">
@@ -31,16 +27,16 @@ import { } from "@utrecht/component-library-vue"
           </div>
           <div class="rvo-app-content">
             <h1 class="utrecht-heading-1">Voorwaarden</h1>
-            <Paragraph>
+            <p>
               De Regelmaat is een maat die op maat maatregelen voor u regelt.
               Vul uw profiel in en de Regelmaat doet suggesties voor maatregelen
               die voor jou van toepassing kunnen zijn.
-            </Paragraph>
-            <Paragraph>
+            </p>
+            <p>
               <strong>Disclaimer</strong><br />
               Deze app is momenteel in de beta fase en daarom onderhevig aan
               constante verbeteringen.
-            </Paragraph>
+            </p>
             <a
               href="iframe.html?args=&amp;id=demo-pagina-s-de-regelmaat--profiel-intro&amp;viewMode=story"
               class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-md"

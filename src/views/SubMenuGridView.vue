@@ -1,10 +1,6 @@
-<script setup lang="ts">
-import { PageHeader } from "@utrecht/component-library-vue"
-</script>
-
 <template>
   <div class="rvo-demo-page rvo-demo-page--sub-menu">
-    <PageHeader class="rvo-header">
+    <header class="rvo-header">
       <div class="rvo-header__logo-wrapper">
         <a href="/" class="rvo-header__logo-link"
           ><img
@@ -13,7 +9,7 @@ import { PageHeader } from "@utrecht/component-library-vue"
             class="rvo-logo-img rvo-header__logo-img"
         /></a>
       </div>
-    </PageHeader>
+    </header>
     <div class="rvo-layout-column rvo-layout-gap--md">
       <div class="rvo-navigation">
         <div class="rvo-topnav__background">

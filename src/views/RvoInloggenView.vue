@@ -1,11 +1,7 @@
-<script setup lang="ts">
-import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
-</script>
-
 <template>
   <div class="rvo-demo-page rvo-demo-page--mijn-rvo">
     <div class="rvo-header-content">
-      <PageHeader class="rvo-header">
+      <header class="rvo-header">
         <div class="rvo-header__logo-wrapper">
           <a href="/" class="rvo-header__logo-link"
             ><img
@@ -14,7 +10,7 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
               class="rvo-logo-img rvo-header__logo-img"
           /></a>
         </div>
-      </PageHeader>
+      </header>
       <div class="rvo-topnav__background">
         <nav
           class="rvo-topnav rvo-topnav--lg rvo-max-width-layout rvo-max-width-layout--sm"
@@ -72,18 +68,18 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
                   </h3>
                 </summary>
                 <div class="rvo-accordion__content">
-                  <Paragraph>
+                  <p>
                     U bent <strong>ondernemer</strong> en ingeschreven bij KVK.
                     Of u logt in namens een <strong>gemeente</strong>.
-                  </Paragraph>
-                  <Paragraph>
+                  </p>
+                  <p>
                     Meer informatie leest u op onze pagina
                     <a href="#" class="rvo-link">Zaken regelen bij RVO</a> .
                     Lukt het inloggen niet? Ga naar
                     <a href="#" class="rvo-link">Hulp bij inloggen</a>.
-                  </Paragraph>
-                  <Paragraph>Kies het niveau van het middel waarmee u wilt inloggen.</Paragraph>
-                  <Paragraph>
+                  </p>
+                  <p>Kies het niveau van het middel waarmee u wilt inloggen.</p>
+                  <p>
                     <a
                       class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
                       href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
@@ -93,7 +89,7 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
                       href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
                       >Inloggen met e-Herkenning 3</a
                     >
-                  </Paragraph>
+                  </p>
                 </div>
               </details>
               <details
@@ -116,12 +112,12 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
                   </h3>
                 </summary>
                 <div class="rvo-accordion__content">
-                  <Paragraph>
+                  <p>
                     U bent <strong>particulier</strong> en heeft een
                     Burgerservicenummer (BSN). Log in met DigiD. Meer informatie
                     leest u op de website van
                     <a href="#" class="rvo-link">DigiD</a>
-                  </Paragraph>
+                  </p>
                   <a
                     class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
                     href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
@@ -149,10 +145,10 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
                   </h3>
                 </summary>
                 <div class="rvo-accordion__content">
-                  <Paragraph>
+                  <p>
                     Log in with a digital identity from another European
                     country.
-                  </Paragraph>
+                  </p>
                   <a
                     class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
                     href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
@@ -177,7 +173,7 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
                   </h3>
                 </summary>
                 <div class="rvo-accordion__content">
-                  <Paragraph>U heeft geen eHerkenning of DigiD.</Paragraph>
+                  <p>U heeft geen eHerkenning of DigiD.</p>
                   <a
                     class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
                     href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"

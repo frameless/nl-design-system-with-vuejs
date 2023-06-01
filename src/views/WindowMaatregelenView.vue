@@ -1,17 +1,13 @@
-<script setup lang="ts">
-import { } from "@utrecht/component-library-vue"
-</script>
-
 <template>
   <div class="rvo-demo-page rvo-demo-page--regelmaat">
     <div class="rvo-app rvo-app--maatregelen">
       <div class="rvo-app-container rvo-app-container--maatregelen">
         <div class="rvo-app-content">
           <h1 class="utrecht-heading-1">Suggesties</h1>
-          <Paragraph>
+          <p>
             Regelmaat heeft de volgende <strong>maatregelen</strong> voor u
             gevonden
-          </Paragraph>
+          </p>
           <div class="rvo-alert rvo-alert--warning">
             <span
               class="utrecht-icon rvo-icon rvo-icon-waarschuwing rvo-icon--xl rvo-status-icon-waarschuwing"

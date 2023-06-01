@@ -1,10 +1,6 @@
-<script setup lang="ts">
-import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
-</script>
-
 <template>
   <div class="rvo-demo-page">
-    <PageHeader class="rvo-header">
+    <header class="rvo-header">
       <div class="rvo-header__logo-wrapper">
         <a href="/" class="rvo-header__logo-link"
           ><img
@@ -13,7 +9,7 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
             class="rvo-logo-img rvo-header__logo-img"
         /></a>
       </div>
-    </PageHeader>
+    </header>
     <div class="rvo-layout-column rvo-layout-gap--2xl">
       <div class="rvo-topnav__background">
         <nav
@@ -132,13 +128,13 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
             <div class="rvo-layout-column rvo-layout-gap--xl">
               <div class="intro">
                 <h1 class="utrecht-heading-1">Bevestiging</h1>
-                <Paragraph>
+                <p>
                   Wij hebben uw aanvraag verlenging Jonge Visser 2020 ontvangen
                   op <strong>05-07-2022</strong>.<br />Het zaaknummer dat wij
                   hieraan hebben gegevens is <strong>192040000027</strong>.
                   Gebruik dit nummer als u met ons belt of digitale post wilt
                   versturen.
-                </Paragraph>
+                </p>
                 <h2 class="utrecht-heading-2">Uw gegevens</h2>
                 <div class="rvo-layout-column rvo-layout-gap--md">
                   <dl class="rvo-data">
@@ -149,20 +145,20 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue"
                     <dt>Relatienummer</dt>
                     <dd>35012085</dd>
                   </dl>
-                  <Paragraph>
+                  <p>
                     U kunt deze ontvangstbevestiging inzien in Mijn dossier. U
                     kunt het document dan ook afdrukken of opslaan op uw
                     computer.
-                  </Paragraph>
+                  </p>
                 </div>
-                <Paragraph>
+                <p>
                   Een PDF kunt u openen met
                   <a href="#" class="rvo-link">Adobe Acrobat Reader</a>.
-                </Paragraph>
-                <Paragraph>
+                </p>
+                <p>
                   Heeft u nog vragen? Dan kunt u ons bellen op werkdagen tussen
                   8:30 en 17:00 uur op 088 042 42 42 (lokaal tarief)
-                </Paragraph>
+                </p>
                 <a href="#" class="rvo-link rvo-link--with-icon"
                   ><span
                     class="utrecht-icon rvo-icon rvo-icon-downloaden rvo-icon--md rvo-icon--hemelblauw rvo-link__icon--before"
