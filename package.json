@@ -27,7 +27,7 @@
     "@tsconfig/node18": "2.0.1",
     "@types/jsdom": "21.1.1",
     "@types/node": "18.16.8",
-    "@utrecht/component-library-vue": "1.0.0-alpha.289",
+    "@utrecht/component-library-vue": "1.0.0-alpha.297",
     "@vitejs/plugin-vue": "4.2.3",
     "@vitejs/plugin-vue-jsx": "3.0.1",
     "@vue/eslint-config-prettier": "7.1.0",
