@@ -94,8 +94,8 @@ import { Button } from "@utrecht/component-library-vue";
 								<div class="rvo-alert-text">
 									<p>This is an example of an info alert with a button.</p>
 									<Button
-										class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-sm"
-										type="button"
+										class="utrecht-button--rvo-sm"
+										appearance="primary-action-button"
 									>
 										Button
 									</Button>
@@ -114,8 +114,8 @@ import { Button } from "@utrecht/component-library-vue";
 									</p>
 								</div>
 								<Button
-									class="utrecht-button utrecht-button--subtle rvo-button--close utrecht-button--rvo-md"
-									type="button"
+									class="rvo-button--close utrecht-button--rvo-md"
+									appearance="subtle-button"
 								>
 									<span
 										class="utrecht-icon rvo-icon rvo-icon-kruis rvo-icon--md rvo-icon--hemelblauw"
@@ -154,8 +154,8 @@ import { Button } from "@utrecht/component-library-vue";
 								<div class="rvo-alert-text">
 									<p>This is an example of a warning alert with a button.</p>
 									<Button
-										class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-sm"
-										type="button"
+										class="utrecht-button--rvo-sm"
+										appearance="primary-action-button"
 									>
 										Button
 									</Button>
@@ -174,8 +174,8 @@ import { Button } from "@utrecht/component-library-vue";
 									</p>
 								</div>
 								<Button
-									class="utrecht-button utrecht-button--subtle rvo-button--close utrecht-button--rvo-md"
-									type="button"
+									class="rvo-button--close utrecht-button--rvo-md"
+									appearance="subtle-button"
 								>
 									<span
 										class="utrecht-icon rvo-icon rvo-icon-kruis rvo-icon--md rvo-icon--hemelblauw"
@@ -212,10 +212,13 @@ import { Button } from "@utrecht/component-library-vue";
 									aria-label="Foutmelding"
 								></span>
 								<div class="rvo-alert-text">
-									<p>This is an example of a error alert with a button.</p>
+									<Paragraph
+										>This is an example of a error alert with a
+										button.</Paragraph
+									>
 									<Button
-										class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-sm"
-										type="button"
+										class="utrecht-button--rvo-sm"
+										appearance="primary-action-button"
 									>
 										Button
 									</Button>
@@ -234,8 +237,8 @@ import { Button } from "@utrecht/component-library-vue";
 									</p>
 								</div>
 								<Button
-									class="utrecht-button utrecht-button--subtle rvo-button--close utrecht-button--rvo-md"
-									type="button"
+									class="rvo-button--close utrecht-button--rvo-md"
+									appearance="subtle-button"
 								>
 									<span
 										class="utrecht-icon rvo-icon rvo-icon-kruis rvo-icon--md rvo-icon--hemelblauw"
@@ -274,8 +277,8 @@ import { Button } from "@utrecht/component-library-vue";
 								<div class="rvo-alert-text">
 									<p>This is an example of a succes alert with a button.</p>
 									<Button
-										class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-sm"
-										type="button"
+										class="utrecht-button--rvo-sm"
+										appearance="primary-action-button"
 									>
 										Button
 									</Button>
@@ -294,8 +297,8 @@ import { Button } from "@utrecht/component-library-vue";
 									</p>
 								</div>
 								<Button
-									class="utrecht-button utrecht-button--subtle rvo-button--close utrecht-button--rvo-md"
-									type="button"
+									class="rvo-button--close utrecht-button--rvo-md"
+									appearance="subtle-button"
 								>
 									<span
 										class="utrecht-icon rvo-icon rvo-icon-kruis rvo-icon--md rvo-icon--hemelblauw"
