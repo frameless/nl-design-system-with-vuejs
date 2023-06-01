@@ -12,6 +12,7 @@
     "lint": "npm-run-all lint:** ",
     "lint:eslint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
     "lint:prettier": "prettier --check .",
+    "lint:typescript": "tsc --noEmit --project tsconfig.json",
     "lint-fix": "npm-run-all lint-fix:**",
     "lint-fix:eslint": "eslint --fix .",
     "lint-fix:prettier": "prettier --write \"**/*.+(css|js|json|jsx|scss|ts|tsx)\" ."
