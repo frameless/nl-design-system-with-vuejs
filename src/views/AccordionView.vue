@@ -67,12 +67,12 @@ import { Paragraph } from "@utrecht/component-library-vue";
         <main class="rvo-main">
           <div class="rvo-layout-column rvo-layout-gap--sm">
             <h1 class="utrecht-heading-1">Telefonisch contact</h1>
-            <Paragraph>
+            <p>
               Heeft u vragen? Neem gerust telefonisch contact met ons op. U
               bereikt ons op werkdagen van 08:30 tot 17:00 uur. Tussen 8:30 en
               12:00 uur en tussen 14:00 en 17:00 uur zijn de wachttijden het
               kortst.
-            </Paragraph>
+            </p>
             <h2 class="utrecht-heading-2">Keuzemenu's</h2>
             <div class="rvo-layout-column rvo-layout-gap--xl">
               <div
@@ -96,29 +96,29 @@ import { Paragraph } from "@utrecht/component-library-vue";
                     >
                   </summary>
                   <div class="rvo-accordion__content">
-                    <Paragraph>
+                    <p>
                       Belt u namens een bedrijf, instelling of
                       overheidsorganisatie? Via het keuzemenu krijgt u de juiste
                       medewerker aan de lijn om u verder te helpen.
-                    </Paragraph>
+                    </p>
                     <h4 class="utrecht-heading-4">For English, press 8</h4>
                     <br />
                     <h4 class="utrecht-heading-4">
                       Keuze 0: voor BGT-check, sancties Rusland, de
                       simulatietool van het nieuwe GLB en de SVV
                     </h4>
-                    <Paragraph>
+                    <p>
                       0 - 1: vragen over BGT check<br />0 - 2: vragen over
                       sancties Rusland <br />0 - 3: vragen over de simulatietool
                       ECO-regeling nieuwe Gemeenschappelijk Landbouwbeleid (GLB)
                       <br />0 - 4: vragen over de Subsidie Saneren van
                       Vissersvaartuigen (SVV)
-                    </Paragraph>
+                    </p>
                     <h4 class="utrecht-heading-4">
                       Keuze 1: dieren, spuitlicenties, landbouw, natuur en
                       visserij
                     </h4>
-                    <Paragraph>
+                    <p>
                       1 - 1: openbaarmaking van fosfaatrechten, vervoer en
                       uitrijden van mest, productierechten, gebruiksnormen en
                       andere mestregelingen <br />1 - 2: dierregistratie,
@@ -129,7 +129,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                       betalingsrechten, GLB en grondregistratie <br />1 - 4:
                       alle andere onderwerpen voor landbouw, natuur en visserij
                       Keuze
-                    </Paragraph>
+                    </p>
                   </div>
                 </details>
                 <details
@@ -152,20 +152,20 @@ import { Paragraph } from "@utrecht/component-library-vue";
                     >
                   </summary>
                   <div class="rvo-accordion__content">
-                    <Paragraph>
+                    <p>
                       Bent u particulier? Via het keuzemenu krijgt u de juiste
                       medewerker aan de telefoon om u verder te helpen.
-                    </Paragraph>
+                    </p>
                     <h4 class="utrecht-heading-4">
                       Keuze 1: subsidies en andere regelgeving op het gebied van
                       duurzaamheid, energie, of wonen
                     </h4>
-                    <Paragraph>
+                    <p>
                       1 - 1: Energielabel voor woningeigenaren <br />1 - 2:
                       ISDE, Isolatie, Warmtepompen, Zonneboilers en aansluiting
                       op warmtenet <br />1 - 3: elektrisch Rijden <br />1 - 4:
                       SVOH
-                    </Paragraph>
+                    </p>
                   </div>
                 </details>
                 <details
@@ -186,11 +186,11 @@ import { Paragraph } from "@utrecht/component-library-vue";
                     <span class="rvo-accordion-teaser">COVID-19</span>
                   </summary>
                   <div class="rvo-accordion__content">
-                    <Paragraph>
+                    <p>
                       Belt u over de TVL of een andere COVID-19-regeling? Via
                       het keuzemenu krijgt u de juiste medewerker aan de
                       telefoon om u verder te helpen.
-                    </Paragraph>
+                    </p>
                     <h4 class="utrecht-heading-4">
                       Keuze 1: Tegemoetkoming Vaste Lasten (TVL)
                     </h4>
@@ -227,10 +227,10 @@ import { Paragraph } from "@utrecht/component-library-vue";
                     <span class="rvo-accordion-teaser">Waterschade (WTS)</span>
                   </summary>
                   <div class="rvo-accordion__content">
-                    <Paragraph>
+                    <p>
                       Belt u over de WTS? Via het keuzemenu krijgt u de juiste
                       medewerker aan de telefoon om u verder te helpen.
-                    </Paragraph>
+                    </p>
                     <h4 class="utrecht-heading-4">
                       Keuze 1: WTS juli 2021 en tegemoetkoming omzetschade
                       Limburg en Noord-Brabant
@@ -245,11 +245,11 @@ import { Paragraph } from "@utrecht/component-library-vue";
               </div>
               <h2 class="utrecht-heading-2">Met u meekijken</h2>
             </div>
-            <Paragraph>
+            <p>
               Met u meekijken Als het nodig is, kan onze medewerker met u
               meekijken op uw scherm. Dit gaat in overleg met u. Wij zien alleen
               het scherm dat u ook ziet. Wij nemen niet uw computer over.
-            </Paragraph>
+            </p>
           </div>
         </main>
       </div>
