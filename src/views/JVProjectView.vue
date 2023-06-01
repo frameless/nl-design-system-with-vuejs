@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Paragraph, PageHeader } from "@utrecht/component-library-vue";
+import { Paragraph, PageHeader, Textbox } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -325,7 +325,7 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue";
                             >Wat is dit EU-identificatienummer?</label
                           >
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           placeholder=""
                           pattern="[0-9]*"
@@ -349,7 +349,7 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue";
                             geregistreerd in het EU-vlootregister?</label
                           >
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           placeholder=""
                           type="text"
@@ -378,7 +378,7 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue";
                             erbij?</label
                           >
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           placeholder=""
                           pattern="[0-9]*"
@@ -403,7 +403,7 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue";
                             maritieme sector?</label
                           >
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           placeholder=""
                           pattern="[0-9]*"

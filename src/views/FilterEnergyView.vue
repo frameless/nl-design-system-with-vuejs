@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Paragraph, PageHeader } from "@utrecht/component-library-vue";
+import { Paragraph, PageHeader, Textbox } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -93,7 +93,7 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue";
                                 >Zoek op trefwoord/code</label
                               >
                             </div>
-                            <input
+                            <Textbox
                               id="field"
                               placeholder=""
                               type="text"

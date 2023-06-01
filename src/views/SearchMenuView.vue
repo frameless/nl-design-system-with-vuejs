@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { PageHeader } from "@utrecht/component-library-vue";
+import { PageHeader, Textbox } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -84,7 +84,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
                         >Zoekterm</label
                       >
                     </div>
-                    <input
+                    <Textbox
                       id="field"
                       placeholder=""
                       type="text"

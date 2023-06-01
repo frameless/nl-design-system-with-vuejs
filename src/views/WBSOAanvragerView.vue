@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { PageHeader, DataList } from "@utrecht/component-library-vue";
+import { PageHeader, DataList, Textbox } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -291,7 +291,7 @@ import { PageHeader, DataList } from "@utrecht/component-library-vue";
                             >Prognose totaal aantal werknemers</label
                           >
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           placeholder=""
                           pattern="[0-9]*"
@@ -314,7 +314,7 @@ import { PageHeader, DataList } from "@utrecht/component-library-vue";
                             >(Waarvan) eigen S&amp;O-werknemers</label
                           >
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           placeholder=""
                           pattern="[0-9]*"

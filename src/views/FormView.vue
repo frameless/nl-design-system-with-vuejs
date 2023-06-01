@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import { Textbox } from "@utrecht/component-library-vue";
+</script>
+
 <template>
   <div class="rvo-demo-page">
     <header class="rvo-header">
@@ -171,7 +175,7 @@
                             >Text</label
                           >
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           placeholder=""
                           type="text"
@@ -220,7 +224,7 @@
                             >Text</label
                           >
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           placeholder=""
                           type="text"
@@ -251,7 +255,7 @@
                             >This is an error
                           </div>
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           placeholder=""
                           type="text"
@@ -283,7 +287,7 @@
                             >This is a warning
                           </div>
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           placeholder=""
                           type="text"
@@ -320,7 +324,7 @@
                             </details>
                           </div>
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           placeholder=""
                           type="text"
@@ -341,7 +345,7 @@
                             >Text disabled</label
                           >
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           placeholder=""
                           type="text"
@@ -363,7 +367,7 @@
                             >Text disabled with value</label
                           >
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           placeholder=""
                           type="text"
@@ -385,7 +389,7 @@
                             >Number</label
                           >
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           placeholder=""
                           pattern="[0-9]*"

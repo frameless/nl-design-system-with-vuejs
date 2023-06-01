@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {} from "@utrecht/component-library-vue";
+import { Textbox } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -220,7 +220,7 @@ import {} from "@utrecht/component-library-vue";
           <div class="rvo-short-inputs">
             <label class="utrecht-form-label">Dieren</label>
             <div class="rvo-short-input">
-              <input
+              <Textbox
                 pattern="[0-9]*"
                 type="text"
                 class="utrecht-textbox utrecht-textbox--html-input"
@@ -228,7 +228,7 @@ import {} from "@utrecht/component-library-vue";
               /><label># melkvee</label>
             </div>
             <div class="rvo-short-input">
-              <input
+              <Textbox
                 pattern="[0-9]*"
                 type="text"
                 class="utrecht-textbox utrecht-textbox--html-input"
@@ -236,7 +236,7 @@ import {} from "@utrecht/component-library-vue";
               /><label># varkens</label>
             </div>
             <div class="rvo-short-input">
-              <input
+              <Textbox
                 pattern="[0-9]*"
                 type="text"
                 class="utrecht-textbox utrecht-textbox--html-input"
@@ -244,7 +244,7 @@ import {} from "@utrecht/component-library-vue";
               /><label># vleesvee</label>
             </div>
             <div class="rvo-short-input">
-              <input
+              <Textbox
                 pattern="[0-9]*"
                 type="text"
                 class="utrecht-textbox utrecht-textbox--html-input"
@@ -252,7 +252,7 @@ import {} from "@utrecht/component-library-vue";
               /><label># jongvee</label>
             </div>
             <div class="rvo-short-input">
-              <input
+              <Textbox
                 pattern="[0-9]*"
                 type="text"
                 class="utrecht-textbox utrecht-textbox--html-input"

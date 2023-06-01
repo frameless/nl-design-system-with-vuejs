@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Paragraph, PageHeader } from "@utrecht/component-library-vue";
+import { Paragraph, PageHeader, Textbox } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -168,7 +168,7 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue";
                             btw)?</label
                           >
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           placeholder=""
                           pattern="[0-9]*"
@@ -251,7 +251,7 @@ import { Paragraph, PageHeader } from "@utrecht/component-library-vue";
                             </details>
                           </div>
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           placeholder=""
                           pattern="[0-9]*"
