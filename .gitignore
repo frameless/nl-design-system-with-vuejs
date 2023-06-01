@@ -131,7 +131,3 @@ dist
 
 #vite
 .vite/deps
-
-#DS_Store
-.DS_Store
-src/.DS_Store
