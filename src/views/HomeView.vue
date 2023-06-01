@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Paragraph } from "@utrecht/component-library-vue"
+import { Paragraph } from "@utrecht/component-library-vue";
 </script>
 
 <template>
