@@ -1,8 +1,11 @@
 <script setup lang="ts">
 import {
+  DataList,
+  DataListItem,
+  DataListKey,
+  DataListValue,
   Paragraph,
   PageHeader,
-  DataList,
 } from "@utrecht/component-library-vue";
 </script>
 
