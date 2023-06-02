@@ -322,7 +322,7 @@
                       placeholder=""
                       type="text"
                       class="utrecht-textbox utrecht-textbox--html-input utrecht-textbox--disabled"
-                      disabled=""
+                      disabled
                       value=""
                     />
                   </div>
@@ -344,7 +344,7 @@
                       placeholder=""
                       type="text"
                       class="utrecht-textbox utrecht-textbox--html-input utrecht-textbox--disabled"
-                      disabled=""
+                      disabled
                       value="Value"
                     />
                   </div>
