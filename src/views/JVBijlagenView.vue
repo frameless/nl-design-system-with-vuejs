@@ -216,7 +216,7 @@
                           id="field"
                           type="file"
                           class="rvo-file-input"
-                          multiple=""
+                          multiple
                         />
                       </div>
                     </fieldset>
@@ -291,7 +291,7 @@
                           id="field"
                           type="file"
                           class="rvo-file-input"
-                          multiple=""
+                          multiple
                         />
                       </div>
                     </fieldset>
@@ -323,7 +323,7 @@
                           id="field"
                           type="file"
                           class="rvo-file-input"
-                          multiple=""
+                          multiple
                         />
                       </div>
                     </fieldset>
@@ -387,7 +387,7 @@
                           id="field"
                           type="file"
                           class="rvo-file-input"
-                          multiple=""
+                          multiple
                         />
                       </div>
                     </fieldset>
@@ -427,7 +427,7 @@
                           id="field"
                           type="file"
                           class="rvo-file-input"
-                          multiple=""
+                          multiple
                         />
                       </div>
                     </fieldset>
@@ -465,7 +465,7 @@
                           id="field"
                           type="file"
                           class="rvo-file-input"
-                          multiple=""
+                          multiple
                         />
                       </div>
                     </fieldset>
