@@ -1,3 +1,6 @@
+<script setup lang="ts">
+import { Checkbox } from "@utrecht/component-library-vue";
+</script>
 <template>
   <div class="rvo-demo-page">
     <header class="rvo-header">
@@ -627,41 +630,37 @@
                           <label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionA-cb"
-                            ><input
+                            ><Checkbox
                               id="optionA-cb"
                               name="group"
                               class="rvo-checkbox__input"
-                              type="checkbox"
                               value=""
                             />Option A</label
                           ><label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionB-cb"
-                            ><input
+                            ><Checkbox
                               id="optionB-cb"
                               name="group"
                               class="rvo-checkbox__input"
-                              type="checkbox"
                               value=""
                             />Option B</label
                           ><label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionC-cb"
-                            ><input
+                            ><Checkbox
                               id="optionC-cb"
                               name="group"
                               class="rvo-checkbox__input"
-                              type="checkbox"
                               value=""
                             />Option C</label
                           ><label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionD-cb"
-                            ><input
+                            ><Checkbox
                               id="optionD-cb"
                               name="group"
                               class="rvo-checkbox__input"
-                              type="checkbox"
                               value=""
                             />Option D</label
                           >
@@ -696,41 +695,37 @@
                           <label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionA-cb-error"
-                            ><input
+                            ><Checkbox
                               id="optionA-cb-error"
                               name="group"
                               class="rvo-checkbox__input"
-                              type="checkbox"
                               value=""
                             />Option A</label
                           ><label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionB-cb-error"
-                            ><input
+                            ><Checkbox
                               id="optionB-cb-error"
                               name="group"
                               class="rvo-checkbox__input"
-                              type="checkbox"
                               value=""
                             />Option B</label
                           ><label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionC-cb-error"
-                            ><input
+                            ><Checkbox
                               id="optionC-cb-error"
                               name="group"
                               class="rvo-checkbox__input"
-                              type="checkbox"
                               value=""
                             />Option C</label
                           ><label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionD-cb-error"
-                            ><input
+                            ><Checkbox
                               id="optionD-cb-error"
                               name="group"
                               class="rvo-checkbox__input"
-                              type="checkbox"
                               value=""
                             />Option D</label
                           >
@@ -763,41 +758,37 @@
                           <label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionA-cb-warning"
-                            ><input
+                            ><Checkbox
                               id="optionA-cb-warning"
                               name="group"
                               class="rvo-checkbox__input"
-                              type="checkbox"
                               value=""
                             />Option A</label
                           ><label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionB-cb-warning"
-                            ><input
+                            ><Checkbox
                               id="optionB-cb-warning"
                               name="group"
                               class="rvo-checkbox__input"
-                              type="checkbox"
                               value=""
                             />Option B</label
                           ><label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionC-cb-warning"
-                            ><input
+                            ><Checkbox
                               id="optionC-cb-warning"
                               name="group"
                               class="rvo-checkbox__input"
-                              type="checkbox"
                               value=""
                             />Option C</label
                           ><label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionD-cb-warning"
-                            ><input
+                            ><Checkbox
                               id="optionD-cb-warning"
                               name="group"
                               class="rvo-checkbox__input"
-                              type="checkbox"
                               value=""
                             />Option D</label
                           >

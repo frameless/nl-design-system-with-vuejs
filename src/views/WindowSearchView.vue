@@ -1,3 +1,6 @@
+<script setup lang="ts">
+import { Checkbox } from "@utrecht/component-library-vue";
+</script>
 <template>
   <div class="rvo-demo-page rvo-demo-page--regelmaat">
     <div class="rvo-app rvo-app--profiel">
@@ -29,31 +32,28 @@
                   <label
                     class="rvo-checkbox rvo-checkbox--not-checked"
                     for="optionA-cb"
-                    ><input
+                    ><Checkbox
                       id="optionA-cb"
                       name="group"
                       class="rvo-checkbox__input"
-                      type="checkbox"
                       value=""
                     />die eenvoudig te realiseren zijn</label
                   ><label
                     class="rvo-checkbox rvo-checkbox--not-checked"
                     for="optionB-cb"
-                    ><input
+                    ><Checkbox
                       id="optionB-cb"
                       name="group"
                       class="rvo-checkbox__input"
-                      type="checkbox"
                       value=""
                     />die duurzaam zijn</label
                   ><label
                     class="rvo-checkbox rvo-checkbox--not-checked"
                     for="optionC-cb"
-                    ><input
+                    ><Checkbox
                       id="optionC-cb"
                       name="group"
                       class="rvo-checkbox__input"
-                      type="checkbox"
                       value=""
                     />die financieel interessant zijn</label
                   >

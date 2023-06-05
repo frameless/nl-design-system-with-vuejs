@@ -1,3 +1,6 @@
+<script setup lang="ts">
+import { Checkbox } from "@utrecht/component-library-vue";
+</script>
 <template>
   <div class="rvo-demo-page">
     <header class="rvo-header">
@@ -173,21 +176,19 @@
                           <label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="fca"
-                            ><input
+                            ><Checkbox
                               id="fca"
                               name="group"
                               class="rvo-checkbox__input"
-                              type="checkbox"
                               value=""
                             />Bewijs van het eigen vermogen</label
                           ><label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="fcb"
-                            ><input
+                            ><Checkbox
                               id="fcb"
                               name="group"
                               class="rvo-checkbox__input"
-                              type="checkbox"
                               value=""
                             />Bewijs van de lening die is toegezegd</label
                           >
@@ -248,21 +249,19 @@
                           <label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="wea"
-                            ><input
+                            ><Checkbox
                               id="wea"
                               name="group"
                               class="rvo-checkbox__input"
-                              type="checkbox"
                               value=""
                             />Bewijs van de opleiding</label
                           ><label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="web"
-                            ><input
+                            ><Checkbox
                               id="web"
                               name="group"
                               class="rvo-checkbox__input"
-                              type="checkbox"
                               value=""
                             />Bewijs dat u vijf jaar werkervaring heeft</label
                           >

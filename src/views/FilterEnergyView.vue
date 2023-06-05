@@ -1,3 +1,6 @@
+<script setup lang="ts">
+import { Checkbox } from "@utrecht/component-library-vue";
+</script>
 <template>
   <div class="rvo-demo-page">
     <header class="rvo-header">
@@ -124,8 +127,7 @@
                               <label
                                 class="rvo-checkbox rvo-checkbox--not-checked rvo-layout-row rvo-layout-gap--sm"
                                 for="optionA"
-                                ><input
-                                  type="checkbox"
+                                ><Checkbox
                                   id="optionA"
                                   name="group"
                                   class="rvo-checkbox__input"
@@ -134,8 +136,7 @@
                               ><label
                                 class="rvo-checkbox rvo-checkbox--checked rvo-layout-row rvo-layout-gap--sm"
                                 for="optionB"
-                                ><input
-                                  type="checkbox"
+                                ><Checkbox
                                   id="optionB"
                                   name="group"
                                   class="rvo-checkbox__input"
@@ -144,8 +145,7 @@
                               ><label
                                 class="rvo-checkbox rvo-checkbox--not-checked rvo-layout-row rvo-layout-gap--sm"
                                 for="optionC"
-                                ><input
-                                  type="checkbox"
+                                ><Checkbox
                                   id="optionC"
                                   name="group"
                                   class="rvo-checkbox__input"
@@ -154,8 +154,7 @@
                               ><label
                                 class="rvo-checkbox rvo-checkbox--not-checked rvo-layout-row rvo-layout-gap--sm"
                                 for="optionD"
-                                ><input
-                                  type="checkbox"
+                                ><Checkbox
                                   id="optionD"
                                   name="group"
                                   class="rvo-checkbox__input"
@@ -191,8 +190,7 @@
                               <label
                                 class="rvo-checkbox rvo-checkbox--not-checked rvo-layout-row rvo-layout-gap--sm"
                                 for="optionA1"
-                                ><input
-                                  type="checkbox"
+                                ><Checkbox
                                   id="optionA1"
                                   name="group"
                                   class="rvo-checkbox__input"
@@ -201,8 +199,7 @@
                               ><label
                                 class="rvo-checkbox rvo-checkbox--checked rvo-layout-row rvo-layout-gap--sm"
                                 for="optionB1"
-                                ><input
-                                  type="checkbox"
+                                ><Checkbox
                                   id="optionB1"
                                   name="group"
                                   class="rvo-checkbox__input"
@@ -211,8 +208,7 @@
                               ><label
                                 class="rvo-checkbox rvo-checkbox--not-checked rvo-layout-row rvo-layout-gap--sm"
                                 for="optionC1"
-                                ><input
-                                  type="checkbox"
+                                ><Checkbox
                                   id="optionC1"
                                   name="group"
                                   class="rvo-checkbox__input"
@@ -221,8 +217,7 @@
                               ><label
                                 class="rvo-checkbox rvo-checkbox--not-checked rvo-layout-row rvo-layout-gap--sm"
                                 for="optionD1"
-                                ><input
-                                  type="checkbox"
+                                ><Checkbox
                                   id="optionD1"
                                   name="group"
                                   class="rvo-checkbox__input"
@@ -258,8 +253,7 @@
                               <label
                                 class="rvo-checkbox rvo-checkbox--not-checked rvo-layout-row rvo-layout-gap--sm"
                                 for="optionA2"
-                                ><input
-                                  type="checkbox"
+                                ><Checkbox
                                   id="optionA2"
                                   name="group"
                                   class="rvo-checkbox__input"
@@ -295,8 +289,7 @@
                               <label
                                 class="rvo-checkbox rvo-checkbox--not-checked rvo-layout-row rvo-layout-gap--sm"
                                 for="optionA3"
-                                ><input
-                                  type="checkbox"
+                                ><Checkbox
                                   id="optionA3"
                                   name="group"
                                   class="rvo-checkbox__input"
@@ -305,8 +298,7 @@
                               ><label
                                 class="rvo-checkbox rvo-checkbox--checked rvo-layout-row rvo-layout-gap--sm"
                                 for="optionB3"
-                                ><input
-                                  type="checkbox"
+                                ><Checkbox
                                   id="optionB3"
                                   name="group"
                                   class="rvo-checkbox__input"

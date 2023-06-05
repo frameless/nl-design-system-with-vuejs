@@ -1,3 +1,6 @@
+<script setup lang="ts">
+import { Checkbox } from "@utrecht/component-library-vue";
+</script>
 <template>
   <div class="rvo-demo-page rvo-demo-page--mijn-rvo">
     <div class="rvo-header-content">
@@ -230,8 +233,7 @@
                         <label
                           class="rvo-checkbox rvo-checkbox--not-checked rvo-layout-row rvo-layout-gap--sm"
                           for="optionA"
-                          ><input
-                            type="checkbox"
+                          ><Checkbox
                             id="optionA"
                             name="group"
                             class="rvo-checkbox__input"
@@ -240,8 +242,7 @@
                         ><label
                           class="rvo-checkbox rvo-checkbox--checked rvo-layout-row rvo-layout-gap--sm"
                           for="optionB"
-                          ><input
-                            type="checkbox"
+                          ><Checkbox
                             id="optionB"
                             name="group"
                             class="rvo-checkbox__input"
@@ -250,8 +251,7 @@
                         ><label
                           class="rvo-checkbox rvo-checkbox--not-checked rvo-layout-row rvo-layout-gap--sm"
                           for="optionC"
-                          ><input
-                            type="checkbox"
+                          ><Checkbox
                             id="optionC"
                             name="group"
                             class="rvo-checkbox__input"
