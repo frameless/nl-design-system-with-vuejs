@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { Paragraph, Heading } from "@utrecht/component-library-vue";
 </script>
+
 <template>
   <div id="storybook-root">
     <div class="rvo-demo-page rvo-demo-page--regelmaat">

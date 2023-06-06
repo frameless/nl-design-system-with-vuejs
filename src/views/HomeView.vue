@@ -130,6 +130,7 @@ import { Paragraph, Heading } from "@utrecht/component-library-vue";
                   kennis- en financiële instellingen, ambassades en lokale
                   overheden.
                 </Paragraph>
+                </Paragraph>
               </div>
               <div class="rvo-hero-img-container">
                 <img src="../images/man-met-laptop.webp" class="rvo-hero-img" />

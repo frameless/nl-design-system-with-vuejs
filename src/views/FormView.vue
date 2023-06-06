@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { Heading, Checkbox } from "@utrecht/component-library-vue";
+import { Heading, Checkbox, Paragraph } from "@utrecht/component-library-vue";
 </script>
+
 <template>
   <div class="rvo-demo-page">
     <header class="rvo-header">
@@ -891,7 +892,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                       </div>
                     </fieldset>
                   </div>
-                  <p class="utrecht-button-group">
+                  <Paragraph class="utrecht-button-group">
                     <button
                       class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-md"
                       type="button"
@@ -903,7 +904,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                     >
                       Secondary action
                     </button>
-                  </p>
+                  </Paragraph>
                 </form>
               </div>
             </div>

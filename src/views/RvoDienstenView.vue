@@ -11,6 +11,7 @@ import {
   <div class="rvo-demo-page rvo-demo-page--mijn-rvo rvo-demo-page--diensten">
     <div class="rvo-header-content">
       <PageHeader class="rvo-header">
+      <PageHeader class="rvo-header">
         <div class="rvo-header__logo-wrapper">
           <a href="/" class="rvo-header__logo-link"
             ><img
@@ -19,6 +20,7 @@ import {
               class="rvo-logo-img rvo-header__logo-img"
           /></a>
         </div>
+      </PageHeader>
       </PageHeader>
       <details class="rvo-responsive-menu">
         <summary>
@@ -145,6 +147,7 @@ import {
               <Paragraph class="rvo-hero-description">
                 Geef aan wie u bent en wat u zoekt, en u krijgt een overzicht
                 met diensten op maat.
+              </Paragraph>
               </Paragraph>
             </div>
             <div class="rvo-hero-img-container">

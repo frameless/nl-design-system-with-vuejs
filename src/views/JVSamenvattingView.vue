@@ -182,7 +182,7 @@ import { Paragraph, PageHeader, Heading } from "@utrecht/component-library-vue";
                   aria-label="Waarschuwing"
                 ></span>
                 <div class="rvo-alert-text">
-                  <p>
+                  <Paragraph>
                     U kunt het vissersvaartuig aanschaffen na uw aanvraag voor
                     subsidie. Dat betekent dat ook betaling en levering van het
                     vissersvaartuig pas na aanvraag voor de subsidie kan. U
@@ -190,7 +190,7 @@ import { Paragraph, PageHeader, Heading } from "@utrecht/component-library-vue";
                     vissersvaartuig aan te schaffen. Hou er wel rekening mee dat
                     u alleen subsidie ontvangt voor deze activiteiten als uw
                     aanvraag wordt toegewezen.
-                  </p>
+                  </Paragraph>
                 </div>
               </div>
               <div class="rvo-button-group">

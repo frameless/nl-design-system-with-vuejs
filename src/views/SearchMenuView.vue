@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { PageHeader, Heading } from "@utrecht/component-library-vue";
+import { PageHeader, Paragraph, Heading } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -107,11 +107,13 @@ import { PageHeader, Heading } from "@utrecht/component-library-vue";
       <div class="rvo-max-width-layout rvo-max-width-layout--sm">
         <main>
           <div class="rvo-content">
-            <Heading :level="1">Search in Navigation</Heading>
-            <p class="rvo-paragraph rvo-paragraph--md">
+            <Heading :level="1" class="utrecht-heading-1"
+              >Search in Navigation</Heading
+            >
+            <Paragraph class="rvo-paragraph rvo-paragraph--md">
               This demopage demonstrates how a search element can be included in
               the navbar. As you can see this in included.
-            </p>
+            </Paragraph>
           </div>
         </main>
       </div>

@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { Heading } from "@utrecht/component-library-vue";
+import { Paragraph, Heading } from "@utrecht/component-library-vue";
 </script>
+
 <template>
   <div class="rvo-demo-page">
     <header class="rvo-header">
@@ -103,8 +104,10 @@ import { Heading } from "@utrecht/component-library-vue";
             </ol>
           </div>
           <div class="rvo-content">
-            <Heading :level="1">Breadcrumbs example</Heading>
-            <p class="rvo-paragraph rvo-paragraph--md">
+            <Heading :level="1" class="utrecht-heading-1"
+              >Breadcrumbs example</Heading
+            >
+            <Paragraph class="rvo-paragraph rvo-paragraph--md">
               <strong>Paragraph medium.</strong> De overheid zet zich in voor
               een uitstekend ondernemersklimaat. De ministeries stippelen daar
               beleid voor uit. En de taak om dit uit te voeren ligt bij RVO: de
@@ -113,7 +116,7 @@ import { Heading } from "@utrecht/component-library-vue";
               <a href="#" class="rvo-link">Dit is een link.</a>Tussen bedrijven,
               kennis- en financiële instellingen, ambassades en lokale
               overheden.
-            </p>
+            </Paragraph>
           </div>
         </main>
       </div>
