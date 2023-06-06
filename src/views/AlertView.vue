@@ -1,3 +1,6 @@
+<script setup lang="ts">
+import { Button } from "@utrecht/component-library-vue";
+</script>
 <template>
   <div class="rvo-demo-page">
     <header class="rvo-header">
@@ -90,12 +93,12 @@
                 ></span>
                 <div class="rvo-alert-text">
                   <p>This is an example of an info alert with a button.</p>
-                  <button
-                    class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-sm"
-                    type="button"
+                  <Button
+                    class="utrecht-button--rvo-sm"
+                    appearance="primary-action-button"
                   >
                     Button
-                  </button>
+                  </Button>
                 </div>
               </div>
               <div class="rvo-alert rvo-alert--info">
@@ -110,16 +113,16 @@
                     button.
                   </p>
                 </div>
-                <button
-                  class="utrecht-button utrecht-button--subtle rvo-button--close utrecht-button--rvo-md"
-                  type="button"
+                <Button
+                  class="rvo-button--close utrecht-button--rvo-md"
+                  appearance="subtle-button"
                 >
                   <span
                     class="utrecht-icon rvo-icon rvo-icon-kruis rvo-icon--md rvo-icon--hemelblauw"
                     role="img"
                     aria-label="Kruis"
                   ></span>
-                </button>
+                </Button>
               </div>
               <div class="rvo-alert rvo-alert--warning">
                 <span
@@ -150,12 +153,12 @@
                 ></span>
                 <div class="rvo-alert-text">
                   <p>This is an example of a warning alert with a button.</p>
-                  <button
-                    class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-sm"
-                    type="button"
+                  <Button
+                    class="utrecht-button--rvo-sm"
+                    appearance="primary-action-button"
                   >
                     Button
-                  </button>
+                  </Button>
                 </div>
               </div>
               <div class="rvo-alert rvo-alert--warning">
@@ -170,16 +173,16 @@
                     button.
                   </p>
                 </div>
-                <button
-                  class="utrecht-button utrecht-button--subtle rvo-button--close utrecht-button--rvo-md"
-                  type="button"
+                <Button
+                  class="rvo-button--close utrecht-button--rvo-md"
+                  appearance="subtle-button"
                 >
                   <span
                     class="utrecht-icon rvo-icon rvo-icon-kruis rvo-icon--md rvo-icon--hemelblauw"
                     role="img"
                     aria-label="Kruis"
                   ></span>
-                </button>
+                </Button>
               </div>
               <div class="rvo-alert rvo-alert--error">
                 <span
@@ -209,13 +212,16 @@
                   aria-label="Foutmelding"
                 ></span>
                 <div class="rvo-alert-text">
-                  <p>This is an example of a error alert with a button.</p>
-                  <button
-                    class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-sm"
-                    type="button"
+                  <Paragraph
+                    >This is an example of a error alert with a
+                    button.</Paragraph
+                  >
+                  <Button
+                    class="utrecht-button--rvo-sm"
+                    appearance="primary-action-button"
                   >
                     Button
-                  </button>
+                  </Button>
                 </div>
               </div>
               <div class="rvo-alert rvo-alert--error">
@@ -230,16 +236,16 @@
                     button.
                   </p>
                 </div>
-                <button
-                  class="utrecht-button utrecht-button--subtle rvo-button--close utrecht-button--rvo-md"
-                  type="button"
+                <Button
+                  class="rvo-button--close utrecht-button--rvo-md"
+                  appearance="subtle-button"
                 >
                   <span
                     class="utrecht-icon rvo-icon rvo-icon-kruis rvo-icon--md rvo-icon--hemelblauw"
                     role="img"
                     aria-label="Kruis"
                   ></span>
-                </button>
+                </Button>
               </div>
               <div class="rvo-alert rvo-alert--succes">
                 <span
@@ -270,12 +276,12 @@
                 ></span>
                 <div class="rvo-alert-text">
                   <p>This is an example of a succes alert with a button.</p>
-                  <button
-                    class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-sm"
-                    type="button"
+                  <Button
+                    class="utrecht-button--rvo-sm"
+                    appearance="primary-action-button"
                   >
                     Button
-                  </button>
+                  </Button>
                 </div>
               </div>
               <div class="rvo-alert rvo-alert--succes">
@@ -290,16 +296,16 @@
                     button.
                   </p>
                 </div>
-                <button
-                  class="utrecht-button utrecht-button--subtle rvo-button--close utrecht-button--rvo-md"
-                  type="button"
+                <Button
+                  class="rvo-button--close utrecht-button--rvo-md"
+                  appearance="subtle-button"
                 >
                   <span
                     class="utrecht-icon rvo-icon rvo-icon-kruis rvo-icon--md rvo-icon--hemelblauw"
                     role="img"
                     aria-label="Kruis"
                   ></span>
-                </button>
+                </Button>
               </div>
             </div>
           </div>

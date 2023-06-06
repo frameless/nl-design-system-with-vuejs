@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { Heading } from "@utrecht/component-library-vue";
+import { Button, Heading, PageHeader } from "@utrecht/component-library-vue";
 </script>
 <template>
   <div class="rvo-demo-page">
-    <header class="rvo-header">
+    <PageHeader class="rvo-header">
       <div class="rvo-header__logo-wrapper">
         <a href="/" class="rvo-header__logo-link"
           ><img
@@ -12,7 +12,7 @@ import { Heading } from "@utrecht/component-library-vue";
             class="rvo-logo-img rvo-header__logo-img"
         /></a>
       </div>
-    </header>
+    </PageHeader>
     <div class="rvo-topnav__background">
       <nav
         class="rvo-topnav rvo-topnav--md rvo-max-width-layout rvo-max-width-layout--md"
@@ -146,17 +146,17 @@ import { Heading } from "@utrecht/component-library-vue";
             <form>
               <div class="rvo-layout-column rvo-layout-gap--md">
                 <div class="rvo-button-group">
-                  <button
-                    class="utrecht-button utrecht-button--subtle utrecht-button--warning utrecht-button--rvo-sm"
-                    type="button"
+                  <Button
+                    class="utrecht-button--warning utrecht-button--rvo-sm"
+                    appearance="subtle-button"
                   >
-                    Annuleren</button
-                  ><button
-                    class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-md"
-                    type="button"
+                    Annuleren</Button
+                  ><Button
+                    class="utrecht-button--rvo-md"
+                    appearance="primary-action-button"
                   >
                     Start aanvraag
-                  </button>
+                  </Button>
                 </div>
               </div>
             </form>
