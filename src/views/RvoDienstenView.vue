@@ -135,7 +135,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
 				<div class="rvo-max-width-layout rvo-max-width-layout--md">
 					<div class="rvo-hero-content">
 						<div class="rvo-hero-text">
-							<Heading :level="1" class="utrecht-heading-1">Diensten</Heading>
+							<Heading :level="1">Diensten</Heading>
 							<p class="rvo-hero-description">
 								Geef aan wie u bent en wat u zoekt, en u krijgt een overzicht
 								met diensten op maat.
@@ -452,7 +452,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
 							<div
 								class="rvo-item-list-detail rvo-item-list-detail--description"
 							>
-								<Heading>
+								<Heading :level="3">
 									<a class="rvo-link" href="#"
 										>Borgstelling MKB-kredieten (BMKB)</a
 									>
@@ -469,7 +469,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
 							<div
 								class="rvo-item-list-detail rvo-item-list-detail--description"
 							>
-								<Heading>
+								<Heading :level="3">
 									<a class="rvo-link" href="#">SBIR innovatie in opdracht</a>
 								</Heading>
 							</div>
