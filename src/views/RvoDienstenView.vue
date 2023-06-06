@@ -1,10 +1,16 @@
 <script setup lang="ts">
-import { Heading, Checkbox } from "@utrecht/component-library-vue";
+import {
+  Paragraph,
+  PageHeader,
+  Heading,
+  Checkbox,
+} from "@utrecht/component-library-vue";
 </script>
+
 <template>
   <div class="rvo-demo-page rvo-demo-page--mijn-rvo rvo-demo-page--diensten">
     <div class="rvo-header-content">
-      <header class="rvo-header">
+      <PageHeader class="rvo-header">
         <div class="rvo-header__logo-wrapper">
           <a href="/" class="rvo-header__logo-link"
             ><img
@@ -13,7 +19,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
               class="rvo-logo-img rvo-header__logo-img"
           /></a>
         </div>
-      </header>
+      </PageHeader>
       <details class="rvo-responsive-menu">
         <summary>
           <span
@@ -136,10 +142,10 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
           <div class="rvo-hero-content">
             <div class="rvo-hero-text">
               <Heading :level="1">Diensten</Heading>
-              <p class="rvo-hero-description">
+              <Paragraph class="rvo-hero-description">
                 Geef aan wie u bent en wat u zoekt, en u krijgt een overzicht
                 met diensten op maat.
-              </p>
+              </Paragraph>
             </div>
             <div class="rvo-hero-img-container">
               <img

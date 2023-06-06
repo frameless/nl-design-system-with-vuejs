@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Heading } from "@utrecht/component-library-vue";
+import { Paragraph, Heading } from "@utrecht/component-library-vue";
 </script>
 <template>
   <div class="rvo-demo-page rvo-demo-page--regelmaat">
@@ -7,10 +7,10 @@ import { Heading } from "@utrecht/component-library-vue";
       <div class="rvo-app-container rvo-app-container--maatregelen">
         <div class="rvo-app-content">
           <Heading :level="1">Suggesties</Heading>
-          <p>
+          <Paragraph>
             Regelmaat heeft de volgende <strong>maatregelen</strong> voor u
             gevonden
-          </p>
+          </Paragraph>
           <div class="rvo-alert rvo-alert--warning">
             <span
               class="utrecht-icon rvo-icon rvo-icon-waarschuwing rvo-icon--xl rvo-status-icon-waarschuwing"

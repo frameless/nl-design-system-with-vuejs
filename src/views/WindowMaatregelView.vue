@@ -1,35 +1,44 @@
 <script setup lang="ts">
-import { Heading } from "@utrecht/component-library-vue";
+import { Paragraph, Heading } from "@utrecht/component-library-vue";
 </script>
+
 <template>
   <div id="storybook-root">
     <div class="rvo-demo-page rvo-demo-page--regelmaat">
       <div class="rvo-app rvo-app--maatregelen">
         <div class="rvo-app-container rvo-app-container--maatregel">
           <div class="rvo-app-content">
-            <Heading :level="1">Onderzaai vanggewas</Heading>
-            <Heading :level="3">Wat is het?</Heading>
-            <p>
+            <Heading :level="1" class="utrecht-heading-1"
+              >Onderzaai vanggewas</Heading
+            >
+            <Heading :level="3" class="utrecht-heading-3">Wat is het?</Heading>
+            <Paragraph>
               Grasland met kruiden zorgt voor een diepere doorworteling en een
               betere bodemstructuur. En voor diversiteit in ruwvoer.
-            </p>
-            <Heading :level="3">Wat levert het op?</Heading>
-            <p>
+            </Paragraph>
+            <Heading :level="3" class="utrecht-heading-3"
+              >Wat levert het op?</Heading
+            >
+            <Paragraph>
               Staan er op het perceel minimaal 25% kruiden en vlinderbloemige
               gewassen (ingezaaid of spontane opkomst); en minimaal 25% gras.
-            </p>
-            <Heading :level="3">In welke situatie geschikt?</Heading>
-            <p>
+            </Paragraph>
+            <Heading :level="3" class="utrecht-heading-3"
+              >In welke situatie geschikt?</Heading
+            >
+            <Paragraph>
               Uw perceel is zichtbaar bedekt en u verdeelt het gras, de kruiden
               en vlinderbloemige gewassen gelijkmatig over het perceel.
-            </p>
-            <Heading :level="3">Wat moet ik er voor doen?</Heading>
-            <p>
+            </Paragraph>
+            <Heading :level="3" class="utrecht-heading-3"
+              >Wat moet ik er voor doen?</Heading
+            >
+            <Paragraph>
               In het document Gewascodes en gewassen eco-activiteiten leest u
               welke gewassen meetellen voor deze eco-activiteit. En welke
               grassen, kruiden en vlinderbloemige gewassen uit de lijst
               Stikstofbindend gewas.
-            </p>
+            </Paragraph>
             <div class="rvo-maatregel-actions">
               <details class="rvo-bewaar-knop">
                 <summary class="rvo-maatregel-bewaar-link">

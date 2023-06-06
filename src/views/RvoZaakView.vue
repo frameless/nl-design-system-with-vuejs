@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { Heading } from "@utrecht/component-library-vue";
+import { Paragraph, PageHeader, Heading } from "@utrecht/component-library-vue";
 </script>
+
 <template>
   <div class="rvo-demo-page rvo-demo-page--mijn-rvo">
     <div class="rvo-header-content">

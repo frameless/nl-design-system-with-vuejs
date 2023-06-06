@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { Heading } from "@utrecht/component-library-vue";
+import { Heading, Paragraph, PageHeader } from "@utrecht/component-library-vue";
 </script>
 
 <template>
   <div class="rvo-demo-page rvo-demo-page--mijn-rvo">
     <div class="rvo-header-content">
-      <header class="rvo-header">
+      <PageHeader class="rvo-header">
         <div class="rvo-header__logo-wrapper">
           <a href="/" class="rvo-header__logo-link"
             ><img
@@ -14,7 +14,7 @@ import { Heading } from "@utrecht/component-library-vue";
               class="rvo-logo-img rvo-header__logo-img"
           /></a>
         </div>
-      </header>
+      </PageHeader>
       <details class="rvo-responsive-menu">
         <summary>
           <span
@@ -136,11 +136,13 @@ import { Heading } from "@utrecht/component-library-vue";
         <div class="rvo-max-width-layout rvo-max-width-layout--md">
           <div class="rvo-hero-content">
             <div class="rvo-hero-text">
-              <Heading :level="1">Mijn profiel</Heading>
-              <p class="rvo-hero-description">
+              <Heading :level="1" class="utrecht-heading-1"
+                >Mijn profiel</Heading
+              >
+              <Paragraph class="rvo-hero-description">
                 Hier vindt u een overzicht van uw gegevens en machtigingen zoals
                 deze bij ons bekend zijn.
-              </p>
+              </Paragraph>
             </div>
             <div class="rvo-hero-img-container">
               <img src="../images/vrouw-met-laptop.webp" class="rvo-hero-img" />

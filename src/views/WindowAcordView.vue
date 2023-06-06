@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Heading } from "@utrecht/component-library-vue";
+import { Paragraph, Heading } from "@utrecht/component-library-vue";
 </script>
 <template>
   <div id="storybook-root">
@@ -30,16 +30,16 @@ import { Heading } from "@utrecht/component-library-vue";
           </div>
           <div class="rvo-app-content">
             <Heading :level="1">Voorwaarden</Heading>
-            <p>
+            <Paragraph>
               De Regelmaat is een maat die op maat maatregelen voor u regelt.
               Vul uw profiel in en de Regelmaat doet suggesties voor maatregelen
               die voor jou van toepassing kunnen zijn.
-            </p>
-            <p>
+            </Paragraph>
+            <Paragraph>
               <strong>Disclaimer</strong><br />
               Deze app is momenteel in de beta fase en daarom onderhevig aan
               constante verbeteringen.
-            </p>
+            </Paragraph>
             <a
               href="iframe.html?args=&amp;id=demo-pagina-s-de-regelmaat--profiel-intro&amp;viewMode=story"
               class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-md"
