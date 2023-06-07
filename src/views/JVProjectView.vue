@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import { Heading, Heading1 } from "@utrecht/component-library-vue";
+import { Heading } from "@utrecht/component-library-vue";
+import { UnorderedList } from "@utrecht/component-library-vue";
+import { UnorderedListItem } from "@utrecht/component-library-vue";
 </script>
 <template>
   <div class="rvo-demo-page">
@@ -18,8 +20,8 @@ import { Heading, Heading1 } from "@utrecht/component-library-vue";
         <nav
           class="rvo-topnav rvo-topnav--lg rvo-max-width-layout rvo-max-width-layout--md"
         >
-          <ul class="utrecht-topnav__list">
-            <li class="utrecht-topnav__item">
+          <UnorderedList class="utrecht-topnav__list">
+            <UnorderedListItem class="utrecht-topnav__item">
               <a
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--zaak&amp;viewMode=story"
@@ -30,15 +32,17 @@ import { Heading, Heading1 } from "@utrecht/component-library-vue";
                 ></span
                 >Terug naar Mijn RVO</a
               >
-            </li>
-            <li class="utrecht-topnav__item utrecht-topnav__item--align-right">
+            </UnorderedListItem>
+            <UnorderedListItem
+              class="utrecht-topnav__item utrecht-topnav__item--align-right"
+            >
               <a
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--inloggen&amp;viewMode=story"
                 >Uitloggen</a
               >
-            </li>
-          </ul>
+            </UnorderedListItem>
+          </UnorderedList>
         </nav>
       </div>
       <div class="rvo-max-width-layout rvo-max-width-layout--md">

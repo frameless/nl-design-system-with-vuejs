@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { Heading } from "@utrecht/component-library-vue";
+import { UnorderedList } from "@utrecht/component-library-vue";
+import { UnorderedListItem } from "@utrecht/component-library-vue";
 </script>
 <template>
   <div class="rvo-demo-page">
@@ -17,8 +19,8 @@ import { Heading } from "@utrecht/component-library-vue";
       <nav
         class="rvo-topnav rvo-topnav--md rvo-max-width-layout rvo-max-width-layout--md"
       >
-        <ul class="utrecht-topnav__list">
-          <li class="utrecht-topnav__item">
+        <UnorderedList class="utrecht-topnav__list">
+          <UnorderedListItem class="utrecht-topnav__item">
             <a class="utrecht-topnav__link" href="#"
               ><span
                 class="utrecht-icon rvo-icon rvo-icon-home rvo-icon--md rvo-icon--wit"
@@ -27,8 +29,8 @@ import { Heading } from "@utrecht/component-library-vue";
               ></span
               >Home</a
             >
-          </li>
-          <li class="utrecht-topnav__item">
+          </UnorderedListItem>
+          <UnorderedListItem class="utrecht-topnav__item">
             <a class="utrecht-topnav__link" href="#"
               ><span
                 class="utrecht-icon rvo-icon rvo-icon-publicatie rvo-icon--md rvo-icon--wit"
@@ -37,8 +39,8 @@ import { Heading } from "@utrecht/component-library-vue";
               ></span
               >Mijn aanvragen</a
             >
-          </li>
-          <li class="utrecht-topnav__item">
+          </UnorderedListItem>
+          <UnorderedListItem class="utrecht-topnav__item">
             <a class="utrecht-topnav__link" href="#"
               ><span
                 class="utrecht-icon rvo-icon rvo-icon-plus rvo-icon--md rvo-icon--wit"
@@ -47,8 +49,10 @@ import { Heading } from "@utrecht/component-library-vue";
               ></span
               >Nieuwe aanvraag</a
             >
-          </li>
-          <li class="utrecht-topnav__item utrecht-topnav__item--align-right">
+          </UnorderedListItem>
+          <UnorderedListItem
+            class="utrecht-topnav__item utrecht-topnav__item--align-right"
+          >
             <a class="utrecht-topnav__link" href="#"
               ><span
                 class="utrecht-icon rvo-icon rvo-icon-versleutelen rvo-icon--md rvo-icon--wit"
@@ -57,8 +61,8 @@ import { Heading } from "@utrecht/component-library-vue";
               ></span
               >Uitloggen</a
             >
-          </li>
-        </ul>
+          </UnorderedListItem>
+        </UnorderedList>
       </nav>
     </div>
     <div class="rvo-max-width-layout rvo-max-width-layout--md">
@@ -129,19 +133,29 @@ import { Heading } from "@utrecht/component-library-vue";
               >
               <Heading :level="1">Voordat u start</Heading>
               <Heading :level="2">Dit heeft u nodig</Heading>
-              <ul class="rvo-list">
-                <li class="rvo-ul-item">Recente gegevens</li>
-                <li class="rvo-ul-item">Kopie van uw paspoort</li>
-                <li class="rvo-ul-item">Uittreksel van het KVK register</li>
-              </ul>
+              <UnorderedList class="rvo-list">
+                <UnorderedListItem class="rvo-ul-item"
+                  >Recente gegevens</UnorderedListItem
+                >
+                <UnorderedListItem class="rvo-ul-item"
+                  >Kopie van uw paspoort</UnorderedListItem
+                >
+                <UnorderedListItem class="rvo-ul-item"
+                  >Uittreksel van het KVK register</UnorderedListItem
+                >
+              </UnorderedList>
               <Heading :level="2">Hieraan moet u voldoen</Heading>
-              <ul class="rvo-list">
-                <li class="rvo-ul-item">
+              <UnorderedList class="rvo-list">
+                <UnorderedListItem class="rvo-ul-item">
                   Ingeschreven bij de Kamer van Koophandel
-                </li>
-                <li class="rvo-ul-item">Minimaal 50 S&amp;O-werknemers</li>
-                <li class="rvo-ul-item">Hoofdkantoor gevestigd in Nederland</li>
-              </ul>
+                </UnorderedListItem>
+                <UnorderedListItem class="rvo-ul-item"
+                  >Minimaal 50 S&amp;O-werknemers</UnorderedListItem
+                >
+                <UnorderedListItem class="rvo-ul-item"
+                  >Hoofdkantoor gevestigd in Nederland</UnorderedListItem
+                >
+              </UnorderedList>
             </div>
             <form>
               <div class="rvo-layout-column rvo-layout-gap--md">

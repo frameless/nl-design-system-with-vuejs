@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { Heading, Checkbox } from "@utrecht/component-library-vue";
+import { UnorderedListItem } from "@utrecht/component-library-vue";
+import { UnorderedList } from "@utrecht/component-library-vue";
 </script>
 <template>
   <div class="rvo-demo-page rvo-demo-page--mijn-rvo rvo-demo-page--diensten">
@@ -28,32 +30,32 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
           <nav
             class="rvo-topnav rvo-topnav--lg rvo-max-width-layout rvo-max-width-layout--md"
           >
-            <ul class="utrecht-topnav__list">
-              <li class="utrecht-topnav__item">
+            <UnorderedList class="utrecht-topnav__list">
+              <UnorderedListItem class="utrecht-topnav__item">
                 <a
                   class="utrecht-topnav__link"
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
                   >Zaken</a
                 >
-              </li>
-              <li class="utrecht-topnav__item">
+              </UnorderedListItem>
+              <UnorderedListItem class="utrecht-topnav__item">
                 <a
                   class="utrecht-topnav__link"
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--diensten&amp;viewMode=story"
                   >Diensten</a
                 >
-              </li>
-              <li class="utrecht-topnav__item">
+              </UnorderedListItem>
+              <UnorderedListItem class="utrecht-topnav__item">
                 <a class="utrecht-topnav__link" href="#">Help</a>
-              </li>
-              <li class="utrecht-topnav__item">
+              </UnorderedListItem>
+              <UnorderedListItem class="utrecht-topnav__item">
                 <a
                   class="utrecht-topnav__link"
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--profiel&amp;viewMode=story"
                   >Profiel</a
                 >
-              </li>
-              <li
+              </UnorderedListItem>
+              <UnorderedListItem
                 class="utrecht-topnav__item utrecht-topnav__item--align-right"
               >
                 <a
@@ -61,8 +63,8 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--inloggen&amp;viewMode=story"
                   >Uitloggen</a
                 >
-              </li>
-              <li class="utrecht-topnav__item">
+              </UnorderedListItem>
+              <UnorderedListItem class="utrecht-topnav__item">
                 <a class="utrecht-topnav__link" href="#"
                   ><span
                     class="utrecht-icon rvo-icon rvo-icon-wereldbol rvo-icon--lg rvo-icon--wit"
@@ -71,8 +73,8 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                   ></span
                   >English</a
                 >
-              </li>
-            </ul>
+              </UnorderedListItem>
+            </UnorderedList>
           </nav>
         </div>
       </details>
@@ -80,39 +82,43 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
         <nav
           class="rvo-topnav rvo-topnav--lg rvo-max-width-layout rvo-max-width-layout--md"
         >
-          <ul class="utrecht-topnav__list">
-            <li class="utrecht-topnav__item">
+          <UnorderedList class="utrecht-topnav__list">
+            <UnorderedListItem class="utrecht-topnav__item">
               <a
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
                 >Zaken</a
               >
-            </li>
-            <li class="utrecht-topnav__item utrecht-topnav__item--active">
+            </UnorderedListItem>
+            <UnorderedListItem
+              class="utrecht-topnav__item utrecht-topnav__item--active"
+            >
               <a
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--diensten&amp;viewMode=story"
                 >Diensten</a
               >
-            </li>
-            <li class="utrecht-topnav__item">
+            </UnorderedListItem>
+            <UnorderedListItem class="utrecht-topnav__item">
               <a class="utrecht-topnav__link" href="#">Help</a>
-            </li>
-            <li class="utrecht-topnav__item">
+            </UnorderedListItem>
+            <UnorderedListItem class="utrecht-topnav__item">
               <a
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--profiel&amp;viewMode=story"
                 >Profiel</a
               >
-            </li>
-            <li class="utrecht-topnav__item utrecht-topnav__item--align-right">
+            </UnorderedListItem>
+            <UnorderedListItem
+              class="utrecht-topnav__item utrecht-topnav__item--align-right"
+            >
               <a
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--inloggen&amp;viewMode=story"
                 >Uitloggen</a
               >
-            </li>
-            <li class="utrecht-topnav__item">
+            </UnorderedListItem>
+            <UnorderedListItem class="utrecht-topnav__item">
               <a class="utrecht-topnav__link" href="#"
                 ><span
                   class="utrecht-icon rvo-icon rvo-icon-wereldbol rvo-icon--lg rvo-icon--wit"
@@ -121,8 +127,8 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                 ></span
                 >English</a
               >
-            </li>
-          </ul>
+            </UnorderedListItem>
+          </UnorderedList>
         </nav>
       </div>
       <div class="rvo-hero rvo-hero--man_vrouw_met_laptop">

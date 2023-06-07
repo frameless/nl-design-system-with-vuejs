@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { Heading } from "@utrecht/component-library-vue";
+import { UnorderedList } from "@utrecht/component-library-vue";
+import { UnorderedListItem } from "@utrecht/component-library-vue";
 </script>
 <template>
   <div class="rvo-demo-page rvo-demo-page--sub-menu">
@@ -19,19 +21,19 @@ import { Heading } from "@utrecht/component-library-vue";
           <nav
             class="rvo-topnav rvo-topnav--md rvo-max-width-layout rvo-max-width-layout--md"
           >
-            <ul class="utrecht-topnav__list">
-              <li class="utrecht-topnav__item">
+            <UnorderedList class="utrecht-topnav__list">
+              <UnorderedListItem class="utrecht-topnav__item">
                 <a class="utrecht-topnav__link" href="#">Home</a>
-              </li>
-              <li class="utrecht-topnav__item">
+              </UnorderedListItem>
+              <UnorderedListItem class="utrecht-topnav__item">
                 <a class="utrecht-topnav__link" href="#">Expanded menu item</a>
-              </li>
-              <li
+              </UnorderedListItem>
+              <UnorderedListItem
                 class="utrecht-topnav__item utrecht-topnav__item--align-right"
               >
                 <a class="utrecht-topnav__link" href="#">Uitloggen</a>
-              </li>
-            </ul>
+              </UnorderedListItem>
+            </UnorderedList>
           </nav>
         </div>
         <div class="rvo-tmp-submenu-wrapper">
@@ -39,19 +41,19 @@ import { Heading } from "@utrecht/component-library-vue";
             <nav
               class="rvo-topnav rvo-topnav--md rvo-max-width-layout rvo-max-width-layout--md"
             >
-              <ul class="utrecht-topnav__list">
-                <li class="utrecht-topnav__item">
+              <UnorderedList class="utrecht-topnav__list">
+                <UnorderedListItem class="utrecht-topnav__item">
                   <a class="utrecht-topnav__link" href="#">Submenu item</a>
-                </li>
-                <li class="utrecht-topnav__item">
+                </UnorderedListItem>
+                <UnorderedListItem class="utrecht-topnav__item">
                   <a class="utrecht-topnav__link" href="#">Submenu item</a>
-                </li>
-                <li
+                </UnorderedListItem>
+                <UnorderedListItem
                   class="utrecht-topnav__item utrecht-topnav__item--align-right"
                 >
                   <a class="utrecht-topnav__link" href="#">Submenu item</a>
-                </li>
-              </ul>
+                </UnorderedListItem>
+              </UnorderedList>
             </nav>
           </div>
         </div>

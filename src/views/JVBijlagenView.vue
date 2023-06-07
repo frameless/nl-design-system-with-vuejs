@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { Heading, Checkbox } from "@utrecht/component-library-vue";
+import { UnorderedList } from "@utrecht/component-library-vue";
+import { UnorderedListItem } from "@utrecht/component-library-vue";
 </script>
 <template>
   <div class="rvo-demo-page">
@@ -18,8 +20,8 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
         <nav
           class="rvo-topnav rvo-topnav--lg rvo-max-width-layout rvo-max-width-layout--md"
         >
-          <ul class="utrecht-topnav__list">
-            <li class="utrecht-topnav__item">
+          <UnorderedList class="utrecht-topnav__list">
+            <UnorderedListItem class="utrecht-topnav__item">
               <a
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--zaak&amp;viewMode=story"
@@ -30,15 +32,17 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                 ></span
                 >Terug naar Mijn RVO</a
               >
-            </li>
-            <li class="utrecht-topnav__item utrecht-topnav__item--align-right">
+            </UnorderedListItem>
+            <UnorderedListItem
+              class="utrecht-topnav__item utrecht-topnav__item--align-right"
+            >
               <a
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--inloggen&amp;viewMode=story"
                 >Uitloggen</a
               >
-            </li>
-          </ul>
+            </UnorderedListItem>
+          </UnorderedList>
         </nav>
       </div>
       <div class="rvo-max-width-layout rvo-max-width-layout--md">
@@ -129,23 +133,25 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
             <div class="rvo-layout-column rvo-layout-gap--xl">
               <div class="intro">
                 <Heading :level="1">Bijlagen</Heading>
-                <ul>
-                  <li>
+                <UnorderedList>
+                  <UnorderedListItem>
                     U kunt alleen bijlagen versturen in PDF-formaat. Als u een
                     ander type document wil versturen maakt u hier eerst een PDF
                     van waarvoor u eventueel de gratis
                     <a href="#" class="rvo-link">PDF Creator</a> kan gebruiken.
-                  </li>
-                  <li>
+                  </UnorderedListItem>
+                  <UnorderedListItem>
                     Iedere bijlage mag <strong>maximaal 25MB</strong> groot
                     zijn.
-                  </li>
-                  <li>
+                  </UnorderedListItem>
+                  <UnorderedListItem>
                     Voeg eventueel gelijksoortige bijlagen samen in een PDF,
                     bijvoorbeeld alle offertes.
-                  </li>
-                  <li>Geef het PDF-bestand een logische naam.</li>
-                </ul>
+                  </UnorderedListItem>
+                  <UnorderedListItem
+                    >Geef het PDF-bestand een logische naam.</UnorderedListItem
+                  >
+                </UnorderedList>
               </div>
               <form>
                 <div class="rvo-layout-column rvo-layout-gap--md">

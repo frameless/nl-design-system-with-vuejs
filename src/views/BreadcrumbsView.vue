@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { Heading } from "@utrecht/component-library-vue";
+import { UnorderedList } from "@utrecht/component-library-vue";
+import { UnorderedListItem } from "@utrecht/component-library-vue";
 </script>
 <template>
   <div class="rvo-demo-page">
@@ -16,8 +18,8 @@ import { Heading } from "@utrecht/component-library-vue";
     <div class="rvo-layout-column rvo-layout-gap--md">
       <div class="rvo-topnav__background">
         <nav class="rvo-topnav rvo-topnav--md">
-          <ul class="utrecht-topnav__list">
-            <li class="utrecht-topnav__item">
+          <UnorderedList class="utrecht-topnav__list">
+            <UnorderedListItem class="utrecht-topnav__item">
               <a class="utrecht-topnav__link" href="#"
                 ><span
                   class="utrecht-icon rvo-icon rvo-icon-home rvo-icon--md rvo-icon--wit"
@@ -26,8 +28,8 @@ import { Heading } from "@utrecht/component-library-vue";
                 ></span
                 >Home</a
               >
-            </li>
-            <li class="utrecht-topnav__item">
+            </UnorderedListItem>
+            <UnorderedListItem class="utrecht-topnav__item">
               <a class="utrecht-topnav__link" href="#"
                 ><span
                   class="utrecht-icon rvo-icon rvo-icon-publicatie rvo-icon--md rvo-icon--wit"
@@ -36,8 +38,8 @@ import { Heading } from "@utrecht/component-library-vue";
                 ></span
                 >Mijn aanvragen</a
               >
-            </li>
-            <li class="utrecht-topnav__item">
+            </UnorderedListItem>
+            <UnorderedListItem class="utrecht-topnav__item">
               <a class="utrecht-topnav__link" href="#"
                 ><span
                   class="utrecht-icon rvo-icon rvo-icon-plus rvo-icon--md rvo-icon--wit"
@@ -46,8 +48,10 @@ import { Heading } from "@utrecht/component-library-vue";
                 ></span
                 >Nieuwe aanvraag</a
               >
-            </li>
-            <li class="utrecht-topnav__item utrecht-topnav__item--align-right">
+            </UnorderedListItem>
+            <UnorderedListItem
+              class="utrecht-topnav__item utrecht-topnav__item--align-right"
+            >
               <a class="utrecht-topnav__link" href="#"
                 ><span
                   class="utrecht-icon rvo-icon rvo-icon-versleutelen rvo-icon--md rvo-icon--wit"
@@ -56,8 +60,8 @@ import { Heading } from "@utrecht/component-library-vue";
                 ></span
                 >Uitloggen</a
               >
-            </li>
-          </ul>
+            </UnorderedListItem>
+          </UnorderedList>
         </nav>
       </div>
       <div class="rvo-max-width-layout rvo-max-width-layout--md">

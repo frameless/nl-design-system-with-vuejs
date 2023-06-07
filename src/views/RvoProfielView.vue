@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { Heading } from "@utrecht/component-library-vue";
+import { UnorderedList } from "@utrecht/component-library-vue";
+import { UnorderedListItem } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -29,32 +31,32 @@ import { Heading } from "@utrecht/component-library-vue";
           <nav
             class="rvo-topnav rvo-topnav--lg rvo-max-width-layout rvo-max-width-layout--md"
           >
-            <ul class="utrecht-topnav__list">
-              <li class="utrecht-topnav__item">
+            <UnorderedList class="utrecht-topnav__list">
+              <UnorderedListItem class="utrecht-topnav__item">
                 <a
                   class="utrecht-topnav__link"
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
                   >Zaken</a
                 >
-              </li>
-              <li class="utrecht-topnav__item">
+              </UnorderedListItem>
+              <UnorderedListItem class="utrecht-topnav__item">
                 <a
                   class="utrecht-topnav__link"
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--diensten&amp;viewMode=story"
                   >Diensten</a
                 >
-              </li>
-              <li class="utrecht-topnav__item">
+              </UnorderedListItem>
+              <UnorderedListItem class="utrecht-topnav__item">
                 <a class="utrecht-topnav__link" href="#">Help</a>
-              </li>
-              <li class="utrecht-topnav__item">
+              </UnorderedListItem>
+              <UnorderedListItem class="utrecht-topnav__item">
                 <a
                   class="utrecht-topnav__link"
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--profiel&amp;viewMode=story"
                   >Profiel</a
                 >
-              </li>
-              <li
+              </UnorderedListItem>
+              <UnorderedListItem
                 class="utrecht-topnav__item utrecht-topnav__item--align-right"
               >
                 <a
@@ -62,8 +64,8 @@ import { Heading } from "@utrecht/component-library-vue";
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--inloggen&amp;viewMode=story"
                   >Uitloggen</a
                 >
-              </li>
-              <li class="utrecht-topnav__item">
+              </UnorderedListItem>
+              <UnorderedListItem class="utrecht-topnav__item">
                 <a class="utrecht-topnav__link" href="#"
                   ><span
                     class="utrecht-icon rvo-icon rvo-icon-wereldbol rvo-icon--lg rvo-icon--wit"
@@ -72,8 +74,8 @@ import { Heading } from "@utrecht/component-library-vue";
                   ></span
                   >English</a
                 >
-              </li>
-            </ul>
+              </UnorderedListItem>
+            </UnorderedList>
           </nav>
         </div>
       </details>
@@ -81,39 +83,43 @@ import { Heading } from "@utrecht/component-library-vue";
         <nav
           class="rvo-topnav rvo-topnav--lg rvo-max-width-layout rvo-max-width-layout--md"
         >
-          <ul class="utrecht-topnav__list">
-            <li class="utrecht-topnav__item">
+          <UnorderedList class="utrecht-topnav__list">
+            <UnorderedListItem class="utrecht-topnav__item">
               <a
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
                 >Zaken</a
               >
-            </li>
-            <li class="utrecht-topnav__item">
+            </UnorderedListItem>
+            <UnorderedListItem class="utrecht-topnav__item">
               <a
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--diensten&amp;viewMode=story"
                 >Diensten</a
               >
-            </li>
-            <li class="utrecht-topnav__item">
+            </UnorderedListItem>
+            <UnorderedListItem class="utrecht-topnav__item">
               <a class="utrecht-topnav__link" href="#">Help</a>
-            </li>
-            <li class="utrecht-topnav__item utrecht-topnav__item--active">
+            </UnorderedListItem>
+            <UnorderedListItem
+              class="utrecht-topnav__item utrecht-topnav__item--active"
+            >
               <a
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--profiel&amp;viewMode=story"
                 >Profiel</a
               >
-            </li>
-            <li class="utrecht-topnav__item utrecht-topnav__item--align-right">
+            </UnorderedListItem>
+            <UnorderedListItem
+              class="utrecht-topnav__item utrecht-topnav__item--align-right"
+            >
               <a
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--inloggen&amp;viewMode=story"
                 >Uitloggen</a
               >
-            </li>
-            <li class="utrecht-topnav__item">
+            </UnorderedListItem>
+            <UnorderedListItem class="utrecht-topnav__item">
               <a class="utrecht-topnav__link" href="#"
                 ><span
                   class="utrecht-icon rvo-icon rvo-icon-wereldbol rvo-icon--lg rvo-icon--wit"
@@ -122,8 +128,8 @@ import { Heading } from "@utrecht/component-library-vue";
                 ></span
                 >English</a
               >
-            </li>
-          </ul>
+            </UnorderedListItem>
+          </UnorderedList>
         </nav>
       </div>
       <div class="rvo-hero rvo-hero--man-met-laptop">
@@ -290,162 +296,162 @@ import { Heading } from "@utrecht/component-library-vue";
     </div>
     <footer class="rvo-footer">
       <div class="rvo-max-width-layout rvo-max-width-layout--lg">
-        <ul class="rvo-footer-menu">
-          <li class="rvo-footer-menu-title">
+        <UnorderedList class="rvo-footer-menu">
+          <UnorderedListItem class="rvo-footer-menu-title">
             <Heading :level="3">Algemeen</Heading>
-          </li>
-          <li class="rvo-footer-menu-item">
+          </UnorderedListItem>
+          <UnorderedListItem class="rvo-footer-menu-item">
             <span
               class="utrecht-icon rvo-icon rvo-icon-delta-naar-rechts rvo-icon--sm rvo-icon--wit"
               role="img"
               aria-label="Delta naar rechts"
             ></span
             ><a href="#" class="rvo-link">Help</a>
-          </li>
-          <li class="rvo-footer-menu-item">
+          </UnorderedListItem>
+          <UnorderedListItem class="rvo-footer-menu-item">
             <span
               class="utrecht-icon rvo-icon rvo-icon-delta-naar-rechts rvo-icon--sm rvo-icon--wit"
               role="img"
               aria-label="Delta naar rechts"
             ></span
             ><a href="#" class="rvo-link">Toegankelijkheid</a>
-          </li>
-          <li class="rvo-footer-menu-item">
+          </UnorderedListItem>
+          <UnorderedListItem class="rvo-footer-menu-item">
             <span
               class="utrecht-icon rvo-icon rvo-icon-delta-naar-rechts rvo-icon--sm rvo-icon--wit"
               role="img"
               aria-label="Delta naar rechts"
             ></span
             ><a href="#" class="rvo-link">Webservices</a>
-          </li>
-          <li class="rvo-footer-menu-item">
+          </UnorderedListItem>
+          <UnorderedListItem class="rvo-footer-menu-item">
             <span
               class="utrecht-icon rvo-icon rvo-icon-delta-naar-rechts rvo-icon--sm rvo-icon--wit"
               role="img"
               aria-label="Delta naar rechts"
             ></span
             ><a href="#" class="rvo-link">Privacy</a>
-          </li>
-          <li class="rvo-footer-menu-item">
+          </UnorderedListItem>
+          <UnorderedListItem class="rvo-footer-menu-item">
             <span
               class="utrecht-icon rvo-icon rvo-icon-delta-naar-rechts rvo-icon--sm rvo-icon--wit"
               role="img"
               aria-label="Delta naar rechts"
             ></span
             ><a href="#" class="rvo-link">Sitemap</a>
-          </li>
-        </ul>
-        <ul class="rvo-footer-menu">
-          <li class="rvo-footer-menu-title">
+          </UnorderedListItem>
+        </UnorderedList>
+        <UnorderedList class="rvo-footer-menu">
+          <UnorderedListItem class="rvo-footer-menu-title">
             <Heading :level="3" class="utrecht-heading-3">Hoe werkt</Heading>
-          </li>
-          <li class="rvo-footer-menu-item">
+          </UnorderedListItem>
+          <UnorderedListItem class="rvo-footer-menu-item">
             <span
               class="utrecht-icon rvo-icon rvo-icon-delta-naar-rechts rvo-icon--sm rvo-icon--wit"
               role="img"
               aria-label="Delta naar rechts"
             ></span
             ><a href="#" class="rvo-link">Machtigingen en TAN-codes</a>
-          </li>
-          <li class="rvo-footer-menu-item">
+          </UnorderedListItem>
+          <UnorderedListItem class="rvo-footer-menu-item">
             <span
               class="utrecht-icon rvo-icon rvo-icon-delta-naar-rechts rvo-icon--sm rvo-icon--wit"
               role="img"
               aria-label="Delta naar rechts"
             ></span
             ><a href="#" class="rvo-link">Zaken regelen bij RVO</a>
-          </li>
-          <li class="rvo-footer-menu-item">
+          </UnorderedListItem>
+          <UnorderedListItem class="rvo-footer-menu-item">
             <span
               class="utrecht-icon rvo-icon rvo-icon-delta-naar-rechts rvo-icon--sm rvo-icon--wit"
               role="img"
               aria-label="Delta naar rechts"
             ></span
             ><a href="#" class="rvo-link">Inschrijven en registreren</a>
-          </li>
-          <li class="rvo-footer-menu-item">
+          </UnorderedListItem>
+          <UnorderedListItem class="rvo-footer-menu-item">
             <span
               class="utrecht-icon rvo-icon rvo-icon-delta-naar-rechts rvo-icon--sm rvo-icon--wit"
               role="img"
               aria-label="Delta naar rechts"
             ></span
             ><a href="#" class="rvo-link">Bedrijfsoverdracht melden</a>
-          </li>
-          <li class="rvo-footer-menu-item">
+          </UnorderedListItem>
+          <UnorderedListItem class="rvo-footer-menu-item">
             <span
               class="utrecht-icon rvo-icon rvo-icon-delta-naar-rechts rvo-icon--sm rvo-icon--wit"
               role="img"
               aria-label="Delta naar rechts"
             ></span
             ><a href="#" class="rvo-link">Overlijden melden</a>
-          </li>
-        </ul>
-        <ul class="rvo-footer-menu">
-          <li class="rvo-footer-menu-title">
+          </UnorderedListItem>
+        </UnorderedList>
+        <UnorderedList class="rvo-footer-menu">
+          <UnorderedListItem class="rvo-footer-menu-title">
             <Heading :level="3">Naar</Heading>
-          </li>
-          <li class="rvo-footer-menu-item">
+          </UnorderedListItem>
+          <UnorderedListItem class="rvo-footer-menu-item">
             <span
               class="utrecht-icon rvo-icon rvo-icon-delta-naar-rechts rvo-icon--sm rvo-icon--wit"
               role="img"
               aria-label="Delta naar rechts"
             ></span
             ><a href="#" class="rvo-link">Abonneren op nieuwsbrief</a>
-          </li>
-          <li class="rvo-footer-menu-item">
+          </UnorderedListItem>
+          <UnorderedListItem class="rvo-footer-menu-item">
             <span
               class="utrecht-icon rvo-icon rvo-icon-delta-naar-rechts rvo-icon--sm rvo-icon--wit"
               role="img"
               aria-label="Delta naar rechts"
             ></span
             ><a href="#" class="rvo-link">Klantenpanel</a>
-          </li>
-          <li class="rvo-footer-menu-item">
+          </UnorderedListItem>
+          <UnorderedListItem class="rvo-footer-menu-item">
             <span
               class="utrecht-icon rvo-icon rvo-icon-delta-naar-rechts rvo-icon--sm rvo-icon--wit"
               role="img"
               aria-label="Delta naar rechts"
             ></span
             ><a href="#" class="rvo-link">Berichtenbox voor bedrijven</a>
-          </li>
-          <li class="rvo-footer-menu-item">
+          </UnorderedListItem>
+          <UnorderedListItem class="rvo-footer-menu-item">
             <span
               class="utrecht-icon rvo-icon rvo-icon-delta-naar-rechts rvo-icon--sm rvo-icon--wit"
               role="img"
               aria-label="Delta naar rechts"
             ></span
             ><a href="#" class="rvo-link">RVO.nl</a>
-          </li>
-        </ul>
-        <ul class="rvo-footer-menu">
-          <li class="rvo-footer-menu-title">
+          </UnorderedListItem>
+        </UnorderedList>
+        <UnorderedList class="rvo-footer-menu">
+          <UnorderedListItem class="rvo-footer-menu-title">
             <Heading :level="3">Contact</Heading>
-          </li>
-          <li class="rvo-footer-menu-item">
+          </UnorderedListItem>
+          <UnorderedListItem class="rvo-footer-menu-item">
             <span
               class="utrecht-icon rvo-icon rvo-icon-delta-naar-rechts rvo-icon--sm rvo-icon--wit"
               role="img"
               aria-label="Delta naar rechts"
             ></span
             ><a href="#" class="rvo-link">Contactgegevens</a>
-          </li>
-          <li class="rvo-footer-menu-item">
+          </UnorderedListItem>
+          <UnorderedListItem class="rvo-footer-menu-item">
             <span
               class="utrecht-icon rvo-icon rvo-icon-delta-naar-rechts rvo-icon--sm rvo-icon--wit"
               role="img"
               aria-label="Delta naar rechts"
             ></span
             ><a href="#" class="rvo-link">Contactformulier</a>
-          </li>
-          <li class="rvo-footer-menu-item">
+          </UnorderedListItem>
+          <UnorderedListItem class="rvo-footer-menu-item">
             <span
               class="utrecht-icon rvo-icon rvo-icon-delta-naar-rechts rvo-icon--sm rvo-icon--wit"
               role="img"
               aria-label="Delta naar rechts"
             ></span
             ><a href="#" class="rvo-link">Aanvraag voorlichting/spreker</a>
-          </li>
-        </ul>
+          </UnorderedListItem>
+        </UnorderedList>
       </div>
     </footer>
   </div>

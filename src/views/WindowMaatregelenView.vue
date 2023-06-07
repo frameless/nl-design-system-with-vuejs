@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { Heading } from "@utrecht/component-library-vue";
+import { UnorderedList } from "@utrecht/component-library-vue";
+import { UnorderedListItem } from "@utrecht/component-library-vue";
 </script>
 <template>
   <div class="rvo-demo-page rvo-demo-page--regelmaat">
@@ -30,8 +32,8 @@ import { Heading } from "@utrecht/component-library-vue";
               </div>
             </div>
           </div>
-          <ul class="rvo-maatregelen">
-            <li class="rvo-maatregel">
+          <UnorderedList class="rvo-maatregelen">
+            <UnorderedListItem class="rvo-maatregel">
               <a
                 href="iframe.html?args=&amp;id=demo-pagina-s-de-regelmaat--maatregel&amp;viewMode=story"
                 class="rvo-maatregel-link"
@@ -56,8 +58,8 @@ import { Heading } from "@utrecht/component-library-vue";
                   >
                 </summary>
               </details>
-            </li>
-            <li class="rvo-maatregel">
+            </UnorderedListItem>
+            <UnorderedListItem class="rvo-maatregel">
               <a
                 href="iframe.html?args=&amp;id=demo-pagina-s-de-regelmaat--maatregel&amp;viewMode=story"
                 class="rvo-maatregel-link"
@@ -82,8 +84,8 @@ import { Heading } from "@utrecht/component-library-vue";
                   >
                 </summary>
               </details>
-            </li>
-            <li class="rvo-maatregel">
+            </UnorderedListItem>
+            <UnorderedListItem class="rvo-maatregel">
               <a
                 href="iframe.html?args=&amp;id=demo-pagina-s-de-regelmaat--maatregel&amp;viewMode=story"
                 class="rvo-maatregel-link"
@@ -108,8 +110,8 @@ import { Heading } from "@utrecht/component-library-vue";
                   >
                 </summary>
               </details>
-            </li>
-            <li class="rvo-maatregel">
+            </UnorderedListItem>
+            <UnorderedListItem class="rvo-maatregel">
               <a
                 href="iframe.html?args=&amp;id=demo-pagina-s-de-regelmaat--maatregel&amp;viewMode=story"
                 class="rvo-maatregel-link"
@@ -134,11 +136,11 @@ import { Heading } from "@utrecht/component-library-vue";
                   >
                 </summary>
               </details>
-            </li>
-          </ul>
+            </UnorderedListItem>
+          </UnorderedList>
           Mogelijk ook interessant
-          <ul class="rvo-maatregelen">
-            <li class="rvo-maatregel">
+          <UnorderedList class="rvo-maatregelen">
+            <UnorderedListItem class="rvo-maatregel">
               <a
                 href="iframe.html?args=&amp;id=demo-pagina-s-de-regelmaat--maatregel&amp;viewMode=story"
                 class="rvo-maatregel-link"
@@ -163,11 +165,11 @@ import { Heading } from "@utrecht/component-library-vue";
                   >
                 </summary>
               </details>
-            </li>
-          </ul>
+            </UnorderedListItem>
+          </UnorderedList>
         </div>
-        <ul class="rvo-app-menu">
-          <li class="rvo-app-menu-item">
+        <UnorderedList class="rvo-app-menu">
+          <UnorderedListItem class="rvo-app-menu-item">
             <a
               href="iframe.html?args=&amp;id=demo-pagina-s-de-regelmaat--zoeken&amp;viewMode=story"
               class="rvo-app-menu-item-link"
@@ -178,8 +180,8 @@ import { Heading } from "@utrecht/component-library-vue";
               ></span
               >Zoeken</a
             >
-          </li>
-          <li class="rvo-app-menu-item">
+          </UnorderedListItem>
+          <UnorderedListItem class="rvo-app-menu-item">
             <a
               href="iframe.html?args=&amp;id=demo-pagina-s-de-regelmaat--bewaard&amp;viewMode=story"
               class="rvo-app-menu-item-link"
@@ -190,8 +192,8 @@ import { Heading } from "@utrecht/component-library-vue";
               ></span
               >Bewaard</a
             >
-          </li>
-          <li class="rvo-app-menu-item">
+          </UnorderedListItem>
+          <UnorderedListItem class="rvo-app-menu-item">
             <a
               href="iframe.html?args=&amp;id=demo-pagina-s-de-regelmaat--maatregelen&amp;viewMode=story"
               class="rvo-app-menu-item-link rvo-app-menu-item-link--active"
@@ -202,8 +204,8 @@ import { Heading } from "@utrecht/component-library-vue";
               ></span
               >Suggesties</a
             >
-          </li>
-          <li class="rvo-app-menu-item">
+          </UnorderedListItem>
+          <UnorderedListItem class="rvo-app-menu-item">
             <a
               href="iframe.html?args=&amp;id=demo-pagina-s-de-regelmaat--profiel&amp;viewMode=story"
               class="rvo-app-menu-item-link"
@@ -214,8 +216,8 @@ import { Heading } from "@utrecht/component-library-vue";
               ></span
               >Profiel</a
             >
-          </li>
-        </ul>
+          </UnorderedListItem>
+        </UnorderedList>
       </div>
     </div>
   </div>
