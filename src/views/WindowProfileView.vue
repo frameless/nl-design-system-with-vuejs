@@ -2,6 +2,7 @@
 import { Paragraph } from "@utrecht/component-library-vue";
 import { Heading } from "@utrecht/component-library-vue";
 import { Checkbox } from "@utrecht/component-library-vue";
+import { Textbox } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -94,7 +95,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                 >Grasland
               </summary>
               <div class="rvo-short-input">
-                <input
+                <Textbox
                   pattern="[0-9]*"
                   type="text"
                   class="utrecht-textbox utrecht-textbox--html-input"
@@ -102,7 +103,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                 /><label>ha blijvend grasland</label>
               </div>
               <div class="rvo-short-input">
-                <input
+                <Textbox
                   pattern="[0-9]*"
                   type="text"
                   class="utrecht-textbox utrecht-textbox--html-input"
@@ -110,7 +111,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                 /><label>ha tijdelijk grasland</label>
               </div>
               <div class="rvo-short-input">
-                <input
+                <Textbox
                   pattern="[0-9]*"
                   type="text"
                   class="utrecht-textbox utrecht-textbox--html-input"
@@ -128,7 +129,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                 >Bouwland
               </summary>
               <div class="rvo-short-input">
-                <input
+                <Textbox
                   pattern="[0-9]*"
                   type="text"
                   class="utrecht-textbox utrecht-textbox--html-input"
@@ -136,7 +137,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                 /><label>ha klei</label>
               </div>
               <div class="rvo-short-input">
-                <input
+                <Textbox
                   pattern="[0-9]*"
                   type="text"
                   class="utrecht-textbox utrecht-textbox--html-input"
@@ -144,7 +145,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                 /><label>ha zand</label>
               </div>
               <div class="rvo-short-input">
-                <input
+                <Textbox
                   pattern="[0-9]*"
                   type="text"
                   class="utrecht-textbox utrecht-textbox--html-input"
@@ -152,7 +153,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                 /><label>ha loss</label>
               </div>
               <div class="rvo-short-input">
-                <input
+                <Textbox
                   pattern="[0-9]*"
                   type="text"
                   class="utrecht-textbox utrecht-textbox--html-input"
@@ -160,7 +161,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                 /><label>ha veen</label>
               </div>
               <div class="rvo-short-input">
-                <input
+                <Textbox
                   pattern="[0-9]*"
                   type="text"
                   class="utrecht-textbox utrecht-textbox--html-input"
@@ -178,7 +179,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                 >Overig land
               </summary>
               <div class="rvo-short-input">
-                <input
+                <Textbox
                   pattern="[0-9]*"
                   type="text"
                   class="utrecht-textbox utrecht-textbox--html-input"
@@ -186,7 +187,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                 /><label>ha heg, haag, struweel</label>
               </div>
               <div class="rvo-short-input">
-                <input
+                <Textbox
                   pattern="[0-9]*"
                   type="text"
                   class="utrecht-textbox utrecht-textbox--html-input"
@@ -194,7 +195,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                 /><label>ha overige houtige elementen</label>
               </div>
               <div class="rvo-short-input">
-                <input
+                <Textbox
                   pattern="[0-9]*"
                   type="text"
                   class="utrecht-textbox utrecht-textbox--html-input"
@@ -202,7 +203,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                 /><label>ha sloten en poelen</label>
               </div>
               <div class="rvo-short-input">
-                <input
+                <Textbox
                   pattern="[0-9]*"
                   type="text"
                   class="utrecht-textbox utrecht-textbox--html-input"
@@ -210,7 +211,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                 /><label>ha braak</label>
               </div>
               <div class="rvo-short-input">
-                <input
+                <Textbox
                   pattern="[0-9]*"
                   type="text"
                   class="utrecht-textbox utrecht-textbox--html-input"
@@ -222,7 +223,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
           <div class="rvo-short-inputs">
             <label class="utrecht-form-label">Dieren</label>
             <div class="rvo-short-input">
-              <input
+              <Textbox
                 pattern="[0-9]*"
                 type="text"
                 class="utrecht-textbox utrecht-textbox--html-input"
@@ -230,7 +231,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
               /><label># melkvee</label>
             </div>
             <div class="rvo-short-input">
-              <input
+              <Textbox
                 pattern="[0-9]*"
                 type="text"
                 class="utrecht-textbox utrecht-textbox--html-input"
@@ -238,7 +239,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
               /><label># varkens</label>
             </div>
             <div class="rvo-short-input">
-              <input
+              <Textbox
                 pattern="[0-9]*"
                 type="text"
                 class="utrecht-textbox utrecht-textbox--html-input"
@@ -246,7 +247,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
               /><label># vleesvee</label>
             </div>
             <div class="rvo-short-input">
-              <input
+              <Textbox
                 pattern="[0-9]*"
                 type="text"
                 class="utrecht-textbox utrecht-textbox--html-input"
@@ -254,7 +255,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
               /><label># jongvee</label>
             </div>
             <div class="rvo-short-input">
-              <input
+              <Textbox
                 pattern="[0-9]*"
                 type="text"
                 class="utrecht-textbox utrecht-textbox--html-input"

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { PageHeader } from "@utrecht/component-library-vue";
 import { Heading } from "@utrecht/component-library-vue";
+import { Textbox } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -169,7 +170,7 @@ import { Heading } from "@utrecht/component-library-vue";
                             btw)?</label
                           >
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           placeholder=""
                           pattern="[0-9]*"
@@ -201,14 +202,14 @@ import { Heading } from "@utrecht/component-library-vue";
                         </div>
                         <div class="rvo-radio-button__group">
                           <label class="rvo-custom-radio-button" for="vveiga"
-                            ><input
+                            ><Textbox
                               id="vveiga"
                               name="vv-eigenaar"
                               type="radio"
                               class="utrecht-custom-radio-button"
                             />Volledig eigenaar</label
                           ><label class="rvo-custom-radio-button" for="vveigb"
-                            ><input
+                            ><Textbox
                               id="vveigb"
                               name="vv-eigenaar"
                               type="radio"
@@ -252,7 +253,7 @@ import { Heading } from "@utrecht/component-library-vue";
                             </details>
                           </div>
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           placeholder=""
                           pattern="[0-9]*"

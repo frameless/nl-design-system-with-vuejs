@@ -2,6 +2,7 @@
 import { Heading } from "@utrecht/component-library-vue";
 import { Checkbox } from "@utrecht/component-library-vue";
 import { Paragraph } from "@utrecht/component-library-vue";
+import { Textbox } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -93,7 +94,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                                 >Zoek op trefwoord/code</label
                               >
                             </div>
-                            <input
+                            <Textbox
                               id="field"
                               placeholder=""
                               type="text"

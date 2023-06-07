@@ -3,6 +3,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
 import { PageHeader } from "@utrecht/component-library-vue";
 import { Heading } from "@utrecht/component-library-vue";
 import { Checkbox } from "@utrecht/component-library-vue";
+import { Textbox } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -156,7 +157,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                         >Text</label
                       >
                     </div>
-                    <input
+                    <Textbox
                       id="field"
                       placeholder=""
                       type="text"
@@ -184,7 +185,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                         instructions.
                       </div>
                     </div>
-                    <input
+                    <Textbox
                       id="field"
                       placeholder=""
                       type="text"
@@ -205,7 +206,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                         >Text</label
                       >
                     </div>
-                    <input
+                    <Textbox
                       id="field"
                       placeholder=""
                       type="text"
@@ -236,7 +237,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                         >This is an error
                       </div>
                     </div>
-                    <input
+                    <Textbox
                       id="field"
                       placeholder=""
                       type="text"
@@ -268,7 +269,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                         >This is a warning
                       </div>
                     </div>
-                    <input
+                    <Textbox
                       id="field"
                       placeholder=""
                       type="text"
@@ -305,7 +306,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                         </details>
                       </div>
                     </div>
-                    <input
+                    <Textbox
                       id="field"
                       placeholder=""
                       type="text"
@@ -326,7 +327,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                         >Text disabled</label
                       >
                     </div>
-                    <input
+                    <Textbox
                       id="field"
                       placeholder=""
                       type="text"
@@ -348,7 +349,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                         >Text disabled with value</label
                       >
                     </div>
-                    <input
+                    <Textbox
                       id="field"
                       placeholder=""
                       type="text"
@@ -370,7 +371,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                         >Number</label
                       >
                     </div>
-                    <input
+                    <Textbox
                       id="field"
                       placeholder=""
                       pattern="[0-9]*"

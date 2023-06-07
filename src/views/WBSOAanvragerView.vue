@@ -279,7 +279,7 @@ import { Heading } from "@utrecht/component-library-vue";
                             >Prognose totaal aantal werknemers</label
                           >
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           placeholder=""
                           pattern="[0-9]*"
@@ -302,7 +302,7 @@ import { Heading } from "@utrecht/component-library-vue";
                             >(Waarvan) eigen S&amp;O-werknemers</label
                           >
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           placeholder=""
                           pattern="[0-9]*"
