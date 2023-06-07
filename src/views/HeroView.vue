@@ -1,96 +1,94 @@
 <script setup lang="ts">
-import {
-	Heading,
-	UnorderedList,
-	UnorderedListItem,
-} from "@utrecht/component-library-vue";
+import { Heading } from "@utrecht/component-library-vue";
+import { UnorderedList } from "@utrecht/component-library-vue";
+import { UnorderedListItem } from "@utrecht/component-library-vue";
 </script>
 <template>
-	<div class="rvo-demo-page">
-		<header class="rvo-header">
-			<div class="rvo-header__logo-wrapper">
-				<a href="/" class="rvo-header__logo-link"
-					><img
-						src="../images/logo.svg"
-						alt="Rijksdienst voor Ondernemend Nederland, ga naar de startpagina van RVO"
-						class="rvo-logo-img rvo-header__logo-img"
-				/></a>
-			</div>
-		</header>
-		<div class="rvo-topnav__background">
-			<nav
-				class="rvo-topnav rvo-topnav--lg rvo-max-width-layout rvo-max-width-layout--lg"
-			>
-				<UnorderedList class="utrecht-topnav__list">
-					<UnorderedListItem class="utrecht-topnav__item">
-						<a class="utrecht-topnav__link" href="#"
-							><span
-								class="utrecht-icon rvo-icon rvo-icon-home rvo-icon--lg rvo-icon--wit"
-								role="img"
-								aria-label="Home"
-							></span
-							>Home</a
-						>
-					</UnorderedListItem>
-					<UnorderedListItem class="utrecht-topnav__item">
-						<a class="utrecht-topnav__link" href="#"
-							><span
-								class="utrecht-icon rvo-icon rvo-icon-publicatie rvo-icon--lg rvo-icon--wit"
-								role="img"
-								aria-label="Publicatie"
-							></span
-							>Mijn aanvragen</a
-						>
-					</UnorderedListItem>
-					<UnorderedListItem class="utrecht-topnav__item">
-						<a class="utrecht-topnav__link" href="#"
-							><span
-								class="utrecht-icon rvo-icon rvo-icon-plus rvo-icon--lg rvo-icon--wit"
-								role="img"
-								aria-label="Plus"
-							></span
-							>Nieuwe aanvraag</a
-						>
-					</UnorderedListItem>
-					<UnorderedListItem
-						class="utrecht-topnav__item utrecht-topnav__item--align-right"
-					>
-						<a class="utrecht-topnav__link" href="#"
-							><span
-								class="utrecht-icon rvo-icon rvo-icon-versleutelen rvo-icon--lg rvo-icon--wit"
-								role="img"
-								aria-label="Versleutelen"
-							></span
-							>Uitloggen</a
-						>
-					</UnorderedListItem>
-				</UnorderedList>
-			</nav>
-		</div>
-		<div class="rvo-hero rvo-hero--man-met-laptop">
-			<div class="rvo-hero-bg-img-container">
-				<img
-					src="../images/hero-bg--man-met-laptop.webp"
-					class="rvo-hero-bg-img"
-				/>
-			</div>
-			<div class="rvo-max-width-layout rvo-max-width-layout--lg">
-				<div class="rvo-hero-content">
-					<div class="rvo-hero-text">
-						<Heading :level="1">Hero title</Heading>
-						<p class="rvo-hero-description">
-							An additional paragraph that gives an introduction what this page
-							is about in easy to understand language.
-						</p>
-					</div>
-					<div class="rvo-hero-img-container">
-						<img src="../images/man-met-laptop.webp" class="rvo-hero-img" />
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="rvo-max-width-layout rvo-max-width-layout--md">
-			<main></main>
-		</div>
-	</div>
+  <div class="rvo-demo-page">
+    <header class="rvo-header">
+      <div class="rvo-header__logo-wrapper">
+        <a href="/" class="rvo-header__logo-link"
+          ><img
+            src="../images/logo.svg"
+            alt="Rijksdienst voor Ondernemend Nederland, ga naar de startpagina van RVO"
+            class="rvo-logo-img rvo-header__logo-img"
+        /></a>
+      </div>
+    </header>
+    <div class="rvo-topnav__background">
+      <nav
+        class="rvo-topnav rvo-topnav--lg rvo-max-width-layout rvo-max-width-layout--lg"
+      >
+        <UnorderedList class="utrecht-topnav__list">
+          <UnorderedListItem class="utrecht-topnav__item">
+            <a class="utrecht-topnav__link" href="#"
+              ><span
+                class="utrecht-icon rvo-icon rvo-icon-home rvo-icon--lg rvo-icon--wit"
+                role="img"
+                aria-label="Home"
+              ></span
+              >Home</a
+            >
+          </UnorderedListItem>
+          <UnorderedListItem class="utrecht-topnav__item">
+            <a class="utrecht-topnav__link" href="#"
+              ><span
+                class="utrecht-icon rvo-icon rvo-icon-publicatie rvo-icon--lg rvo-icon--wit"
+                role="img"
+                aria-label="Publicatie"
+              ></span
+              >Mijn aanvragen</a
+            >
+          </UnorderedListItem>
+          <UnorderedListItem class="utrecht-topnav__item">
+            <a class="utrecht-topnav__link" href="#"
+              ><span
+                class="utrecht-icon rvo-icon rvo-icon-plus rvo-icon--lg rvo-icon--wit"
+                role="img"
+                aria-label="Plus"
+              ></span
+              >Nieuwe aanvraag</a
+            >
+          </UnorderedListItem>
+          <UnorderedListItem
+            class="utrecht-topnav__item utrecht-topnav__item--align-right"
+          >
+            <a class="utrecht-topnav__link" href="#"
+              ><span
+                class="utrecht-icon rvo-icon rvo-icon-versleutelen rvo-icon--lg rvo-icon--wit"
+                role="img"
+                aria-label="Versleutelen"
+              ></span
+              >Uitloggen</a
+            >
+          </UnorderedListItem>
+        </UnorderedList>
+      </nav>
+    </div>
+    <div class="rvo-hero rvo-hero--man-met-laptop">
+      <div class="rvo-hero-bg-img-container">
+        <img
+          src="../images/hero-bg--man-met-laptop.webp"
+          class="rvo-hero-bg-img"
+        />
+      </div>
+      <div class="rvo-max-width-layout rvo-max-width-layout--lg">
+        <div class="rvo-hero-content">
+          <div class="rvo-hero-text">
+            <Heading :level="1">Hero title</Heading>
+            <p class="rvo-hero-description">
+              An additional paragraph that gives an introduction what this page
+              is about in easy to understand language.
+            </p>
+          </div>
+          <div class="rvo-hero-img-container">
+            <img src="../images/man-met-laptop.webp" class="rvo-hero-img" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rvo-max-width-layout rvo-max-width-layout--md">
+      <main></main>
+    </div>
+  </div>
 </template>
