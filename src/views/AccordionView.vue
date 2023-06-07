@@ -67,7 +67,7 @@ import { Heading } from "@utrecht/component-library-vue";
       <div class="rvo-max-width-layout rvo-max-width-layout--sm">
         <main class="rvo-main">
           <div class="rvo-layout-column rvo-layout-gap--sm">
-            <Header :level="1">Telefonisch contact</Header>
+            <Heading :level="1">Telefonisch contact</Heading>
             <Paragraph>
               Heeft u vragen? Neem gerust telefonisch contact met ons op. U
               bereikt ons op werkdagen van 08:30 tot 17:00 uur. Tussen 8:30 en
@@ -102,7 +102,7 @@ import { Heading } from "@utrecht/component-library-vue";
                       overheidsorganisatie? Via het keuzemenu krijgt u de juiste
                       medewerker aan de lijn om u verder te helpen.
                     </Paragraph>
-                    <Heading :level="4">For English, press 8 </Heading>
+                    <Heading :level="4">For English, press 8</Heading>
                     <br />
                     <Heading :level="4">
                       Keuze 0: voor BGT-check, sancties Rusland, de
