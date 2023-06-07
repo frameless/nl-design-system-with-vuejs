@@ -7,7 +7,6 @@ import { Heading } from "@utrecht/component-library-vue";
 <template>
   <div class="rvo-demo-page">
     <PageHeader class="rvo-header">
-      <PageHeader class="rvo-header">
         <div class="rvo-header__logo-wrapper">
           <a href="/" class="rvo-header__logo-link"
             ><img
@@ -17,7 +16,6 @@ import { Heading } from "@utrecht/component-library-vue";
           /></a>
         </div>
       </PageHeader>
-    </PageHeader>
     <div class="rvo-layout-column rvo-layout-gap--2xl">
       <div class="rvo-topnav__background">
         <nav
