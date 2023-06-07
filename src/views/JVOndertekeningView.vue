@@ -133,9 +133,7 @@ import { Heading } from "@utrecht/component-library-vue";
           <div class="rvo-form">
             <div class="rvo-layout-column rvo-layout-gap--xl">
               <div class="intro">
-                <Heading :level="1" class="utrecht-heading-1"
-                  >Ondertekening</Heading
-                >
+                <Heading :level="1">Ondertekening</Heading>
               </div>
               <form>
                 <div class="rvo-layout-column rvo-layout-gap--md">
@@ -243,16 +241,12 @@ import { Heading } from "@utrecht/component-library-vue";
                       </div>
                     </fieldset>
                   </div>
-                  <Heading :level="2" class="utrecht-heading-2"
-                    >Verklaring</Heading
-                  >
+                  <Heading :level="2">Verklaring</Heading>
                   <Paragraph>
                     Ik verklaar dat ik voldoe aan de voorwaarden en dat dit
                     formulier en de bijlagen naar waarheid zijn ingevuld.
                   </Paragraph>
-                  <Heading :level="2" class="utrecht-heading-2"
-                    >Ondertekening</Heading
-                  >
+                  <Heading :level="2">Ondertekening</Heading>
                   <Paragraph>
                     Ondertekening m.b.v. TAN is alleen noodzakelijker voor
                     klanten.

@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { Paragraph } from "@utrecht/component-library-vue";
-import { PageHeader } from "@utrecht/component-library-vue";
 import { Heading } from "@utrecht/component-library-vue";
 </script>
 
