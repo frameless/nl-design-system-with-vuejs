@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { Paragraph, Heading } from "@utrecht/component-library-vue";
+import { Paragraph } from "@utrecht/component-library-vue";
+import { Heading } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -7,9 +8,7 @@ import { Paragraph, Heading } from "@utrecht/component-library-vue";
     <div class="rvo-app rvo-app--maatregelen">
       <div class="rvo-app-container rvo-app-container--maatregelen">
         <div class="rvo-app-content">
-          <Heading :level="1" class="utrecht-heading-1"
-            >Bewaarde maatregelen</Heading
-          >
+          <Heading :level="1">Bewaarde maatregelen</Heading>
           <Paragraph>
             Dit zijn de <strong>maatregelen</strong> die u zelf heeft bewaard
           </Paragraph>

@@ -1,6 +1,9 @@
 <script setup lang="ts">
-import { Heading, Checkbox } from "@utrecht/component-library-vue";
+import { Heading } from "@utrecht/component-library-vue";
+import { Checkbox } from "@utrecht/component-library-vue";
+import { Paragraph } from "@utrecht/component-library-vue";
 </script>
+
 <template>
   <div class="rvo-demo-page">
     <header class="rvo-header">
@@ -56,7 +59,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
               <div class="rvo-max-width-layout rvo-max-width-layout--sm">
                 <div class="rvo-intro">
                   <Heading :level="1"> Milieu- en Energielijst 2022 </Heading>
-                  <p>
+                  <Paragraph>
                     De Energielijst van de regeling Energie-investeringsaftrek
                     (EIA) wordt ieder jaar geactualiseerd. Er komen
                     bedrijfsmiddelen bij, er gaan er enkele vanaf. En soms
@@ -64,7 +67,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                     wordt meestal eind december in de Staatscourant
                     gepubliceerd. De lijst is gebaseerd op de wettelijke
                     uitvoeringsregeling.
-                  </p>
+                  </Paragraph>
                 </div>
               </div>
               <div class="rvo-layout-column rvo-layout-gap--md">

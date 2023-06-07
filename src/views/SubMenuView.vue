@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import { PageHeader, Heading } from "@utrecht/component-library-vue";
+import { PageHeader } from "@utrecht/component-library-vue";
+import { Paragraph } from "@utrecht/component-library-vue";
+import { Heading } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -60,11 +62,11 @@ import { PageHeader, Heading } from "@utrecht/component-library-vue";
       <main class="rvo-max-width-layout rvo-max-width-layout--sm">
         <div class="rvo-content">
           <Heading :level="1">Default submenu</Heading>
-          <p class="rvo-paragraph rvo-paragraph--md">
+          <Paragraph class="rvo-paragraph rvo-paragraph--md">
             A submenu is expanded when a user clicks on an expandable menu item
             which label is followed by a downwards chevron. The submenu expands
             in place not overlapping existing content.
-          </p>
+          </Paragraph>
         </div>
       </main>
     </div>
