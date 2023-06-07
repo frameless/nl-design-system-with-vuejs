@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import { Checkbox } from "@utrecht/component-library-vue";
-import { Heading } from "@utrecht/component-library-vue";
-import { Paragraph } from "@utrecht/component-library-vue";
+import { Textbox } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -152,7 +150,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                     ></span
                     >Terug</a
                   >
-                  <Heading :level="1">Heading</Heading>
+                  <h1 class="utrecht-heading-1">Heading</h1>
                 </div>
                 <form class="rvo-layout-spacer rvo-layout-spacer--2xl">
                   <div class="utrecht-form-fieldset rvo-form-fieldset">
@@ -205,7 +203,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                             instructions.
                           </div>
                         </div>
-                        <Textbox
+                        <input
                           id="field"
                           placeholder=""
                           type="text"
@@ -633,37 +631,41 @@ import { Paragraph } from "@utrecht/component-library-vue";
                           <label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionA-cb"
-                            ><Checkbox
+                            ><input
                               id="optionA-cb"
                               name="group"
                               class="rvo-checkbox__input"
+                              type="checkbox"
                               value=""
                             />Option A</label
                           ><label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionB-cb"
-                            ><Checkbox
+                            ><input
                               id="optionB-cb"
                               name="group"
                               class="rvo-checkbox__input"
+                              type="checkbox"
                               value=""
                             />Option B</label
                           ><label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionC-cb"
-                            ><Checkbox
+                            ><input
                               id="optionC-cb"
                               name="group"
                               class="rvo-checkbox__input"
+                              type="checkbox"
                               value=""
                             />Option C</label
                           ><label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionD-cb"
-                            ><Checkbox
+                            ><input
                               id="optionD-cb"
                               name="group"
                               class="rvo-checkbox__input"
+                              type="checkbox"
                               value=""
                             />Option D</label
                           >
@@ -698,37 +700,41 @@ import { Paragraph } from "@utrecht/component-library-vue";
                           <label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionA-cb-error"
-                            ><Checkbox
+                            ><input
                               id="optionA-cb-error"
                               name="group"
                               class="rvo-checkbox__input"
+                              type="checkbox"
                               value=""
                             />Option A</label
                           ><label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionB-cb-error"
-                            ><Checkbox
+                            ><input
                               id="optionB-cb-error"
                               name="group"
                               class="rvo-checkbox__input"
+                              type="checkbox"
                               value=""
                             />Option B</label
                           ><label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionC-cb-error"
-                            ><Checkbox
+                            ><input
                               id="optionC-cb-error"
                               name="group"
                               class="rvo-checkbox__input"
+                              type="checkbox"
                               value=""
                             />Option C</label
                           ><label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionD-cb-error"
-                            ><Checkbox
+                            ><input
                               id="optionD-cb-error"
                               name="group"
                               class="rvo-checkbox__input"
+                              type="checkbox"
                               value=""
                             />Option D</label
                           >
@@ -761,37 +767,41 @@ import { Paragraph } from "@utrecht/component-library-vue";
                           <label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionA-cb-warning"
-                            ><Checkbox
+                            ><input
                               id="optionA-cb-warning"
                               name="group"
                               class="rvo-checkbox__input"
+                              type="checkbox"
                               value=""
                             />Option A</label
                           ><label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionB-cb-warning"
-                            ><Checkbox
+                            ><input
                               id="optionB-cb-warning"
                               name="group"
                               class="rvo-checkbox__input"
+                              type="checkbox"
                               value=""
                             />Option B</label
                           ><label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionC-cb-warning"
-                            ><Checkbox
+                            ><input
                               id="optionC-cb-warning"
                               name="group"
                               class="rvo-checkbox__input"
+                              type="checkbox"
                               value=""
                             />Option C</label
                           ><label
                             class="rvo-checkbox rvo-checkbox--not-checked"
                             for="optionD-cb-warning"
-                            ><Checkbox
+                            ><input
                               id="optionD-cb-warning"
                               name="group"
                               class="rvo-checkbox__input"
+                              type="checkbox"
                               value=""
                             />Option D</label
                           >
@@ -894,7 +904,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                       </div>
                     </fieldset>
                   </div>
-                  <Paragraph class="utrecht-button-group">
+                  <p class="utrecht-button-group">
                     <button
                       class="utrecht-button utrecht-button--primary-action utrecht-button--rvo-md"
                       type="button"
@@ -906,7 +916,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                     >
                       Secondary action
                     </button>
-                  </Paragraph>
+                  </p>
                 </form>
               </div>
             </div>
