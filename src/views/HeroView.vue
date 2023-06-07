@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { Heading } from "@utrecht/component-library-vue";
+import { Paragraph } from "@utrecht/component-library-vue";
 </script>
+
 <template>
   <div class="rvo-demo-page">
     <header class="rvo-header">
@@ -72,10 +74,10 @@ import { Heading } from "@utrecht/component-library-vue";
         <div class="rvo-hero-content">
           <div class="rvo-hero-text">
             <Heading :level="1">Hero title</Heading>
-            <p class="rvo-hero-description">
+            <Paragraph class="rvo-hero-description">
               An additional paragraph that gives an introduction what this page
               is about in easy to understand language.
-            </p>
+            </Paragraph>
           </div>
           <div class="rvo-hero-img-container">
             <img src="../images/man-met-laptop.webp" class="rvo-hero-img" />

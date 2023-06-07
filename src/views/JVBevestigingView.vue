@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import { Heading, Paragraph, PageHeader } from "@utrecht/component-library-vue";
+import { Paragraph } from "@utrecht/component-library-vue";
+import { PageHeader } from "@utrecht/component-library-vue";
+import { Heading } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -131,9 +133,7 @@ import { Heading, Paragraph, PageHeader } from "@utrecht/component-library-vue";
           <div class="rvo-form">
             <div class="rvo-layout-column rvo-layout-gap--xl">
               <div class="intro">
-                <Heading :level="1" class="utrecht-heading-1"
-                  >Bevestiging</Heading
-                >
+                <Heading :level="1">Bevestiging</Heading>
                 <Paragraph>
                   Wij hebben uw aanvraag verlenging Jonge Visser 2020 ontvangen
                   op <strong>05-07-2022</strong>.<br />Het zaaknummer dat wij
@@ -141,7 +141,7 @@ import { Heading, Paragraph, PageHeader } from "@utrecht/component-library-vue";
                   Gebruik dit nummer als u met ons belt of digitale post wilt
                   versturen.
                 </Paragraph>
-                <h2 class="utrecht-heading-2">Uw gegevens</h2>
+                <Heading :level="2">Uw gegevens</Heading>
                 <div class="rvo-layout-column rvo-layout-gap--md">
                   <dl class="rvo-data">
                     <dt>Naam</dt>

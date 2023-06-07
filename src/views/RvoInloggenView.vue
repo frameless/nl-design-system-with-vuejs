@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import { Paragraph, PageHeader, Heading } from "@utrecht/component-library-vue";
+import { Paragraph } from "@utrecht/component-library-vue";
+import { PageHeader } from "@utrecht/component-library-vue";
+import { Heading } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -37,10 +39,10 @@ import { Paragraph, PageHeader, Heading } from "@utrecht/component-library-vue";
           <div class="rvo-hero-content">
             <div class="rvo-hero-text">
               <Heading :level="1">Inloggen</Heading>
-              <p class="rvo-hero-description">
+              <Paragraph class="rvo-hero-description">
                 Hieronder vindt u de verschillende manieren om in te loggen op
                 Mijn RVO
-              </p>
+              </Paragraph>
             </div>
             <div class="rvo-hero-img-container">
               <img src="../images/vrouw_op_mobiel.webp" class="rvo-hero-img" />
@@ -82,6 +84,11 @@ import { Paragraph, PageHeader, Heading } from "@utrecht/component-library-vue";
                     Lukt het inloggen niet? Ga naar
                     <a href="#" class="rvo-link">Hulp bij inloggen</a>.
                   </Paragraph>
+                  <Paragraph
+                    >Kies het niveau van het middel waarmee u wilt
+                    inloggen.</Paragraph
+                  >
+                  <Paragraph> </Paragraph>
                   <Paragraph
                     >Kies het niveau van het middel waarmee u wilt
                     inloggen.</Paragraph

@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import { Paragraph, Heading, Checkbox } from "@utrecht/component-library-vue";
+import { Paragraph } from "@utrecht/component-library-vue";
+import { Heading } from "@utrecht/component-library-vue";
+import { Checkbox } from "@utrecht/component-library-vue";
 </script>
 
 <template>

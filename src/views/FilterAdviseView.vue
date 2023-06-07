@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import { Heading, Checkbox } from "@utrecht/component-library-vue";
+import { Paragraph } from "@utrecht/component-library-vue";
+import { Checkbox } from "@utrecht/component-library-vue";
+import { Heading } from "@utrecht/component-library-vue";
 </script>
 <template>
   <div class="rvo-demo-page">
@@ -55,14 +57,14 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
             <div class="rvo-layout-column rvo-layout-gap--xl">
               <div class="rvo-max-width-layout rvo-max-width-layout--sm">
                 <div class="rvo-intro">
-                  <Heading :level="1">Vind uw adviseur</Heading>
-                  <p>
+                  <Heading class="utrecht-heading-1">Vind uw adviseur</Heading>
+                  <Paragraph>
                     Werkt u bij een innovatief technologisch bedrijf of
                     kennisinstelling met internationale ambities? Onze ervaren
                     adviseurs kennen de mogelijkheden van internationale
                     innovatieprogramma’s en vergroten uw kansen op een
                     succesvolle deelname. Zoek de juiste adviseur voor uw vraag.
-                  </p>
+                  </Paragraph>
                 </div>
               </div>
               <div class="rvo-layout-column rvo-layout-gap--md">
