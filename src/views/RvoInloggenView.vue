@@ -143,7 +143,7 @@ import { Heading } from "@utrecht/component-library-vue";
                 class="rvo-accordion__item rvo-login-option login-option--eu"
               >
                 <summary class="rvo-accordion__item-summary">
-                  <Heading :level="3" class="rvo-link">
+                  <Heading :level="3">
                     <span class="rvo-accordion__item-title"
                       ><span
                         class="utrecht-icon rvo-icon rvo-icon-delta-omlaag rvo-icon--md rvo-icon--hemelblauw"

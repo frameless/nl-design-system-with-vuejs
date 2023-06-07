@@ -141,7 +141,9 @@ import { Heading } from "@utrecht/component-library-vue";
                   Gebruik dit nummer als u met ons belt of digitale post wilt
                   versturen.
                 </Paragraph>
-                <Heading :level="2">Uw gegevens</Heading>
+                <Heading :level="2" class="utrecht-heading-2"
+                  >Uw gegevens</Heading
+                >
                 <div class="rvo-layout-column rvo-layout-gap--md">
                   <dl class="rvo-data">
                     <dt>Naam</dt>

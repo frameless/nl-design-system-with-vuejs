@@ -57,7 +57,9 @@ import { Heading } from "@utrecht/component-library-vue";
             <div class="rvo-layout-column rvo-layout-gap--xl">
               <div class="rvo-max-width-layout rvo-max-width-layout--sm">
                 <div class="rvo-intro">
-                  <Heading class="utrecht-heading-1">Vind uw adviseur</Heading>
+                  <Heading :level="1" class="utrecht-heading-1"
+                    >Vind uw adviseur</Heading
+                  >
                   <Paragraph>
                     Werkt u bij een innovatief technologisch bedrijf of
                     kennisinstelling met internationale ambities? Onze ervaren

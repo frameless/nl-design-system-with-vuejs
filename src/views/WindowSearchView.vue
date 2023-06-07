@@ -9,7 +9,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
     <div class="rvo-app rvo-app--profiel">
       <div class="rvo-app-container rvo-app-container--profiel">
         <div class="rvo-app-content">
-          <Heading :level="1" class="utrecht-heading-1">Zoeken</Heading>
+          <Heading :level="1">Zoeken</Heading>
           <Paragraph>
             Vul je profiel in om maatregelen te krijgen die voor jou van
             toepassing kunnen zijn.
