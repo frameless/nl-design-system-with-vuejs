@@ -161,7 +161,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                       id="field"
                       placeholder=""
                       type="text"
-                      class="utrecht-textbox utrecht-textbox--html-input"
                       value=""
                     />
                   </div>
@@ -189,7 +188,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                       id="field"
                       placeholder=""
                       type="text"
-                      class="utrecht-textbox utrecht-textbox--html-input"
                       value=""
                     />
                   </div>
@@ -210,7 +208,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                       id="field"
                       placeholder=""
                       type="text"
-                      class="utrecht-textbox utrecht-textbox--html-input"
                       value=""
                     />
                   </div>
@@ -241,7 +238,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                       id="field"
                       placeholder=""
                       type="text"
-                      class="utrecht-textbox utrecht-textbox--html-input utrecht-textbox--invalid"
                       aria-invalid="true"
                       value=""
                     />
@@ -273,7 +269,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                       id="field"
                       placeholder=""
                       type="text"
-                      class="utrecht-textbox utrecht-textbox--html-input"
                       value=""
                     />
                   </div>
@@ -310,7 +305,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                       id="field"
                       placeholder=""
                       type="text"
-                      class="utrecht-textbox utrecht-textbox--html-input"
                       value=""
                     />
                   </div>
@@ -331,7 +325,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                       id="field"
                       placeholder=""
                       type="text"
-                      class="utrecht-textbox utrecht-textbox--html-input utrecht-textbox--disabled"
                       disabled=""
                       value=""
                     />
@@ -353,7 +346,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                       id="field"
                       placeholder=""
                       type="text"
-                      class="utrecht-textbox utrecht-textbox--html-input utrecht-textbox--disabled"
                       disabled=""
                       value="Value"
                     />
@@ -376,7 +368,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                       placeholder=""
                       pattern="[0-9]*"
                       type="text"
-                      class="utrecht-textbox utrecht-textbox--html-input"
                       inputmode="numeric"
                       value=""
                     />
@@ -826,7 +817,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                       type="date"
                       id="field"
                       placeholder=""
-                      class="utrecht-textbox utrecht-textbox--html-input utrecht-textbox--sm"
                       value=""
                     />
                   </div>
@@ -846,7 +836,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                       type="time"
                       id="field"
                       placeholder=""
-                      class="utrecht-textbox utrecht-textbox--html-input utrecht-textbox--sm"
                       value=""
                     />
                   </div>

@@ -98,7 +98,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                 <Textbox
                   pattern="[0-9]*"
                   type="text"
-                  class="utrecht-textbox utrecht-textbox--html-input"
                   inputmode="numeric"
                 /><label>ha blijvend grasland</label>
               </div>
@@ -106,7 +105,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                 <Textbox
                   pattern="[0-9]*"
                   type="text"
-                  class="utrecht-textbox utrecht-textbox--html-input"
                   inputmode="numeric"
                 /><label>ha tijdelijk grasland</label>
               </div>
@@ -114,7 +112,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                 <Textbox
                   pattern="[0-9]*"
                   type="text"
-                  class="utrecht-textbox utrecht-textbox--html-input"
                   inputmode="numeric"
                 /><label>ha grasland totaal</label>
               </div>
@@ -132,7 +129,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                 <Textbox
                   pattern="[0-9]*"
                   type="text"
-                  class="utrecht-textbox utrecht-textbox--html-input"
                   inputmode="numeric"
                 /><label>ha klei</label>
               </div>
@@ -140,7 +136,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                 <Textbox
                   pattern="[0-9]*"
                   type="text"
-                  class="utrecht-textbox utrecht-textbox--html-input"
                   inputmode="numeric"
                 /><label>ha zand</label>
               </div>
@@ -148,7 +143,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                 <Textbox
                   pattern="[0-9]*"
                   type="text"
-                  class="utrecht-textbox utrecht-textbox--html-input"
                   inputmode="numeric"
                 /><label>ha loss</label>
               </div>
@@ -156,7 +150,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                 <Textbox
                   pattern="[0-9]*"
                   type="text"
-                  class="utrecht-textbox utrecht-textbox--html-input"
                   inputmode="numeric"
                 /><label>ha veen</label>
               </div>
@@ -164,7 +157,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                 <Textbox
                   pattern="[0-9]*"
                   type="text"
-                  class="utrecht-textbox utrecht-textbox--html-input"
                   inputmode="numeric"
                 /><label>ha bouwland totaal</label>
               </div>
@@ -182,7 +174,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                 <Textbox
                   pattern="[0-9]*"
                   type="text"
-                  class="utrecht-textbox utrecht-textbox--html-input"
                   inputmode="numeric"
                 /><label>ha heg, haag, struweel</label>
               </div>
@@ -190,7 +181,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                 <Textbox
                   pattern="[0-9]*"
                   type="text"
-                  class="utrecht-textbox utrecht-textbox--html-input"
                   inputmode="numeric"
                 /><label>ha overige houtige elementen</label>
               </div>

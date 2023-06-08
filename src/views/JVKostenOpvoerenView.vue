@@ -202,7 +202,7 @@ import { Textbox } from "@utrecht/component-library-vue";
                         </div>
                         <div class="rvo-radio-button__group">
                           <label class="rvo-custom-radio-button" for="vveiga"
-                            ><Textbox
+                            ><input
                               id="vveiga"
                               name="vv-eigenaar"
                               type="radio"

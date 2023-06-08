@@ -297,7 +297,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                           placeholder=""
                           pattern="[0-9]*"
                           type="text"
-                          class="utrecht-textbox utrecht-textbox--html-input"
                           inputmode="numeric"
                           value=""
                         />
@@ -320,7 +319,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                           placeholder=""
                           pattern="[0-9]*"
                           type="text"
-                          class="utrecht-textbox utrecht-textbox--html-input"
                           inputmode="numeric"
                           value=""
                         />

@@ -91,7 +91,6 @@ import { Textbox } from "@utrecht/component-library-vue";
                       id="field"
                       placeholder=""
                       type="text"
-                      class="utrecht-textbox utrecht-textbox--html-input"
                       value=""
                     />
                   </div>
