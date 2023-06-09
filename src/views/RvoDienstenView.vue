@@ -3,6 +3,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
 import { PageHeader } from "@utrecht/component-library-vue";
 import { Heading } from "@utrecht/component-library-vue";
 import { Checkbox } from "@utrecht/component-library-vue";
+import { } from "./components/PageFooter.vue";
 </script>
 
 <template>
@@ -575,7 +576,8 @@ import { Checkbox } from "@utrecht/component-library-vue";
         </div>
       </main>
     </div>
-    <footer class="rvo-footer">
+    <PageFooter />
+    <!-- <footer class="rvo-footer">
       <div class="rvo-max-width-layout rvo-max-width-layout--lg">
         <ul class="rvo-footer-menu">
           <li class="rvo-footer-menu-title">
@@ -734,6 +736,6 @@ import { Checkbox } from "@utrecht/component-library-vue";
           </li>
         </ul>
       </div>
-    </footer>
+    </footer> -->
   </div>
 </template>
