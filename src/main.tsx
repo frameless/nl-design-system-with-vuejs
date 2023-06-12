@@ -9,6 +9,6 @@ const app = createApp(App);
 
 app.use(router);
 
-app.component(Logo, 'Logo');
+app.component('Logo', Logo);
 
 app.mount("#app");
