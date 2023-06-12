@@ -13,6 +13,16 @@ import { PageHeader } from "@utrecht/component-library-vue";
             alt="Rijksdienst voor Ondernemend Nederland, ga naar de startpagina van RVO"
             class="rvo-logo-img rvo-header__logo-img"
         /></a>
+        <div class="header-logo header-logo--lrk">
+          <a
+            href="#/home"
+            title="Logo Rijksoverheid, Landelijk Register Kinderopvang. Informatie over kinderopvanglocaties"
+            ><span class="screenreader-only"
+              >Landelijk Register Kinderopvang, informatie over
+              kinderopvanglocaties</span
+            ></a
+          >
+        </div>
       </div>
     </header>
   </LogoHeader>
