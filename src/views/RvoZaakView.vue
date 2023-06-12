@@ -7,16 +7,6 @@ import {} from "./components/Logo.vue";
   <div class="rvo-demo-page rvo-demo-page--mijn-rvo">
     <div class="rvo-header-content">
       <Logo />
-      <!-- <header class="rvo-header">
-        <div class="rvo-header__logo-wrapper">
-          <a href="/" class="rvo-header__logo-link"
-            ><img
-              src="../assets/logo.svg"
-              alt="Rijksdienst voor Ondernemend Nederland, ga naar de startpagina van RVO"
-              class="rvo-logo-img rvo-header__logo-img"
-          /></a>
-        </div>
-      </header> -->
       <details class="rvo-responsive-menu">
         <summary>
           <span
