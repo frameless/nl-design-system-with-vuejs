@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Heading } from "@utrecht/component-library-vue";
+import LogoDisplay from "./components/Logo.vue";
 </script>
 
 <template>
@@ -9,7 +10,7 @@ import { Heading } from "@utrecht/component-library-vue";
         <div class="rvo-header__logo-wrapper">
           <a href="/" class="rvo-header__logo-link"
             ><img
-              src="../images/logo.svg"
+              src="../assets/logo.svg"
               alt="Rijksdienst voor Ondernemend Nederland, ga naar de startpagina van RVO"
               class="rvo-logo-img rvo-header__logo-img"
           /></a>
