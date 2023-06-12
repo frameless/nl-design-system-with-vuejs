@@ -1,5 +1,5 @@
 import "./assets/main.scss";
-import PageFooter from './components/PageFooter.vue';
+import PageFooter from './components/PageFooterRVO.vue';
 
 import { createApp } from "vue";
 import App from "./App.vue";
