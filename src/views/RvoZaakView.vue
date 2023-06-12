@@ -1,12 +1,13 @@
 <script setup lang="ts">
 import { Heading } from "@utrecht/component-library-vue";
-import LogoDisplay from "./components/Logo.vue";
+import Logo from "./components/Logo.vue";
 </script>
 
 <template>
   <div class="rvo-demo-page rvo-demo-page--mijn-rvo">
     <div class="rvo-header-content">
-      <header class="rvo-header">
+      <Logo />
+      <!-- <header class="rvo-header">
         <div class="rvo-header__logo-wrapper">
           <a href="/" class="rvo-header__logo-link"
             ><img
@@ -15,7 +16,7 @@ import LogoDisplay from "./components/Logo.vue";
               class="rvo-logo-img rvo-header__logo-img"
           /></a>
         </div>
-      </header>
+      </header> -->
       <details class="rvo-responsive-menu">
         <summary>
           <span
