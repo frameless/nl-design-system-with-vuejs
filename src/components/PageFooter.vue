@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 import { PageFooter } from "@utrecht/component-library-vue";
 </script>
 
@@ -169,4 +169,4 @@ import { PageFooter } from "@utrecht/component-library-vue";
 
 <style scoped>
 
-</style>
+</style> -->
