@@ -1,5 +1,7 @@
+<script lang="ts"></script>
+
 <template>
-  <LogoDisplay>
+  <LogoHeader>
     <div class="rvo-header-content">
       <header class="rvo-header">
         <div class="rvo-header__logo-wrapper">
@@ -142,24 +144,24 @@
         {subtitle && <p className="rvo-logo__subtitle">{subtitle}</p>}
       </div>
     </div> -->
-  </LogoDisplay>
+  </LogoHeader>
 </template>
 
-<script lang="ts">
-// export const LogoWithText: React.FC<ILogoProps> = ({ title = defaultArgs.title, subtitle = defaultArgs.subtitle }) => {
-//   return (
-//     <div className="rvo-logo">
-//       <div className="rvo-logo__emblem">
-//         <img src={EmblemSrc} alt={`${title || ''}${subtitle.length ? `, ${subtitle}` : ''}`} />
-//       </div>
-//       <div className="rvo-logo__wordmark">
-//         <p className="rvo-logo__title">{title}</p>
-//         {subtitle && <p className="rvo-logo__subtitle">{subtitle}</p>}
-//       </div>
-//     </div>
-//   );
-// };
-</script>
+<!-- <script lang="ts">
+export const LogoWithText: React.FC<ILogoProps> = ({ title = defaultArgs.title, subtitle = defaultArgs.subtitle }) => {
+  return (
+    <div className="rvo-logo">
+      <div className="rvo-logo__emblem">
+        <img src={EmblemSrc} alt={`${title || ''}${subtitle.length ? `, ${subtitle}` : ''}`} />
+      </div>
+      <div className="rvo-logo__wordmark">
+        <p className="rvo-logo__title">{title}</p>
+        {subtitle && <p className="rvo-logo__subtitle">{subtitle}</p>}
+      </div>
+    </div>
+  );
+};
+</script> -->
 
 <style scoped>
 .rvo-logo {

@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import { Heading } from "@utrecht/component-library-vue";
-import Logo from "./components/Logo.vue";
+import {} from "./components/Logo.vue";
 </script>
 
 <template>
   <div class="rvo-demo-page rvo-demo-page--mijn-rvo">
     <div class="rvo-header-content">
-      <Logo />
+      <LogoHeader />
       <!-- <header class="rvo-header">
         <div class="rvo-header__logo-wrapper">
           <a href="/" class="rvo-header__logo-link"
