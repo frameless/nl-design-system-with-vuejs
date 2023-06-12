@@ -2,6 +2,7 @@
 import { Heading } from "@utrecht/component-library-vue";
 import { Checkbox } from "@utrecht/component-library-vue";
 import { PageHeader } from "@utrecht/component-library-vue";
+import { Textbox } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -216,7 +217,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
                             Het is mogelijk meerdere bestanden te selecteren
                           </div>
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           type="file"
                           class="rvo-file-input"
@@ -289,7 +290,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
                             Het is mogelijk meerdere bestanden te selecteren
                           </div>
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           type="file"
                           class="rvo-file-input"
@@ -321,7 +322,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
                             Het is mogelijk meerdere bestanden te selecteren
                           </div>
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           type="file"
                           class="rvo-file-input"
@@ -385,7 +386,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
                             >Taxatierapport</label
                           >
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           type="file"
                           class="rvo-file-input"
@@ -425,7 +426,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
                             bestanden te selecteren.
                           </div>
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           type="file"
                           class="rvo-file-input"
@@ -463,7 +464,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
                             Het is mogelijk meerdere bestanden te selecteren
                           </div>
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           type="file"
                           class="rvo-file-input"

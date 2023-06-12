@@ -2,6 +2,7 @@
 import { Checkbox } from "@utrecht/component-library-vue";
 import { Heading } from "@utrecht/component-library-vue";
 import { Paragraph } from "@utrecht/component-library-vue";
+import { Textbox } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -845,7 +846,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                             >File</label
                           >
                         </div>
-                        <input
+                        <Textbox
                           id="field"
                           type="file"
                           class="rvo-file-input"
