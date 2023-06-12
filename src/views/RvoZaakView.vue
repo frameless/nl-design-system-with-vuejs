@@ -6,7 +6,7 @@ import {} from "./components/Logo.vue";
 <template>
   <div class="rvo-demo-page rvo-demo-page--mijn-rvo">
     <div class="rvo-header-content">
-      <LogoHeader />
+      <Logo />
       <!-- <header class="rvo-header">
         <div class="rvo-header__logo-wrapper">
           <a href="/" class="rvo-header__logo-link"
