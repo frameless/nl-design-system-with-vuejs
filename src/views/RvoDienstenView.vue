@@ -141,7 +141,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
           <div class="rvo-max-width-layout rvo-max-width-layout--md">
             <details class="rvo-responsive-filters">
               <summary class="rvo-responsive-filters-toggle">
-                Diensten filteren<span
+                Zaken filteren<span
                   class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--hemelblauw"
                 ></span
                 ><span
