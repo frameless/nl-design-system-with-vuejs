@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Heading } from "@utrecht/component-library-vue";
+import { Heading, Link } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -31,40 +31,38 @@ import { Heading } from "@utrecht/component-library-vue";
           >
             <ul class="utrecht-topnav__list">
               <li class="utrecht-topnav__item">
-                <RouterLink class="utrecht-topnav__link" to="rvomijnzaken"
-                  >Zaken</RouterLink
+                <Link class="utrecht-topnav__link" href="rvomijnzaken"
+                  >Zaken</Link
                 >
               </li>
               <li class="utrecht-topnav__item">
-                <RouterLink class="utrecht-topnav__link" to="rvodiensten"
-                  >Diensten</RouterLink
+                <Link class="utrecht-topnav__link" href="rvodiensten"
+                  >Diensten</Link
                 >
               </li>
               <li class="utrecht-topnav__item">
-                <RouterLink class="utrecht-topnav__link" to="#"
-                  >Help</RouterLink
-                >
+                <Link class="utrecht-topnav__link" href="#">Help</Link>
               </li>
               <li class="utrecht-topnav__item">
-                <RouterLink class="utrecht-topnav__link" to="rvoprofiel"
-                  >Profiel</RouterLink
+                <Link class="utrecht-topnav__link" href="rvoprofiel"
+                  >Profiel</Link
                 >
               </li>
               <li
                 class="utrecht-topnav__item utrecht-topnav__item--align-right"
               >
-                <RouterLink class="utrecht-topnav__link" to="rvoinloggen"
-                  >Uitloggen</RouterLink
+                <Link class="utrecht-topnav__link" href="rvoinloggen"
+                  >Uitloggen</Link
                 >
               </li>
               <li class="utrecht-topnav__item">
-                <RouterLink class="utrecht-topnav__link" to="#"
+                <Link class="utrecht-topnav__link" href="#"
                   ><span
                     class="utrecht-icon rvo-icon rvo-icon-wereldbol rvo-icon--lg rvo-icon--wit"
                     role="img"
                     aria-label="Wereldbol"
                   ></span
-                  >English</RouterLink
+                  >English</Link
                 >
               </li>
             </ul>
@@ -77,36 +75,36 @@ import { Heading } from "@utrecht/component-library-vue";
         >
           <ul class="utrecht-topnav__list">
             <li class="utrecht-topnav__item utrecht-topnav__item--active">
-              <RouterLink class="utrecht-topnav__link" to="rvomijnzaken"
-                >Zaken</RouterLink
+              <Link class="utrecht-topnav__link" href="rvomijnzaken"
+                >Zaken</Link
               >
             </li>
             <li class="utrecht-topnav__item">
-              <RouterLink class="utrecht-topnav__link" to="rvodiensten"
-                >Diensten</RouterLink
+              <Link class="utrecht-topnav__link" href="rvodiensten"
+                >Diensten</Link
               >
             </li>
             <li class="utrecht-topnav__item">
-              <RouterLink class="utrecht-topnav__link" to="#">Help</RouterLink>
+              <Link class="utrecht-topnav__link" href="#">Help</Link>
             </li>
             <li class="utrecht-topnav__item">
-              <RouterLink class="utrecht-topnav__link" to="rvoprofiel"
-                >Profiel</RouterLink
+              <Link class="utrecht-topnav__link" href="rvoprofiel"
+                >Profiel</Link
               >
             </li>
             <li class="utrecht-topnav__item utrecht-topnav__item--align-right">
-              <RouterLink class="utrecht-topnav__link" to="rvoinloggen"
-                >Uitloggen</RouterLink
+              <Link class="utrecht-topnav__link" href="rvoinloggen"
+                >Uitloggen</Link
               >
             </li>
             <li class="utrecht-topnav__item">
-              <RouterLink class="utrecht-topnav__link" to="#"
+              <Link class="utrecht-topnav__link" href="#"
                 ><span
                   class="utrecht-icon rvo-icon rvo-icon-wereldbol rvo-icon--lg rvo-icon--wit"
                   role="img"
                   aria-label="Wereldbol"
                 ></span
-                >English</RouterLink
+                >English</Link
               >
             </li>
           </ul>
