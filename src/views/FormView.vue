@@ -76,43 +76,43 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
               <div
                 class="rvo-progress-tracker__step rvo-progress-tracker__step--md rvo-progress-tracker__step--completed rvo-image-bg-progress-tracker-completed-md--after rvo-progress-tracker__step--straight rvo-image-bg-progress-tracker-line-straight--before"
               >
-                <a href="#" class="rvo-link rvo-progress-tracker__step-link"
-                  >Step completed</a
+                <Link href="#" class="rvo-link rvo-progress-tracker__step-link"
+                  >Step completed</Link
                 >
               </div>
               <div
                 class="rvo-progress-tracker__step rvo-progress-tracker__step--md rvo-progress-tracker__step--doing rvo-image-bg-progress-tracker-doing-md--after rvo-progress-tracker__step--straight rvo-image-bg-progress-tracker-line-straight--before"
               >
-                <a href="#" class="rvo-link rvo-progress-tracker__step-link"
-                  >Step doing</a
+                <Link href="#" class="rvo-link rvo-progress-tracker__step-link"
+                  >Step doing</Link
                 >
               </div>
               <div
                 class="rvo-progress-tracker__step rvo-progress-tracker__step--md rvo-progress-tracker__step--incomplete rvo-image-bg-progress-tracker-incomplete-md--after rvo-progress-tracker__step--substep-start rvo-image-bg-progress-tracker-line-substep-start--before"
               >
-                <a href="#" class="rvo-link rvo-progress-tracker__step-link"
-                  >Step incomplete</a
+                <Link href="#" class="rvo-link rvo-progress-tracker__step-link"
+                  >Step incomplete</Link
                 >
               </div>
               <div
                 class="rvo-progress-tracker__step rvo-progress-tracker__step--sm rvo-progress-tracker__step--incomplete rvo-image-bg-progress-tracker-incomplete-sm--after rvo-progress-tracker__step--straight rvo-image-bg-progress-tracker-line-straight--before"
               >
-                <a href="#" class="rvo-link rvo-progress-tracker__step-link"
-                  >First sub-step</a
+                <Link href="#" class="rvo-link rvo-progress-tracker__step-link"
+                  >First sub-step</Link
                 >
               </div>
               <div
                 class="rvo-progress-tracker__step rvo-progress-tracker__step--sm rvo-progress-tracker__step--doing rvo-image-bg-progress-tracker-doing-sm--after rvo-progress-tracker__step--straight rvo-image-bg-progress-tracker-line-straight--before"
               >
-                <a href="#" class="rvo-link rvo-progress-tracker__step-link"
-                  >Sub-step doing</a
+                <Link href="#" class="rvo-link rvo-progress-tracker__step-link"
+                  >Sub-step doing</Link
                 >
               </div>
               <div
                 class="rvo-progress-tracker__step rvo-progress-tracker__step--sm rvo-progress-tracker__step--completed rvo-image-bg-progress-tracker-completed-sm--after rvo-progress-tracker__step--straight rvo-image-bg-progress-tracker-line-straight--before"
               >
-                <a href="#" class="rvo-link rvo-progress-tracker__step-link"
-                  >Sub-step completed</a
+                <Link href="#" class="rvo-link rvo-progress-tracker__step-link"
+                  >Sub-step completed</Link
                 >
               </div>
               <div
@@ -141,13 +141,13 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
             <div class="rvo-form">
               <div class="rvo-layout-column rvo-layout-gap--sm">
                 <div class="intro">
-                  <a href="#" class="rvo-link rvo-link--with-icon"
+                  <Link href="#" class="rvo-link rvo-link--with-icon"
                     ><span
                       class="utrecht-icon rvo-icon rvo-icon-terug rvo-icon--md rvo-icon--hemelblauw rvo-link__icon--before"
                       role="img"
                       aria-label="Terug"
                     ></span
-                    >Terug</a
+                    >Terug</Link
                   >
                   <Heading :level="1">Heading</Heading>
                 </div>

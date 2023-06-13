@@ -1,16 +1,16 @@
 <script setup lang="ts">
-import { Heading, Checkbox } from "@utrecht/component-library-vue";
+import { Heading, Checkbox, Link } from "@utrecht/component-library-vue";
 </script>
 <template>
   <div class="rvo-demo-page">
     <header class="rvo-header">
       <div class="rvo-header__logo-wrapper">
-        <a href="/" class="rvo-header__logo-link"
+        <Link href="/" class="rvo-header__logo-link"
           ><img
             src="../images/logo.svg"
             alt="Rijksdienst voor Ondernemend Nederland, ga naar de startpagina van RVO"
             class="rvo-logo-img rvo-header__logo-img"
-        /></a>
+        /></Link>
       </div>
     </header>
     <div class="rvo-layout-column rvo-layout-gap--2xl">
@@ -20,7 +20,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
         >
           <ul class="utrecht-topnav__list">
             <li class="utrecht-topnav__item">
-              <a
+              <Link
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--zaak&amp;viewMode=story"
                 ><span
@@ -28,14 +28,14 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Terug"
                 ></span
-                >Terug naar Mijn RVO</a
+                >Terug naar Mijn RVO</Link
               >
             </li>
             <li class="utrecht-topnav__item utrecht-topnav__item--align-right">
-              <a
+              <Link
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--inloggen&amp;viewMode=story"
-                >Uitloggen</a
+                >Uitloggen</Link
               >
             </li>
           </ul>
@@ -52,71 +52,71 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
             <div
               class="rvo-progress-tracker__step rvo-progress-tracker__step--md rvo-progress-tracker__step--completed rvo-image-bg-progress-tracker-completed-md--after rvo-progress-tracker__step--straight rvo-image-bg-progress-tracker-line-straight--before"
             >
-              <a
+              <Link
                 href="iframe.html?args=&amp;id=demo-pagina-s-jonge-vissers--controleer-uw-gegevens&amp;viewMode=story"
                 class="rvo-link rvo-progress-tracker__step-link"
-                >Controleer uw gegevens</a
+                >Controleer uw gegevens</Link
               >
             </div>
             <div
               class="rvo-progress-tracker__step rvo-progress-tracker__step--md rvo-progress-tracker__step--completed rvo-image-bg-progress-tracker-completed-md--after rvo-progress-tracker__step--straight rvo-image-bg-progress-tracker-line-straight--before"
             >
-              <a
+              <Link
                 href="iframe.html?args=&amp;id=demo-pagina-s-jonge-vissers--correspondentie&amp;viewMode=story"
                 class="rvo-link rvo-progress-tracker__step-link"
-                >Correspondentie</a
+                >Correspondentie</Link
               >
             </div>
             <div
               class="rvo-progress-tracker__step rvo-progress-tracker__step--md rvo-progress-tracker__step--completed rvo-image-bg-progress-tracker-completed-md--after rvo-progress-tracker__step--straight rvo-image-bg-progress-tracker-line-straight--before"
             >
-              <a
+              <Link
                 href="iframe.html?args=&amp;id=demo-pagina-s-jonge-vissers--datum&amp;viewMode=story"
                 class="rvo-link rvo-progress-tracker__step-link"
-                >Datum verleningsverzoek</a
+                >Datum verleningsverzoek</Link
               >
             </div>
             <div
               class="rvo-progress-tracker__step rvo-progress-tracker__step--md rvo-progress-tracker__step--completed rvo-image-bg-progress-tracker-completed-md--after rvo-progress-tracker__step--straight rvo-image-bg-progress-tracker-line-straight--before"
             >
-              <a
+              <Link
                 href="iframe.html?args=&amp;id=demo-pagina-s-jonge-vissers--project&amp;viewMode=story"
                 class="rvo-link rvo-progress-tracker__step-link"
-                >Project vragen</a
+                >Project vragen</Link
               >
             </div>
             <div
               class="rvo-progress-tracker__step rvo-progress-tracker__step--md rvo-progress-tracker__step--completed rvo-image-bg-progress-tracker-completed-md--after rvo-progress-tracker__step--straight rvo-image-bg-progress-tracker-line-straight--before"
             >
-              <a
+              <Link
                 href="iframe.html?args=&amp;id=demo-pagina-s-jonge-vissers--kosten"
                 class="rvo-link rvo-progress-tracker__step-link"
-                >Kosten</a
+                >Kosten</Link
               >
             </div>
             <div
               class="rvo-progress-tracker__step rvo-progress-tracker__step--md rvo-progress-tracker__step--doing rvo-image-bg-progress-tracker-doing-md--after rvo-progress-tracker__step--straight rvo-image-bg-progress-tracker-line-straight--before"
             >
-              <a href="#" class="rvo-link rvo-progress-tracker__step-link"
-                >Bijlagen</a
+              <Link href="#" class="rvo-link rvo-progress-tracker__step-link"
+                >Bijlagen</Link
               >
             </div>
             <div
               class="rvo-progress-tracker__step rvo-progress-tracker__step--md rvo-progress-tracker__step--incomplete rvo-image-bg-progress-tracker-incomplete-md--after rvo-progress-tracker__step--straight rvo-image-bg-progress-tracker-line-straight--before"
             >
-              <a
+              <Link
                 href="iframe.html?args=&amp;id=demo-pagina-s-jonge-vissers--samenvatting"
                 class="rvo-link rvo-progress-tracker__step-link"
-                >Samenvatting</a
+                >Samenvatting</Link
               >
             </div>
             <div
               class="rvo-progress-tracker__step rvo-progress-tracker__step--md rvo-progress-tracker__step--incomplete rvo-image-bg-progress-tracker-incomplete-md--after rvo-progress-tracker__step--straight rvo-image-bg-progress-tracker-line-straight--before"
             >
-              <a
+              <Link
                 href="iframe.html?args=&amp;id=demo-pagina-s-jonge-vissers--ondertekening&amp;viewMode=story"
                 class="rvo-link rvo-progress-tracker__step-link"
-                >Ondertekening</a
+                >Ondertekening</Link
               >
             </div>
             <div
@@ -134,7 +134,8 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                     U kunt alleen bijlagen versturen in PDF-formaat. Als u een
                     ander type document wil versturen maakt u hier eerst een PDF
                     van waarvoor u eventueel de gratis
-                    <a href="#" class="rvo-link">PDF Creator</a> kan gebruiken.
+                    <Link href="#" class="rvo-link">PDF Creator</Link> kan
+                    gebruiken.
                   </li>
                   <li>
                     Iedere bijlage mag <strong>maximaal 25MB</strong> groot
@@ -470,14 +471,14 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                     </fieldset>
                   </div>
                   <div class="rvo-button-group">
-                    <a
+                    <Link
                       class="utrecht-button utrecht-button--secondary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
                       href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--zaak&amp;viewMode=story"
-                      >Opslaan en sluiten</a
-                    ><a
+                      >Opslaan en sluiten</Link
+                    ><Link
                       class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
                       href="iframe.html?args=&amp;id=demo-pagina-s-jonge-vissers--samenvatting"
-                      >Opslaan en verder</a
+                      >Opslaan en verder</Link
                     >
                   </div>
                 </div>

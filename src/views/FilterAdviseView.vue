@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Heading, Checkbox } from "@utrecht/component-library-vue";
+import { Heading, Checkbox, Link } from "@utrecht/component-library-vue";
 </script>
 <template>
   <div class="rvo-demo-page">
@@ -282,7 +282,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                           <div class="rvo-layout-row rvo-layout-gap--lg">
                             <div class="rvo-result-text">
                               <div class="rvo-layout-column rvo-layout-gap--sm">
-                                <a href="#" class="rvo-link">Jelle Knop</a
+                                <Link href="#" class="rvo-link">Jelle Knop</Link
                                 ><span class="rvo-result-description"
                                   >Ik ben adviseur innovatieprogramma’s health
                                   bij RVO, waar ik me vooral focus op de
@@ -307,20 +307,20 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                                 >
                               </div>
                             </div>
-                            <a href="#"
+                            <Link href="#"
                               ><img
                                 alt=""
                                 class="rvo-result-profile-pic"
                                 src="https://media-exp1.licdn.com/dms/image/C4E03AQEirwEyMyg2pQ/profile-displayphoto-shrink_200_200/0/1657908152116?e=2147483647&amp;v=beta&amp;t=McXjZqk3FV1ud7n4sE7MzYloKoPc7ZpNoJTtzkHKc4k"
-                            /></a>
+                            /></Link>
                           </div>
                         </div>
                         <div class="rvo-result rvo-result--w-image">
                           <div class="rvo-layout-row rvo-layout-gap--lg">
                             <div class="rvo-result-text">
                               <div class="rvo-layout-column rvo-layout-gap--sm">
-                                <a href="#" class="rvo-link"
-                                  >Bert van der Heide</a
+                                <Link href="#" class="rvo-link"
+                                  >Bert van der Heide</Link
                                 ><span class="rvo-result-description"
                                   >Als adviseur internationale innovatie binnen
                                   RVO werk ik op het agri-food domein. Dit omvat
@@ -340,19 +340,20 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                                 >
                               </div>
                             </div>
-                            <a href="#"
+                            <Link href="#"
                               ><img
                                 alt=""
                                 class="rvo-result-profile-pic"
                                 src="https://pbs.twimg.com/profile_images/1275762454895738881/laNLU5lV_400x400.jpg"
-                            /></a>
+                            /></Link>
                           </div>
                         </div>
                         <div class="rvo-result">
                           <div class="rvo-layout-row rvo-layout-gap--lg">
                             <div class="rvo-result-text">
                               <div class="rvo-layout-column rvo-layout-gap--sm">
-                                <a href="#" class="rvo-link">Roy Paulissen</a
+                                <Link href="#" class="rvo-link"
+                                  >Roy Paulissen</Link
                                 ><span class="rvo-result-description"
                                   >Samen met de topsector HTSM vorm ik de nieuwe
                                   internationale strategie. Ik zit in het
@@ -398,7 +399,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Over ons</a>
+                ><Link href="#" class="rvo-link">Over ons</Link>
               </li>
               <li class="rvo-footer-menu-item">
                 <span
@@ -406,7 +407,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Contact</a>
+                ><Link href="#" class="rvo-link">Contact</Link>
               </li>
               <li class="rvo-footer-menu-item">
                 <span
@@ -414,7 +415,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Pers</a>
+                ><Link href="#" class="rvo-link">Pers</Link>
               </li>
               <li class="rvo-footer-menu-item">
                 <span
@@ -422,7 +423,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Zaken regelen bij RVO</a>
+                ><Link href="#" class="rvo-link">Zaken regelen bij RVO</Link>
               </li>
             </ul>
             <ul class="rvo-footer-menu">
@@ -435,7 +436,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Privacy</a>
+                ><Link href="#" class="rvo-link">Privacy</Link>
               </li>
               <li class="rvo-footer-menu-item">
                 <span
@@ -443,7 +444,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Cookies en anti-spam</a>
+                ><Link href="#" class="rvo-link">Cookies en anti-spam</Link>
               </li>
               <li class="rvo-footer-menu-item">
                 <span
@@ -451,7 +452,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Toegankelijkheid</a>
+                ><Link href="#" class="rvo-link">Toegankelijkheid</Link>
               </li>
               <li class="rvo-footer-menu-item">
                 <span
@@ -459,7 +460,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Proclaimer</a>
+                ><Link href="#" class="rvo-link">Proclaimer</Link>
               </li>
             </ul>
             <ul class="rvo-footer-menu">
@@ -472,7 +473,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Onderwerpen A t/m Z</a>
+                ><Link href="#" class="rvo-link">Onderwerpen A t/m Z</Link>
               </li>
               <li class="rvo-footer-menu-item">
                 <span
@@ -480,7 +481,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Klantenpanel</a>
+                ><Link href="#" class="rvo-link">Klantenpanel</Link>
               </li>
               <li class="rvo-footer-menu-item">
                 <span
@@ -488,7 +489,9 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Documenten en publicaties</a>
+                ><Link href="#" class="rvo-link"
+                  >Documenten en publicaties</Link
+                >
               </li>
               <li class="rvo-footer-menu-item">
                 <span
@@ -496,8 +499,8 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link"
-                  >Overheidspublicaties en auteursrecht</a
+                ><Link href="#" class="rvo-link"
+                  >Overheidspublicaties en auteursrecht</Link
                 >
               </li>
             </ul>
@@ -511,7 +514,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Social media</a>
+                ><Link href="#" class="rvo-link">Social media</Link>
               </li>
               <li class="rvo-footer-menu-item">
                 <span
@@ -519,8 +522,8 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link"
-                  >Higherlevel.nl ondernemersforum</a
+                ><Link href="#" class="rvo-link"
+                  >Higherlevel.nl ondernemersforum</Link
                 >
               </li>
               <li class="rvo-footer-menu-item">
@@ -529,7 +532,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">RSS</a>
+                ><Link href="#" class="rvo-link">RSS</Link>
               </li>
               <li class="rvo-footer-menu-item">
                 <span
@@ -537,7 +540,7 @@ import { Heading, Checkbox } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Gratis nieuwsbrief</a>
+                ><Link href="#" class="rvo-link">Gratis nieuwsbrief</Link>
               </li>
             </ul>
           </div>

@@ -1,17 +1,17 @@
 <script setup lang="ts">
-import { Heading } from "@utrecht/component-library-vue";
+import { Heading, Link } from "@utrecht/component-library-vue";
 </script>
 <template>
   <div class="rvo-demo-page rvo-demo-page--mijn-rvo">
     <div class="rvo-header-content">
       <header class="rvo-header">
         <div class="rvo-header__logo-wrapper">
-          <a href="/" class="rvo-header__logo-link"
+          <Link href="/" class="rvo-header__logo-link"
             ><img
               src="../images/logo.svg"
               alt="Rijksdienst voor Ondernemend Nederland, ga naar de startpagina van RVO"
               class="rvo-logo-img rvo-header__logo-img"
-          /></a>
+          /></Link>
         </div>
       </header>
       <div class="rvo-topnav__background">

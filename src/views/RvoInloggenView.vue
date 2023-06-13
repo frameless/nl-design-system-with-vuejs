@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Heading } from "@utrecht/component-library-vue";
+import { RouterLink } from "vue-router";
 </script>
 <template>
   <div class="rvo-demo-page rvo-demo-page--mijn-rvo">
@@ -83,14 +84,14 @@ import { Heading } from "@utrecht/component-library-vue";
                   </p>
                   <p>Kies het niveau van het middel waarmee u wilt inloggen.</p>
                   <p>
-                    <a
+                    <RouterLink
                       class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
-                      href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
-                      >Inloggen met e-Herkenning 2</a
-                    ><br /><br /><a
+                      to="rvomijnzaken"
+                      >Inloggen met e-Herkenning 2</RouterLink
+                    ><br /><br /><RouterLink
                       class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
-                      href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
-                      >Inloggen met e-Herkenning 3</a
+                      to="rvomijnzaken"
+                      >Inloggen met e-Herkenning 3</RouterLink
                     >
                   </p>
                 </div>
@@ -121,10 +122,10 @@ import { Heading } from "@utrecht/component-library-vue";
                     leest u op de website van
                     <a href="#" class="rvo-link">DigiD</a>
                   </p>
-                  <a
+                  <RouterLink
                     class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
-                    href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
-                    >Inloggen met DigiD</a
+                    to="rvomijnzaken"
+                    >Inloggen met DigiD</RouterLink
                   >
                 </div>
               </details>
@@ -152,10 +153,10 @@ import { Heading } from "@utrecht/component-library-vue";
                     Log in with a digital identity from another European
                     country.
                   </p>
-                  <a
+                  <RouterLink
                     class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
-                    href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
-                    >EU Login</a
+                    to="rvomijnzaken"
+                    >EU Login</RouterLink
                   >
                 </div>
               </details>
@@ -177,10 +178,10 @@ import { Heading } from "@utrecht/component-library-vue";
                 </summary>
                 <div class="rvo-accordion__content">
                   <p>U heeft geen eHerkenning of DigiD.</p>
-                  <a
+                  <RouterLink
                     class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
-                    href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
-                    >Anders inloggen</a
+                    to="rvomijnzaken"
+                    >Anders inloggen</RouterLink
                   >
                 </div>
               </details>

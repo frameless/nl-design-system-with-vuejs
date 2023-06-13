@@ -1,16 +1,16 @@
 <script setup lang="ts">
-import { Heading } from "@utrecht/component-library-vue";
+import { Heading, Link } from "@utrecht/component-library-vue";
 </script>
 <template>
   <div class="rvo-demo-page">
     <header class="rvo-header">
       <div class="rvo-header__logo-wrapper">
-        <a href="/" class="rvo-header__logo-link"
+        <Link href="/" class="rvo-header__logo-link"
           ><img
             src="../images/logo.svg"
             alt="Rijksdienst voor Ondernemend Nederland, ga naar de startpagina van RVO"
             class="rvo-logo-img rvo-header__logo-img"
-        /></a>
+        /></Link>
       </div>
     </header>
     <div class="rvo-layout-column rvo-layout-gap--md">
@@ -69,7 +69,7 @@ import { Heading } from "@utrecht/component-library-vue";
             voor uit. En de taak om dit uit te voeren ligt bij RVO: de
             Rijksdienst voor Ondernemend Nederland. Onze mensen maken wereldwijd
             verbinding.
-            <a href="#" class="rvo-link">Dit is een link. </a>&nbsp;Tussen
+            <Link href="#" class="rvo-link">Dit is een link. </Link>&nbsp;Tussen
             bedrijven, kennis- en financiële instellingen, ambassades en lokale
             overheden.
           </p>
@@ -80,7 +80,7 @@ import { Heading } from "@utrecht/component-library-vue";
             voor uit. En de taak om dit uit te voeren ligt bij RVO: de
             Rijksdienst voor Ondernemend Nederland. Onze mensen maken wereldwijd
             verbinding.
-            <a href="#" class="rvo-link">Dit is een link. </a>&nbsp;Tussen
+            <Link href="#" class="rvo-link">Dit is een link. </Link>&nbsp;Tussen
             bedrijven, kennis- en financiële instellingen, ambassades en lokale
             overheden.
           </p>
@@ -91,7 +91,7 @@ import { Heading } from "@utrecht/component-library-vue";
             voor uit. En de taak om dit uit te voeren ligt bij RVO: de
             Rijksdienst voor Ondernemend Nederland. Onze mensen maken wereldwijd
             verbinding.
-            <a href="#" class="rvo-link">Dit is een link. </a>&nbsp;Tussen
+            <Link href="#" class="rvo-link">Dit is een link. </Link>&nbsp;Tussen
             bedrijven, kennis- en financiële instellingen, ambassades en lokale
             overheden.
           </p>
