@@ -17,6 +17,7 @@
     "lint-fix:prettier": "prettier --write \"**/*.+(css|js|json|jsx|scss|ts|tsx)\" ."
   },
   "dependencies": {
+    "@nl-rvo/assets": "1.0.0-alpha.253",
     "vue": "3.3.2",
     "vue-router": "4.2.0"
   },
