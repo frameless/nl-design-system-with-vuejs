@@ -2,18 +2,19 @@
 import { Heading } from "@utrecht/component-library-vue";
 import { Checkbox } from "@utrecht/component-library-vue";
 import { PageHeader } from "@utrecht/component-library-vue";
+import { Link } from "@utrecht/component-library-vue";
 </script>
 
 <template>
   <div class="rvo-demo-page">
     <PageHeader class="rvo-header">
       <div class="rvo-header__logo-wrapper">
-        <a href="/" class="rvo-header__logo-link"
+        <Link href="/" class="rvo-header__logo-link"
           ><img
             src="../images/logo.svg"
             alt="Rijksdienst voor Ondernemend Nederland, ga naar de startpagina van RVO"
             class="rvo-logo-img rvo-header__logo-img"
-        /></a>
+        /></Link>
       </div>
     </PageHeader>
     <div class="rvo-layout-column rvo-layout-gap--2xl">
@@ -100,8 +101,8 @@ import { PageHeader } from "@utrecht/component-library-vue";
             <div
               class="rvo-progress-tracker__step rvo-progress-tracker__step--md rvo-progress-tracker__step--doing rvo-image-bg-progress-tracker-doing-md--after rvo-progress-tracker__step--straight rvo-image-bg-progress-tracker-line-straight--before"
             >
-              <a href="#" class="rvo-link rvo-progress-tracker__step-link"
-                >Bijlagen</a
+              <Link href="#" class="rvo-link rvo-progress-tracker__step-link"
+                >Bijlagen</Link
               >
             </div>
             <div
@@ -137,7 +138,8 @@ import { PageHeader } from "@utrecht/component-library-vue";
                     U kunt alleen bijlagen versturen in PDF-formaat. Als u een
                     ander type document wil versturen maakt u hier eerst een PDF
                     van waarvoor u eventueel de gratis
-                    <a href="#" class="rvo-link">PDF Creator</a> kan gebruiken.
+                    <Link href="#" class="rvo-link">PDF Creator</Link> kan
+                    gebruiken.
                   </li>
                   <li>
                     Iedere bijlage mag <strong>maximaal 25MB</strong> groot

@@ -2,18 +2,19 @@
 import { Heading } from "@utrecht/component-library-vue";
 import { Checkbox } from "@utrecht/component-library-vue";
 import { Paragraph } from "@utrecht/component-library-vue";
+import { Link } from "@utrecht/component-library-vue";
 </script>
 
 <template>
   <div class="rvo-demo-page">
     <header class="rvo-header">
       <div class="rvo-header__logo-wrapper">
-        <a href="/" class="rvo-header__logo-link"
+        <Link href="/" class="rvo-header__logo-link"
           ><img
             src="../images/logo.svg"
             alt="Rijksdienst voor Ondernemend Nederland, ga naar de startpagina van RVO"
             class="rvo-logo-img rvo-header__logo-img"
-        /></a>
+        /></Link>
       </div>
     </header>
     <div class="rvo-layout-column rvo-layout-gap--lg">
@@ -320,19 +321,19 @@ import { Paragraph } from "@utrecht/component-library-vue";
                         <span class="rvo-results-count"
                           ><strong>54</strong> resultaten voor</span
                         ><span class="rvo-tag rvo-tag--default rvo-tag--sm"
-                          >Agro en visserij<a href="#"
+                          >Agro en visserij<Link href="#"
                             ><span
                               class="utrecht-icon rvo-icon rvo-icon-kruis rvo-icon--sm rvo-icon--zwart"
                               role="img"
                               aria-label="Kruis"
-                            ></span></a></span
+                            ></span></Link></span
                         ><span class="rvo-tag rvo-tag--default rvo-tag--sm"
-                          >Milieusector<a href="#"
+                          >Milieusector<Link href="#"
                             ><span
                               class="utrecht-icon rvo-icon rvo-icon-kruis rvo-icon--sm rvo-icon--zwart"
                               role="img"
                               aria-label="Kruis"
-                            ></span></a
+                            ></span></Link
                         ></span>
                       </div>
                     </div>
@@ -344,9 +345,9 @@ import { Paragraph } from "@utrecht/component-library-vue";
                           <div class="rvo-layout-row rvo-layout-gap--lg">
                             <div class="rvo-result-text">
                               <div class="rvo-layout-column rvo-layout-gap--sm">
-                                <a href="#" class="rvo-link"
+                                <Link href="#" class="rvo-link"
                                   >Energieprestatieverbetering van bestaande
-                                  bedrijfsgebouwen [W]</a
+                                  bedrijfsgebouwen [W]</Link
                                 ><span class="rvo-result-description"
                                   >Het verbeteren van de energieprestatie van
                                   bestaande bedrijfsgebouwen, bepaald volgens
@@ -363,18 +364,18 @@ import { Paragraph } from "@utrecht/component-library-vue";
                                 >
                               </div>
                             </div>
-                            <a href="#"
+                            <Link href="#"
                               ><img
                                 alt=""
                                 class="rvo-result-image"
                                 src="https://www.rvo.nl/files/file/styles/content/public/2022-07/8-Augustus%202022%20JPJ%20JIC%20Schiphol30.jpg"
-                            /></a>
+                            /></Link>
                           </div>
                         </div>
                         <div class="rvo-result">
                           <div class="rvo-layout-column rvo-layout-gap--sm">
-                            <a href="#" class="rvo-link"
-                              >HR-luchtverwarmer [W]</a
+                            <Link href="#" class="rvo-link"
+                              >HR-luchtverwarmer [W]</Link
                             ><span class="rvo-result-description"
                               >direct gasgestookte luchtverwarmer, al dan niet
                               voorzien van een tussenmedium, samengebouwd tot
@@ -394,8 +395,8 @@ import { Paragraph } from "@utrecht/component-library-vue";
                         </div>
                         <div class="rvo-result">
                           <div class="rvo-layout-column rvo-layout-gap--sm">
-                            <a href="#" class="rvo-link"
-                              >Direct gasgestookt stralingspaneel [W]</a
+                            <Link href="#" class="rvo-link"
+                              >Direct gasgestookt stralingspaneel [W]</Link
                             ><span class="rvo-result-description"
                               >het verwarmen van gesloten binnenruimten in
                               bedrijfsgebouwen met een gemiddelde hoogtevan meer
@@ -411,8 +412,8 @@ import { Paragraph } from "@utrecht/component-library-vue";
                         </div>
                         <div class="rvo-result">
                           <div class="rvo-layout-column rvo-layout-gap--sm">
-                            <a href="#" class="rvo-link"
-                              >Warmteterugwinningsysteem uit luchtwassers</a
+                            <Link href="#" class="rvo-link"
+                              >Warmteterugwinningsysteem uit luchtwassers</Link
                             ><span class="rvo-result-description"
                               >het verwarmen van veestallen door het benutten
                               van de warmte uit de luchtwasser,</span
@@ -427,9 +428,9 @@ import { Paragraph } from "@utrecht/component-library-vue";
                         </div>
                         <div class="rvo-result">
                           <div class="rvo-layout-column rvo-layout-gap--sm">
-                            <a href="#" class="rvo-link"
+                            <Link href="#" class="rvo-link"
                               >Verwarmingssysteem voor bestaande pluimveestallen
-                              [W]</a
+                              [W]</Link
                             ><span class="rvo-result-description"
                               >het verwarmen van bestaande pluimveestallen
                               waarbij warme lucht van boven uit de stal wordt
@@ -463,7 +464,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Over ons</a>
+                ><Link href="#" class="rvo-link">Over ons</Link>
               </li>
               <li class="rvo-footer-menu-item">
                 <span
@@ -471,7 +472,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Contact</a>
+                ><Link href="#" class="rvo-link">Contact</Link>
               </li>
               <li class="rvo-footer-menu-item">
                 <span
@@ -479,7 +480,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Pers</a>
+                ><Link href="#" class="rvo-link">Pers</Link>
               </li>
               <li class="rvo-footer-menu-item">
                 <span
@@ -487,7 +488,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Zaken regelen bij RVO</a>
+                ><Link href="#" class="rvo-link">Zaken regelen bij RVO</Link>
               </li>
             </ul>
             <ul class="rvo-footer-menu">
@@ -502,7 +503,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Privacy</a>
+                ><Link href="#" class="rvo-link">Privacy</Link>
               </li>
               <li class="rvo-footer-menu-item">
                 <span
@@ -510,7 +511,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Cookies en anti-spam</a>
+                ><Link href="#" class="rvo-link">Cookies en anti-spam</Link>
               </li>
               <li class="rvo-footer-menu-item">
                 <span
@@ -518,7 +519,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Toegankelijkheid</a>
+                ><Link href="#" class="rvo-link">Toegankelijkheid</Link>
               </li>
               <li class="rvo-footer-menu-item">
                 <span
@@ -526,7 +527,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Proclaimer</a>
+                ><Link href="#" class="rvo-link">Proclaimer</Link>
               </li>
             </ul>
             <ul class="rvo-footer-menu">
@@ -539,7 +540,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Onderwerpen A t/m Z</a>
+                ><Link href="#" class="rvo-link">Onderwerpen A t/m Z</Link>
               </li>
               <li class="rvo-footer-menu-item">
                 <span
@@ -547,7 +548,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Klantenpanel</a>
+                ><Link href="#" class="rvo-link">Klantenpanel</Link>
               </li>
               <li class="rvo-footer-menu-item">
                 <span
@@ -555,7 +556,9 @@ import { Paragraph } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Documenten en publicaties</a>
+                ><Link href="#" class="rvo-link"
+                  >Documenten en publicaties</Link
+                >
               </li>
               <li class="rvo-footer-menu-item">
                 <span
@@ -563,8 +566,8 @@ import { Paragraph } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link"
-                  >Overheidspublicaties en auteursrecht</a
+                ><Link href="#" class="rvo-link"
+                  >Overheidspublicaties en auteursrecht</Link
                 >
               </li>
             </ul>
@@ -578,7 +581,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Social media</a>
+                ><Link href="#" class="rvo-link">Social media</Link>
               </li>
               <li class="rvo-footer-menu-item">
                 <span
@@ -586,8 +589,8 @@ import { Paragraph } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link"
-                  >Higherlevel.nl ondernemersforum</a
+                ><Link href="#" class="rvo-link"
+                  >Higherlevel.nl ondernemersforum</Link
                 >
               </li>
               <li class="rvo-footer-menu-item">
@@ -596,7 +599,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">RSS</a>
+                ><Link href="#" class="rvo-link">RSS</Link>
               </li>
               <li class="rvo-footer-menu-item">
                 <span
@@ -604,7 +607,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
                   role="img"
                   aria-label="Delta naar rechts"
                 ></span
-                ><a href="#" class="rvo-link">Gratis nieuwsbrief</a>
+                ><Link href="#" class="rvo-link">Gratis nieuwsbrief</Link>
               </li>
             </ul>
           </div>

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { Link } from "@utrecht/component-library-vue";
 import { Heading, PageHeader } from "@utrecht/component-library-vue";
 </script>
 
@@ -6,12 +7,12 @@ import { Heading, PageHeader } from "@utrecht/component-library-vue";
   <div class="rvo-demo-page">
     <PageHeader class="rvo-header">
       <div class="rvo-header__logo-wrapper">
-        <a href="/" class="rvo-header__logo-link"
+        <Link href="/" class="rvo-header__logo-link"
           ><img
             src="../images/logo.svg"
             alt="Rijksdienst voor Ondernemend Nederland, ga naar de startpagina van RVO"
             class="rvo-logo-img rvo-header__logo-img"
-        /></a>
+        /></Link>
       </div>
     </PageHeader>
     <div class="rvo-topnav__background">
@@ -101,7 +102,7 @@ import { Heading, PageHeader } from "@utrecht/component-library-vue";
                   <td class="rvo-table-cell">Text value</td>
                   <td class="rvo-table-cell rvo-table-cell--numeric">57</td>
                   <td class="rvo-table-cell rvo-table-cell--link">
-                    <a href="#" class="rvo-link">Link</a>
+                    <Link href="#" class="rvo-link">Link</Link>
                   </td>
                 </tr>
                 <tr class="rvo-table-row">
@@ -109,7 +110,7 @@ import { Heading, PageHeader } from "@utrecht/component-library-vue";
                   <td class="rvo-table-cell">Text value</td>
                   <td class="rvo-table-cell rvo-table-cell--numeric">57</td>
                   <td class="rvo-table-cell rvo-table-cell--link">
-                    <a href="#" class="rvo-link">Link</a>
+                    <Link href="#" class="rvo-link">Link</Link>
                   </td>
                 </tr>
                 <tr class="rvo-table-row">
@@ -117,7 +118,7 @@ import { Heading, PageHeader } from "@utrecht/component-library-vue";
                   <td class="rvo-table-cell">Text value</td>
                   <td class="rvo-table-cell rvo-table-cell--numeric">57</td>
                   <td class="rvo-table-cell rvo-table-cell--link">
-                    <a href="#" class="rvo-link">Link</a>
+                    <Link href="#" class="rvo-link">Link</Link>
                   </td>
                 </tr>
                 <tr class="rvo-table-row">
@@ -125,7 +126,7 @@ import { Heading, PageHeader } from "@utrecht/component-library-vue";
                   <td class="rvo-table-cell">Text value</td>
                   <td class="rvo-table-cell rvo-table-cell--numeric">57</td>
                   <td class="rvo-table-cell rvo-table-cell--link">
-                    <a href="#" class="rvo-link">Link</a>
+                    <Link href="#" class="rvo-link">Link</Link>
                   </td>
                 </tr>
               </tbody>
