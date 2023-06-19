@@ -1,0 +1,1 @@
+import activiteitenIcon from "@nl-rvo/assets/icons/activiteiten/afhaalpunt.svg”;
