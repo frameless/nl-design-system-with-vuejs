@@ -100,11 +100,11 @@ export {default as DigitaleUitwisseling} from "@nl-rvo/assets/icons/computer-en-
 export {default as Digitalisering} from "@nl-rvo/assets/icons/computer-en-internet/digitalisering.svg?component";
 export {default as GaNaarWww} from "@nl-rvo/assets/icons/computer-en-internet/ga-naar-www.svg?component";
 export {default as Gamecontroller} from "@nl-rvo/assets/icons/computer-en-internet/gamecontroller.svg?component";
-export {default as GrafiekenOpBeeldscherm} from "@nl-rvo/assets/icons/computer-en-internet/grafiekenopbeeldscherm.svg?component";
+export {default as GrafiekenOpBeeldscherm} from "@nl-rvo/assets/icons/computer-en-internet/grafieken-op-beeldscherm.svg?component";
 export {default as HybrideLaptop} from "@nl-rvo/assets/icons/computer-en-internet/hybride-laptop.svg?component";
 export {default as Ict} from "@nl-rvo/assets/icons/computer-en-internet/ict.svg?component";
 export {default as InformatieOpInternet} from "@nl-rvo/assets/icons/computer-en-internet/informatie-op-internet.svg?component";
-export {default as InternetArchief} from "@nl-rvo/assets/icons/computer-en-internet/internetarchief.svg?component";
+export {default as InternetArchief} from "@nl-rvo/assets/icons/computer-en-internet/internet-archief.svg?component";
 export {default as Internet} from "@nl-rvo/assets/icons/computer-en-internet/internet.svg?component";
 export {default as LaptopMetHuis} from "@nl-rvo/assets/icons/computer-en-internet/laptop-met-huis.svg?component";
 export {default as Laptop} from "@nl-rvo/assets/icons/computer-en-internet/laptop.svg?component";
@@ -127,27 +127,27 @@ export {default as Zendmast} from "@nl-rvo/assets/icons/computer-en-internet/zen
 
 // criminaliteit
 
-export {default as Beveiligingsscan} from "@nl-rvo/assets/icons/computer-en-internet/beveiligingsscan.svg?component";
-export {default as BezoekersruimteGedetineerden} from "@nl-rvo/assets/icons/computer-en-internet/bezoekersruimte-gedetineerden.svg?component";
-export {default as Bom} from "@nl-rvo/assets/icons/computer-en-internet/bom.svg?component";
-export {default as Bommelding} from "@nl-rvo/assets/icons/computer-en-internet/bommelding.svg?component";
-export {default as Doping} from "@nl-rvo/assets/icons/computer-en-internet/doping.svg?component";
-export {default as DrugsPillen} from "@nl-rvo/assets/icons/computer-en-internet/drugs-pillen.svg?component";
-export {default as Drugs} from "@nl-rvo/assets/icons/computer-en-internet/drugs.svg?component";
-export {default as Enkelband} from "@nl-rvo/assets/icons/computer-en-internet/enkelband.svg?component";
-export {default as Gijzeling} from "@nl-rvo/assets/icons/computer-en-internet/gijzeling.svg?component";
-export {default as Handboeien} from "@nl-rvo/assets/icons/computer-en-internet/handboeien.svg?component";
-export {default as Harddrugs} from "@nl-rvo/assets/icons/computer-en-internet/harddrugs.svg?component";
-export {default as OngeoorloofdeAfwezigheid} from "@nl-rvo/assets/icons/computer-en-internet/ongeoorloofde-afwezigheid.svg?component";
-export {default as Ontvluchting} from "@nl-rvo/assets/icons/computer-en-internet/ontvluchting.svg?component";
-export {default as OverlijdenInDetentie} from "@nl-rvo/assets/icons/computer-en-internet/overlijden-in-detentie.svg?component";
-export {default as Overval} from "@nl-rvo/assets/icons/computer-en-internet/overval.svg?component";
-export {default as Straatroof} from "@nl-rvo/assets/icons/computer-en-internet/straatroof.svg?component";
-export {default as VerbodSoftdrugs} from "@nl-rvo/assets/icons/computer-en-internet/verbod-softdrugs.svg?component";
-export {default as VerbodWapens} from "@nl-rvo/assets/icons/computer-en-internet/verbod-wapens.svg?component";
-export {default as Waterpijp} from "@nl-rvo/assets/icons/computer-en-internet/waterpijp.svg?component";
-export {default as Wetboek} from "@nl-rvo/assets/icons/computer-en-internet/wetboek.svg?component";
-export {default as Wiet} from "@nl-rvo/assets/icons/computer-en-internet/wiet.svg?component";
+export {default as Beveiligingsscan} from "@nl-rvo/assets/icons/criminaliteit/beveiligingsscan.svg?component";
+export {default as BezoekersruimteGedetineerden} from "@nl-rvo/assets/icons/criminaliteit/bezoekersruimte-gedetineerden.svg?component";
+export {default as Bom} from "@nl-rvo/assets/icons/criminaliteit/bom.svg?component";
+export {default as Bommelding} from "@nl-rvo/assets/icons/criminaliteit/bommelding.svg?component";
+export {default as Doping} from "@nl-rvo/assets/icons/criminaliteit/doping.svg?component";
+export {default as DrugsPillen} from "@nl-rvo/assets/icons/criminaliteit/drugs-pillen.svg?component";
+export {default as Drugs} from "@nl-rvo/assets/icons/criminaliteit/drugs.svg?component";
+export {default as Enkelband} from "@nl-rvo/assets/icons/criminaliteit/enkelband.svg?component";
+export {default as Gijzeling} from "@nl-rvo/assets/icons/criminaliteit/gijzeling.svg?component";
+export {default as Handboeien} from "@nl-rvo/assets/icons/criminaliteit/handboeien.svg?component";
+export {default as Harddrugs} from "@nl-rvo/assets/icons/criminaliteit/harddrugs.svg?component";
+export {default as OngeoorloofdeAfwezigheid} from "@nl-rvo/assets/icons/criminaliteit/ongeoorloofde-afwezigheid.svg?component";
+export {default as Ontvluchting} from "@nl-rvo/assets/icons/criminaliteit/ontvluchting.svg?component";
+export {default as OverlijdenInDetentie} from "@nl-rvo/assets/icons/criminaliteit/overlijden-in-detentie.svg?component";
+export {default as Overval} from "@nl-rvo/assets/icons/criminaliteit/overval.svg?component";
+export {default as Straatroof} from "@nl-rvo/assets/icons/criminaliteit/straatroof.svg?component";
+export {default as VerbodSoftdrugs} from "@nl-rvo/assets/icons/criminaliteit/verbod-softdrugs.svg?component";
+export {default as VerbodWapens} from "@nl-rvo/assets/icons/criminaliteit/verbod-wapens.svg?component";
+export {default as Waterpijp} from "@nl-rvo/assets/icons/criminaliteit/waterpijp.svg?component";
+export {default as Wetboek} from "@nl-rvo/assets/icons/criminaliteit/wetboek.svg?component";
+export {default as Wiet} from "@nl-rvo/assets/icons/criminaliteit/wiet.svg?component";
 
 // custom
 
@@ -157,42 +157,42 @@ export {default as SplitsenWater} from "@nl-rvo/assets/icons/custom/splitsen-wat
 
 // dieren
 
-export {default as Dierentuin} from "@nl-rvo/assets/icons/dierentuin/dierentuin.svg?component";
-export {default as EendZwemmendBijRiet} from "@nl-rvo/assets/icons/dierentuin/eend-zwemmend-bij-riet.svg?component";
-export {default as Fazant} from "@nl-rvo/assets/icons/dierentuin/fazant.svg?component";
-export {default as Geit} from "@nl-rvo/assets/icons/dierentuin/geit.svg?component";
-export {default as Geleidehond} from "@nl-rvo/assets/icons/dierentuin/geleidehond.svg?component";
-export {default as HaanEnFazant} from "@nl-rvo/assets/icons/dierentuin/haan-en-fazant.svg?component";
-export {default as Haan} from "@nl-rvo/assets/icons/dierentuin/haan.svg?component";
-export {default as Hert} from "@nl-rvo/assets/icons/dierentuin/hert.svg?component";
-export {default as HondMetKluifEnKlok} from "@nl-rvo/assets/icons/dierentuin/hond-met-kluif-en-klok.svg?component";
-export {default as HondUitlaten} from "@nl-rvo/assets/icons/dierentuin/hond-uitlaten.svg?component";
-export {default as Hond} from "@nl-rvo/assets/icons/dierentuin/hond.svg?component";
-export {default as IusOpvang} from "@nl-rvo/assets/icons/dierentuin/ius-opvang.svg?component";
-export {default as KatEnHond} from "@nl-rvo/assets/icons/dierentuin/kat-en-hond.svg?component";
-export {default as Kikker} from "@nl-rvo/assets/icons/dierentuin/kikker.svg?component";
-export {default as KoeGevlekt} from "@nl-rvo/assets/icons/dierentuin/koe-gevlekt.svg?component";
-export {default as Koe} from "@nl-rvo/assets/icons/dierentuin/koe.svg?component";
-export {default as Mier} from "@nl-rvo/assets/icons/dierentuin/mier.svg?component";
-export {default as Muis} from "@nl-rvo/assets/icons/dierentuin/muis.svg?component";
-export {default as Nerts} from "@nl-rvo/assets/icons/dierentuin/nerts.svg?component";
-export {default as NeushoornMetUitroepteken} from "@nl-rvo/assets/icons/dierentuin/neushoorn-met-uitroepteken.svg?component";
-export {default as Pauw} from "@nl-rvo/assets/icons/dierentuin/pauw.svg?component";
-export {default as Plofkip} from "@nl-rvo/assets/icons/dierentuin/plofkip.svg?component";
-export {default as Rups} from "@nl-rvo/assets/icons/dierentuin/rups.svg?component";
-export {default as Schaap} from "@nl-rvo/assets/icons/dierentuin/schaap.svg?component";
-export {default as Schelp} from "@nl-rvo/assets/icons/dierentuin/schelp.svg?component";
-export {default as Schelpdier} from "@nl-rvo/assets/icons/dierentuin/schelpdier.svg?component";
-export {default as Slang} from "@nl-rvo/assets/icons/dierentuin/slang.svg?component";
-export {default as TweeVissen} from "@nl-rvo/assets/icons/dierentuin/twee-vissen.svg?component";
-export {default as Uil} from "@nl-rvo/assets/icons/dierentuin/uil.svg?component";
-export {default as VarkenEnKoe} from "@nl-rvo/assets/icons/dierentuin/varken-en-koe.svg?component";
-export {default as Varken} from "@nl-rvo/assets/icons/dierentuin/varken.svg?component";
-export {default as VerbodHond} from "@nl-rvo/assets/icons/dierentuin/verbod-hond.svg?component";
-export {default as VisMetKlok} from "@nl-rvo/assets/icons/dierentuin/vis-met-klok.svg?component";
-export {default as Vis} from "@nl-rvo/assets/icons/dierentuin/vis.svg?component";
-export {default as Waterschildpad} from "@nl-rvo/assets/icons/dierentuin/waterschildpad.svg?component";
-export {default as Zeeleeuw} from "@nl-rvo/assets/icons/dierentuin/zeeleeuw.svg?component";
+export {default as Dierentuin} from "@nl-rvo/assets/icons/dieren/dierentuin.svg?component";
+export {default as EendZwemmendBijRiet} from "@nl-rvo/assets/icons/dieren/eend-zwemmend-bij-riet.svg?component";
+export {default as Fazant} from "@nl-rvo/assets/icons/dieren/fazant.svg?component";
+export {default as Geit} from "@nl-rvo/assets/icons/dieren/geit.svg?component";
+export {default as Geleidehond} from "@nl-rvo/assets/icons/dieren/geleidehond.svg?component";
+export {default as HaanEnFazant} from "@nl-rvo/assets/icons/dieren/haan-en-fazant.svg?component";
+export {default as Haan} from "@nl-rvo/assets/icons/dieren/haan.svg?component";
+export {default as Hert} from "@nl-rvo/assets/icons/dieren/hert.svg?component";
+export {default as HondMetKluifEnKlok} from "@nl-rvo/assets/icons/dieren/hond-met-kluif-en-klok.svg?component";
+export {default as HondUitlaten} from "@nl-rvo/assets/icons/dieren/hond-uitlaten.svg?component";
+export {default as Hond} from "@nl-rvo/assets/icons/dieren/hond.svg?component";
+export {default as IusOpvang} from "@nl-rvo/assets/icons/dieren/ius-opvang.svg?component";
+export {default as KatEnHond} from "@nl-rvo/assets/icons/dieren/kat-en-hond.svg?component";
+export {default as Kikker} from "@nl-rvo/assets/icons/dieren/kikker.svg?component";
+export {default as KoeGevlekt} from "@nl-rvo/assets/icons/dieren/koe-gevlekt.svg?component";
+export {default as Koe} from "@nl-rvo/assets/icons/dieren/koe.svg?component";
+export {default as Mier} from "@nl-rvo/assets/icons/dieren/mier.svg?component";
+export {default as Muis} from "@nl-rvo/assets/icons/dieren/muis.svg?component";
+export {default as Nerts} from "@nl-rvo/assets/icons/dieren/nerts.svg?component";
+export {default as NeushoornMetUitroepteken} from "@nl-rvo/assets/icons/dieren/neushoorn-met-uitroepteken.svg?component";
+export {default as Pauw} from "@nl-rvo/assets/icons/dieren/pauw.svg?component";
+export {default as Plofkip} from "@nl-rvo/assets/icons/dieren/plofkip.svg?component";
+export {default as Rups} from "@nl-rvo/assets/icons/dieren/rups.svg?component";
+export {default as Schaap} from "@nl-rvo/assets/icons/dieren/schaap.svg?component";
+export {default as Schelp} from "@nl-rvo/assets/icons/dieren/schelp.svg?component";
+export {default as Schelpdier} from "@nl-rvo/assets/icons/dieren/schelpdier.svg?component";
+export {default as Slang} from "@nl-rvo/assets/icons/dieren/slang.svg?component";
+export {default as TweeVissen} from "@nl-rvo/assets/icons/dieren/twee-vissen.svg?component";
+export {default as Uil} from "@nl-rvo/assets/icons/dieren/uil.svg?component";
+export {default as VarkenEnKoe} from "@nl-rvo/assets/icons/dieren/varken-en-koe.svg?component";
+export {default as Varken} from "@nl-rvo/assets/icons/dieren/varken.svg?component";
+export {default as VerbodHond} from "@nl-rvo/assets/icons/dieren/verbod-hond.svg?component";
+export {default as VisMetKlok} from "@nl-rvo/assets/icons/dieren/vis-met-klok.svg?component";
+export {default as Vis} from "@nl-rvo/assets/icons/dieren/vis.svg?component";
+export {default as Waterschildpad} from "@nl-rvo/assets/icons/dieren/waterschildpad.svg?component";
+export {default as Zeeleeuw} from "@nl-rvo/assets/icons/dieren/zeeleeuw.svg?component";
 
 // energie-en-chemie
 
@@ -219,6 +219,55 @@ export {default as WaarschuwingsbordRadioactiviteit} from "@nl-rvo/assets/icons/
 export {default as Warmte} from "@nl-rvo/assets/icons/energie-en-chemie/warmte.svg?component";
 export {default as WindEnergie} from "@nl-rvo/assets/icons/energie-en-chemie/windenergie.svg?component";
 export {default as Zonnepaneel} from "@nl-rvo/assets/icons/energie-en-chemie/zonnepaneel.svg?component";
+
+// functioneel
+
+// gebouwen
+
+// gebouwonderdelen
+
+// gebruiksvoorwerpen
+
+// geld-en-financien
+
+// gereedschap
+
+// gezondheid-en-zorg
+
+// huishouden
+
+// infrastructuur-en-transport
+
+// internationaal
+
+// lichaam
+
+// medisch
+
+// mensen-aan-het-werk
+
+// natuur-en-milieu
+
+// navigatie
+
+// nederland-en-politiek
+
+// op-kantoor
+
+// personen
+
+// sport
+
+// status
+
+// symbolen-en-abstract
+
+export {default as AvondklokNegenUur} from "@nl-rvo/assets/icons/symbolen-en-abstract/avondklok-negen-uur.svg?component";
+export {default as Boos} from "@nl-rvo/assets/icons/symbolen-en-abstract/boos.svg?component";
+export {default as Brandalarm} from "@nl-rvo/assets/icons/symbolen-en-abstract/brandalarm.svg?component";
+export {default as Datalek} from "@nl-rvo/assets/icons/symbolen-en-abstract/datalek.svg?component";
+export {default as Hart} from "@nl-rvo/assets/icons/symbolen-en-abstract/hart.svg?component";
+
 
 // export default defineConfig({
 //   plugins: [vue(), svgLoader()]

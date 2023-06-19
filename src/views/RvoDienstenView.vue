@@ -4,6 +4,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
 import { Heading } from "@utrecht/component-library-vue";
 import { Checkbox } from "@utrecht/component-library-vue";
 import { Afhaalpunt } from "../assets/RVOIcons";
+import { Hart } from "../assets/RVOIcons";
 </script>
 
 <template>
