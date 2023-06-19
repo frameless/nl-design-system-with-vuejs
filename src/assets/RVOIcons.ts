@@ -82,6 +82,49 @@ export {default as TekstballonnenMetVraagteken} from "@nl-rvo/assets/icons/commu
 export {default as Tekstballonnen} from "@nl-rvo/assets/icons/communicatie/tekstballonnen.svg?component";
 export {default as Verbodbellen} from "@nl-rvo/assets/icons/communicatie/verbodbellen.svg?component";
 
+// computer-en-internet
+
+export {default as Applicatie} from "@nl-rvo/assets/icons/computer-en-internet/applicatie.svg?component";
+export {default as Basisregistratie} from "@nl-rvo/assets/icons/computer-en-internet/basisregistratie.svg?component";
+export {default as Beeldbellen} from "@nl-rvo/assets/icons/computer-en-internet/beeldbellen.svg?component";
+export {default as BeeldschermMetHart} from "@nl-rvo/assets/icons/computer-en-internet/beeldscherm-met-hart.svg?component";
+export {default as BeeldschermMetStreepErdoor} from "@nl-rvo/assets/icons/computer-en-internet/beeldscherm-met-streep-erdoor.svg?component";
+export {default as Chip} from "@nl-rvo/assets/icons/computer-en-internet/chip.svg?component";
+export {default as Computer} from "@nl-rvo/assets/icons/computer-en-internet/computer.svg?component";
+export {default as Computercode} from "@nl-rvo/assets/icons/computer-en-internet/computercode.svg?component";
+export {default as Cybersecurity} from "@nl-rvo/assets/icons/computer-en-internet/cybersecurity.svg?component";
+export {default as Database} from "@nl-rvo/assets/icons/computer-en-internet/database.svg?component";
+export {default as Dataverkeer} from "@nl-rvo/assets/icons/computer-en-internet/dataverkeer.svg?component";
+export {default as DigitaalOnderzoek} from "@nl-rvo/assets/icons/computer-en-internet/digitaal-onderzoek.svg?component";
+export {default as DigitaleUitwisseling} from "@nl-rvo/assets/icons/computer-en-internet/digitale-uitwisseling.svg?component";
+export {default as Digitalisering} from "@nl-rvo/assets/icons/computer-en-internet/digitalisering.svg?component";
+export {default as GaNaarWww} from "@nl-rvo/assets/icons/computer-en-internet/ga-naar-www.svg?component";
+export {default as Gamecontroller} from "@nl-rvo/assets/icons/computer-en-internet/gamecontroller.svg?component";
+export {default as GrafiekenOpBeeldscherm} from "@nl-rvo/assets/icons/computer-en-internet/grafiekenopbeeldscherm.svg?component";
+export {default as HybrideLaptop} from "@nl-rvo/assets/icons/computer-en-internet/hybride-laptop.svg?component";
+export {default as Ict} from "@nl-rvo/assets/icons/computer-en-internet/ict.svg?component";
+export {default as InformatieOpInternet} from "@nl-rvo/assets/icons/computer-en-internet/informatie-op-internet.svg?component";
+export {default as InternetArchief} from "@nl-rvo/assets/icons/computer-en-internet/internetarchief.svg?component";
+export {default as Internet} from "@nl-rvo/assets/icons/computer-en-internet/internet.svg?component";
+export {default as LaptopMetHuis} from "@nl-rvo/assets/icons/computer-en-internet/laptop-met-huis.svg?component";
+export {default as Laptop} from "@nl-rvo/assets/icons/computer-en-internet/laptop.svg?component";
+export {default as NieuweComputer} from "@nl-rvo/assets/icons/computer-en-internet/nieuwe-computer.svg?component";
+export {default as OnlineGroepstraining} from "@nl-rvo/assets/icons/computer-en-internet/online-groepstraining.svg?component";
+export {default as OnlineLeren} from "@nl-rvo/assets/icons/computer-en-internet/online-leren.svg?component";
+export {default as OudeComputer} from "@nl-rvo/assets/icons/computer-en-internet/oude-computer.svg?component";
+export {default as Server} from "@nl-rvo/assets/icons/computer-en-internet/server.svg?component";
+export {default as SmartphoneBedienenMetVinger} from "@nl-rvo/assets/icons/computer-en-internet/smartphone-bedienen-met-vinger.svg?component";
+export {default as SmartphoneMetStreepErdoor} from "@nl-rvo/assets/icons/computer-en-internet/smartphone-met-streep-erdoor.svg?component";
+export {default as Tablet} from "@nl-rvo/assets/icons/computer-en-internet/tablet.svg?component";
+export {default as Televisie} from "@nl-rvo/assets/icons/computer-en-internet/televisie.svg?component";
+export {default as UsbLader} from "@nl-rvo/assets/icons/computer-en-internet/usb-lader.svg?component";
+export {default as UxDesign} from "@nl-rvo/assets/icons/computer-en-internet/ux-design.svg?component";
+export {default as Website} from "@nl-rvo/assets/icons/computer-en-internet/website.svg?component";
+export {default as Webwinkel} from "@nl-rvo/assets/icons/computer-en-internet/webwinkel.svg?component";
+export {default as WiFi} from "@nl-rvo/assets/icons/computer-en-internet/wifi.svg?component";
+export {default as Wiki} from "@nl-rvo/assets/icons/computer-en-internet/wiki.svg?component";
+export {default as Zendmast} from "@nl-rvo/assets/icons/computer-en-internet/zendmast.svg?component";
+
 // export default defineConfig({
 //   plugins: [vue(), svgLoader()]
 // })
