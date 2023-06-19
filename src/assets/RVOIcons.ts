@@ -68,7 +68,19 @@ export {default as VerbodFotografie} from "@nl-rvo/assets/icons/beeld-en-geluid/
 export {default as Videocamera} from "@nl-rvo/assets/icons/beeld-en-geluid/videocamera.svg?component";
 export {default as VirtualReality} from "@nl-rvo/assets/icons/beeld-en-geluid/virtual-reality.svg?component";
 
+// communicatie
 
+export {default as GesprekOverWelzijn} from "@nl-rvo/assets/icons/communicatie/gesprek-over-welzijn.svg?component";
+export {default as MobielInHand} from "@nl-rvo/assets/icons/communicatie/mobiel-in-hand.svg?component";
+export {default as NLAlert} from "@nl-rvo/assets/icons/communicatie/nl-alert.svg?component";
+export {default as TekstballonMetHart} from "@nl-rvo/assets/icons/communicatie/tekstballon-met-hart.svg?component";
+export {default as TekstballonMetPotlood} from "@nl-rvo/assets/icons/communicatie/tekstballon-met-potlood.svg?component";
+export {default as TekstballonnenMetInternationaalGesprek} from "@nl-rvo/assets/icons/communicatie/tekstballonnen-met-internationaal-gesprek.svg?component";
+export {default as TekstballonnenMetKrul} from "@nl-rvo/assets/icons/communicatie/tekstballonnen-met-krul.svg?component";
+export {default as TekstballonnenMetPunten} from "@nl-rvo/assets/icons/communicatie/tekstballonnen-met-punten.svg?component";
+export {default as TekstballonnenMetVraagteken} from "@nl-rvo/assets/icons/communicatie/tekstballonnen-met-vraagteken.svg?component";
+export {default as Tekstballonnen} from "@nl-rvo/assets/icons/communicatie/tekstballonnen.svg?component";
+export {default as Verbodbellen} from "@nl-rvo/assets/icons/communicatie/verbodbellen.svg?component";
 
 // export default defineConfig({
 //   plugins: [vue(), svgLoader()]
