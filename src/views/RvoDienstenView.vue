@@ -3,7 +3,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
 import { PageHeader } from "@utrecht/component-library-vue";
 import { Heading } from "@utrecht/component-library-vue";
 import { Checkbox } from "@utrecht/component-library-vue";
-import {} from "@nl-rvo/assets";
+import { Afhaalpunt } from "../assets/RVOIcons";
 </script>
 
 <template>
