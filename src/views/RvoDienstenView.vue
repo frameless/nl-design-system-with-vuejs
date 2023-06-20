@@ -5,6 +5,7 @@ import { Heading } from "@utrecht/component-library-vue";
 import { Checkbox } from "@utrecht/component-library-vue";
 import { Afhaalpunt } from "../assets/RVOIcons";
 import { Hart } from "../assets/RVOIcons";
+import IconContainer from "./components/IconContainer.vue";
 </script>
 
 <template>
@@ -22,10 +23,12 @@ import { Hart } from "../assets/RVOIcons";
       </PageHeader>
       <details class="rvo-responsive-menu">
         <summary>
+          <IconContainer :svg="SVG">
+            <span
+              class="utrecht-icon rvo-icon rvo-icon-menu rvo-icon--lg rvo-icon--wit"
+            ></span
+          ></IconContainer>
           <span
-            class="utrecht-icon rvo-icon rvo-icon-menu rvo-icon--lg rvo-icon--wit"
-          ></span
-          ><span
             class="utrecht-icon rvo-icon rvo-icon-kruis rvo-icon--lg rvo-icon--wit"
           ></span
           >Menu
