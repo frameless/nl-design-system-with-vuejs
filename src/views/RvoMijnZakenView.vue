@@ -4,6 +4,8 @@ import { Heading } from "@utrecht/component-library-vue";
 import { Checkbox } from "@utrecht/component-library-vue";
 import { PageHeader } from "@utrecht/component-library-vue";
 import { Link } from "@utrecht/component-library-vue";
+import { FormLabel } from "@utrecht/component-library-vue";
+import { PageFooter } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -196,11 +198,11 @@ import { Link } from "@utrecht/component-library-vue";
                       class="utrecht-form-field utrecht-form-field--text rvo-form-field"
                     >
                       <div class="rvo-form-field__label">
-                        <label
+                        <FormLabel
                           id="fieldId-label"
                           for="fieldId"
                           class="utrecht-form-label"
-                          >Op omschrijving</label
+                          >Op omschrijving</FormLabel
                         >
                       </div>
                       <input
@@ -216,12 +218,12 @@ import { Link } from "@utrecht/component-library-vue";
                         <div
                           class="rvo-form-field rvo-layout-column rvo-layout-gap--sm"
                         >
-                          <label
+                          <FormLabel
                             class="rvo-form-field__label rvo-layout-column rvo-layout-gap--2xs"
                             for="fieldId"
                             ><span class="rvo-form-field__label-text"
                               >Op status</span
-                            ></label
+                            ></FormLabel
                           >
                           <div class="rvo-select-wrapper">
                             <div
@@ -235,7 +237,7 @@ import { Link } from "@utrecht/component-library-vue";
                       <div
                         class="rvo-checkbox__group rvo-layout-column rvo-layout-gap--sm"
                       >
-                        <label
+                        <FormLabel
                           class="rvo-checkbox rvo-checkbox--not-checked rvo-layout-row rvo-layout-gap--sm"
                           for="optionA"
                           ><Checkbox
@@ -243,8 +245,8 @@ import { Link } from "@utrecht/component-library-vue";
                             name="group"
                             class="rvo-checkbox__input"
                             value=""
-                          />Beslissing genomen</label
-                        ><label
+                          />Beslissing genomen</FormLabel
+                        ><FormLabel
                           class="rvo-checkbox rvo-checkbox--checked rvo-layout-row rvo-layout-gap--sm"
                           for="optionB"
                           ><Checkbox
@@ -252,8 +254,8 @@ import { Link } from "@utrecht/component-library-vue";
                             name="group"
                             class="rvo-checkbox__input"
                             value=""
-                          />Bij U in bewerking</label
-                        ><label
+                          />Bij U in bewerking</FormLabel
+                        ><FormLabel
                           class="rvo-checkbox rvo-checkbox--not-checked rvo-layout-row rvo-layout-gap--sm"
                           for="optionC"
                           ><Checkbox
@@ -261,7 +263,7 @@ import { Link } from "@utrecht/component-library-vue";
                             name="group"
                             class="rvo-checkbox__input"
                             value=""
-                          />Afgehandeld</label
+                          />Afgehandeld</FormLabel
                         >
                       </div>
                     </details>
@@ -440,7 +442,7 @@ import { Link } from "@utrecht/component-library-vue";
         </div>
       </main>
     </div>
-    <footer class="rvo-footer">
+    <PageFooter class="rvo-footer">
       <div class="rvo-max-width-layout rvo-max-width-layout--lg">
         <ul class="rvo-footer-menu">
           <li class="rvo-footer-menu-title">
@@ -601,6 +603,6 @@ import { Link } from "@utrecht/component-library-vue";
           </li>
         </ul>
       </div>
-    </footer>
+    </PageFooter>
   </div>
 </template>

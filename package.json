@@ -18,7 +18,8 @@
   },
   "dependencies": {
     "vue": "3.3.2",
-    "vue-router": "4.2.0"
+    "vue-router": "4.2.0",
+    "@fontsource/fira-sans": "5.0.3"
   },
   "devDependencies": {
     "@nl-rvo/component-library-css": "1.0.0-alpha.314",
