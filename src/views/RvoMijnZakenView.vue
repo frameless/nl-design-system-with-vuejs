@@ -159,7 +159,8 @@ import { PageFooter } from "@utrecht/component-library-vue";
           <div class="rvo-max-width-layout rvo-max-width-layout--md">
             <details class="rvo-responsive-filters">
               <summary class="rvo-responsive-filters-toggle">
-                Zaken filteren<span
+                <Heading :level="3">Zaken filteren</Heading
+                ><span
                   class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--hemelblauw"
                 ></span
                 ><span
@@ -282,7 +283,7 @@ import { PageFooter } from "@utrecht/component-library-vue";
                 <span
                   class="utrecht-icon rvo-icon rvo-icon-map rvo-icon--md rvo-icon--zwart"
                 ></span
-                >22292000001
+                ><Heading :level="6">22292000001</Heading>
               </div>
               <div
                 class="rvo-item-list-detail rvo-item-list-detail--description"
@@ -299,7 +300,9 @@ import { PageFooter } from "@utrecht/component-library-vue";
                 <div
                   class="rvo-status-indicator rvo-status-indicator--edit"
                 ></div>
-                <div class="rvo-status-title">Bij u in bewerking</div>
+                <div class="rvo-status-title">
+                  <Heading :level="6">Bij u in bewerking</Heading>
+                </div>
               </div>
             </div>
             <div class="rvo-item-list-item rvo-item-list-item--case">
@@ -309,7 +312,7 @@ import { PageFooter } from "@utrecht/component-library-vue";
                 <span
                   class="utrecht-icon rvo-icon rvo-icon-map rvo-icon--md rvo-icon--zwart"
                 ></span
-                >22269000022
+                ><Heading :level="6">22269000022</Heading>
               </div>
               <div
                 class="rvo-item-list-detail rvo-item-list-detail--description"
@@ -326,7 +329,9 @@ import { PageFooter } from "@utrecht/component-library-vue";
                 <div
                   class="rvo-status-indicator rvo-status-indicator--success"
                 ></div>
-                <div class="rvo-status-title">Goedgekeurd</div>
+                <div class="rvo-status-title">
+                  <Heading :level="6">Goedgekeurd</Heading>
+                </div>
               </div>
             </div>
             <div class="rvo-item-list-item rvo-item-list-item--case">
@@ -336,7 +341,7 @@ import { PageFooter } from "@utrecht/component-library-vue";
                 <span
                   class="utrecht-icon rvo-icon rvo-icon-map rvo-icon--md rvo-icon--zwart"
                 ></span
-                >16269000033
+                ><Heading :level="6">16269000033</Heading>
               </div>
               <div
                 class="rvo-item-list-detail rvo-item-list-detail--description"
@@ -353,7 +358,9 @@ import { PageFooter } from "@utrecht/component-library-vue";
                 <div
                   class="rvo-status-indicator rvo-status-indicator--error"
                 ></div>
-                <div class="rvo-status-title">Afgekeurd</div>
+                <div class="rvo-status-title">
+                  <Heading :level="6">Afgekeurd</Heading>
+                </div>
               </div>
             </div>
             <div class="rvo-item-list-item rvo-item-list-item--case">
@@ -363,7 +370,7 @@ import { PageFooter } from "@utrecht/component-library-vue";
                 <span
                   class="utrecht-icon rvo-icon rvo-icon-map rvo-icon--md rvo-icon--zwart"
                 ></span
-                >16269003453
+                ><Heading :level="6">16269003453</Heading>
               </div>
               <div
                 class="rvo-item-list-detail rvo-item-list-detail--description"
@@ -380,7 +387,9 @@ import { PageFooter } from "@utrecht/component-library-vue";
                 <div
                   class="rvo-status-indicator rvo-status-indicator--warning"
                 ></div>
-                <div class="rvo-status-title">In behandeling</div>
+                <div class="rvo-status-title">
+                  <Heading :level="6">In behandeling</Heading>
+                </div>
               </div>
             </div>
           </div>
@@ -391,13 +400,13 @@ import { PageFooter } from "@utrecht/component-library-vue";
               <span
                 class="utrecht-icon rvo-icon rvo-icon-delta-naar-links rvo-icon--sm rvo-icon--zwart"
               ></span
-              ><a class="rvo-link" href="#">Vorige</a>
+              ><Link class="rvo-link" href="#">Vorige</Link>
             </div>
             <div class="rvo-pagination-page-numbers">
               <div
                 class="rvo-pagination-indicator rvo-pagination-indicator-page-number rvo-pagination-indicator-page-number--first"
               >
-                <a class="rvo-link" href="#">1</a>
+                <Link class="rvo-link" href="#">1</Link>
               </div>
               <div
                 class="rvo-pagination-indicator rvo-pagination-indicator--separator"
@@ -407,17 +416,17 @@ import { PageFooter } from "@utrecht/component-library-vue";
               <div
                 class="rvo-pagination-indicator rvo-pagination-indicator-page-number"
               >
-                <a class="rvo-link" href="#">6</a>
+                <Link class="rvo-link" href="#">6</Link>
               </div>
               <div
                 class="rvo-pagination-indicator rvo-pagination-indicator-page-number rvo-pagination-indicator-page-number--current"
               >
-                <a class="rvo-link" href="#">7</a>
+                <Link class="rvo-link" href="#">7</Link>
               </div>
               <div
                 class="rvo-pagination-indicator rvo-pagination-indicator-page-number"
               >
-                <a class="rvo-link" href="#">8</a>
+                <Link class="rvo-link" href="#">8</Link>
               </div>
               <div
                 class="rvo-pagination-indicator rvo-pagination-indicator--separator"
@@ -427,13 +436,13 @@ import { PageFooter } from "@utrecht/component-library-vue";
               <div
                 class="rvo-pagination-indicator rvo-pagination-indicator-page-number rvo-pagination-indicator-page-number--last"
               >
-                <a class="rvo-link" href="#">42</a>
+                <Link class="rvo-link" href="#">42</Link>
               </div>
             </div>
             <div
               class="rvo-pagination-indicator rvo-pagination-indicator--next"
             >
-              <a class="rvo-link" href="#">Volgende</a
+              <Link class="rvo-link" href="#">Volgende</Link
               ><span
                 class="rvo-icon rvo-icon-delta-naar-rechts rvo-icon--sm rvo-icon--zwart"
               ></span>
