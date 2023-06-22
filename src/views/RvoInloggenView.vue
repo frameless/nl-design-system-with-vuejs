@@ -24,7 +24,7 @@ import { Link } from "@utrecht/component-library-vue";
         >
           <ul class="utrecht-topnav__list">
             <li class="utrecht-topnav__item">
-              <a class="utrecht-topnav__link" href="#">Mijn RVO</a>
+              <Link class="utrecht-topnav__link" href="#">Mijn RVO</Link>
             </li>
           </ul>
         </nav>
@@ -95,14 +95,14 @@ import { Link } from "@utrecht/component-library-vue";
                     inloggen.</Paragraph
                   >
                   <Paragraph>
-                    <a
+                    <Link
                       class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
                       href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
-                      >Inloggen met e-Herkenning 2</a
-                    ><br /><br /><a
+                      >Inloggen met e-Herkenning 2</Link
+                    ><br /><br /><Link
                       class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
                       href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
-                      >Inloggen met e-Herkenning 3</a
+                      >Inloggen met e-Herkenning 3</Link
                     >
                   </Paragraph>
                 </div>
@@ -133,10 +133,10 @@ import { Link } from "@utrecht/component-library-vue";
                     leest u op de website van
                     <Link href="#" class="rvo-link">DigiD</Link>
                   </Paragraph>
-                  <a
+                  <Link
                     class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
                     href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
-                    >Inloggen met DigiD</a
+                    >Inloggen met DigiD</Link
                   >
                 </div>
               </details>
@@ -164,10 +164,10 @@ import { Link } from "@utrecht/component-library-vue";
                     Log in with a digital identity from another European
                     country.
                   </Paragraph>
-                  <a
+                  <Link
                     class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
                     href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
-                    >EU Login</a
+                    >EU Login</Link
                   >
                 </div>
               </details>
@@ -189,10 +189,10 @@ import { Link } from "@utrecht/component-library-vue";
                 </summary>
                 <div class="rvo-accordion__content">
                   <Paragraph>U heeft geen eHerkenning of DigiD.</Paragraph>
-                  <a
+                  <Link
                     class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
                     href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
-                    >Anders inloggen</a
+                    >Anders inloggen</Link
                   >
                 </div>
               </details>

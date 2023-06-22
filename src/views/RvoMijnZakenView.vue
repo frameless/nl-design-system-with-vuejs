@@ -37,46 +37,46 @@ import { PageFooter } from "@utrecht/component-library-vue";
           >
             <ul class="utrecht-topnav__list">
               <li class="utrecht-topnav__item">
-                <a
+                <Link
                   class="utrecht-topnav__link"
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
-                  >Zaken</a
+                  >Zaken</Link
                 >
               </li>
               <li class="utrecht-topnav__item">
-                <a
+                <Link
                   class="utrecht-topnav__link"
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--diensten&amp;viewMode=story"
-                  >Diensten</a
+                  >Diensten</Link
                 >
               </li>
               <li class="utrecht-topnav__item">
-                <a class="utrecht-topnav__link" href="#">Help</a>
+                <Link class="utrecht-topnav__link" href="#">Help</Link>
               </li>
               <li class="utrecht-topnav__item">
-                <a
+                <Link
                   class="utrecht-topnav__link"
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--profiel&amp;viewMode=story"
-                  >Profiel</a
+                  >Profiel</Link
                 >
               </li>
               <li
                 class="utrecht-topnav__item utrecht-topnav__item--align-right"
               >
-                <a
+                <Link
                   class="utrecht-topnav__link"
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--inloggen&amp;viewMode=story"
-                  >Uitloggen</a
+                  >Uitloggen</Link
                 >
               </li>
               <li class="utrecht-topnav__item">
-                <a class="utrecht-topnav__link" href="#"
+                <Link class="utrecht-topnav__link" href="#"
                   ><span
                     class="utrecht-icon rvo-icon rvo-icon-wereldbol rvo-icon--lg rvo-icon--wit"
                     role="img"
                     aria-label="Wereldbol"
                   ></span
-                  >English</a
+                  >English</Link
                 >
               </li>
             </ul>
@@ -89,44 +89,44 @@ import { PageFooter } from "@utrecht/component-library-vue";
         >
           <ul class="utrecht-topnav__list">
             <li class="utrecht-topnav__item utrecht-topnav__item--active">
-              <a
+              <Link
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
-                >Zaken</a
+                >Zaken</Link
               >
             </li>
             <li class="utrecht-topnav__item">
-              <a
+              <Link
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--diensten&amp;viewMode=story"
-                >Diensten</a
+                >Diensten</Link
               >
             </li>
             <li class="utrecht-topnav__item">
-              <a class="utrecht-topnav__link" href="#">Help</a>
+              <Link class="utrecht-topnav__link" href="#">Help</Link>
             </li>
             <li class="utrecht-topnav__item">
-              <a
+              <Link
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--profiel&amp;viewMode=story"
-                >Profiel</a
+                >Profiel</Link
               >
             </li>
             <li class="utrecht-topnav__item utrecht-topnav__item--align-right">
-              <a
+              <Link
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--inloggen&amp;viewMode=story"
-                >Uitloggen</a
+                >Uitloggen</Link
               >
             </li>
             <li class="utrecht-topnav__item">
-              <a class="utrecht-topnav__link" href="#"
+              <Link class="utrecht-topnav__link" href="#"
                 ><span
                   class="utrecht-icon rvo-icon rvo-icon-wereldbol rvo-icon--lg rvo-icon--wit"
                   role="img"
                   aria-label="Wereldbol"
                 ></span
-                >English</a
+                >English</Link
               >
             </li>
           </ul>
@@ -283,16 +283,16 @@ import { PageFooter } from "@utrecht/component-library-vue";
                 <span
                   class="utrecht-icon rvo-icon rvo-icon-map rvo-icon--md rvo-icon--zwart"
                 ></span
-                ><Heading :level="6">22292000001</Heading>
+                ><Paragraph>22292000001</Paragraph>
               </div>
               <div
                 class="rvo-item-list-detail rvo-item-list-detail--description"
               >
                 <Heading :level="3">
-                  <a
+                  <Link
                     class="rvo-link"
                     href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--zaak&amp;viewMode=story"
-                    >Jonge Vissers 2022</a
+                    >Jonge Vissers 2022</Link
                   >
                 </Heading>
               </div>
@@ -301,7 +301,7 @@ import { PageFooter } from "@utrecht/component-library-vue";
                   class="rvo-status-indicator rvo-status-indicator--edit"
                 ></div>
                 <div class="rvo-status-title">
-                  <Heading :level="6">Bij u in bewerking</Heading>
+                  <Paragraph>Bij u in bewerking</Paragraph>
                 </div>
               </div>
             </div>
@@ -312,16 +312,16 @@ import { PageFooter } from "@utrecht/component-library-vue";
                 <span
                   class="utrecht-icon rvo-icon rvo-icon-map rvo-icon--md rvo-icon--zwart"
                 ></span
-                ><Heading :level="6">22269000022</Heading>
+                ><Paragraph>22269000022</Paragraph>
               </div>
               <div
                 class="rvo-item-list-detail rvo-item-list-detail--description"
               >
                 <Heading :level="3">
-                  <a
+                  <Link
                     class="rvo-link"
                     href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--zaak&amp;viewMode=story"
-                    >POP3 Samenwerking Pilots gezonde kalverketen</a
+                    >POP3 Samenwerking Pilots gezonde kalverketen</Link
                   >
                 </Heading>
               </div>
@@ -330,7 +330,7 @@ import { PageFooter } from "@utrecht/component-library-vue";
                   class="rvo-status-indicator rvo-status-indicator--success"
                 ></div>
                 <div class="rvo-status-title">
-                  <Heading :level="6">Goedgekeurd</Heading>
+                  <Paragraph>Goedgekeurd</Paragraph>
                 </div>
               </div>
             </div>
@@ -341,16 +341,16 @@ import { PageFooter } from "@utrecht/component-library-vue";
                 <span
                   class="utrecht-icon rvo-icon rvo-icon-map rvo-icon--md rvo-icon--zwart"
                 ></span
-                ><Heading :level="6">16269000033</Heading>
+                ><Paragraph>16269000033</Paragraph>
               </div>
               <div
                 class="rvo-item-list-detail rvo-item-list-detail--description"
               >
                 <Heading :level="3">
-                  <a
+                  <Link
                     class="rvo-link"
                     href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--zaak&amp;viewMode=story"
-                    >OverheidsOpdrachten NVLG</a
+                    >OverheidsOpdrachten NVLG</Link
                   >
                 </Heading>
               </div>
@@ -359,7 +359,7 @@ import { PageFooter } from "@utrecht/component-library-vue";
                   class="rvo-status-indicator rvo-status-indicator--error"
                 ></div>
                 <div class="rvo-status-title">
-                  <Heading :level="6">Afgekeurd</Heading>
+                  <Paragraph>Afgekeurd</Paragraph>
                 </div>
               </div>
             </div>
@@ -370,16 +370,16 @@ import { PageFooter } from "@utrecht/component-library-vue";
                 <span
                   class="utrecht-icon rvo-icon rvo-icon-map rvo-icon--md rvo-icon--zwart"
                 ></span
-                ><Heading :level="6">16269003453</Heading>
+                ><Paragraph>16269003453</Paragraph>
               </div>
               <div
                 class="rvo-item-list-detail rvo-item-list-detail--description"
               >
                 <Heading :level="3">
-                  <a
+                  <Link
                     class="rvo-link"
                     href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--zaak&amp;viewMode=story"
-                    >OverheidsOpdrachten NVLG</a
+                    >OverheidsOpdrachten NVLG</Link
                   >
                 </Heading>
               </div>
@@ -388,7 +388,7 @@ import { PageFooter } from "@utrecht/component-library-vue";
                   class="rvo-status-indicator rvo-status-indicator--warning"
                 ></div>
                 <div class="rvo-status-title">
-                  <Heading :level="6">In behandeling</Heading>
+                  <Paragraph>In behandeling</Paragraph>
                 </div>
               </div>
             </div>
