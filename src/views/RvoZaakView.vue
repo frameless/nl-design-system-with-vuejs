@@ -32,46 +32,46 @@ import { Link } from "@utrecht/component-library-vue";
           >
             <ul class="utrecht-topnav__list">
               <li class="utrecht-topnav__item">
-                <a
+                <Link
                   class="utrecht-topnav__link"
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
-                  >Zaken</a
+                  >Zaken</Link
                 >
               </li>
               <li class="utrecht-topnav__item">
-                <a
+                <Link
                   class="utrecht-topnav__link"
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--diensten&amp;viewMode=story"
-                  >Diensten</a
+                  >Diensten</Link
                 >
               </li>
               <li class="utrecht-topnav__item">
-                <a class="utrecht-topnav__link" href="#">Help</a>
+                <Link class="utrecht-topnav__link" href="#">Help</Link>
               </li>
               <li class="utrecht-topnav__item">
-                <a
+                <Link
                   class="utrecht-topnav__link"
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--profiel&amp;viewMode=story"
-                  >Profiel</a
+                  >Profiel</Link
                 >
               </li>
               <li
                 class="utrecht-topnav__item utrecht-topnav__item--align-right"
               >
-                <a
+                <Link
                   class="utrecht-topnav__link"
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--inloggen&amp;viewMode=story"
-                  >Uitloggen</a
+                  >Uitloggen</Link
                 >
               </li>
               <li class="utrecht-topnav__item">
-                <a class="utrecht-topnav__link" href="#"
+                <Link class="utrecht-topnav__link" href="#"
                   ><span
                     class="utrecht-icon rvo-icon rvo-icon-wereldbol rvo-icon--lg rvo-icon--wit"
                     role="img"
                     aria-label="Wereldbol"
                   ></span
-                  >English</a
+                  >English</Link
                 >
               </li>
             </ul>
@@ -84,44 +84,44 @@ import { Link } from "@utrecht/component-library-vue";
         >
           <ul class="utrecht-topnav__list">
             <li class="utrecht-topnav__item">
-              <a
+              <Link
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
-                >Zaken</a
+                >Zaken</Link
               >
             </li>
             <li class="utrecht-topnav__item">
-              <a
+              <Link
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--diensten&amp;viewMode=story"
-                >Diensten</a
+                >Diensten</Link
               >
             </li>
             <li class="utrecht-topnav__item">
-              <a class="utrecht-topnav__link" href="#">Help</a>
+              <Link class="utrecht-topnav__link" href="#">Help</Link>
             </li>
             <li class="utrecht-topnav__item">
-              <a
+              <Link
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--profiel&amp;viewMode=story"
-                >Profiel</a
+                >Profiel</Link
               >
             </li>
             <li class="utrecht-topnav__item utrecht-topnav__item--align-right">
-              <a
+              <Link
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--inloggen&amp;viewMode=story"
-                >Uitloggen</a
+                >Uitloggen</Link
               >
             </li>
             <li class="utrecht-topnav__item">
-              <a class="utrecht-topnav__link" href="#"
+              <Link class="utrecht-topnav__link" href="#"
                 ><span
                   class="utrecht-icon rvo-icon rvo-icon-wereldbol rvo-icon--lg rvo-icon--wit"
                   role="img"
                   aria-label="Wereldbol"
                 ></span
-                >English</a
+                >English</Link
               >
             </li>
           </ul>
@@ -148,18 +148,18 @@ import { Link } from "@utrecht/component-library-vue";
                     <Paragraph>
                       De aanvraag is <strong>bij u in behandeling</strong>. Dat
                       betekent dat deze nog niet is ingediend. U kunt de
-                      <a
+                      <Link
                         href="iframe.html?args=&amp;id=demo-pagina-s-jonge-vissers--controleer-uw-gegevens&amp;viewMode=story"
                         class="rvo-link"
-                        >aanvraag openen</a
+                        >aanvraag openen</Link
                       >, verder invullen en dan indienen.
                     </Paragraph>
                   </div>
                 </div>
-                <a
+                <Link
                   class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
                   href="iframe.html?args=&amp;id=demo-pagina-s-jonge-vissers--controleer-uw-gegevens&amp;viewMode=story"
-                  >Aanvraag openen</a
+                  >Aanvraag openen</Link
                 >
               </div>
               <div class="rvo-item-list rvo-item-list--documents">
@@ -176,7 +176,9 @@ import { Link } from "@utrecht/component-library-vue";
                   <div
                     class="rvo-item-list-detail rvo-item-list-detail--description"
                   >
-                    <a class="rvo-link" href="#">Goedkeuring aanvraag (PDF)</a>
+                    <Link class="rvo-link" href="#"
+                      >Goedkeuring aanvraag (PDF)</Link
+                    >
                   </div>
                 </div>
                 <div class="rvo-item-list-item rvo-item-list-item--document">
@@ -191,8 +193,8 @@ import { Link } from "@utrecht/component-library-vue";
                   <div
                     class="rvo-item-list-detail rvo-item-list-detail--description"
                   >
-                    <a class="rvo-link" href="#"
-                      >Verzoek aanvullende gegevens (PDF)</a
+                    <Link class="rvo-link" href="#"
+                      >Verzoek aanvullende gegevens (PDF)</Link
                     >
                   </div>
                 </div>
@@ -208,9 +210,9 @@ import { Link } from "@utrecht/component-library-vue";
                   <div
                     class="rvo-item-list-detail rvo-item-list-detail--description"
                   >
-                    <a class="rvo-link" href="#"
+                    <Link class="rvo-link" href="#"
                       >Bevestiging aanvraag Gemeenschappelijke Marktordening
-                      2023 (PDF)</a
+                      2023 (PDF)</Link
                     >
                   </div>
                 </div>

@@ -3,6 +3,7 @@ import { Heading } from "@utrecht/component-library-vue";
 import { Paragraph } from "@utrecht/component-library-vue";
 import { PageHeader } from "@utrecht/component-library-vue";
 import { Link } from "@utrecht/component-library-vue";
+import { Table } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -34,46 +35,46 @@ import { Link } from "@utrecht/component-library-vue";
           >
             <ul class="utrecht-topnav__list">
               <li class="utrecht-topnav__item">
-                <a
+                <Link
                   class="utrecht-topnav__link"
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
-                  >Zaken</a
+                  >Zaken</Link
                 >
               </li>
               <li class="utrecht-topnav__item">
-                <a
+                <Link
                   class="utrecht-topnav__link"
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--diensten&amp;viewMode=story"
-                  >Diensten</a
+                  >Diensten</Link
                 >
               </li>
               <li class="utrecht-topnav__item">
-                <a class="utrecht-topnav__link" href="#">Help</a>
+                <Link class="utrecht-topnav__link" href="#">Help</Link>
               </li>
               <li class="utrecht-topnav__item">
-                <a
+                <Link
                   class="utrecht-topnav__link"
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--profiel&amp;viewMode=story"
-                  >Profiel</a
+                  >Profiel</Link
                 >
               </li>
               <li
                 class="utrecht-topnav__item utrecht-topnav__item--align-right"
               >
-                <a
+                <Link
                   class="utrecht-topnav__link"
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--inloggen&amp;viewMode=story"
-                  >Uitloggen</a
+                  >Uitloggen</Link
                 >
               </li>
               <li class="utrecht-topnav__item">
-                <a class="utrecht-topnav__link" href="#"
+                <Link class="utrecht-topnav__link" href="#"
                   ><span
                     class="utrecht-icon rvo-icon rvo-icon-wereldbol rvo-icon--lg rvo-icon--wit"
                     role="img"
                     aria-label="Wereldbol"
                   ></span
-                  >English</a
+                  >English</Link
                 >
               </li>
             </ul>
@@ -86,44 +87,44 @@ import { Link } from "@utrecht/component-library-vue";
         >
           <ul class="utrecht-topnav__list">
             <li class="utrecht-topnav__item">
-              <a
+              <Link
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
-                >Zaken</a
+                >Zaken</Link
               >
             </li>
             <li class="utrecht-topnav__item">
-              <a
+              <Link
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--diensten&amp;viewMode=story"
-                >Diensten</a
+                >Diensten</Link
               >
             </li>
             <li class="utrecht-topnav__item">
-              <a class="utrecht-topnav__link" href="#">Help</a>
+              <Link class="utrecht-topnav__link" href="#">Help</Link>
             </li>
             <li class="utrecht-topnav__item utrecht-topnav__item--active">
-              <a
+              <Link
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--profiel&amp;viewMode=story"
-                >Profiel</a
+                >Profiel</Link
               >
             </li>
             <li class="utrecht-topnav__item utrecht-topnav__item--align-right">
-              <a
+              <Link
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--inloggen&amp;viewMode=story"
-                >Uitloggen</a
+                >Uitloggen</Link
               >
             </li>
             <li class="utrecht-topnav__item">
-              <a class="utrecht-topnav__link" href="#"
+              <Link class="utrecht-topnav__link" href="#"
                 ><span
                   class="utrecht-icon rvo-icon rvo-icon-wereldbol rvo-icon--lg rvo-icon--wit"
                   role="img"
                   aria-label="Wereldbol"
                 ></span
-                >English</a
+                >English</Link
               >
             </li>
           </ul>
@@ -160,7 +161,7 @@ import { Link } from "@utrecht/component-library-vue";
               <div class="rvo-layout-column rvo-layout-gap--md">
                 <Heading :level="2">Mijn gegevens</Heading>
                 <div class="rvo-layout-column rvo-layout-gap--2xs">
-                  <dl class="rvo-data-list">
+                  <Table class="rvo-data-list">
                     <dt>Adres</dt>
                     <dd>
                       Prinses Beatrixlaan 2<br />
@@ -183,8 +184,8 @@ import { Link } from "@utrecht/component-library-vue";
                     <dd>info@rvo.nl</dd>
                     <dt>Rekeningnummer</dt>
                     <dd>NL41INGB0705001490</dd>
-                  </dl>
-                  <a
+                  </Table>
+                  <Link
                     href="#"
                     class="rvo-link rvo-link--with-icon rvo-link--no-underline"
                     ><span
@@ -192,7 +193,7 @@ import { Link } from "@utrecht/component-library-vue";
                       role="img"
                       aria-label="Bewerken"
                     ></span
-                    >Gegevens bewerken</a
+                    >Gegevens bewerken</Link
                   >
                 </div>
               </div>
@@ -203,7 +204,7 @@ import { Link } from "@utrecht/component-library-vue";
               <Heading :level="2">Wie heb ik gemachtigd?</Heading>
               <div class="rvo-machtigingen-item">
                 <div class="rvo-machtigingen-title">
-                  <a
+                  <Link
                     href="#"
                     class="rvo-link rvo-link--with-icon rvo-link--no-underline"
                     ><span
@@ -211,7 +212,7 @@ import { Link } from "@utrecht/component-library-vue";
                       role="img"
                       aria-label="User"
                     ></span
-                    >G.G.L. Luijten</a
+                    >G.G.L. Luijten</Link
                   ><button
                     class="utrecht-button utrecht-button--subtle utrecht-button--warning rvo-layout-row rvo-layout-gap--xs utrecht-button--rvo-xs"
                     type="button"
@@ -222,16 +223,16 @@ import { Link } from "@utrecht/component-library-vue";
                     >Intrekken
                   </button>
                 </div>
-                <div class="rvo-machtigingen-description">
+                <Paragraph class="rvo-machtigingen-description">
                   Voor alle diensten in Mijn machtigingen(volmacht)
-                </div>
-                <div class="rvo-machtigingen-date">
+                </Paragraph>
+                <Paragraph class="rvo-machtigingen-date">
                   vanaf 14-02-2022 tot 13-02-2023
-                </div>
+                </Paragraph>
               </div>
               <div class="rvo-machtigingen-item">
                 <div class="rvo-machtigingen-title">
-                  <a
+                  <Link
                     href="#"
                     class="rvo-link rvo-link--with-icon rvo-link--no-underline"
                     ><span
@@ -239,7 +240,7 @@ import { Link } from "@utrecht/component-library-vue";
                       role="img"
                       aria-label="User"
                     ></span
-                    >Maatschap A.F. Nijboer en L. van der Lei</a
+                    >Maatschap A.F. Nijboer en L. van der Lei</Link
                   ><button
                     class="utrecht-button utrecht-button--subtle utrecht-button--warning utrecht-button--rvo-xs"
                     type="button"
@@ -252,17 +253,19 @@ import { Link } from "@utrecht/component-library-vue";
                     >Intrekken
                   </button>
                 </div>
-                <div class="rvo-machtigingen-description">
+                <Paragraph class="rvo-machtigingen-description">
                   VDM gegevens leveren aan
-                </div>
-                <div class="rvo-machtigingen-date">vanaf 14-02-2017</div>
+                </Paragraph>
+                <Paragraph class="rvo-machtigingen-date"
+                  >vanaf 14-02-2017</Paragraph
+                >
               </div>
             </div>
             <div class="rvo-machtigingen">
               <Heading :level="2">Wie heeft mij gemachtigd?</Heading>
               <div class="rvo-machtigingen-item">
                 <div class="rvo-machtigingen-title">
-                  <a
+                  <Link
                     href="#"
                     class="rvo-link rvo-link--with-icon rvo-link--no-underline"
                     ><span
@@ -270,7 +273,7 @@ import { Link } from "@utrecht/component-library-vue";
                       role="img"
                       aria-label="User"
                     ></span
-                    >ACME</a
+                    >ACME</Link
                   ><button
                     class="utrecht-button utrecht-button--subtle utrecht-button--warning utrecht-button--rvo-xs"
                     type="button"
@@ -283,10 +286,12 @@ import { Link } from "@utrecht/component-library-vue";
                     >Intrekken
                   </button>
                 </div>
-                <div class="rvo-machtigingen-description">
+                <Paragraph class="rvo-machtigingen-description">
                   Natuurbeheer (agrarisch) SNL
-                </div>
-                <div class="rvo-machtigingen-date">vanaf 16-11-2021</div>
+                </Paragraph>
+                <Paragraph class="rvo-machtigingen-date"
+                  >vanaf 16-11-2021</Paragraph
+                >
               </div>
             </div>
           </aside>

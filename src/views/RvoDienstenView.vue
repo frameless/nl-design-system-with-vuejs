@@ -4,6 +4,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
 import { Heading } from "@utrecht/component-library-vue";
 import { Checkbox } from "@utrecht/component-library-vue";
 import { Link } from "@utrecht/component-library-vue";
+import { FormLabel } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -35,46 +36,46 @@ import { Link } from "@utrecht/component-library-vue";
           >
             <ul class="utrecht-topnav__list">
               <li class="utrecht-topnav__item">
-                <a
+                <Link
                   class="utrecht-topnav__link"
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
-                  >Zaken</a
+                  >Zaken</Link
                 >
               </li>
               <li class="utrecht-topnav__item">
-                <a
+                <Link
                   class="utrecht-topnav__link"
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--diensten&amp;viewMode=story"
-                  >Diensten</a
+                  >Diensten</Link
                 >
               </li>
               <li class="utrecht-topnav__item">
-                <a class="utrecht-topnav__link" href="#">Help</a>
+                <Link class="utrecht-topnav__link" href="#">Help</Link>
               </li>
               <li class="utrecht-topnav__item">
-                <a
+                <Link
                   class="utrecht-topnav__link"
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--profiel&amp;viewMode=story"
-                  >Profiel</a
+                  >Profiel</Link
                 >
               </li>
               <li
                 class="utrecht-topnav__item utrecht-topnav__item--align-right"
               >
-                <a
+                <Link
                   class="utrecht-topnav__link"
                   href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--inloggen&amp;viewMode=story"
-                  >Uitloggen</a
+                  >Uitloggen</Link
                 >
               </li>
               <li class="utrecht-topnav__item">
-                <a class="utrecht-topnav__link" href="#"
+                <Link class="utrecht-topnav__link" href="#"
                   ><span
                     class="utrecht-icon rvo-icon rvo-icon-wereldbol rvo-icon--lg rvo-icon--wit"
                     role="img"
                     aria-label="Wereldbol"
                   ></span
-                  >English</a
+                  >English</Link
                 >
               </li>
             </ul>
@@ -87,44 +88,44 @@ import { Link } from "@utrecht/component-library-vue";
         >
           <ul class="utrecht-topnav__list">
             <li class="utrecht-topnav__item">
-              <a
+              <Link
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
-                >Zaken</a
+                >Zaken</Link
               >
             </li>
             <li class="utrecht-topnav__item utrecht-topnav__item--active">
-              <a
+              <Link
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--diensten&amp;viewMode=story"
-                >Diensten</a
+                >Diensten</Link
               >
             </li>
             <li class="utrecht-topnav__item">
-              <a class="utrecht-topnav__link" href="#">Help</a>
+              <Link class="utrecht-topnav__link" href="#">Help</Link>
             </li>
             <li class="utrecht-topnav__item">
-              <a
+              <Link
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--profiel&amp;viewMode=story"
-                >Profiel</a
+                >Profiel</Link
               >
             </li>
             <li class="utrecht-topnav__item utrecht-topnav__item--align-right">
-              <a
+              <Link
                 class="utrecht-topnav__link"
                 href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--inloggen&amp;viewMode=story"
-                >Uitloggen</a
+                >Uitloggen</Link
               >
             </li>
             <li class="utrecht-topnav__item">
-              <a class="utrecht-topnav__link" href="#"
+              <Link class="utrecht-topnav__link" href="#"
                 ><span
                   class="utrecht-icon rvo-icon rvo-icon-wereldbol rvo-icon--lg rvo-icon--wit"
                   role="img"
                   aria-label="Wereldbol"
                 ></span
-                >English</a
+                >English</Link
               >
             </li>
           </ul>
@@ -160,7 +161,8 @@ import { Link } from "@utrecht/component-library-vue";
           <div class="rvo-max-width-layout rvo-max-width-layout--md">
             <details class="rvo-responsive-filters">
               <summary class="rvo-responsive-filters-toggle">
-                Diensten filteren<span
+                <Paragraph>Diensten filteren</Paragraph>
+                <span
                   class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--hemelblauw"
                 ></span
                 ><span
@@ -178,11 +180,11 @@ import { Link } from "@utrecht/component-library-vue";
                       class="utrecht-form-field utrecht-form-field--text rvo-form-field"
                     >
                       <div class="rvo-form-field__label">
-                        <label
+                        <FormLabel
                           id="fieldId-label"
                           for="fieldId"
                           class="utrecht-form-label"
-                          >Op titel</label
+                          >Op titel</FormLabel
                         >
                       </div>
                       <input
@@ -198,20 +200,21 @@ import { Link } from "@utrecht/component-library-vue";
                         <div
                           class="rvo-form-field rvo-layout-column rvo-layout-gap--sm"
                         >
-                          <label
-                            class="rvo-form-field__label rvo-layout-column rvo-layout-gap--2xs"
-                            for="fieldId"
-                            ><span class="rvo-form-field__label-text"
-                              >Ik zoek geld voor</span
-                            ></label
-                          >
-                          <div class="rvo-select-wrapper">
+                          <div class="rvo-form-field__label">
+                            <FormLabel
+                              id="fieldId-label"
+                              for="fieldId"
+                              class="utrecht-form-label"
+                              >Ik zoek geld voor</FormLabel
+                            >
+                          </div>
+                          <Paragraph class="rvo-select-wrapper">
                             <div
                               class="utrecht-select utrecht-select--html-select rvo-filter-select-placeholder"
                             >
                               Maak een keuze
                             </div>
-                          </div>
+                          </Paragraph>
                         </div>
                       </summary>
                       <div
@@ -252,20 +255,21 @@ import { Link } from "@utrecht/component-library-vue";
                         <div
                           class="rvo-form-field rvo-layout-column rvo-layout-gap--sm"
                         >
-                          <label
-                            class="rvo-form-field__label rvo-layout-column rvo-layout-gap--2xs"
-                            for="fieldId"
-                            ><span class="rvo-form-field__label-text"
-                              >Status openstelling</span
-                            ></label
-                          >
-                          <div class="rvo-select-wrapper">
+                          <div class="rvo-form-field__label">
+                            <FormLabel
+                              id="fieldId-label"
+                              for="fieldId"
+                              class="utrecht-form-label"
+                              >Op titel</FormLabel
+                            >
+                          </div>
+                          <Paragraph class="rvo-select-wrapper">
                             <div
                               class="utrecht-select utrecht-select--html-select rvo-filter-select-placeholder"
                             >
                               Maak een keuze
                             </div>
-                          </div>
+                          </Paragraph>
                         </div>
                       </summary>
                       <div
@@ -348,8 +352,8 @@ import { Link } from "@utrecht/component-library-vue";
                 class="rvo-item-list-detail rvo-item-list-detail--description"
               >
                 <Heading :level="3">
-                  <a class="rvo-link" href="#"
-                    >Gemeenschappelijke Marktordening 2023</a
+                  <Link class="rvo-link" href="#"
+                    >Gemeenschappelijke Marktordening 2023</Link
                   ><span
                     class="rvo-item-list-detail rvo-item-list-detail--aanbevolen"
                     ><span
@@ -363,7 +367,7 @@ import { Link } from "@utrecht/component-library-vue";
                 <div
                   class="rvo-status-indicator rvo-status-indicator--edit"
                 ></div>
-                <div class="rvo-status-title">Bijna open</div>
+                <Paragraph class="rvo-status-title">Bijna open</Paragraph>
               </div>
             </div>
             <div class="rvo-item-list-item rvo-item-list-item--dienst">
@@ -371,8 +375,8 @@ import { Link } from "@utrecht/component-library-vue";
                 class="rvo-item-list-detail rvo-item-list-detail--description"
               >
                 <Heading :level="3">
-                  <a class="rvo-link" href="#"
-                    >POP3 Samenwerking Pilots gezonde kalverketen</a
+                  <Link class="rvo-link" href="#"
+                    >POP3 Samenwerking Pilots gezonde kalverketen</Link
                   ><span
                     class="rvo-item-list-detail rvo-item-list-detail--aanbevolen"
                     ><span
@@ -386,7 +390,7 @@ import { Link } from "@utrecht/component-library-vue";
                 <div
                   class="rvo-status-indicator rvo-status-indicator--success"
                 ></div>
-                <div class="rvo-status-title">Open</div>
+                <Paragraph class="rvo-status-title">Open</Paragraph>
               </div>
             </div>
             <div class="rvo-item-list-item rvo-item-list-item--dienst">
@@ -394,23 +398,8 @@ import { Link } from "@utrecht/component-library-vue";
                 class="rvo-item-list-detail rvo-item-list-detail--description"
               >
                 <Heading :level="3">
-                  <a class="rvo-link" href="#">OverheidsOpdrachten NVLG</a>
-                </Heading>
-              </div>
-              <div class="rvo-item-list-detail rvo-item-list-detail--status">
-                <div
-                  class="rvo-status-indicator rvo-status-indicator--success"
-                ></div>
-                <div class="rvo-status-title">Open</div>
-              </div>
-            </div>
-            <div class="rvo-item-list-item rvo-item-list-item--dienst">
-              <div
-                class="rvo-item-list-detail rvo-item-list-detail--description"
-              >
-                <Heading :level="3">
-                  <a class="rvo-link" href="#"
-                    >Borgstelling MKB-kredieten (BMKB)</a
+                  <Link class="rvo-link" href="#"
+                    >OverheidsOpdrachten NVLG</Link
                   >
                 </Heading>
               </div>
@@ -418,7 +407,7 @@ import { Link } from "@utrecht/component-library-vue";
                 <div
                   class="rvo-status-indicator rvo-status-indicator--success"
                 ></div>
-                <div class="rvo-status-title">Open</div>
+                <Paragraph class="rvo-status-title">Open</Paragraph>
               </div>
             </div>
             <div class="rvo-item-list-item rvo-item-list-item--dienst">
@@ -426,8 +415,26 @@ import { Link } from "@utrecht/component-library-vue";
                 class="rvo-item-list-detail rvo-item-list-detail--description"
               >
                 <Heading :level="3">
-                  <a class="rvo-link" href="#"
-                    >Eureka: programma internationale marktgerichte R&amp;D</a
+                  <Link class="rvo-link" href="#"
+                    >Borgstelling MKB-kredieten (BMKB)</Link
+                  >
+                </Heading>
+              </div>
+              <div class="rvo-item-list-detail rvo-item-list-detail--status">
+                <div
+                  class="rvo-status-indicator rvo-status-indicator--success"
+                ></div>
+                <Paragraph class="rvo-status-title">Open</Paragraph>
+              </div>
+            </div>
+            <div class="rvo-item-list-item rvo-item-list-item--dienst">
+              <div
+                class="rvo-item-list-detail rvo-item-list-detail--description"
+              >
+                <Heading :level="3">
+                  <Link class="rvo-link" href="#"
+                    >Eureka: programma internationale marktgerichte
+                    R&amp;D</Link
                   >
                 </Heading>
               </div>
@@ -435,7 +442,7 @@ import { Link } from "@utrecht/component-library-vue";
                 <div
                   class="rvo-status-indicator rvo-status-indicator--edit"
                 ></div>
-                <div class="rvo-status-title">Bijna open</div>
+                <Paragraph class="rvo-status-title">Bijna open</Paragraph>
               </div>
             </div>
             <div class="rvo-item-list-item rvo-item-list-item--dienst">
@@ -443,14 +450,14 @@ import { Link } from "@utrecht/component-library-vue";
                 class="rvo-item-list-detail rvo-item-list-detail--description"
               >
                 <Heading :level="3">
-                  <a class="rvo-link" href="#">Groeifaciliteit</a>
+                  <Link class="rvo-link" href="#">Groeifaciliteit</Link>
                 </Heading>
               </div>
               <div class="rvo-item-list-detail rvo-item-list-detail--status">
                 <div
                   class="rvo-status-indicator rvo-status-indicator--edit"
                 ></div>
-                <div class="rvo-status-title">Bijna open</div>
+                <Paragraph class="rvo-status-title">Bijna open</Paragraph>
               </div>
             </div>
             <div class="rvo-item-list-item rvo-item-list-item--dienst">
@@ -458,8 +465,8 @@ import { Link } from "@utrecht/component-library-vue";
                 class="rvo-item-list-detail rvo-item-list-detail--description"
               >
                 <Heading :level="3">
-                  <a class="rvo-link" href="#"
-                    >Borgstelling MKB-kredieten (BMKB)</a
+                  <Link class="rvo-link" href="#"
+                    >Borgstelling MKB-kredieten (BMKB)</Link
                   >
                 </Heading>
               </div>
@@ -467,7 +474,7 @@ import { Link } from "@utrecht/component-library-vue";
                 <div
                   class="rvo-status-indicator rvo-status-indicator--warning"
                 ></div>
-                <div class="rvo-status-title">Bijna gesloten</div>
+                <Paragraph class="rvo-status-title">Bijna gesloten</Paragraph>
               </div>
             </div>
             <div class="rvo-item-list-item rvo-item-list-item--dienst">
@@ -475,23 +482,8 @@ import { Link } from "@utrecht/component-library-vue";
                 class="rvo-item-list-detail rvo-item-list-detail--description"
               >
                 <Heading :level="3">
-                  <a class="rvo-link" href="#">SBIR innovatie in opdracht</a>
-                </Heading>
-              </div>
-              <div class="rvo-item-list-detail rvo-item-list-detail--status">
-                <div
-                  class="rvo-status-indicator rvo-status-indicator--warning"
-                ></div>
-                <div class="rvo-status-title">Bijna gesloten</div>
-              </div>
-            </div>
-            <div class="rvo-item-list-item rvo-item-list-item--dienst">
-              <div
-                class="rvo-item-list-detail rvo-item-list-detail--description"
-              >
-                <Heading :level="3">
-                  <a class="rvo-link" href="#"
-                    >Borgstelling MKB-kredieten (BMKB)</a
+                  <Link class="rvo-link" href="#"
+                    >SBIR innovatie in opdracht</Link
                   >
                 </Heading>
               </div>
@@ -499,7 +491,7 @@ import { Link } from "@utrecht/component-library-vue";
                 <div
                   class="rvo-status-indicator rvo-status-indicator--warning"
                 ></div>
-                <div class="rvo-status-title">Bijna gesloten</div>
+                <Paragraph class="rvo-status-title">Bijna gesloten</Paragraph>
               </div>
             </div>
             <div class="rvo-item-list-item rvo-item-list-item--dienst">
@@ -507,14 +499,31 @@ import { Link } from "@utrecht/component-library-vue";
                 class="rvo-item-list-detail rvo-item-list-detail--description"
               >
                 <Heading :level="3">
-                  <a class="rvo-link" href="#">DHI-subsidieregeling</a>
+                  <Link class="rvo-link" href="#"
+                    >Borgstelling MKB-kredieten (BMKB)</Link
+                  >
+                </Heading>
+              </div>
+              <div class="rvo-item-list-detail rvo-item-list-detail--status">
+                <div
+                  class="rvo-status-indicator rvo-status-indicator--warning"
+                ></div>
+                <Paragraph class="rvo-status-title">Bijna gesloten</Paragraph>
+              </div>
+            </div>
+            <div class="rvo-item-list-item rvo-item-list-item--dienst">
+              <div
+                class="rvo-item-list-detail rvo-item-list-detail--description"
+              >
+                <Heading :level="3">
+                  <Link class="rvo-link" href="#">DHI-subsidieregeling</Link>
                 </Heading>
               </div>
               <div class="rvo-item-list-detail rvo-item-list-detail--status">
                 <div
                   class="rvo-status-indicator rvo-status-indicator--error"
                 ></div>
-                <div class="rvo-status-title">Gesloten</div>
+                <Paragraph class="rvo-status-title">Gesloten</Paragraph>
               </div>
             </div>
           </div>
@@ -525,13 +534,13 @@ import { Link } from "@utrecht/component-library-vue";
               <span
                 class="utrecht-icon rvo-icon rvo-icon-delta-naar-links rvo-icon--sm rvo-icon--zwart"
               ></span
-              ><a class="rvo-link" href="#">Vorige</a>
+              ><Link class="rvo-link" href="#">Vorige</Link>
             </div>
             <div class="rvo-pagination-page-numbers">
               <div
                 class="rvo-pagination-indicator rvo-pagination-indicator-page-number rvo-pagination-indicator-page-number--first"
               >
-                <a class="rvo-link" href="#">1</a>
+                <Link class="rvo-link" href="#">1</Link>
               </div>
               <div
                 class="rvo-pagination-indicator rvo-pagination-indicator--separator"
@@ -541,17 +550,17 @@ import { Link } from "@utrecht/component-library-vue";
               <div
                 class="rvo-pagination-indicator rvo-pagination-indicator-page-number"
               >
-                <a class="rvo-link" href="#">6</a>
+                <Link class="rvo-link" href="#">6</Link>
               </div>
               <div
                 class="rvo-pagination-indicator rvo-pagination-indicator-page-number rvo-pagination-indicator-page-number--current"
               >
-                <a class="rvo-link" href="#">7</a>
+                <Link class="rvo-link" href="#">7</Link>
               </div>
               <div
                 class="rvo-pagination-indicator rvo-pagination-indicator-page-number"
               >
-                <a class="rvo-link" href="#">8</a>
+                <Link class="rvo-link" href="#">8</Link>
               </div>
               <div
                 class="rvo-pagination-indicator rvo-pagination-indicator--separator"
@@ -561,13 +570,13 @@ import { Link } from "@utrecht/component-library-vue";
               <div
                 class="rvo-pagination-indicator rvo-pagination-indicator-page-number rvo-pagination-indicator-page-number--last"
               >
-                <a class="rvo-link" href="#">42</a>
+                <Link class="rvo-link" href="#">42</Link>
               </div>
             </div>
             <div
               class="rvo-pagination-indicator rvo-pagination-indicator--next"
             >
-              <a class="rvo-link" href="#">Volgende</a
+              <Link class="rvo-link" href="#">Volgende</Link
               ><span
                 class="rvo-icon rvo-icon-delta-naar-rechts rvo-icon--sm rvo-icon--zwart"
               ></span>
