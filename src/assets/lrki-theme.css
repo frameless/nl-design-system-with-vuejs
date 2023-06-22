@@ -1,0 +1,11 @@
+.lrki-theme {
+  /* Variables */
+  --lrki-color-green-1: hsl(98, 84%, 29%);
+
+  /* Topnav styling */
+  --utrecht-topnav-list-background-color: var(--lrki-color-green-1);
+
+  /* Footer styling */
+  --utrecht-page-footer-background-color: var(--lrki-color-green-1);
+  --rvo-footer-background-color: var(--lrki-color-green-1);
+}

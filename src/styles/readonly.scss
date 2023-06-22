@@ -1441,7 +1441,7 @@
   /* @FOOTER */
 
   .rvo-footer {
-    background-color: rgb(21 66 115);
+    background-color: var(--rvo-footer-background-color);
     padding-block-end: var(--rvo-space-xl);
     padding-block-start: var(--rvo-space-xl);
     padding-inline-end: var(--rvo-space-xl);
@@ -1498,7 +1498,6 @@
   .rvo-footer-menu-item .rvo-link:focus,
   .rvo-footer-menu-item .rvo-link:focus-visible,
   .rvo-footer-menu-item .rvo-link--focus {
-    background-color: var(--rvo-color-donkerblauw);
     text-decoration: underline;
   }
 
