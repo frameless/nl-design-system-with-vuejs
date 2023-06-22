@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { Paragraph } from "@utrecht/component-library-vue";
 import { Heading } from "@utrecht/component-library-vue";
+import { Link } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -8,12 +9,12 @@ import { Heading } from "@utrecht/component-library-vue";
     <div class="rvo-header-content">
       <header class="rvo-header">
         <div class="rvo-header__logo-wrapper">
-          <a href="/" class="rvo-header__logo-link"
+          <Link href="/" class="rvo-header__logo-link"
             ><img
               src="../images/logo.svg"
               alt="Rijksdienst voor Ondernemend Nederland, ga naar de startpagina van RVO"
               class="rvo-logo-img rvo-header__logo-img"
-          /></a>
+          /></Link>
         </div>
       </header>
       <div class="rvo-topnav__background">
@@ -32,33 +33,33 @@ import { Heading } from "@utrecht/component-library-vue";
               >
             </li>
             <li class="utrecht-topnav__item">
-              <a class="utrecht-topnav__link" href="#"
+              <Link class="utrecht-topnav__link" href="#"
                 ><span
                   class="utrecht-icon rvo-icon rvo-icon-publicatie rvo-icon--md rvo-icon--wit"
                   role="img"
                   aria-label="Publicatie"
                 ></span
-                >Mijn aanvragen</a
+                >Mijn aanvragen</Link
               >
             </li>
             <li class="utrecht-topnav__item">
-              <a class="utrecht-topnav__link" href="#"
+              <Link class="utrecht-topnav__link" href="#"
                 ><span
                   class="utrecht-icon rvo-icon rvo-icon-plus rvo-icon--md rvo-icon--wit"
                   role="img"
                   aria-label="Plus"
                 ></span
-                >Nieuwe aanvraag</a
+                >Nieuwe aanvraag</Link
               >
             </li>
             <li class="utrecht-topnav__item utrecht-topnav__item--align-right">
-              <a class="utrecht-topnav__link" href="#"
+              < class="utrecht-topnav__link" href="#"
                 ><span
                   class="utrecht-icon rvo-icon rvo-icon-versleutelen rvo-icon--md rvo-icon--wit"
                   role="img"
                   aria-label="Versleutelen"
                 ></span
-                >Uitloggen</a
+                >Uitloggen</
               >
             </li>
           </ul>

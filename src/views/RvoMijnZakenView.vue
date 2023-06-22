@@ -3,6 +3,9 @@ import { Paragraph } from "@utrecht/component-library-vue";
 import { Heading } from "@utrecht/component-library-vue";
 import { Checkbox } from "@utrecht/component-library-vue";
 import { PageHeader } from "@utrecht/component-library-vue";
+import { Link } from "@utrecht/component-library-vue";
+import { FormLabel } from "@utrecht/component-library-vue";
+import { PageFooter } from "@utrecht/component-library-vue";
 </script>
 
 <template>
@@ -10,12 +13,12 @@ import { PageHeader } from "@utrecht/component-library-vue";
     <div class="rvo-header-content">
       <PageHeader class="rvo-header">
         <div class="rvo-header__logo-wrapper">
-          <a href="/" class="rvo-header__logo-link"
+          <Link href="/" class="rvo-header__logo-link"
             ><img
               src="../images/logo.svg"
               alt="Rijksdienst voor Ondernemend Nederland, ga naar de startpagina van RVO"
               class="rvo-logo-img rvo-header__logo-img"
-          /></a>
+          /></Link>
         </div>
       </PageHeader>
       <details class="rvo-responsive-menu">
@@ -156,7 +159,8 @@ import { PageHeader } from "@utrecht/component-library-vue";
           <div class="rvo-max-width-layout rvo-max-width-layout--md">
             <details class="rvo-responsive-filters">
               <summary class="rvo-responsive-filters-toggle">
-                Zaken filteren<span
+                <Heading :level="3">Zaken filteren</Heading
+                ><span
                   class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--hemelblauw"
                 ></span
                 ><span
@@ -195,11 +199,11 @@ import { PageHeader } from "@utrecht/component-library-vue";
                       class="utrecht-form-field utrecht-form-field--text rvo-form-field"
                     >
                       <div class="rvo-form-field__label">
-                        <label
+                        <FormLabel
                           id="fieldId-label"
                           for="fieldId"
                           class="utrecht-form-label"
-                          >Op omschrijving</label
+                          >Op omschrijving</FormLabel
                         >
                       </div>
                       <input
@@ -215,12 +219,12 @@ import { PageHeader } from "@utrecht/component-library-vue";
                         <div
                           class="rvo-form-field rvo-layout-column rvo-layout-gap--sm"
                         >
-                          <label
+                          <FormLabel
                             class="rvo-form-field__label rvo-layout-column rvo-layout-gap--2xs"
                             for="fieldId"
                             ><span class="rvo-form-field__label-text"
                               >Op status</span
-                            ></label
+                            ></FormLabel
                           >
                           <div class="rvo-select-wrapper">
                             <div
@@ -234,7 +238,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
                       <div
                         class="rvo-checkbox__group rvo-layout-column rvo-layout-gap--sm"
                       >
-                        <label
+                        <FormLabel
                           class="rvo-checkbox rvo-checkbox--not-checked rvo-layout-row rvo-layout-gap--sm"
                           for="optionA"
                           ><Checkbox
@@ -242,8 +246,8 @@ import { PageHeader } from "@utrecht/component-library-vue";
                             name="group"
                             class="rvo-checkbox__input"
                             value=""
-                          />Beslissing genomen</label
-                        ><label
+                          />Beslissing genomen</FormLabel
+                        ><FormLabel
                           class="rvo-checkbox rvo-checkbox--checked rvo-layout-row rvo-layout-gap--sm"
                           for="optionB"
                           ><Checkbox
@@ -251,8 +255,8 @@ import { PageHeader } from "@utrecht/component-library-vue";
                             name="group"
                             class="rvo-checkbox__input"
                             value=""
-                          />Bij U in bewerking</label
-                        ><label
+                          />Bij U in bewerking</FormLabel
+                        ><FormLabel
                           class="rvo-checkbox rvo-checkbox--not-checked rvo-layout-row rvo-layout-gap--sm"
                           for="optionC"
                           ><Checkbox
@@ -260,7 +264,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
                             name="group"
                             class="rvo-checkbox__input"
                             value=""
-                          />Afgehandeld</label
+                          />Afgehandeld</FormLabel
                         >
                       </div>
                     </details>
@@ -279,7 +283,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
                 <span
                   class="utrecht-icon rvo-icon rvo-icon-map rvo-icon--md rvo-icon--zwart"
                 ></span
-                >22292000001
+                ><Heading :level="6">22292000001</Heading>
               </div>
               <div
                 class="rvo-item-list-detail rvo-item-list-detail--description"
@@ -296,7 +300,9 @@ import { PageHeader } from "@utrecht/component-library-vue";
                 <div
                   class="rvo-status-indicator rvo-status-indicator--edit"
                 ></div>
-                <div class="rvo-status-title">Bij u in bewerking</div>
+                <div class="rvo-status-title">
+                  <Heading :level="6">Bij u in bewerking</Heading>
+                </div>
               </div>
             </div>
             <div class="rvo-item-list-item rvo-item-list-item--case">
@@ -306,7 +312,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
                 <span
                   class="utrecht-icon rvo-icon rvo-icon-map rvo-icon--md rvo-icon--zwart"
                 ></span
-                >22269000022
+                ><Heading :level="6">22269000022</Heading>
               </div>
               <div
                 class="rvo-item-list-detail rvo-item-list-detail--description"
@@ -323,7 +329,9 @@ import { PageHeader } from "@utrecht/component-library-vue";
                 <div
                   class="rvo-status-indicator rvo-status-indicator--success"
                 ></div>
-                <div class="rvo-status-title">Goedgekeurd</div>
+                <div class="rvo-status-title">
+                  <Heading :level="6">Goedgekeurd</Heading>
+                </div>
               </div>
             </div>
             <div class="rvo-item-list-item rvo-item-list-item--case">
@@ -333,7 +341,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
                 <span
                   class="utrecht-icon rvo-icon rvo-icon-map rvo-icon--md rvo-icon--zwart"
                 ></span
-                >16269000033
+                ><Heading :level="6">16269000033</Heading>
               </div>
               <div
                 class="rvo-item-list-detail rvo-item-list-detail--description"
@@ -350,7 +358,9 @@ import { PageHeader } from "@utrecht/component-library-vue";
                 <div
                   class="rvo-status-indicator rvo-status-indicator--error"
                 ></div>
-                <div class="rvo-status-title">Afgekeurd</div>
+                <div class="rvo-status-title">
+                  <Heading :level="6">Afgekeurd</Heading>
+                </div>
               </div>
             </div>
             <div class="rvo-item-list-item rvo-item-list-item--case">
@@ -360,7 +370,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
                 <span
                   class="utrecht-icon rvo-icon rvo-icon-map rvo-icon--md rvo-icon--zwart"
                 ></span
-                >16269003453
+                ><Heading :level="6">16269003453</Heading>
               </div>
               <div
                 class="rvo-item-list-detail rvo-item-list-detail--description"
@@ -377,7 +387,9 @@ import { PageHeader } from "@utrecht/component-library-vue";
                 <div
                   class="rvo-status-indicator rvo-status-indicator--warning"
                 ></div>
-                <div class="rvo-status-title">In behandeling</div>
+                <div class="rvo-status-title">
+                  <Heading :level="6">In behandeling</Heading>
+                </div>
               </div>
             </div>
           </div>
@@ -388,13 +400,13 @@ import { PageHeader } from "@utrecht/component-library-vue";
               <span
                 class="utrecht-icon rvo-icon rvo-icon-delta-naar-links rvo-icon--sm rvo-icon--zwart"
               ></span
-              ><a class="rvo-link" href="#">Vorige</a>
+              ><Link class="rvo-link" href="#">Vorige</Link>
             </div>
             <div class="rvo-pagination-page-numbers">
               <div
                 class="rvo-pagination-indicator rvo-pagination-indicator-page-number rvo-pagination-indicator-page-number--first"
               >
-                <a class="rvo-link" href="#">1</a>
+                <Link class="rvo-link" href="#">1</Link>
               </div>
               <div
                 class="rvo-pagination-indicator rvo-pagination-indicator--separator"
@@ -404,17 +416,17 @@ import { PageHeader } from "@utrecht/component-library-vue";
               <div
                 class="rvo-pagination-indicator rvo-pagination-indicator-page-number"
               >
-                <a class="rvo-link" href="#">6</a>
+                <Link class="rvo-link" href="#">6</Link>
               </div>
               <div
                 class="rvo-pagination-indicator rvo-pagination-indicator-page-number rvo-pagination-indicator-page-number--current"
               >
-                <a class="rvo-link" href="#">7</a>
+                <Link class="rvo-link" href="#">7</Link>
               </div>
               <div
                 class="rvo-pagination-indicator rvo-pagination-indicator-page-number"
               >
-                <a class="rvo-link" href="#">8</a>
+                <Link class="rvo-link" href="#">8</Link>
               </div>
               <div
                 class="rvo-pagination-indicator rvo-pagination-indicator--separator"
@@ -424,13 +436,13 @@ import { PageHeader } from "@utrecht/component-library-vue";
               <div
                 class="rvo-pagination-indicator rvo-pagination-indicator-page-number rvo-pagination-indicator-page-number--last"
               >
-                <a class="rvo-link" href="#">42</a>
+                <Link class="rvo-link" href="#">42</Link>
               </div>
             </div>
             <div
               class="rvo-pagination-indicator rvo-pagination-indicator--next"
             >
-              <a class="rvo-link" href="#">Volgende</a
+              <Link class="rvo-link" href="#">Volgende</Link
               ><span
                 class="rvo-icon rvo-icon-delta-naar-rechts rvo-icon--sm rvo-icon--zwart"
               ></span>
@@ -439,7 +451,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
         </div>
       </main>
     </div>
-    <footer class="rvo-footer">
+    <PageFooter class="rvo-footer">
       <div class="rvo-max-width-layout rvo-max-width-layout--lg">
         <ul class="rvo-footer-menu">
           <li class="rvo-footer-menu-title">
@@ -451,7 +463,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
               role="img"
               aria-label="Delta naar rechts"
             ></span
-            ><a href="#" class="rvo-link">Help</a>
+            ><Link href="#" class="rvo-link">Help</Link>
           </li>
           <li class="rvo-footer-menu-item">
             <span
@@ -459,7 +471,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
               role="img"
               aria-label="Delta naar rechts"
             ></span
-            ><a href="#" class="rvo-link">Toegankelijkheid</a>
+            ><Link href="#" class="rvo-link">Toegankelijkheid</Link>
           </li>
           <li class="rvo-footer-menu-item">
             <span
@@ -467,7 +479,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
               role="img"
               aria-label="Delta naar rechts"
             ></span
-            ><a href="#" class="rvo-link">Webservices</a>
+            ><Link href="#" class="rvo-link">Webservices</Link>
           </li>
           <li class="rvo-footer-menu-item">
             <span
@@ -475,7 +487,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
               role="img"
               aria-label="Delta naar rechts"
             ></span
-            ><a href="#" class="rvo-link">Privacy</a>
+            ><Link href="#" class="rvo-link">Privacy</Link>
           </li>
           <li class="rvo-footer-menu-item">
             <span
@@ -483,7 +495,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
               role="img"
               aria-label="Delta naar rechts"
             ></span
-            ><a href="#" class="rvo-link">Sitemap</a>
+            ><Link href="#" class="rvo-link">Sitemap</Link>
           </li>
         </ul>
         <ul class="rvo-footer-menu">
@@ -496,7 +508,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
               role="img"
               aria-label="Delta naar rechts"
             ></span
-            ><a href="#" class="rvo-link">Machtigingen en TAN-codes</a>
+            ><Link href="#" class="rvo-link">Machtigingen en TAN-codes</Link>
           </li>
           <li class="rvo-footer-menu-item">
             <span
@@ -504,7 +516,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
               role="img"
               aria-label="Delta naar rechts"
             ></span
-            ><a href="#" class="rvo-link">Zaken regelen bij RVO</a>
+            ><Link href="#" class="rvo-link">Zaken regelen bij RVO</Link>
           </li>
           <li class="rvo-footer-menu-item">
             <span
@@ -512,7 +524,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
               role="img"
               aria-label="Delta naar rechts"
             ></span
-            ><a href="#" class="rvo-link">Inschrijven en registreren</a>
+            ><Link href="#" class="rvo-link">Inschrijven en registreren</Link>
           </li>
           <li class="rvo-footer-menu-item">
             <span
@@ -520,7 +532,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
               role="img"
               aria-label="Delta naar rechts"
             ></span
-            ><a href="#" class="rvo-link">Bedrijfsoverdracht melden</a>
+            ><Link href="#" class="rvo-link">Bedrijfsoverdracht melden</Link>
           </li>
           <li class="rvo-footer-menu-item">
             <span
@@ -528,7 +540,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
               role="img"
               aria-label="Delta naar rechts"
             ></span
-            ><a href="#" class="rvo-link">Overlijden melden</a>
+            ><Link href="#" class="rvo-link">Overlijden melden</Link>
           </li>
         </ul>
         <ul class="rvo-footer-menu">
@@ -541,7 +553,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
               role="img"
               aria-label="Delta naar rechts"
             ></span
-            ><a href="#" class="rvo-link">Abonneren op nieuwsbrief</a>
+            ><Link href="#" class="rvo-link">Abonneren op nieuwsbrief</Link>
           </li>
           <li class="rvo-footer-menu-item">
             <span
@@ -549,7 +561,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
               role="img"
               aria-label="Delta naar rechts"
             ></span
-            ><a href="#" class="rvo-link">Klantenpanel</a>
+            ><Link href="#" class="rvo-link">Klantenpanel</Link>
           </li>
           <li class="rvo-footer-menu-item">
             <span
@@ -557,7 +569,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
               role="img"
               aria-label="Delta naar rechts"
             ></span
-            ><a href="#" class="rvo-link">Berichtenbox voor bedrijven</a>
+            ><Link href="#" class="rvo-link">Berichtenbox voor bedrijven</Link>
           </li>
           <li class="rvo-footer-menu-item">
             <span
@@ -565,7 +577,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
               role="img"
               aria-label="Delta naar rechts"
             ></span
-            ><a href="#" class="rvo-link">RVO.nl</a>
+            ><Link href="#" class="rvo-link">RVO.nl</Link>
           </li>
         </ul>
         <ul class="rvo-footer-menu">
@@ -578,7 +590,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
               role="img"
               aria-label="Delta naar rechts"
             ></span
-            ><a href="#" class="rvo-link">Contactgegevens</a>
+            ><Link href="#" class="rvo-link">Contactgegevens</Link>
           </li>
           <li class="rvo-footer-menu-item">
             <span
@@ -586,7 +598,7 @@ import { PageHeader } from "@utrecht/component-library-vue";
               role="img"
               aria-label="Delta naar rechts"
             ></span
-            ><a href="#" class="rvo-link">Contactformulier</a>
+            ><Link href="#" class="rvo-link">Contactformulier</Link>
           </li>
           <li class="rvo-footer-menu-item">
             <span
@@ -594,10 +606,12 @@ import { PageHeader } from "@utrecht/component-library-vue";
               role="img"
               aria-label="Delta naar rechts"
             ></span
-            ><a href="#" class="rvo-link">Aanvraag voorlichting/spreker</a>
+            ><Link href="#" class="rvo-link"
+              >Aanvraag voorlichting/spreker</Link
+            >
           </li>
         </ul>
       </div>
-    </footer>
+    </PageFooter>
   </div>
 </template>

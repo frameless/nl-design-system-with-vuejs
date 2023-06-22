@@ -1,18 +1,19 @@
 <script setup lang="ts">
 import { Heading } from "@utrecht/component-library-vue";
 import { PageHeader } from "@utrecht/component-library-vue";
+import { Link } from "@utrecht/component-library-vue";
 </script>
 
 <template>
   <div class="rvo-demo-page">
     <PageHeader class="rvo-header">
       <div class="rvo-header__logo-wrapper">
-        <a href="/" class="rvo-header__logo-link"
+        <Link href="/" class="rvo-header__logo-link"
           ><img
             src="../images/logo.svg"
             alt="Rijksdienst voor Ondernemend Nederland, ga naar de startpagina van RVO"
             class="rvo-logo-img rvo-header__logo-img"
-        /></a>
+        /></Link>
       </div>
     </PageHeader>
     <div class="rvo-topnav__background">
@@ -101,15 +102,15 @@ import { PageHeader } from "@utrecht/component-library-vue";
           <div
             class="rvo-progress-tracker__step rvo-progress-tracker__step--md rvo-progress-tracker__step--incomplete rvo-image-bg-progress-tracker-incomplete-md--after rvo-progress-tracker__step--straight rvo-image-bg-progress-tracker-line-straight--before"
           >
-            <a href="#" class="rvo-link rvo-progress-tracker__step-link"
-              >Projecten</a
+            <Link href="#" class="rvo-link rvo-progress-tracker__step-link"
+              >Projecten</Link
             >
           </div>
           <div
             class="rvo-progress-tracker__step rvo-progress-tracker__step--md rvo-progress-tracker__step--incomplete rvo-image-bg-progress-tracker-incomplete-md--after rvo-progress-tracker__step--straight rvo-image-bg-progress-tracker-line-straight--before"
           >
-            <a href="#" class="rvo-link rvo-progress-tracker__step-link"
-              >S&amp;O uren</a
+            <Link href="#" class="rvo-link rvo-progress-tracker__step-link"
+              >S&amp;O uren</Link
             >
           </div>
           <div
@@ -121,13 +122,13 @@ import { PageHeader } from "@utrecht/component-library-vue";
         <div class="rvo-form">
           <div class="rvo-layout-column rvo-layout-gap--md">
             <div class="intro">
-              <a href="#" class="rvo-link rvo-link--with-icon"
+              <Link href="#" class="rvo-link rvo-link--with-icon"
                 ><span
                   class="utrecht-icon rvo-icon rvo-icon-terug rvo-icon--md rvo-icon--hemelblauw rvo-link__icon--before"
                   role="img"
                   aria-label="Terug"
                 ></span
-                >Terug</a
+                >Terug</Link
               >
               <Heading :level="1">Vormvrije aanvraag</Heading>
             </div>
