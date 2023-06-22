@@ -1,11 +1,24 @@
 .lrki-theme {
   /* Variables */
   --lrki-color-green-1: hsl(98, 84%, 29%);
+  --lrki-color-white-1: hsl(0, 0%, 100%);
+  --lrki-breadcrumb-margin-block-start: 16px;
 
   /* Topnav styling */
   --utrecht-topnav-list-background-color: var(--lrki-color-green-1);
+  .utrecht-breadcrumb--arrows {
+    --utrecht-breadcrumb-arrow-size: 0px;
+  }
+  --rvo-link-color: var(--lrki-color-white-1);
+  --rvo-space-bs: var(--lrki-breadcrumb-margin-block-start);
+  --utrecht-breadcrumb-item-divider-inline-size: 24px;
+  --utrecht-breadcrumb-divider-content: " ";
 
   /* Footer styling */
   --utrecht-page-footer-background-color: var(--lrki-color-green-1);
   --rvo-footer-background-color: var(--lrki-color-green-1);
+}
+
+.main-content {
+  padding-top: 25px;
 }

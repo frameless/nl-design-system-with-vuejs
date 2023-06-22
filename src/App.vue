@@ -54,6 +54,10 @@ import { RouterLink, RouterView } from "vue-router";
           >WBSO Vormvrije aanvraag</RouterLink
         >
         <RouterLink to="/LRKIcontactView">LRKIcontactView</RouterLink>
+        <RouterLink to="/LRKItoegankelijkheidView"
+          >LRKItoegankelijkheidView</RouterLink
+        >
+        <RouterLink to="/LRKIhelpView">LRKIhelpView</RouterLink>
       </nav>
     </div>
   </header>

@@ -32,16 +32,7 @@ import { Link } from "@utrecht/component-library-vue";
       </div>
       <main>
         <div class="rvo-max-width-layout rvo-max-width-layout--sm main-content">
-          <div class="rvo-main-content">
-            <Heading :level="3">Contact</Heading
-            ><Paragraph
-              >Voor meer informatie en antwoord op uw vragen kunt u terecht bij
-              <Link
-                href="https://www.rijksoverheid.nl/onderwerpen/kinderopvang/"
-                >Kinderopvang
-              </Link>
-            </Paragraph>
-          </div>
+          <div class="rvo-main-content">HIER BEGINT JE PAGE CONTENT</div>
         </div>
       </main>
     </div>
