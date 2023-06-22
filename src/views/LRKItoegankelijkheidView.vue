@@ -25,8 +25,11 @@ import { Link } from "@utrecht/component-library-vue";
           class="rvo-topnav rvo-topnav--lg rvo-max-width-layout rvo-max-width-layout--sm"
         >
           <BreadcrumbLink href="/" :rel="Home" :index="0">Home</BreadcrumbLink>
-          <BreadcrumbLink href="/LRKIcontactView" :index="3" :current="true"
-            >Contact</BreadcrumbLink
+          <BreadcrumbLink
+            href="/LRKItoegankelijkheidView"
+            :index="3"
+            :current="true"
+            >Toegankelijkheid</BreadcrumbLink
           >
         </BreadcrumbNav>
       </div>
