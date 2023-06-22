@@ -35,7 +35,8 @@ import { Link } from "@utrecht/component-library-vue";
           <div class="rvo-main-content"></div>
 
           <Heading :level="1">Vraag en antwoord</Heading>
-
+          <br />
+          <br />
           <Heading :level="3"
             >Wat staat er in het Landelijk Register Kinderopvang?
           </Heading>
@@ -55,12 +56,20 @@ import { Link } from "@utrecht/component-library-vue";
             geregistreerd in het Landelijk Register Kinderopvang (LRK). Een
             geregistreerde opvangvoorziening krijgt een registratienummer, dat
             is te vinden in het LRK. Bij de aanvraag van de kinderopvangtoeslag
-            moet de ouder dit nummer vermelden. Een kinderopvangvoorziening met
-            het kenmerk ouderparticipatiecrèche krijgt pas na verloop van tijd
-            een registratienummer. Er bestaat alleen recht op
-            kinderopvangtoeslag voor een ouderparticipatiecrèche wanneer het
-            registratienummer in LRK is vastgelegd. Er gelden nog meer
-            voorwaarden voor het recht op kinderopvangtoeslag. Zie ook
+            moet de ouder dit nummer vermelden.
+            <br />
+            <br />
+            Een kinderopvangvoorziening met het kenmerk ouderparticipatiecrèche
+            krijgt pas na verloop van tijd een registratienummer. Er bestaat
+            alleen recht op kinderopvangtoeslag voor een ouderparticipatiecrèche
+            wanneer het registratienummer in LRK is vastgelegd.
+            <br />
+            <br />
+            Er gelden nog meer voorwaarden voor het recht op
+            kinderopvangtoeslag.
+            <br />
+            <br />
+            Zie ook
             <Link
               href="https://www.belastingdienst.nl/wps/wcm/connect/nl/kinderopvangtoeslag/kinderopvangtoeslag"
               >Lees meer over kinderopvangtoeslag</Link
@@ -81,19 +90,29 @@ import { Link } from "@utrecht/component-library-vue";
           <Paragraph>
             In het Landelijk Register Kinderopvang (LRK) staan alle
             geregistreerde kinderopvangvoorzieningen in Nederland. Dit zijn alle
-            voorzieningen die in Nederland open zijn. Onder
-            kinderopvangvoorzieningen verstaan we kinderdagverblijven,
+            voorzieningen die in Nederland open zijn.
+            <br />
+            <br />
+            Onder kinderopvangvoorzieningen verstaan we kinderdagverblijven,
             buitenschoolse opvang, gastouderbureaus en voorzieningen voor
-            gastouderopvang (gastouders). Voorzieningen waar ouders onderling de
-            opvang voor hun kinderen op zich nemen, zijn
-            ouderparticipatiecrèches (opc) en zijn geregistreerd als
-            kinderdagverblijf en buitenschoolse opvang. In het LRK staan ook de
-            kinderopvangvoorzieningen die niet meer zijn geregistreerd, en dus
-            niet meer open zijn. Van deze niet-geregistreerde voorzieningen kunt
-            u bijvoorbeeld nog het registratienummer vinden. NB: Ouders hebben
-            vanaf de datum dat het kinderdagverblijf, de buitenschoolse opvang
-            of de gastoudervoorziening niet meer is geregistreerd, geen recht
-            meer op kinderopvangtoeslag.
+            gastouderopvang (gastouders).
+            <br />
+            <br />
+            Voorzieningen waar ouders onderling de opvang voor hun kinderen op
+            zich nemen, zijn ouderparticipatiecrèches (opc) en zijn
+            geregistreerd als kinderdagverblijf en buitenschoolse opvang.
+            <br />
+            <br />
+            In het LRK staan ook de kinderopvangvoorzieningen die niet meer zijn
+            geregistreerd, en dus niet meer open zijn. Van deze
+            niet-geregistreerde voorzieningen kunt u bijvoorbeeld nog het
+            registratienummer vinden.
+            <br />
+            <br />
+            <strong>NB:</strong> Ouders hebben vanaf de datum dat het
+            kinderdagverblijf, de buitenschoolse opvang of de
+            gastoudervoorziening niet meer is geregistreerd, geen recht meer op
+            kinderopvangtoeslag.
           </Paragraph>
           <Heading :level="3">
             Staan er ook peuterspeelzalen in het Landelijk Register
@@ -114,19 +133,31 @@ import { Link } from "@utrecht/component-library-vue";
           <Paragraph>
             U kunt in het register op verschillende manieren zoeken naar een
             kinderopvangvoorziening. Het zoeken begint op de startpagina. De
-            volgende manieren zijn mogelijk: U vult een kenmerk en een locatie
-            in. Een kenmerk is bijvoorbeeld een naam of een registratienummer
-            van 9 cijfers. Een locatie-gegeven is bijvoorbeeld een straatnaam,
-            postcode, plaatsnaam of gemeentenaam. U kunt ook alleen een kenmerk
-            of alleen een locatie-gegeven invullen. U vult dan één van beide
-            velden in. Als u kiest voor "Zoek" dan ziet u de gevonden
+            volgende manieren zijn mogelijk:
+            <br />
+            <br />
+            <ul>
+              <li>
+                U vult een kenmerk en een locatie in. Een kenmerk is
+                bijvoorbeeld een naam of een registratienummer van 9 cijfers.
+                Een locatie-gegeven is bijvoorbeeld een straatnaam, postcode,
+                plaatsnaam of gemeentenaam.
+              </li>
+              <li>
+                U kunt ook alleen een kenmerk of alleen een locatie-gegeven
+                invullen. U vult dan één van beide velden in.
+              </li>
+            </ul>
+            <br />
+            Als u kiest voor "Zoek" dan ziet u de gevonden
             kinderopvangvoorzieningen in een lijst. Als de lijst van
             kinderopvangvoorzieningen erg groot is, dan kunt u de zoekopdracht
             nog specifieker maken met de filters. Door het toepassen van filters
             zal het gevonden zoekresultaat kleiner worden. Wordt er geen
             zoekresultaat gevonden dan kunt u uw zoekopdracht aanpassen.
             <!---->
-            <i
+            <br />
+            <br /><i
               >Voorbeeld: U zoekt een kinderdagverblijf in Delft. U kiest op de
               startpagina “Zoek een kinderopvangvoorziening”. Het veld “Kenmerk”
               blijft leeg. U vult bij plaatsnaam Delft in en kiest “Zoek”. Het
@@ -135,13 +166,13 @@ import { Link } from "@utrecht/component-library-vue";
               via het filter “kinderdagverblijf” kiezen. Het zoekresultaat wordt
               automatisch aangepast. Het zoekresultaat laat alle
               kinderdagverblijven in Delft zien.
-
+              <br />
               <br />Voorbeeld: U zoekt gastouder Jansen in Deventer. U kiest op
               de startpagina “Zoek een kinderopvangvoorziening”. In het veld
               “Kenmerk” typt u Jansen. U vult bij plaatsnaam Deventer in en
               kiest “Zoek”. Het systeem laat alle ingeschreven gastouders met de
               naam Jansen in Deventer zien.
-
+              <br />
               <br />Voorbeeld: U zoekt de buitenschoolse opvang aan de
               Langestraat in Enschede. U kiest op de startpagina “Zoek een
               kinderopvangvoorziening”. In het veld “Kenmerk” typt u Langestraat
@@ -162,12 +193,20 @@ import { Link } from "@utrecht/component-library-vue";
             kinderopvangvoorziening. Het zoeken start vanaf de startpagina. U
             kiest de optie Zoek een eigenaar van een kinderopvangvoorziening. U
             vult ten minste één kenmerk in. Een kenmerk is bijvoorbeeld een
-            handelsnaam of een KvK-nummer van 8 cijfers. Als u kiest voor "Zoek"
-            dan ziet u de gevonden eigenaren van kinderopvangvoorzieningen in
-            een lijst. Als de lijst erg groot is, dan kunt u de zoekopdracht nog
-            specifieker maken met de filters. Door het toepassen van filters zal
-            het gevonden zoekresultaat kleiner worden. Wordt er geen
-            zoekresultaat gevonden dan kunt u uw zoekopdracht aanpassen.
+            handelsnaam of een KvK-nummer van 8 cijfers.
+            <br />
+            <br />
+            Als u kiest voor "Zoek" dan ziet u de gevonden eigenaren van
+            kinderopvangvoorzieningen in een lijst. Als de lijst erg groot is,
+            dan kunt u de zoekopdracht nog specifieker maken met de filters.
+            Door het toepassen van filters zal het gevonden zoekresultaat
+            kleiner worden.
+            <br />
+            <br />
+            Wordt er geen zoekresultaat gevonden dan kunt u uw zoekopdracht
+            aanpassen.
+            <br />
+            <br />
             <i
               >Voorbeeld: U zoekt de eigenaar van een buitenschoolse opvang, u
               weet het KvK-nummer. U kiest op de startpagina “Zoek een eigenaar
@@ -189,28 +228,45 @@ import { Link } from "@utrecht/component-library-vue";
           </Paragraph>
           <Heading :level="3"> Welke onderzoeken voert de GGD uit?</Heading>
           <Paragraph>
-            De toezichthouder van de GGD voert vijf soorten onderzoek uit: Het
-            onderzoek voor registratie. Dit onderzoek vindt plaats voordat een
-            opvanglocatie open mag. De toezichthouder onderzoekt of de
-            opvanglocatie (naar verwachting) gaat voldoen aan de eisen uit de
-            Wet kinderopvang. Het onderzoek na registratie. Dit onderzoek vindt
-            plaats binnen drie maanden nadat een opvanglocatie open is gegaan.
-            De toezichthouder onderzoekt of de opvanglocatie – nu er
-            daadwerkelijk kinderen worden opgevangen – voldoet aan de eisen uit
-            de Wet kinderopvang. Het jaarlijks onderzoek. Dit onderzoek vindt
-            jaarlijks plaats bij alle kinderdagverblijven, voorzieningen voor
-            buitenschoolse opvang en gastouderbureaus (bij gastouders is dit
-            steekproefsgewijs). De toezichthouder onderzoekt of de opvanglocatie
-            voldoet aan de eisen in de Wet kinderopvang. Het nader onderzoek.
-            Dit onderzoek vindt plaats als in een eerder onderzoek een
-            overtreding is gezien. De toezichthouder bekijkt in dit onderzoek
-            onder meer of de overtreding is hersteld. Het incidenteel onderzoek.
-            Dit onderzoek vindt éénmalig plaats, bijvoorbeeld na een signaal of
-            klacht van ouders, werknemers of buurtbewoners. Ook is er een
-            incidenteel onderzoek wanneer een kinderopvanglocatie iets wil
-            wijzigen in het Landelijk Register Kinderopvang. Bijvoorbeeld
-            wanneer de eigenaar van de kinderopvangvoorziening het aantal
-            geregistreerde kindplaatsen wil wijzigen.
+            De toezichthouder van de GGD voert vijf soorten onderzoek uit:
+            <br />
+            <ol>
+              <li>
+                Het onderzoek voor registratie. Dit onderzoek vindt plaats
+                voordat een opvanglocatie open mag. De toezichthouder onderzoekt
+                of de opvanglocatie (naar verwachting) gaat voldoen aan de eisen
+                uit de Wet kinderopvang.
+              </li>
+              <li>
+                Het onderzoek na registratie. Dit onderzoek vindt plaats binnen
+                drie maanden nadat een opvanglocatie open is gegaan. De
+                toezichthouder onderzoekt of de opvanglocatie – nu er
+                daadwerkelijk kinderen worden opgevangen – voldoet aan de eisen
+                uit de Wet kinderopvang.
+              </li>
+              <li>
+                Het jaarlijks onderzoek. Dit onderzoek vindt jaarlijks plaats
+                bij alle kinderdagverblijven, voorzieningen voor buitenschoolse
+                opvang en gastouderbureaus (bij gastouders is dit
+                steekproefsgewijs). De toezichthouder onderzoekt of de
+                opvanglocatie voldoet aan de eisen in de Wet kinderopvang.
+              </li>
+              <li>
+                Het nader onderzoek. Dit onderzoek vindt plaats als in een
+                eerder onderzoek een overtreding is gezien. De toezichthouder
+                bekijkt in dit onderzoek onder meer of de overtreding is
+                hersteld.
+              </li>
+              <li>
+                Het incidenteel onderzoek. Dit onderzoek vindt éénmalig plaats,
+                bijvoorbeeld na een signaal of klacht van ouders, werknemers of
+                buurtbewoners. Ook is er een incidenteel onderzoek wanneer een
+                kinderopvanglocatie iets wil wijzigen in het Landelijk Register
+                Kinderopvang. Bijvoorbeeld wanneer de eigenaar van de
+                kinderopvangvoorziening het aantal geregistreerde kindplaatsen
+                wil wijzigen.
+              </li>
+            </ol>
           </Paragraph>
           <Heading :level="3"
             >Wanneer wordt een kinderopvangvoorziening geregistreerd in het
@@ -234,13 +290,16 @@ import { Link } from "@utrecht/component-library-vue";
                 van een gastouder wordt als een afzonderlijke VGO geregistreerd
                 en krijgt een afzonderlijk registratienummer;
               </li>
+              <br />
               <li>
                 gastouderbureau: het bureau dat bemiddelt tussen gastouders en
                 vraagouders van wie het kind wordt opgevangen;
               </li>
+              <br />
               <li>kinderdagverblijf;</li>
               <li>buitenschoolse opvang.</li>
             </ul>
+            <br />
             <strong>NB:</strong>
             Voorzieningen waar ouders onderling de opvang voor hun kinderen op
             zich nemen, zijn ouderparticipatiecrèches (opc) en zijn
@@ -272,6 +331,7 @@ import { Link } from "@utrecht/component-library-vue";
             indien uit onderzoek is gebleken dat de eigenaar van een
             kinderopvangvoorziening niet dan wel niet langer voldoet aan de
             kwaliteitseisen van de Wet kinderopvang (Wko).
+            <br />
             <br /><strong>NB:</strong> Ouders hebben vanaf de datum dat het
             kinderdagverblijf, de buitenschoolse opvang of de
             gastoudervoorziening niet meer geregistreerd is geen recht meer op
