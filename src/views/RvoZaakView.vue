@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Heading } from "@utrecht/component-library-vue";
+import { Heading, Paragraph } from "@utrecht/component-library-vue";
 import { Link } from "@utrecht/component-library-vue";
 </script>
 
@@ -145,7 +145,7 @@ import { Link } from "@utrecht/component-library-vue";
                     class="utrecht-icon rvo-icon rvo-icon-waarschuwing rvo-icon--xl rvo-status-icon-waarschuwing"
                   ></span>
                   <div class="rvo-alert-text">
-                    <div>
+                    <Paragraph>
                       De aanvraag is <strong>bij u in behandeling</strong>. Dat
                       betekent dat deze nog niet is ingediend. U kunt de
                       <a
@@ -153,7 +153,7 @@ import { Link } from "@utrecht/component-library-vue";
                         class="rvo-link"
                         >aanvraag openen</a
                       >, verder invullen en dan indienen.
-                    </div>
+                    </Paragraph>
                   </div>
                 </div>
                 <a
@@ -165,12 +165,14 @@ import { Link } from "@utrecht/component-library-vue";
               <div class="rvo-item-list rvo-item-list--documents">
                 <Heading :level="2">Documenten</Heading>
                 <div class="rvo-item-list-item rvo-item-list-item--document">
-                  <div class="rvo-item-list-detail rvo-item-list-detail--date">
+                  <Paragraph
+                    class="rvo-item-list-detail rvo-item-list-detail--date"
+                  >
                     <span
                       class="utrecht-icon rvo-icon rvo-icon-document-blanco rvo-icon--md rvo-icon--zwart"
                     ></span>
                     25-02-2022
-                  </div>
+                  </Paragraph>
                   <div
                     class="rvo-item-list-detail rvo-item-list-detail--description"
                   >
@@ -178,12 +180,14 @@ import { Link } from "@utrecht/component-library-vue";
                   </div>
                 </div>
                 <div class="rvo-item-list-item rvo-item-list-item--document">
-                  <div class="rvo-item-list-detail rvo-item-list-detail--date">
+                  <Paragraph
+                    class="rvo-item-list-detail rvo-item-list-detail--date"
+                  >
                     <span
                       class="utrecht-icon rvo-icon rvo-icon-document-blanco rvo-icon--md rvo-icon--zwart"
                     ></span>
                     31-01-2022
-                  </div>
+                  </Paragraph>
                   <div
                     class="rvo-item-list-detail rvo-item-list-detail--description"
                   >
@@ -193,12 +197,14 @@ import { Link } from "@utrecht/component-library-vue";
                   </div>
                 </div>
                 <div class="rvo-item-list-item rvo-item-list-item--document">
-                  <div class="rvo-item-list-detail rvo-item-list-detail--date">
+                  <Paragraph
+                    class="rvo-item-list-detail rvo-item-list-detail--date"
+                  >
                     <span
                       class="utrecht-icon rvo-icon rvo-icon-document-blanco rvo-icon--md rvo-icon--zwart"
                     ></span>
                     24-01-2022
-                  </div>
+                  </Paragraph>
                   <div
                     class="rvo-item-list-detail rvo-item-list-detail--description"
                   >
@@ -220,8 +226,10 @@ import { Link } from "@utrecht/component-library-vue";
                   ></span>
                 </div>
                 <div class="rvo-timeline-text">
-                  <div class="rvo-timeline-description">Aanvraag gestart</div>
-                  <div class="rvo-timeline-date">10-10-2022</div>
+                  <Heading :level="6" class="rvo-timeline-description"
+                    >Aanvraag gestart</Heading
+                  >
+                  <Paragraph class="rvo-timeline-date">10-10-2022</Paragraph>
                 </div>
               </div>
               <div class="rvo-timeline-event">
@@ -231,10 +239,10 @@ import { Link } from "@utrecht/component-library-vue";
                   ></span>
                 </div>
                 <div class="rvo-timeline-text">
-                  <div class="rvo-timeline-description">
+                  <Heading :level="6" class="rvo-timeline-description">
                     Aanvraag bij u in behandeling
-                  </div>
-                  <div class="rvo-timeline-date">12-10-2022</div>
+                  </Heading>
+                  <Paragraph class="rvo-timeline-date">12-10-2022</Paragraph>
                 </div>
               </div>
               <div class="rvo-timeline-event">
@@ -246,12 +254,12 @@ import { Link } from "@utrecht/component-library-vue";
                   ></span>
                 </div>
                 <div class="rvo-timeline-text">
-                  <div class="rvo-timeline-description">
+                  <Heading :level="7" class="rvo-timeline-description">
                     Aanvraag wordt beoordeeld
-                  </div>
-                  <div class="rvo-timeline-date">
+                  </Heading>
+                  <Paragraph class="rvo-timeline-date">
                     Uiterlijk vier werkweken na indienen
-                  </div>
+                  </Paragraph>
                 </div>
               </div>
               <div class="rvo-timeline-event">
@@ -263,10 +271,12 @@ import { Link } from "@utrecht/component-library-vue";
                   ></span>
                 </div>
                 <div class="rvo-timeline-text">
-                  <div class="rvo-timeline-description">Uitbetaling</div>
-                  <div class="rvo-timeline-date">
+                  <Heading :level="6" class="rvo-timeline-description"
+                    >Uitbetaling</Heading
+                  >
+                  <Paragraph class="rvo-timeline-date">
                     Uiterlijk twee werkweken na goedkeuring
-                  </div>
+                  </Paragraph>
                 </div>
               </div>
               <div class="rvo-timeline-event rvo-timeline-event--last">
@@ -278,7 +288,9 @@ import { Link } from "@utrecht/component-library-vue";
                   ></span>
                 </div>
                 <div class="rvo-timeline-text">
-                  <div class="rvo-timeline-description">Aanvraag afgerond</div>
+                  <Heading :level="6" class="rvo-timeline-description"
+                    >Aanvraag afgerond</Heading
+                  >
                 </div>
               </div>
             </div>
