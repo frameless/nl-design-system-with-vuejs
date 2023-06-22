@@ -227,6 +227,11 @@ const router = createRouter({
       name: "LRKIhelpView",
       component: () => import("../views/LRKIhelpView.vue"),
     },
+    {
+      path: "/LRKIhomeView",
+      name: "LRKIhomeView",
+      component: () => import("../views/LRKIhomeView.vue"),
+    },
   ],
 });
 

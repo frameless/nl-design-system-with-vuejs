@@ -58,6 +58,7 @@ import { RouterLink, RouterView } from "vue-router";
           >LRKItoegankelijkheidView</RouterLink
         >
         <RouterLink to="/LRKIhelpView">LRKIhelpView</RouterLink>
+        <RouterLink to="/LRKIhomeView">LRKIhomeView</RouterLink>
       </nav>
     </div>
   </header>
