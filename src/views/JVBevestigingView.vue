@@ -2,18 +2,19 @@
 import { Paragraph } from "@utrecht/component-library-vue";
 import { PageHeader } from "@utrecht/component-library-vue";
 import { Heading } from "@utrecht/component-library-vue";
+import { Link } from "@utrecht/component-library-vue";
 </script>
 
 <template>
   <div class="rvo-demo-page">
     <PageHeader class="rvo-header">
       <div class="rvo-header__logo-wrapper">
-        <a href="/" class="rvo-header__logo-link"
+        <Link href="/" class="rvo-header__logo-link"
           ><img
             src="../images/logo.svg"
             alt="Rijksdienst voor Ondernemend Nederland, ga naar de startpagina van RVO"
             class="rvo-logo-img rvo-header__logo-img"
-        /></a>
+        /></Link>
       </div>
     </PageHeader>
     <div class="rvo-layout-column rvo-layout-gap--2xl">
@@ -161,19 +162,19 @@ import { Heading } from "@utrecht/component-library-vue";
                 </div>
                 <Paragraph>
                   Een PDF kunt u openen met
-                  <a href="#" class="rvo-link">Adobe Acrobat Reader</a>.
+                  <Link href="#" class="rvo-link">Adobe Acrobat Reader</Link>.
                 </Paragraph>
                 <Paragraph>
                   Heeft u nog vragen? Dan kunt u ons bellen op werkdagen tussen
                   8:30 en 17:00 uur op 088 042 42 42 (lokaal tarief)
                 </Paragraph>
-                <a href="#" class="rvo-link rvo-link--with-icon"
+                <Link href="#" class="rvo-link rvo-link--with-icon"
                   ><span
                     class="utrecht-icon rvo-icon rvo-icon-downloaden rvo-icon--md rvo-icon--hemelblauw rvo-link__icon--before"
                     role="img"
                     aria-label="Downloaden"
                   ></span
-                  >Ontvangstbevestiging 192040000027</a
+                  >Ontvangstbevestiging 192040000027</Link
                 >
               </div>
             </div>

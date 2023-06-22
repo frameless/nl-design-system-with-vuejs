@@ -2,18 +2,19 @@
 import { Checkbox } from "@utrecht/component-library-vue";
 import { Heading } from "@utrecht/component-library-vue";
 import { Paragraph } from "@utrecht/component-library-vue";
+import { Link } from "@utrecht/component-library-vue";
 </script>
 
 <template>
   <div class="rvo-demo-page">
     <header class="rvo-header">
       <div class="rvo-header__logo-wrapper">
-        <a href="/" class="rvo-header__logo-link"
+        <Link href="/" class="rvo-header__logo-link"
           ><img
             src="../images/logo.svg"
             alt="Rijksdienst voor Ondernemend Nederland, ga naar de startpagina van RVO"
             class="rvo-logo-img rvo-header__logo-img"
-        /></a>
+        /></Link>
       </div>
     </header>
     <div class="rvo-layout-column rvo-layout-gap--2xl">
@@ -23,7 +24,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
         >
           <ul class="utrecht-topnav__list">
             <li class="utrecht-topnav__item">
-              <a class="utrecht-topnav__link" href="#"
+              <a class="utrecht-topnav__linkLink href="#"
                 ><span
                   class="utrecht-icon rvo-icon rvo-icon-home rvo-icon--md rvo-icon--wit"
                   role="img"
@@ -33,7 +34,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
               >
             </li>
             <li class="utrecht-topnav__item">
-              <a class="utrecht-topnav__link" href="#"
+              <a class="utrecht-topnav__linkLink href="#"
                 ><span
                   class="utrecht-icon rvo-icon rvo-icon-publicatie rvo-icon--md rvo-icon--wit"
                   role="img"
@@ -43,7 +44,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
               >
             </li>
             <li class="utrecht-topnav__item">
-              <a class="utrecht-topnav__link" href="#"
+              <a class="utrecht-topnav__linkLink href="#"
                 ><span
                   class="utrecht-icon rvo-icon rvo-icon-plus rvo-icon--md rvo-icon--wit"
                   role="img"
@@ -53,7 +54,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
               >
             </li>
             <li class="utrecht-topnav__item utrecht-topnav__item--align-right">
-              <a class="utrecht-topnav__link" href="#"
+              <a class="utrecht-topnav__linkLink href="#"
                 ><span
                   class="utrecht-icon rvo-icon rvo-icon-versleutelen rvo-icon--md rvo-icon--wit"
                   role="img"
@@ -79,43 +80,43 @@ import { Paragraph } from "@utrecht/component-library-vue";
               <div
                 class="rvo-progress-tracker__step rvo-progress-tracker__step--md rvo-progress-tracker__step--completed rvo-image-bg-progress-tracker-completed-md--after rvo-progress-tracker__step--straight rvo-image-bg-progress-tracker-line-straight--before"
               >
-                <a href="#" class="rvo-link rvo-progress-tracker__step-link"
-                  >Step completed</a
+                <Link href="#" class="rvo-link rvo-progress-tracker__step-link"
+                  >Step completed</Link
                 >
               </div>
               <div
                 class="rvo-progress-tracker__step rvo-progress-tracker__step--md rvo-progress-tracker__step--doing rvo-image-bg-progress-tracker-doing-md--after rvo-progress-tracker__step--straight rvo-image-bg-progress-tracker-line-straight--before"
               >
-                <a href="#" class="rvo-link rvo-progress-tracker__step-link"
-                  >Step doing</a
+                <Link href="#" class="rvo-link rvo-progress-tracker__step-link"
+                  >Step doing</Link
                 >
               </div>
               <div
                 class="rvo-progress-tracker__step rvo-progress-tracker__step--md rvo-progress-tracker__step--incomplete rvo-image-bg-progress-tracker-incomplete-md--after rvo-progress-tracker__step--substep-start rvo-image-bg-progress-tracker-line-substep-start--before"
               >
-                <a href="#" class="rvo-link rvo-progress-tracker__step-link"
-                  >Step incomplete</a
+                <Link href="#" class="rvo-link rvo-progress-tracker__step-link"
+                  >Step incomplete</Link
                 >
               </div>
               <div
                 class="rvo-progress-tracker__step rvo-progress-tracker__step--sm rvo-progress-tracker__step--incomplete rvo-image-bg-progress-tracker-incomplete-sm--after rvo-progress-tracker__step--straight rvo-image-bg-progress-tracker-line-straight--before"
               >
-                <a href="#" class="rvo-link rvo-progress-tracker__step-link"
-                  >First sub-step</a
+                <Link href="#" class="rvo-link rvo-progress-tracker__step-link"
+                  >First sub-step</Link
                 >
               </div>
               <div
                 class="rvo-progress-tracker__step rvo-progress-tracker__step--sm rvo-progress-tracker__step--doing rvo-image-bg-progress-tracker-doing-sm--after rvo-progress-tracker__step--straight rvo-image-bg-progress-tracker-line-straight--before"
               >
-                <a href="#" class="rvo-link rvo-progress-tracker__step-link"
-                  >Sub-step doing</a
+                <Link href="#" class="rvo-link rvo-progress-tracker__step-link"
+                  >Sub-step doing</Link
                 >
               </div>
               <div
                 class="rvo-progress-tracker__step rvo-progress-tracker__step--sm rvo-progress-tracker__step--completed rvo-image-bg-progress-tracker-completed-sm--after rvo-progress-tracker__step--straight rvo-image-bg-progress-tracker-line-straight--before"
               >
-                <a href="#" class="rvo-link rvo-progress-tracker__step-link"
-                  >Sub-step completed</a
+                <Link href="#" class="rvo-link rvo-progress-tracker__step-link"
+                  >Sub-step completed</Link
                 >
               </div>
               <div
@@ -126,8 +127,8 @@ import { Paragraph } from "@utrecht/component-library-vue";
               <div
                 class="rvo-progress-tracker__step rvo-progress-tracker__step--sm rvo-progress-tracker__step--incomplete rvo-image-bg-progress-tracker-incomplete-sm--after rvo-progress-tracker__step--substep-end rvo-image-bg-progress-tracker-line-substep-end--before"
               >
-                <a href="#" class="rvo-link rvo-progress-tracker__step-link"
-                  >Last sub-step</a
+                <Link href="#" class="rvo-link rvo-progress-tracker__step-link"
+                  >Last sub-step</Link
                 >
               </div>
               <div
@@ -144,13 +145,13 @@ import { Paragraph } from "@utrecht/component-library-vue";
             <div class="rvo-form">
               <div class="rvo-layout-column rvo-layout-gap--sm">
                 <div class="intro">
-                  <a href="#" class="rvo-link rvo-link--with-icon"
+                  <Link href="#" class="rvo-link rvo-link--with-icon"
                     ><span
                       class="utrecht-icon rvo-icon rvo-icon-terug rvo-icon--md rvo-icon--hemelblauw rvo-link__icon--before"
                       role="img"
                       aria-label="Terug"
                     ></span
-                    >Terug</a
+                    >Terug</Link
                   >
                   <Heading :level="1">Heading</Heading>
                 </div>
