@@ -331,7 +331,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                       placeholder=""
                       type="text"
                       class="utrecht-textbox utrecht-textbox--html-input utrecht-textbox--disabled"
-                      disabled=""
+                      disabled="false"
                       value=""
                     />
                   </div>
@@ -353,7 +353,7 @@ import { Checkbox } from "@utrecht/component-library-vue";
                       placeholder=""
                       type="text"
                       class="utrecht-textbox utrecht-textbox--html-input utrecht-textbox--disabled"
-                      disabled=""
+                      disabled="false"
                       value="Value"
                     />
                   </div>
