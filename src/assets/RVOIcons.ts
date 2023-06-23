@@ -1,7 +1,7 @@
 // import activiteitenIcon from "@nl-rvo/assets/icons/activiteiten/afhaalpunt.svg”;
 
 // activiteiten
-// export {default as Afhaalpunt} from "@nl-rvo/assets/icons/activiteiten/afhaalpunt.svg?component";
+// export {default as Afhaalpunt} from "@nl-rvo/assets/icons/activiteiten/afhaalpunt.svg";
 // export {default as Crisisoverleg} from "@nl-rvo/assets/icons/activiteiten/crisisoverleg.svg?component";
 // export {default as Dansen} from "@nl-rvo/assets/icons/activiteiten/dansen.svg?component";
 // export {default as DocentVoorKlas} from "@nl-rvo/assets/icons/activiteiten/docent-voor-klas.svg?component";
@@ -159,7 +159,11 @@
 // export {default as Dierentuin} from "@nl-rvo/assets/icons/dieren/dierentuin.svg?component";
 // export {default as EendZwemmendBijRiet} from "@nl-rvo/assets/icons/dieren/eend-zwemmend-bij-riet.svg?component";
 // export {default as Fazant} from "@nl-rvo/assets/icons/dieren/fazant.svg?component";
-// export {default as Geit} from "@nl-rvo/assets/icons/dieren/geit.svg?component";
+
+// deletable idea lines
+// import * as Geit from "../../node_modules/@nl-rvo/assets/icons/dieren/geit.svg"
+// export geit as require("../../node_modules/@nl-rvo/assets/icons/dieren/geit.svg");
+
 // export {default as Geleidehond} from "@nl-rvo/assets/icons/dieren/geleidehond.svg?component";
 // export {default as HaanEnFazant} from "@nl-rvo/assets/icons/dieren/haan-en-fazant.svg?component";
 // export {default as Haan} from "@nl-rvo/assets/icons/dieren/haan.svg?component";

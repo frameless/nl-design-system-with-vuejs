@@ -3,7 +3,7 @@ import { Paragraph } from "@utrecht/component-library-vue";
 import { PageHeader } from "@utrecht/component-library-vue";
 import { Heading } from "@utrecht/component-library-vue";
 import { Checkbox } from "@utrecht/component-library-vue";
-// import { Afhaalpunt } from "../assets/RVOIcons";
+import { Afhaalpunt } from "../assets/RVOIcons";
 // import IconContainer from "./components/IconContainer.vue";
 </script>
 
@@ -164,10 +164,10 @@ import { Checkbox } from "@utrecht/component-library-vue";
           <div class="rvo-max-width-layout rvo-max-width-layout--md">
             <details class="rvo-responsive-filters">
               <summary class="rvo-responsive-filters-toggle">
-                Diensten filteren<span
-                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--hemelblauw"
-                ></span
-                ><span
+                Diensten filteren<img src="" 
+                                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"/>
+                  
+                    <span
                   class="utrecht-icon rvo-icon rvo-icon-delta-omlaag rvo-icon--md rvo-icon--hemelblauw"
                 ></span>
               </summary>
