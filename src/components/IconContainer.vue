@@ -1,11 +1,3 @@
-<script setup>
-export default {
-  props: SVG,
-};
-</script>
-<div>
-      {{ 'SVG' }}  
-    </div>
-<template></template>
+<script setup lang="ts"></script>
 
-<style scoped></style>
+<template></template>
