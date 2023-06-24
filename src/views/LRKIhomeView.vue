@@ -42,6 +42,8 @@ import { BreadcrumbLink } from "@utrecht/component-library-vue";
           <Heading :level="2">Zoek in het register</Heading>
 
           <div class="lrki-search-container">
+            <img src="" 
+                                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"/>
             <Paragraph>Zoek een</Paragraph>
             <div class="radio-buttons">
               <FormField type="radio">
