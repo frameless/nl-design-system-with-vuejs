@@ -24,7 +24,11 @@ import { Link } from "@utrecht/component-library-vue";
         <BreadcrumbNav
           class="rvo-topnav rvo-topnav--lg rvo-max-width-layout rvo-max-width-layout--sm"
         >
-          <BreadcrumbLink href="/" :rel="Home" :index="0">Home</BreadcrumbLink>
+          <BreadcrumbLink href="/" :rel="Home" :index="0">
+            <img src="../../node_modules/@nl-rvo/assets/icons/functioneel/home.svg"
+                class="utrecht-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"/> Home
+                <img src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-naar-rechts.svg"
+                class="utrecht-icon rvo-icon-delta-omhoog rvo-icon--md"/></BreadcrumbLink>
           <BreadcrumbLink href="/LRKIcontactView" :index="3" :current="true"
             >Contact</BreadcrumbLink
           >
@@ -38,7 +42,9 @@ import { Link } from "@utrecht/component-library-vue";
           <br />
           <br />
           <Heading :level="3"
-            >Wat staat er in het Landelijk Register Kinderopvang?
+            ><img src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"/>
+            Wat staat er in het Landelijk Register Kinderopvang?
           </Heading>
           <Paragraph>
             In het Landelijk Register Kinderopvang (LRK) staat informatie over
@@ -47,7 +53,9 @@ import { Link } from "@utrecht/component-library-vue";
             het inspectierapport en of er is gehandhaafd. Zo ziet u snel
             informatie over de kwaliteit van de opvangvoorziening.</Paragraph
           >
-          <Heading :level="3">
+          <Heading :level="3"
+            ><img src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"/>
             Wanneer heeft een ouder recht op kinderopvangtoeslag?</Heading
           >
           <Paragraph
@@ -72,10 +80,13 @@ import { Link } from "@utrecht/component-library-vue";
             Zie ook
             <Link
               href="https://www.belastingdienst.nl/wps/wcm/connect/nl/kinderopvangtoeslag/kinderopvangtoeslag"
-              >Lees meer over kinderopvangtoeslag</Link
+              ><img src="../../node_modules/@nl-rvo/assets/icons/functioneel/diagonale-pijl.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"/>Lees meer over kinderopvangtoeslag</Link
             >
           </Paragraph>
-          <Heading :level="3">
+          <Heading :level="3"
+            ><img src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"/>
             Waar vindt u het registratienummer van uw kinderopvangvoorziening?
           </Heading>
           <Paragraph>
@@ -83,7 +94,9 @@ import { Link } from "@utrecht/component-library-vue";
             dit is te vinden bij de kerngegevens van de kinderopvangvoorziening
             waar uw kind heen gaat.
           </Paragraph>
-          <Heading :level="3">
+          <Heading :level="3"
+            ><img src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"/>
             Welke kinderopvangvoorzieningen staan in het Landelijk Register
             Kinderopvang?
           </Heading>
@@ -114,7 +127,9 @@ import { Link } from "@utrecht/component-library-vue";
             gastoudervoorziening niet meer is geregistreerd, geen recht meer op
             kinderopvangtoeslag.
           </Paragraph>
-          <Heading :level="3">
+          <Heading :level="3"
+            ><img src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"/>
             Staan er ook peuterspeelzalen in het Landelijk Register
             Kinderopvang?
           </Heading>
@@ -124,10 +139,14 @@ import { Link } from "@utrecht/component-library-vue";
             peuterspeelzalen meer in het Landelijk Register Kinderopvang (LRK).
             U kunt wel zoeken op niet meer geregistreerde peuterspeelzalen.
           </Paragraph>
-          <Heading :level="3">
+          <Heading :level="3"
+            ><img src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"/>
             Hoe kunt u zoeken in het Landelijk Register Kinderopvang?
           </Heading>
-          <Heading :level="3">
+          <Heading :level="3"
+            >
+            <br />
             Zoeken naar een kinderopvangvoorziening
           </Heading>
           <Paragraph>
@@ -185,7 +204,9 @@ import { Link } from "@utrecht/component-library-vue";
               meter rondom de Langestraat in Enschede.</i
             >
           </Paragraph>
-          <Heading :level="3">
+          <Heading :level="3"
+            ><img src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"/>
             Zoeken naar een eigenaar van een kinderopvangvoorziening
           </Heading>
           <Paragraph>
@@ -216,7 +237,9 @@ import { Link } from "@utrecht/component-library-vue";
               KvK-nummer.</i
             >
           </Paragraph>
-          <Heading :level="3">
+          <Heading :level="3"
+            ><img src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"/>
             Hoe vindt toezicht en handhaving op de kinderopvang plaats?
           </Heading>
           <Paragraph>
@@ -226,7 +249,9 @@ import { Link } from "@utrecht/component-library-vue";
             Gezondheidsdienst (GGD). Op basis van de uitkomsten van het toezicht
             door de GGD besluit de gemeente of en hoe zij gaat handhaven.
           </Paragraph>
-          <Heading :level="3"> Welke onderzoeken voert de GGD uit?</Heading>
+          <Heading :level="3"
+            ><img src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"/> Welke onderzoeken voert de GGD uit?</Heading>
           <Paragraph>
             De toezichthouder van de GGD voert vijf soorten onderzoek uit:
             <br />
@@ -269,7 +294,9 @@ import { Link } from "@utrecht/component-library-vue";
             </ol>
           </Paragraph>
           <Heading :level="3"
-            >Wanneer wordt een kinderopvangvoorziening geregistreerd in het
+            ><img src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"/>
+            Wanneer wordt een kinderopvangvoorziening geregistreerd in het
             Landelijk Register Kinderopvang?</Heading
           >
           <Paragraph
@@ -278,7 +305,9 @@ import { Link } from "@utrecht/component-library-vue";
             van een onderzoek door de GGD besloten heeft dat exploitatie is
             toegestaan.
           </Paragraph>
-          <Heading :level="3">
+          <Heading :level="3"
+            ><img src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"/>
             Welke soorten voorzieningen worden geregistreerd in het Landelijk
             Register Kinderopvang?</Heading
           ><Paragraph>
@@ -306,7 +335,10 @@ import { Link } from "@utrecht/component-library-vue";
             geregistreerd als kinderdagverblijf of buitenschoolse opvang.
           </Paragraph>
 
-          <Heading :level="3"> Wat betekent de status 'geregistreerd'?</Heading>
+          <Heading :level="3"
+            ><img src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"/> 
+                Wat betekent de status 'geregistreerd'?</Heading>
           <Paragraph>
             Een kinderopvangvoorziening krijgt de status "geregistreerd" in het
             Landelijk Register Kinderopvang nadat de gemeente een positief
@@ -319,6 +351,8 @@ import { Link } from "@utrecht/component-library-vue";
           </Paragraph>
 
           <Heading :level="3">
+            <img src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"/>
             Wat betekent de status 'niet meer geregistreerd'?</Heading
           >
           <Paragraph>
@@ -338,6 +372,8 @@ import { Link } from "@utrecht/component-library-vue";
             kinderopvangtoeslag.
           </Paragraph>
           <Heading :level="3">
+            <img src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"/>
             Wie is de eigenaar van een kinderopvangvoorziening?</Heading
           ><Paragraph
             >De eigenaar van een kinderopvangvoorziening is de natuurlijke
@@ -346,6 +382,8 @@ import { Link } from "@utrecht/component-library-vue";
             gastouderopvang of een gastouderbureau exploiteert. In de Wet
             kinderopvang wordt deze eigenaar de “houder” genoemd.</Paragraph
           ><Heading :level="3">
+            <img src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"/>
             Wat betekenen de gegevens op een inspectierapport?</Heading
           ><Paragraph
             >De ‘datum rapport’ is de datum waarop het rapport definitief is
@@ -355,6 +393,8 @@ import { Link } from "@utrecht/component-library-vue";
             rapport.</Paragraph
           >
           <Heading :level="3">
+            <img src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"/>
             Wat is het versie-nummer van het Landelijk Register
             Kinderopvang?</Heading
           >
