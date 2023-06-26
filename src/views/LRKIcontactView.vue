@@ -36,6 +36,10 @@ import { Link } from "@utrecht/component-library-vue";
             <Heading :level="3">Contact</Heading
             ><Paragraph
               >Voor meer informatie en antwoord op uw vragen kunt u terecht bij
+              <img
+                src="../../node_modules/@nl-rvo/assets/icons/functioneel/diagonale-pijl.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
+              />
               <Link
                 href="https://www.rijksoverheid.nl/onderwerpen/kinderopvang/"
                 >Kinderopvang

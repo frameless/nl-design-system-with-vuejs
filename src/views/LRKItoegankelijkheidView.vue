@@ -48,15 +48,31 @@ import { Link } from "@utrecht/component-library-vue";
             ><Paragraph
               >Een toegankelijke website is voor alle gebruikers beter te
               gebruiken. Daarom gelden er functioneel-technische en redactionele
-              toegankelijkheidseisen (voorheen 'webrichtlijnen') voor websites
-              van de overheid. Deze zijn vastgelegd in de
-              toegankelijkheidsstandaard Digitoegankelijk EN 301 549.
+              <img
+                src="../../node_modules/@nl-rvo/assets/icons/functioneel/diagonale-pijl.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
+              /><Link href="https://www.digitoegankelijk.nl/"
+                >toegankelijkheidseisen</Link
+              >
+              (voorheen 'webrichtlijnen') voor websites van de overheid. Deze
+              zijn vastgelegd in de
+              <img
+                src="../../node_modules/@nl-rvo/assets/icons/functioneel/diagonale-pijl.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
+              /><Link
+                href="https://www.forumstandaardisatie.nl/standaard/digitoegankelijk-en-301-549-met-wcag-21"
+                >toegankelijkheidsstandaard Digitoegankelijk EN 301 549.</Link
+              >
             </Paragraph>
 
             <Heading :level="3"
               >Toegankelijkheidsverklaring Landelijk Register Kinderopvang (LRK) </Heading
             ><Paragraph>
               Deze verklaring geldt voor de website(s):
+              <img
+                src="../../node_modules/@nl-rvo/assets/icons/functioneel/diagonale-pijl.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
+              />
               <Link href="https://www.landelijkregisterkinderopvang.nl"
                 >https://www.landelijkregisterkinderopvang.nl</Link
               >
