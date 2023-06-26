@@ -48,20 +48,20 @@ import { Link } from "@utrecht/component-library-vue";
             ><Paragraph
               >Een toegankelijke website is voor alle gebruikers beter te
               gebruiken. Daarom gelden er functioneel-technische en redactionele
-              <img
-                src="../../node_modules/@nl-rvo/assets/icons/functioneel/diagonale-pijl.svg"
-                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-              /><Link href="https://www.digitoegankelijk.nl/"
-                >toegankelijkheidseisen</Link
+              <Link href="https://www.digitoegankelijk.nl/">
+                <img
+                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/diagonale-pijl.svg"
+                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
+                />toegankelijkheidseisen</Link
               >
               (voorheen 'webrichtlijnen') voor websites van de overheid. Deze
-              zijn vastgelegd in de
-              <img
-                src="../../node_modules/@nl-rvo/assets/icons/functioneel/diagonale-pijl.svg"
-                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-              /><Link
+              zijn vastgelegd in de<Link
                 href="https://www.forumstandaardisatie.nl/standaard/digitoegankelijk-en-301-549-met-wcag-21"
-                >toegankelijkheidsstandaard Digitoegankelijk EN 301 549.</Link
+              >
+                <img
+                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/diagonale-pijl.svg"
+                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
+                />toegankelijkheidsstandaard Digitoegankelijk EN 301 549.</Link
               >
             </Paragraph>
 
@@ -73,12 +73,12 @@ import { Link } from "@utrecht/component-library-vue";
                 >https://www.landelijkregisterkinderopvang.nl</Link
               >
               <br />Ga naar de
-              <img
-                src="../../node_modules/@nl-rvo/assets/icons/functioneel/diagonale-pijl.svg"
-                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-              /><Link
+              <Link
                 href="https://www.toegankelijkheidsverklaring.nl/register/549"
-                >Verklaring van landelijkregisterkinderopvang</Link
+                ><img
+                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/diagonale-pijl.svg"
+                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
+                />Verklaring van landelijkregisterkinderopvang</Link
               >
               voor de volledige toegankelijkheidsverklaring van het LRK
             </Paragraph>
@@ -107,21 +107,21 @@ import { Link } from "@utrecht/component-library-vue";
               dan weten. Bekijk onze
               <Link
                 href="https://www.duo.nl/zakelijk/contact/contact-kinderopvang.jsp"
-                > <img
-                src="../../node_modules/@nl-rvo/assets/icons/functioneel/diagonale-pijl.svg"
-                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-              />contactgegevens.</Link
+                ><img
+                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/diagonale-pijl.svg"
+                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
+                />contactgegevens.</Link
               ></Paragraph
             >
 
             <Heading :level="3">Meer weten?</Heading>
             <Paragraph
               >Wilt u meer weten over toegankelijkheid bij DUO? Kijk dan op
-              <img
-                src="../../node_modules/@nl-rvo/assets/icons/functioneel/diagonale-pijl.svg"
-                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-              /><Link href="https://duo.nl/toegankelijkheid.jsp"
-                >duo.nl/toegankelijkheid.</Link
+              <Link href="https://duo.nl/toegankelijkheid.jsp">
+                <img
+                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/diagonale-pijl.svg"
+                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
+                />duo.nl/toegankelijkheid.</Link
               ></Paragraph
             >
           </div>
