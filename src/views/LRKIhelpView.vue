@@ -417,28 +417,103 @@ import { Link } from "@utrecht/component-library-vue";
             kinderdagverblijf, een buitenschoolse opvang, een voorziening voor
             gastouderopvang of een gastouderbureau exploiteert. In de Wet
             kinderopvang wordt deze eigenaar de “houder” genoemd.</Paragraph
-          ><Heading :level="3">
-            <img
-              src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
-              class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-            />
-            Wat betekenen de gegevens op een inspectierapport?</Heading
-          ><Paragraph
-            >De ‘datum rapport’ is de datum waarop het rapport definitief is
-            vastgesteld. Het administratieve kenmerk wordt gebruikt om in
-            communicatie een document te identificeren. Optioneel wordt er een
-            toelichting gegeven op publicatie of inhoud van het
-            rapport.</Paragraph
           >
-          <Heading :level="3">
-            <img
-              src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
-              class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-            />
-            Wat is het versie-nummer van het Landelijk Register
-            Kinderopvang?</Heading
-          >
-          <Paragraph>Landelijk Register Kinderopvang 23.1.9.2-2.1</Paragraph>
+
+          <details>
+            <summary>
+              <Heading :level="3">
+                <img
+                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
+                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
+                />Wat betekenen de gegevens op een inspectierapport?</Heading
+              >
+            </summary>
+            <div class="rvo-accordion">
+              <Paragraph
+                >De ‘datum rapport’ is de datum waarop het rapport definitief is
+                vastgesteld. Het administratieve kenmerk wordt gebruikt om in
+                communicatie een document te identificeren. Optioneel wordt er
+                een toelichting gegeven op publicatie of inhoud van het
+                rapport.</Paragraph
+              >
+            </div>
+          </details>
+          <br />
+          <details>
+            <summary>
+              <Heading :level="3">
+                <img
+                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
+                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
+                />Wat is het versie-nummer van het Landelijk Register
+                Kinderopvang?</Heading
+              >
+            </summary>
+            <div class="rvo-accordion">
+              <Paragraph
+                >Landelijk Register Kinderopvang 23.1.9.2-2.1</Paragraph
+              >
+            </div>
+          </details>
+
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          // hier volgt een accordion voorbeeld
+          <details class="rvo-accordion__item">
+            <summary class="rvo-accordion__item-summary">
+              <Heading :level="3" class="rvo-link">
+                <span class="rvo-accordion__item-title"
+                  ><span
+                    class="utrecht-icon rvo-icon rvo-icon-delta-omlaag rvo-icon--md rvo-icon--hemelblauw"
+                  ></span
+                  ><span
+                    class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--hemelblauw"
+                  ></span
+                  >Voor ondernemers en gemeentes met e-Herkenning
+                  <img
+                    src="../images/e-herkenning-logo.svg"
+                    class="rvo-login-option-img rvo-login-option-img--e-herkenning"
+                /></span>
+              </Heading>
+            </summary>
+            <div class="rvo-accordion__content">
+              <Paragraph>
+                U bent <strong>ondernemer</strong> en ingeschreven bij KVK. Of u
+                logt in namens een <strong>gemeente</strong>.
+              </Paragraph>
+              <Paragraph>
+                Meer informatie leest u op onze pagina
+                <a href="#" class="rvo-link">Zaken regelen bij RVO</a> . Lukt
+                het inloggen niet? Ga naar
+                <a href="#" class="rvo-link">Hulp bij inloggen</a>.
+              </Paragraph>
+              <Paragraph
+                >Kies het niveau van het middel waarmee u wilt
+                inloggen.</Paragraph
+              >
+              <Paragraph> </Paragraph>
+              <Paragraph
+                >Kies het niveau van het middel waarmee u wilt
+                inloggen.</Paragraph
+              >
+              <Paragraph>
+                <a
+                  class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
+                  href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
+                  >Inloggen met e-Herkenning 2</a
+                ><br /><br /><a
+                  class="utrecht-button utrecht-button--primary-action rvo-layout-row rvo-layout-gap--md utrecht-button--rvo-md rvo-link--no-underline"
+                  href="iframe.html?args=&amp;id=demo-pagina-s-mijn-rvo--mijn-zaken&amp;viewMode=story"
+                  >Inloggen met e-Herkenning 3</a
+                >
+              </Paragraph>
+            </div>
+          </details>
         </div>
       </main>
     </div>

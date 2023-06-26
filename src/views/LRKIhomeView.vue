@@ -89,6 +89,9 @@ import { BreadcrumbLink } from "@utrecht/component-library-vue";
             <br />
             <Button appearance="primary-action-button"> Zoeken</Button>
           </div>
+          <Br />
+          <Br />
+          <CheckboxesLRKI />
         </div>
       </main>
     </div>
