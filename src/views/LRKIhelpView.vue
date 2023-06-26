@@ -41,7 +41,10 @@ import { Link } from "@utrecht/component-library-vue";
       <main>
         <div class="rvo-max-width-layout rvo-max-width-layout--sm main-content">
           <div class="rvo-main-content"></div>
-
+          <br />
+          <Heading :level="1"> Vraag en antwoord</Heading>
+          <br />
+          <br />
           <details>
             <summary>
               <Heading :level="3">
@@ -594,6 +597,7 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
 
+          <br />
           <br />
           <br />
           <br />
