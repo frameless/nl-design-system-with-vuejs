@@ -69,15 +69,14 @@ import { Link } from "@utrecht/component-library-vue";
               >Toegankelijkheidsverklaring Landelijk Register Kinderopvang (LRK) </Heading
             ><Paragraph>
               Deze verklaring geldt voor de website(s):
-              <img
-                src="../../node_modules/@nl-rvo/assets/icons/functioneel/diagonale-pijl.svg"
-                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-              />
               <Link href="https://www.landelijkregisterkinderopvang.nl"
                 >https://www.landelijkregisterkinderopvang.nl</Link
               >
               <br />Ga naar de
-              <Link
+              <img
+                src="../../node_modules/@nl-rvo/assets/icons/functioneel/diagonale-pijl.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
+              /><Link
                 href="https://www.toegankelijkheidsverklaring.nl/register/549"
                 >Verklaring van landelijkregisterkinderopvang</Link
               >
@@ -108,14 +107,20 @@ import { Link } from "@utrecht/component-library-vue";
               dan weten. Bekijk onze
               <Link
                 href="https://www.duo.nl/zakelijk/contact/contact-kinderopvang.jsp"
-                >contactgegevens.</Link
+                > <img
+                src="../../node_modules/@nl-rvo/assets/icons/functioneel/diagonale-pijl.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
+              />contactgegevens.</Link
               ></Paragraph
             >
 
             <Heading :level="3">Meer weten?</Heading>
             <Paragraph
               >Wilt u meer weten over toegankelijkheid bij DUO? Kijk dan op
-              <Link href="https://duo.nl/toegankelijkheid.jsp"
+              <img
+                src="../../node_modules/@nl-rvo/assets/icons/functioneel/diagonale-pijl.svg"
+                class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
+              /><Link href="https://duo.nl/toegankelijkheid.jsp"
                 >duo.nl/toegankelijkheid.</Link
               ></Paragraph
             >
