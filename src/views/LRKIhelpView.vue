@@ -42,32 +42,35 @@ import { Link } from "@utrecht/component-library-vue";
         <div class="rvo-max-width-layout rvo-max-width-layout--sm main-content">
           <div class="rvo-main-content"></div>
 
-          <Heading :level="1">Vraag en antwoord</Heading>
-          <br />
-          <br />
-          <Heading :level="3"
-            ><img
+          <details>
+              <summary>
+          <Heading :level="3">
+            <img
               src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
               class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-            />
-            Wat staat er in het Landelijk Register Kinderopvang?
-          </Heading>
-          <Paragraph>
-            In het Landelijk Register Kinderopvang (LRK) staat informatie over
+            />             Wat staat er in het Landelijk Register Kinderopvang?</Heading
+          >
+        </summary>
+          <div class="rvo-accordion">
+          <Paragraph>            In het Landelijk Register Kinderopvang (LRK) staat informatie over
             kinderopvangvoorzieningen zoals adresgegevens, inspectierapporten en
             het registratienummer. Ook vindt u in het LRK een samenvatting van
             het inspectierapport en of er is gehandhaafd. Zo ziet u snel
-            informatie over de kwaliteit van de opvangvoorziening.</Paragraph
-          >
-          <Heading :level="3"
-            ><img
+            informatie over de kwaliteit van de opvangvoorziening.</Paragraph>
+          </div>
+        </details>
+        <br />
+          <details>
+              <summary>
+          <Heading :level="3">
+            <img
               src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
               class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-            />
-            Wanneer heeft een ouder recht op kinderopvangtoeslag?</Heading
+            /> Wanneer heeft een ouder recht op kinderopvangtoeslag?</Heading
           >
-          <Paragraph
-            >Om recht te hebben op kinderopvangtoeslag, moet de ouder zijn/haar
+        </summary>
+          <div class="rvo-accordion">
+          <Paragraph>Om recht te hebben op kinderopvangtoeslag, moet de ouder zijn/haar
             kind laten opvangen bij een kinderopvangvoorziening die is
             geregistreerd in het Landelijk Register Kinderopvang (LRK). Een
             geregistreerde opvangvoorziening krijgt een registratienummer, dat
@@ -92,30 +95,38 @@ import { Link } from "@utrecht/component-library-vue";
                 src="../../node_modules/@nl-rvo/assets/icons/functioneel/diagonale-pijl.svg"
                 class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
               />Lees meer over kinderopvangtoeslag</Link
-            >
-          </Paragraph>
-          <Heading :level="3"
-            ><img
+            ></Paragraph>
+          </div>
+        </details>
+        <br />
+          <details>
+              <summary>
+          <Heading :level="3">
+            <img
               src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
               class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-            />
-            Waar vindt u het registratienummer van uw kinderopvangvoorziening?
-          </Heading>
-          <Paragraph>
-            Het registratienummer staat in het Landelijk Register Kinderopvang,
+            />            Waar vindt u het registratienummer van uw kinderopvangvoorziening?</Heading
+          >
+        </summary>
+          <div class="rvo-accordion">
+          <Paragraph>            Het registratienummer staat in het Landelijk Register Kinderopvang,
             dit is te vinden bij de kerngegevens van de kinderopvangvoorziening
-            waar uw kind heen gaat.
-          </Paragraph>
-          <Heading :level="3"
-            ><img
+            waar uw kind heen gaat.</Paragraph>
+          </div>
+        </details>
+          <br />
+          <details>
+              <summary>
+          <Heading :level="3">
+            <img
               src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
               class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-            />
-            Welke kinderopvangvoorzieningen staan in het Landelijk Register
-            Kinderopvang?
-          </Heading>
-          <Paragraph>
-            In het Landelijk Register Kinderopvang (LRK) staan alle
+            />            Welke kinderopvangvoorzieningen staan in het Landelijk Register
+            Kinderopvang?</Heading
+          >
+        </summary>
+          <div class="rvo-accordion">
+          <Paragraph>            In het Landelijk Register Kinderopvang (LRK) staan alle
             geregistreerde kinderopvangvoorzieningen in Nederland. Dit zijn alle
             voorzieningen die in Nederland open zijn.
             <br />
@@ -139,35 +150,39 @@ import { Link } from "@utrecht/component-library-vue";
             <strong>NB:</strong> Ouders hebben vanaf de datum dat het
             kinderdagverblijf, de buitenschoolse opvang of de
             gastoudervoorziening niet meer is geregistreerd, geen recht meer op
-            kinderopvangtoeslag.
-          </Paragraph>
-          <Heading :level="3"
-            ><img
+            kinderopvangtoeslag.</Paragraph>
+          </div>
+        </details>
+        <br />
+          <details>
+              <summary>
+          <Heading :level="3">
+            <img
               src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
               class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-            />
-            Staan er ook peuterspeelzalen in het Landelijk Register
-            Kinderopvang?
-          </Heading>
-          <Paragraph>
-            Peuterspeelzalen zijn per 1 januari 2018 kinderdagverblijven
+            />             Staan er ook peuterspeelzalen in het Landelijk Register
+            Kinderopvang?</Heading
+          >
+        </summary>
+          <div class="rvo-accordion">
+          <Paragraph>            Peuterspeelzalen zijn per 1 januari 2018 kinderdagverblijven
             geworden in het LRK. Als zodanig bestaan er dus geen geregistreerde
             peuterspeelzalen meer in het Landelijk Register Kinderopvang (LRK).
-            U kunt wel zoeken op niet meer geregistreerde peuterspeelzalen.
-          </Paragraph>
-          <Heading :level="3"
-            ><img
+            U kunt wel zoeken op niet meer geregistreerde peuterspeelzalen.</Paragraph>
+          </div>
+        </details>
+          <br />
+          <details>
+              <summary>
+          <Heading :level="3">
+            <img
               src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
               class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-            />
-            Hoe kunt u zoeken in het Landelijk Register Kinderopvang?
-          </Heading>
-          <Heading :level="3">
-            <br />
-            Zoeken naar een kinderopvangvoorziening
-          </Heading>
-          <Paragraph>
-            U kunt in het register op verschillende manieren zoeken naar een
+            />Zoeken naar een kinderopvangvoorziening</Heading
+          >
+        </summary>
+          <div class="rvo-accordion">
+          <Paragraph>            U kunt in het register op verschillende manieren zoeken naar een
             kinderopvangvoorziening. Het zoeken begint op de startpagina. De
             volgende manieren zijn mogelijk:
             <br />
@@ -219,17 +234,21 @@ import { Link } from "@utrecht/component-library-vue";
               zoekgebied verder verkleinen door bij locatie bijvoorbeeld "800
               meter" te selecteren. Het systeem zoekt dan in een straal van 800
               meter rondom de Langestraat in Enschede.</i
-            >
-          </Paragraph>
-          <Heading :level="3"
-            ><img
+            ></Paragraph>
+          </div>
+        </details>
+        <br />
+          <details>
+              <summary>
+          <Heading :level="3">
+            <img
               src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
               class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-            />
-            Zoeken naar een eigenaar van een kinderopvangvoorziening
-          </Heading>
-          <Paragraph>
-            U kunt in het register zoeken naar een eigenaar van een
+            />            Zoeken naar een eigenaar van een kinderopvangvoorziening</Heading
+          >
+        </summary>
+          <div class="rvo-accordion">
+          <Paragraph>            U kunt in het register zoeken naar een eigenaar van een
             kinderopvangvoorziening. Het zoeken start vanaf de startpagina. U
             kiest de optie Zoek een eigenaar van een kinderopvangvoorziening. U
             vult ten minste één kenmerk in. Een kenmerk is bijvoorbeeld een
@@ -254,31 +273,39 @@ import { Link } from "@utrecht/component-library-vue";
               KvK-nummer van 8 cijfers en u kiest “Zoek”. Het systeem laat de
               ingeschreven eigenaar van de voorziening zien met dit
               KvK-nummer.</i
-            >
-          </Paragraph>
-          <Heading :level="3"
-            ><img
+            >.</Paragraph>
+          </div>
+        </details>
+        <br />
+          <details>
+              <summary>
+          <Heading :level="3">
+            <img
               src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
               class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-            />
-            Hoe vindt toezicht en handhaving op de kinderopvang plaats?
-          </Heading>
-          <Paragraph>
-            De verantwoordelijkheid voor toezicht op en handhaving van de
+            />             Hoe vindt toezicht en handhaving op de kinderopvang plaats?</Heading
+          >
+        </summary>
+          <div class="rvo-accordion">
+          <Paragraph>            De verantwoordelijkheid voor toezicht op en handhaving van de
             kwaliteit van kinderopvangvoorzieningen ligt bij de gemeenten. De
             gemeenten laten het toezicht uitvoeren door de Gemeentelijke
             Gezondheidsdienst (GGD). Op basis van de uitkomsten van het toezicht
-            door de GGD besluit de gemeente of en hoe zij gaat handhaven.
-          </Paragraph>
-          <Heading :level="3"
-            ><img
+            door de GGD besluit de gemeente of en hoe zij gaat handhaven.</Paragraph>
+          </div>
+        </details>
+        <br />
+          <details>
+              <summary>
+          <Heading :level="3">
+            <img
               src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
               class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-            />
-            Welke onderzoeken voert de GGD uit?</Heading
+            /> Welke onderzoeken voert de GGD uit?</Heading
           >
-          <Paragraph>
-            De toezichthouder van de GGD voert vijf soorten onderzoek uit:
+        </summary>
+          <div class="rvo-accordion">
+          <Paragraph>            De toezichthouder van de GGD voert vijf soorten onderzoek uit:
             <br />
             <ol>
               <li>
@@ -316,31 +343,41 @@ import { Link } from "@utrecht/component-library-vue";
                 kinderopvangvoorziening het aantal geregistreerde kindplaatsen
                 wil wijzigen.
               </li>
-            </ol>
-          </Paragraph>
-          <Heading :level="3"
-            ><img
+            </ol></Paragraph>
+          </div>
+        </details>
+          
+          <br />
+          <details>
+              <summary>
+          <Heading :level="3">
+            <img
               src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
               class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-            />
-            Wanneer wordt een kinderopvangvoorziening geregistreerd in het
+            /> Wanneer wordt een kinderopvangvoorziening geregistreerd in het
             Landelijk Register Kinderopvang?</Heading
           >
-          <Paragraph
-            >Een kinderopvangvoorziening wordt door de gemeente geregistreerd in
+        </summary>
+          <div class="rvo-accordion">
+          <Paragraph>Een kinderopvangvoorziening wordt door de gemeente geregistreerd in
             het Landelijk Register Kinderopvang nadat de gemeente mede op grond
             van een onderzoek door de GGD besloten heeft dat exploitatie is
-            toegestaan.
-          </Paragraph>
-          <Heading :level="3"
-            ><img
+            toegestaan.</Paragraph>
+          </div>
+        </details>
+          <br />
+          <details>
+              <summary>
+          <Heading :level="3">
+            <img
               src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
               class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-            />
-            Welke soorten voorzieningen worden geregistreerd in het Landelijk
+            /> Welke soorten voorzieningen worden geregistreerd in het Landelijk
             Register Kinderopvang?</Heading
-          ><Paragraph>
-            <ul>
+          >
+        </summary>
+          <div class="rvo-accordion">
+          <Paragraph>            <ul>
               <li>
                 voorziening voor gastouderopvang (VGO). Dit is een gastouder die
                 op een specifiek adres (zijn eigen woonadres of het woonadres
@@ -361,36 +398,42 @@ import { Link } from "@utrecht/component-library-vue";
             <strong>NB:</strong>
             Voorzieningen waar ouders onderling de opvang voor hun kinderen op
             zich nemen, zijn ouderparticipatiecrèches (opc) en zijn
-            geregistreerd als kinderdagverblijf of buitenschoolse opvang.
-          </Paragraph>
-
-          <Heading :level="3"
-            ><img
+            geregistreerd als kinderdagverblijf of buitenschoolse opvang.</Paragraph>
+          </div>
+        </details>
+        <br />
+          <details>
+              <summary>
+          <Heading :level="3">
+            <img
               src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
               class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-            />
-            Wat betekent de status 'geregistreerd'?</Heading
+            /> Wat betekent de status 'geregistreerd'?</Heading
           >
-          <Paragraph>
-            Een kinderopvangvoorziening krijgt de status "geregistreerd" in het
+        </summary>
+          <div class="rvo-accordion">
+          <Paragraph>            Een kinderopvangvoorziening krijgt de status "geregistreerd" in het
             Landelijk Register Kinderopvang nadat de gemeente een positief
             besluit hiertoe genomen heeft. De gemeente beslist hiertoe mede op
             basis van de uitkomsten van het onderzoek van de gemeentelijke of
             regionale gezondheidsdienst (GGD). Een geregistreerde voorziening
             mag kinderen opvangen. Ouders kunnen aanspraak maken op de
             kinderopvangtoeslag wanneer de voorziening de status “geregistreerd”
-            heeft.
-          </Paragraph>
-
+            heeft.</Paragraph>
+          </div>
+        </details>
+          <br />
+          <details>
+              <summary>
           <Heading :level="3">
             <img
               src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
               class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-            />
-            Wat betekent de status 'niet meer geregistreerd'?</Heading
+            /> Wat betekent de status 'niet meer geregistreerd'?</Heading
           >
-          <Paragraph>
-            Kinderopvangvoorzieningen die niet meer actief zijn, zijn nog wel in
+        </summary>
+          <div class="rvo-accordion">
+          <Paragraph>            Kinderopvangvoorzieningen die niet meer actief zijn, zijn nog wel in
             het Landelijk Register Kinderopvang te vinden met de status 'niet
             meer geregistreerd'. Deze opvangvoorzieningen zijn om een van
             onderstaande redenen uitgeschreven: op verzoek van de eigenaar van
@@ -398,34 +441,35 @@ import { Link } from "@utrecht/component-library-vue";
             eigenaar de kinderopvangvoorziening niet (langer) exploiteert; of
             indien uit onderzoek is gebleken dat de eigenaar van een
             kinderopvangvoorziening niet dan wel niet langer voldoet aan de
-            kwaliteitseisen van de Wet kinderopvang (Wko).
-            <br />
-            <br /><strong>NB:</strong> Ouders hebben vanaf de datum dat het
-            kinderdagverblijf, de buitenschoolse opvang of de
-            gastoudervoorziening niet meer geregistreerd is geen recht meer op
-            kinderopvangtoeslag.
-          </Paragraph>
-          <Heading :level="3">
-            <img
-              src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
-              class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-            />
-            Wie is de eigenaar van een kinderopvangvoorziening?</Heading
-          ><Paragraph
-            >De eigenaar van een kinderopvangvoorziening is de natuurlijke
-            persoon van tenminste 18 jaar of de rechtspersoon die een
-            kinderdagverblijf, een buitenschoolse opvang, een voorziening voor
-            gastouderopvang of een gastouderbureau exploiteert. In de Wet
-            kinderopvang wordt deze eigenaar de “houder” genoemd.</Paragraph
-          >
-          
+            kwaliteitseisen van de Wet kinderopvang (Wko).</Paragraph>
+          </div>
+        </details>
+          <br />
           <details>
               <summary>
           <Heading :level="3">
             <img
               src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
               class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-            />Wat betekenen de gegevens op een inspectierapport?</Heading
+            /> Wie is de eigenaar van een kinderopvangvoorziening?</Heading
+          >
+        </summary>
+          <div class="rvo-accordion">
+          <Paragraph>De eigenaar van een kinderopvangvoorziening is de natuurlijke
+            persoon van tenminste 18 jaar of de rechtspersoon die een
+            kinderdagverblijf, een buitenschoolse opvang, een voorziening voor
+            gastouderopvang of een gastouderbureau exploiteert. In de Wet
+            kinderopvang wordt deze eigenaar de “houder” genoemd.</Paragraph>
+          </div>
+        </details>
+          <br />
+          <details>
+              <summary>
+          <Heading :level="3">
+            <img
+              src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
+              class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
+            /> Wat betekenen de gegevens op een inspectierapport?</Heading
           >
         </summary>
           <div class="rvo-accordion">
@@ -443,7 +487,7 @@ import { Link } from "@utrecht/component-library-vue";
             <img
               src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
               class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-            />Wat is het versie-nummer van het Landelijk Register
+            /> Wat is het versie-nummer van het Landelijk Register
             Kinderopvang?</Heading
           >
         </summary>
