@@ -2281,3 +2281,40 @@
     }
   }
 }
+
+/* LRKI */
+.lrki-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px; /* Adjust the spacing between checkbox sets as needed */
+  border: 1px solid #ccc; /* Add a thin-lined border */
+  padding: 10px; /* Add some padding inside the container */
+}
+
+.checkbox-row {
+  display: flex;
+  gap: 10px; /* Adjust the spacing between checkboxes as needed */
+}
+
+.checkbox-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust the spacing between checkboxes as needed */
+}
+
+.lrki-tab-container {
+  display: flex;
+}
+
+.lrki-tab {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background-color: #f2f2f2;
+}
+
+.lrki-active-tab {
+  background-color: white;
+  font-weight: bold;
+}
