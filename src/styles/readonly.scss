@@ -1378,6 +1378,25 @@
     border-top: 1px solid var(--rvo-color-hemelblauw-tint1);
   }
 
+  .lrki-accordion > summary::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg);
+    background-size: contain;
+    margin-right: 8px;
+    transition: transform 0.3s ease;
+  }
+
+  .lrki-accordion[open] > summary::before {
+    transform: rotate(180deg);
+  }
+
+  .lrki-accordion > summary::-webkit-details-marker {
+    display: none
+  }
+
   /* @LOGO GRID */
 
   .rvo-logo-grid {
@@ -2162,6 +2181,10 @@
       display: grid;
       position: relative;
       cursor: pointer;
+    }
+
+    .lrki-marker {
+      marker:none;
     }
 
     .rvo-responsive-menu + .rvo-topnav__background {
