@@ -39,13 +39,13 @@ import { Link } from "@utrecht/component-library-vue";
         </BreadcrumbNav>
       </div>
       <main>
-        <div class="rvo-max-width-layout rvo-max-width-layout--sm main-content">
+        <div class="rvo-max-width-layout rvo-max-width-layout--sm lrki_help_placement">
           <div class="rvo-main-content"></div>
           <br />
           <Heading :level="1"> Vraag en antwoord</Heading>
           <br />
           <br />
-          <details>
+          <details class="rvo-accordion rvo-login-option login-option--eu detailshover">
             <summary>
               <Heading :level="3">
                 <img
@@ -67,7 +67,7 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details>
+          <details class="rvo-accordion rvo-login-option login-option--eu detailshover">
             <summary>
               <Heading :level="3">
                 <img
@@ -110,7 +110,7 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details>
+          <details class="rvo-accordion rvo-login-option login-option--eu detailshover">
             <summary>
               <Heading :level="3">
                 <img
@@ -130,7 +130,7 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details>
+          <details class="rvo-accordion rvo-login-option login-option--eu detailshover"> 
             <summary>
               <Heading :level="3">
                 <img
@@ -172,7 +172,7 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details>
+          <details class="rvo-accordion rvo-login-option login-option--eu detailshover">
             <summary>
               <Heading :level="3">
                 <img
@@ -194,7 +194,7 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details>
+          <details class="rvo-accordion rvo-login-option login-option--eu detailshover">
             <summary>
               <Heading :level="3">
                 <img
@@ -264,7 +264,7 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details>
+          <details class="rvo-accordion rvo-login-option login-option--eu detailshover">
             <summary>
               <Heading :level="3">
                 <img
@@ -308,7 +308,7 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details>
+          <details class="rvo-accordion rvo-login-option login-option--eu detailshover">
             <summary>
               <Heading :level="3">
                 <img
@@ -331,7 +331,7 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details>
+          <details class="rvo-accordion rvo-login-option login-option--eu detailshover">
             <summary>
               <Heading :level="3">
                 <img
@@ -387,7 +387,7 @@ import { Link } from "@utrecht/component-library-vue";
           </details>
 
           <br />
-          <details>
+          <details class="rvo-accordion rvo-login-option login-option--eu detailshover">
             <summary>
               <Heading :level="3">
                 <img
@@ -408,7 +408,7 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details>
+          <details class="rvo-accordion rvo-login-option login-option--eu detailshover">
             <summary>
               <Heading :level="3">
                 <img
@@ -449,7 +449,7 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details>
+          <details class="rvo-accordion rvo-login-option login-option--eu detailshover">
             <summary>
               <Heading :level="3">
                 <img
@@ -473,7 +473,7 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details>
+          <details class="rvo-accordion rvo-login-option login-option--eu detailshover">
             <summary>
               <Heading :level="3">
                 <img
@@ -499,7 +499,7 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details>
+          <details class="rvo-accordion rvo-login-option login-option--eu detailshover">
             <summary>
               <Heading :level="3">
                 <img
@@ -521,7 +521,7 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details>
+          <details class="rvo-accordion rvo-login-option login-option--eu detailshover">
             <summary>
               <Heading :level="3">
                 <img
@@ -542,7 +542,7 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details>
+          <details class="rvo-accordion rvo-login-option login-option--eu detailshover">
             <summary>
               <Heading :level="3">
                 <img

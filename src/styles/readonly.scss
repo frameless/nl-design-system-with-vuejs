@@ -2152,6 +2152,18 @@
       display: none;
     }
 
+    .lrki_help_placement {
+      display: grid;
+      position: relative;
+      right: 300px;
+    }
+
+    .detailshover {
+      display: grid;
+      position: relative;
+      cursor: pointer;
+    }
+
     .rvo-responsive-menu + .rvo-topnav__background {
       display: block;
     }
