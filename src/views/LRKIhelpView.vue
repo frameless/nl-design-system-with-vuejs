@@ -63,13 +63,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="rvo-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
             <summary>
               <Heading :level="3">
-                <img
-                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
-                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-                />
                 Wanneer heeft een ouder recht op kinderopvangtoeslag?</Heading
               >
             </summary>
@@ -106,15 +102,10 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="rvo-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
             <summary>
               <Heading :level="3">
-                <img
-                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
-                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-                />
-                Waar vindt u het registratienummer van uw
-                kinderopvangvoorziening?</Heading
+                Waar vindt u het registratienummer van uw kinderopvangvoorziening?</Heading
               >
             </summary>
             <div class="rvo-accordion">
@@ -126,13 +117,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="rvo-accordion rvo-login-option login-option--eu lrki_detailshover"> 
+          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover"> 
             <summary>
               <Heading :level="3">
-                <img
-                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
-                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-                />
                 Welke kinderopvangvoorzieningen staan in het Landelijk Register
                 Kinderopvang?</Heading
               >
@@ -168,13 +155,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="rvo-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
             <summary>
               <Heading :level="3">
-                <img
-                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
-                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-                />
                 Staan er ook peuterspeelzalen in het Landelijk Register
                 Kinderopvang?</Heading
               >
@@ -190,13 +173,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="rvo-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
             <summary>
-              <Heading :level="3">
-                <img
-                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
-                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-                />Zoeken naar een kinderopvangvoorziening</Heading
+              <Heading :level="3">Zoeken naar een kinderopvangvoorziening</Heading
               >
             </summary>
             <div class="rvo-accordion">
@@ -260,13 +239,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="rvo-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
             <summary>
               <Heading :level="3">
-                <img
-                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
-                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-                />
                 Zoeken naar een eigenaar van een
                 kinderopvangvoorziening</Heading
               >
@@ -304,13 +279,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="rvo-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
             <summary>
               <Heading :level="3">
-                <img
-                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
-                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-                />
                 Hoe vindt toezicht en handhaving op de kinderopvang
                 plaats?</Heading
               >
@@ -327,13 +298,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="rvo-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
             <summary>
               <Heading :level="3">
-                <img
-                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
-                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-                />
                 Welke onderzoeken voert de GGD uit?</Heading
               >
             </summary>
@@ -383,13 +350,9 @@ import { Link } from "@utrecht/component-library-vue";
           </details>
 
           <br />
-          <details class="rvo-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
             <summary>
               <Heading :level="3">
-                <img
-                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
-                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-                />
                 Wanneer wordt een kinderopvangvoorziening geregistreerd in het
                 Landelijk Register Kinderopvang?</Heading
               >
@@ -404,13 +367,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="rvo-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
             <summary>
               <Heading :level="3">
-                <img
-                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
-                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-                />
                 Welke soorten voorzieningen worden geregistreerd in het
                 Landelijk Register Kinderopvang?</Heading
               >
@@ -445,13 +404,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="rvo-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
             <summary>
               <Heading :level="3">
-                <img
-                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
-                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-                />
                 Wat betekent de status 'geregistreerd'?</Heading
               >
             </summary>
@@ -469,13 +424,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="rvo-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
             <summary>
               <Heading :level="3">
-                <img
-                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
-                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-                />
                 Wat betekent de status 'niet meer geregistreerd'?</Heading
               >
             </summary>
@@ -495,13 +446,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="rvo-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
             <summary>
               <Heading :level="3">
-                <img
-                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
-                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-                />
                 Wie is de eigenaar van een kinderopvangvoorziening?</Heading
               >
             </summary>
@@ -517,13 +464,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="rvo-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
             <summary>
               <Heading :level="3">
-                <img
-                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
-                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-                />
                 Wat betekenen de gegevens op een inspectierapport?</Heading
               >
             </summary>
@@ -538,13 +481,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="rvo-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
             <summary>
               <Heading :level="3">
-                <img
-                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
-                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-                />
                 Wat is het versie-nummer van het Landelijk Register
                 Kinderopvang?</Heading
               >

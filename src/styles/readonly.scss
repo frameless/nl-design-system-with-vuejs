@@ -1378,8 +1378,19 @@
     border-top: 1px solid var(--rvo-color-hemelblauw-tint1);
   }
 
+  .lrki-accordion > summary {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 24px;
+  }
+  
   .lrki-accordion > summary::before {
     content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
     display: inline-block;
     width: 16px;
     height: 16px;
@@ -1388,13 +1399,17 @@
     margin-right: 8px;
     transition: transform 0.3s ease;
   }
-
+  
   .lrki-accordion[open] > summary::before {
-    transform: rotate(180deg);
+    transform: translateY(-50%) rotate(180deg);
   }
-
+  
   .lrki-accordion > summary::-webkit-details-marker {
-    display: none
+    display: none;
+  }
+  
+  .lrki-accordion > summary > h3 {
+    margin: 0;
   }
 
   /* @LOGO GRID */
