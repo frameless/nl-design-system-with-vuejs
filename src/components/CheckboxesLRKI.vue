@@ -135,7 +135,7 @@ const changeTab = (tab: string) => {
 </div>
     </div>
     <div v-show="activeTab === 'otherTab'">
-      <!-- Content for the other tab -->
+      <!-- Kaart -->
     </div>
   </div>
 </template>
