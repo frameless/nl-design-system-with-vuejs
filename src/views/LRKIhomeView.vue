@@ -54,7 +54,7 @@ import { BreadcrumbLink } from "@utrecht/component-library-vue";
                   @update:modelValue="updateModelValue"
                   id="radio1"
                 />
-                <FormLabel for="radio1">kinderopvangvoorziening</FormLabel>
+                <FormLabel for="radio1"> kinderopvangvoorziening</FormLabel>
               </FormField>
               <FormField type="radio">
                 <RadioButton
@@ -63,7 +63,7 @@ import { BreadcrumbLink } from "@utrecht/component-library-vue";
                   id="radio2"
                 />
                 <FormLabel for="radio2"
-                  >eigenaar van een kinderopvangvoorziening</FormLabel
+                  > eigenaar van een kinderopvangvoorziening</FormLabel
                 >
               </FormField>
             </div>
@@ -76,7 +76,17 @@ import { BreadcrumbLink } from "@utrecht/component-library-vue";
                 @update:modelValue="updateModelValue"
                 >Vul bijvoorbeeld een naam of een KvK-nummer in</Textbox
               >
+              <Paragraph><strong>en / of</strong></Paragraph>
+              <Paragraph>Op locatie</Paragraph>
+              <Textbox
+                name="default-textbox"
+                id="default-textbox"
+                placeholder="Vul bijvoorbeeld een naam of een KvK-nummer in"
+                @update:modelValue="updateModelValue"
+                >Vul bijvoorbeeld straat, postcode of plaats in</Textbox
+              >
             </div>
+            <br />
             <Button appearance="primary-action-button"> Zoeken</Button>
           </div>
         </div>
