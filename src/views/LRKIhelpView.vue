@@ -39,13 +39,17 @@ import { Link } from "@utrecht/component-library-vue";
         </BreadcrumbNav>
       </div>
       <main>
-        <div class="rvo-max-width-layout rvo-max-width-layout--sm lrki_help_placement">
+        <div
+          class="rvo-max-width-layout rvo-max-width-layout--sm lrki_help_placement"
+        >
           <div class="rvo-main-content"></div>
           <br />
           <Heading :level="1"> Vraag en antwoord</Heading>
           <br />
           <br />
-          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details
+            class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover"
+          >
             <summary class="lrki_marker">
               <Heading :level="3">
                 Wat staat er in het Landelijk Register Kinderopvang?</Heading
@@ -63,7 +67,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details
+            class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover"
+          >
             <summary>
               <Heading :level="3">
                 Wanneer heeft een ouder recht op kinderopvangtoeslag?</Heading
@@ -102,10 +108,13 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details
+            class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover"
+          >
             <summary>
               <Heading :level="3">
-                Waar vindt u het registratienummer van uw kinderopvangvoorziening?</Heading
+                Waar vindt u het registratienummer van uw
+                kinderopvangvoorziening?</Heading
               >
             </summary>
             <div class="rvo-accordion">
@@ -117,7 +126,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover"> 
+          <details
+            class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover"
+          >
             <summary>
               <Heading :level="3">
                 Welke kinderopvangvoorzieningen staan in het Landelijk Register
@@ -155,7 +166,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details
+            class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover"
+          >
             <summary>
               <Heading :level="3">
                 Staan er ook peuterspeelzalen in het Landelijk Register
@@ -173,9 +186,12 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details
+            class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover"
+          >
             <summary>
-              <Heading :level="3">Zoeken naar een kinderopvangvoorziening</Heading
+              <Heading :level="3"
+                >Zoeken naar een kinderopvangvoorziening</Heading
               >
             </summary>
             <div class="rvo-accordion">
@@ -239,7 +255,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details
+            class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover"
+          >
             <summary>
               <Heading :level="3">
                 Zoeken naar een eigenaar van een
@@ -279,7 +297,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details
+            class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover"
+          >
             <summary>
               <Heading :level="3">
                 Hoe vindt toezicht en handhaving op de kinderopvang
@@ -298,11 +318,11 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details
+            class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover"
+          >
             <summary>
-              <Heading :level="3">
-                Welke onderzoeken voert de GGD uit?</Heading
-              >
+              <Heading :level="3"> Welke onderzoeken voert de GGD uit?</Heading>
             </summary>
             <div class="rvo-accordion">
               <Paragraph>
@@ -350,7 +370,9 @@ import { Link } from "@utrecht/component-library-vue";
           </details>
 
           <br />
-          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details
+            class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover"
+          >
             <summary>
               <Heading :level="3">
                 Wanneer wordt een kinderopvangvoorziening geregistreerd in het
@@ -367,7 +389,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details
+            class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover"
+          >
             <summary>
               <Heading :level="3">
                 Welke soorten voorzieningen worden geregistreerd in het
@@ -404,7 +428,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details
+            class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover"
+          >
             <summary>
               <Heading :level="3">
                 Wat betekent de status 'geregistreerd'?</Heading
@@ -424,7 +450,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details
+            class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover"
+          >
             <summary>
               <Heading :level="3">
                 Wat betekent de status 'niet meer geregistreerd'?</Heading
@@ -446,7 +474,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details
+            class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover"
+          >
             <summary>
               <Heading :level="3">
                 Wie is de eigenaar van een kinderopvangvoorziening?</Heading
@@ -464,7 +494,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details
+            class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover"
+          >
             <summary>
               <Heading :level="3">
                 Wat betekenen de gegevens op een inspectierapport?</Heading
@@ -481,7 +513,9 @@ import { Link } from "@utrecht/component-library-vue";
             </div>
           </details>
           <br />
-          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
+          <details
+            class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover"
+          >
             <summary>
               <Heading :level="3">
                 Wat is het versie-nummer van het Landelijk Register
