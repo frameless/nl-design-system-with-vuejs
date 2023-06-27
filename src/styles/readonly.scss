@@ -1384,7 +1384,7 @@
     position: relative;
     padding-left: 24px;
   }
-  
+
   .lrki-accordion > summary::before {
     content: "";
     position: absolute;
@@ -1399,15 +1399,15 @@
     margin-right: 8px;
     transition: transform 0.3s ease;
   }
-  
+
   .lrki-accordion[open] > summary::before {
     transform: translateY(-50%) rotate(180deg);
   }
-  
+
   .lrki-accordion > summary::-webkit-details-marker {
     display: none;
   }
-  
+
   .lrki-accordion > summary > h3 {
     margin: 0;
   }
@@ -2199,7 +2199,7 @@
     }
 
     .lrki-marker {
-      marker:none;
+      marker: none;
     }
 
     .rvo-responsive-menu + .rvo-topnav__background {
