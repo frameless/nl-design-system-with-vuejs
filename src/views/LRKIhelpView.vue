@@ -45,17 +45,13 @@ import { Link } from "@utrecht/component-library-vue";
           <Heading :level="1"> Vraag en antwoord</Heading>
           <br />
           <br />
-          <details class="rvo-accordion rvo-login-option login-option--eu lrki_detailshover">
-            <summary>
+          <details class="lrki-accordion rvo-login-option login-option--eu lrki_detailshover">
+            <summary class="lrki_marker">
               <Heading :level="3">
-                <img
-                  src="../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg"
-                  class="utrecht-icon rvo-icon rvo-icon-delta-omhoog rvo-icon--md rvo-icon--wit"
-                />
                 Wat staat er in het Landelijk Register Kinderopvang?</Heading
               >
             </summary>
-            <div class="rvo-accordion">
+            <div class="lrki-accordion">
               <Paragraph>
                 In het Landelijk Register Kinderopvang (LRK) staat informatie
                 over kinderopvangvoorzieningen zoals adresgegevens,
