@@ -2,6 +2,7 @@
 @import "../styles/readonly.scss";
 @import "../../node_modules/@nl-rvo/design-tokens/dist/index.css";
 @import "../../node_modules/@nl-rvo/component-library-css/dist/index.css";
+@import "./lrki-theme.scss";
 
 /* Fira Sans font-families */
 @import "@fontsource/fira-sans/200.css";
@@ -28,11 +29,11 @@ a,
   transition: 0.4s;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
+// @media (hover: hover) {
+//   a:hover {
+//     background-color: hsla(160, 100%, 37%, 0.2);
+//   }
+// }
 
 .rvo-theme {
   --rvo-font-serif-fallback-font-family: Fira Sans, "Times New Roman";

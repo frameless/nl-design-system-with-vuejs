@@ -1,0 +1,56 @@
+:root {
+  /* Variables */
+  --lrki-color-green-1: hsl(98, 84%, 29%);
+  --lrki-color-white-1: hsl(0, 0%, 100%);
+  --lrki-breadcrumb-margin-block-start: 16px;
+  --lrki-search-form-space: 75%;
+}
+
+.lrki-theme {
+  /* Topnav styling */
+  --utrecht-topnav-list-background-color: var(--lrki-color-green-1);
+  .utrecht-breadcrumb--arrows {
+    --utrecht-breadcrumb-arrow-size: 0px;
+  }
+  --rvo-link-color: var(--lrki-color-white-1);
+  --rvo-space-bs: var(--lrki-breadcrumb-margin-block-start);
+  --utrecht-breadcrumb-item-divider-inline-size: 24px;
+  --utrecht-breadcrumb-divider-content: " ";
+
+  /* Footer styling */
+  --utrecht-page-footer-background-color: var(--lrki-color-green-1);
+  --rvo-footer-background-color: var(--lrki-color-green-1);
+  --utrecht-space-around: 1;
+  --utrecht-textbox-max-inline-size: var(--lrki-search-form-space);
+}
+
+.rvo-main-content {
+  margin: 25px;
+}
+
+.lrki-search-container {
+  background-color: #f3f3f3;
+  margin-top: 15px;
+  padding: 15px 15px 0px;
+}
+
+.lrki-searchform .radio-buttons {
+  display: flex;
+  column-gap: 12px;
+}
+.lrki-searchform .search-bar-form {
+  display: flex;
+}
+
+@media (max-width: 650px) {
+  .lrki-searchform .radio-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.lrki-theme {
+  @media (max-width: 650px) {
+    --lrki-search-form-space: 100%;
+  }
+}
