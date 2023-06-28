@@ -62,8 +62,8 @@ import { BreadcrumbLink } from "@utrecht/component-library-vue";
                   @update:modelValue="updateModelValue"
                   id="radio2"
                 />
-                <FormLabel for="radio2"
-                  > eigenaar van een kinderopvangvoorziening</FormLabel
+                <FormLabel for="radio2">
+                  eigenaar van een kinderopvangvoorziening</FormLabel
                 >
               </FormField>
             </div>
