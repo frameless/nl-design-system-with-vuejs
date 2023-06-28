@@ -1412,6 +1412,10 @@
     margin: 0;
   }
 
+  .lrki-vraagteken-icon {
+    float: right;
+  }
+
   /* @LOGO GRID */
 
   .rvo-logo-grid {
@@ -2192,6 +2196,12 @@
       right: 300px;
     }
 
+    .lrki-toegankelijkheid-styling {
+      display: grid;
+      position: relative;
+      right: 300px;
+    }
+
     .lrki_detailshover {
       display: grid;
       position: relative;
@@ -2310,11 +2320,16 @@
   padding: 10px;
   cursor: pointer;
   border: 1px solid #ccc;
-  border-bottom: none;
+  border-bottom-width: 0;
   background-color: #f2f2f2;
 }
 
 .lrki-active-tab {
   background-color: white;
   font-weight: bold;
+}
+
+.lrki-tab-icon {
+  width: 25px;
+  height: 25px;
 }
