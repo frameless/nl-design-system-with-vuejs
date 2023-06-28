@@ -212,6 +212,26 @@ const router = createRouter({
       name: "windowSearch",
       component: () => import("../views/WindowSearchView.vue"),
     },
+    {
+      path: "/LRKIcontactView",
+      name: "LRKIcontactView",
+      component: () => import("../views/LRKIcontactView.vue"),
+    },
+    {
+      path: "/LRKItoegankelijkheidView",
+      name: "LRKItoegankelijkheidView",
+      component: () => import("../views/LRKItoegankelijkheidView.vue"),
+    },
+    {
+      path: "/LRKIhelpView",
+      name: "LRKIhelpView",
+      component: () => import("../views/LRKIhelpView.vue"),
+    },
+    {
+      path: "/LRKIhomeView",
+      name: "LRKIhomeView",
+      component: () => import("../views/LRKIhomeView.vue"),
+    },
   ],
 });
 
