@@ -44,7 +44,7 @@ import { BreadcrumbLink } from "@utrecht/component-library-vue";
           <div class="lrki-search-container">
             <img
               src="../../node_modules/@nl-rvo/assets/icons/functioneel/vraagteken.svg"
-              class="rvo-icon--md questionmark rvo-icon--wit"
+              class="rvo-icon--md questionmark rvo-icon--wit lrki-vraagteken-icon"
             />
             <Paragraph>Zoek een</Paragraph>
             <div class="radio-buttons">
@@ -62,8 +62,8 @@ import { BreadcrumbLink } from "@utrecht/component-library-vue";
                   @update:modelValue="updateModelValue"
                   id="radio2"
                 />
-                <FormLabel for="radio2"
-                  > eigenaar van een kinderopvangvoorziening</FormLabel
+                <FormLabel for="radio2">
+                  eigenaar van een kinderopvangvoorziening</FormLabel
                 >
               </FormField>
             </div>
@@ -89,6 +89,9 @@ import { BreadcrumbLink } from "@utrecht/component-library-vue";
             <br />
             <Button appearance="primary-action-button"> Zoeken</Button>
           </div>
+          <Br />
+          <Br />
+          <CheckboxesLRKI />
         </div>
       </main>
     </div>

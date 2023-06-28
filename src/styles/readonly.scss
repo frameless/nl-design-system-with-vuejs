@@ -1378,6 +1378,44 @@
     border-top: 1px solid var(--rvo-color-hemelblauw-tint1);
   }
 
+  .lrki-accordion > summary {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 24px;
+  }
+
+  .lrki-accordion > summary::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../../node_modules/@nl-rvo/assets/icons/functioneel/delta-omlaag.svg);
+    background-size: contain;
+    margin-right: 8px;
+    transition: transform 0.3s ease;
+  }
+
+  .lrki-accordion[open] > summary::before {
+    transform: translateY(-50%) rotate(180deg);
+  }
+
+  .lrki-accordion > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .lrki-accordion > summary > h3 {
+    margin: 0;
+  }
+
+  .lrki-vraagteken-icon {
+    float: right;
+  }
+
   /* @LOGO GRID */
 
   .rvo-logo-grid {
@@ -2152,6 +2190,28 @@
       display: none;
     }
 
+    .lrki_help_placement {
+      display: grid;
+      position: relative;
+      right: 300px;
+    }
+
+    .lrki-toegankelijkheid-styling {
+      display: grid;
+      position: relative;
+      right: 300px;
+    }
+
+    .lrki_detailshover {
+      display: grid;
+      position: relative;
+      cursor: pointer;
+    }
+
+    .lrki-marker {
+      marker: none;
+    }
+
     .rvo-responsive-menu + .rvo-topnav__background {
       display: block;
     }
@@ -2230,4 +2290,46 @@
       font-size: var(--rvo-font-size-2xl);
     }
   }
+}
+
+/* LRKI */
+.lrki-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px; /* Adjust the spacing between checkbox sets as needed */
+  border: 1px solid #ccc; /* Add a thin-lined border */
+  padding: 10px; /* Add some padding inside the container */
+}
+
+.checkbox-row {
+  display: flex;
+  gap: 10px; /* Adjust the spacing between checkboxes as needed */
+}
+
+.checkbox-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust the spacing between checkboxes as needed */
+}
+
+.lrki-tab-container {
+  display: flex;
+}
+
+.lrki-tab {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-bottom-width: 0;
+  background-color: #f2f2f2;
+}
+
+.lrki-active-tab {
+  background-color: white;
+  font-weight: bold;
+}
+
+.lrki-tab-icon {
+  width: 25px;
+  height: 25px;
 }
