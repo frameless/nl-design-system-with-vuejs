@@ -44,7 +44,7 @@ import { BreadcrumbLink } from "@utrecht/component-library-vue";
           <div class="lrki-search-container">
             <img
               src="../../node_modules/@nl-rvo/assets/icons/functioneel/vraagteken.svg"
-              class="rvo-icon--md questionmark rvo-icon--wit"
+              class="rvo-icon--md questionmark rvo-icon--wit lrki-vraagteken-icon"
             />
             <Paragraph>Zoek een</Paragraph>
             <div class="radio-buttons">

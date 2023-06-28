@@ -9,7 +9,7 @@ import { Link } from "@utrecht/component-library-vue";
 
 <template>
   <div class="lrki-theme rvo-demo-page rvo-demo-page--mijn-rvo">
-    <div class="rvo-header-content">
+    <div class="rvo-header-content lrki-toegankelijkheid-styling">
       <PageHeader class="rvo-header">
         <div class="rvo-header__logo-wrapper">
           <Link href="/" class="rvo-header__logo-link"
